@@ -1,13 +1,13 @@
 # Kairos Education — 프로젝트 컨텍스트
 
-Cursor와 협업할 때 이 파일을 기준으로 합니다. **배포·폼·작업 범위**는 아래를 채워 두세요.
+Cursor와 협업할 때 이 파일을 기준으로 합니다. AI용 상세 규칙은 [.cursor/rules/kairos-netlify.mdc](.cursor/rules/kairos-netlify.mdc)에 있습니다.
 
 ## 배포 (Netlify)
 
 | 항목 | 값 |
 |------|-----|
-| **라이브 URL** | `https://YOUR-SITE.netlify.app` ← Netlify Site overview에서 복사 후 붙여넣기 |
-| **커스텀 도메인** | _(없으면 비움)_ |
+| **라이브 URL** | https://kairoseducation.org |
+| **커스텀 도메인** | `kairoseducation.org` |
 | **배포 방식** | 수동 업로드 (Git 연동 없음) |
 | **게시 폴더** | `public` ([netlify.toml](netlify.toml)) |
 | **빌드 명령** | 없음 |
@@ -38,13 +38,11 @@ npx --yes serve .
 | `contact-zh` | `/zh/` |
 | `contact-th` | `/th/` |
 
-### 알림 설정 체크리스트
+연락 폼은 `data-netlify="true"`로 제출되며, 대시보드 **Forms**에도 쌓입니다.
 
-Netlify → **Forms** → 각 폼 → **Form notifications**:
+**이메일 알림:** 설정됨. 제출 시 `formresponses@netlify.com` → `Ronkim2015@gmail.com` 으로 발송 (2026-05 테스트: `/ko/` `contact-kr` 폼). 본문 필드: `name`, `grade`, `email`, `universities`, `message`.
 
-- [ ] 이메일 알림 추가 (권장: `Ronkim2015@gmail.com`)
-- [ ] 테스트 제출 1건 후 수신 확인
-- [ ] 스팸함 확인
+사이트에 `/.netlify/functions/emails` Function이 배포되어 있을 수 있으나, 현재 HTML 폼은 Function이 아니라 **Netlify Forms** 경로를 사용합니다.
 
 무료 플랜: 월 제출 한도(약 100건) — [Netlify Forms 문서](https://docs.netlify.com/forms/setup/) 참고.
 
