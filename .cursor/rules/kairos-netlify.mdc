@@ -1,0 +1,42 @@
+---
+description: Kairos Education 정적 사이트(Netlify) 수정 시 컨텍스트
+globs: public/**/*.html,netlify.toml,PROJECT.md
+alwaysApply: false
+---
+
+# Kairos Education (Netlify static)
+
+## 배포
+
+- Publish directory: `public` ([netlify.toml](../netlify.toml)). No build step.
+- **Manual deploy only** — local edits do not update production until the user uploads to Netlify. Do not say "push to deploy" unless Git is connected.
+- Live URL and domain: read [PROJECT.md](../PROJECT.md) (user must fill in `YOUR-SITE.netlify.app`).
+
+## Pages
+
+- Root: `public/index.html` (language picker)
+- Locales: `public/en/`, `ko/`, `zh/`, `th/` — each is a single large `index.html` with inline CSS
+- **English (`en`) is the content source of truth** — most detailed (~1060 lines); other locales are shorter (~540 lines)
+
+## Netlify Forms (one per locale)
+
+| `name` | path |
+|--------|------|
+| `contact` | `/en/` |
+| `contact-kr` | `/ko/` |
+| `contact-zh` | `/zh/` |
+| `contact-th` | `/th/` |
+
+Forms use `data-netlify="true"`, hidden `form-name`, and honeypot. After form markup changes, user must redeploy. Form tests only on deployed URL.
+
+## When editing
+
+1. Ask or infer **which language(s)** — default to only what the user requested.
+2. Contact info is duplicated: `Ronkim2015@gmail.com`, Kakao `http://pf.kakao.com/_uWJKX`
+3. Keep stack **plain HTML/CSS** unless the user asks for a framework.
+4. Remind user to **redeploy** and where to check `PROJECT.md` for live URL.
+
+## Task scope (if user omits)
+
+- Content baseline: English page
+- Deploy: user (manual Netlify upload)

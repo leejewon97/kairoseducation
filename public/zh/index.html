@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kairos Education | 顶尖大学申请咨询</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy: #0A1628; --navy-mid: #12243F; --navy-light: #1C3458;
+      --gold: #C9A84C; --gold-light: #E8C96C;
+      --white: #FFFFFF; --off-white: #F8F7F4;
+      --text-dark: #1A1A2E; --text-muted: #6B7280; --border: #E5E7EB;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Noto Sans SC', sans-serif; color: var(--text-dark); background: var(--white); line-height: 1.8; }
+
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(10,22,40,0.96); backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(201,168,76,0.2);
+      padding: 0 5%; display: flex; align-items: center; justify-content: space-between; height: 70px;
+    }
+    .nav-logo { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 600; color: var(--white); letter-spacing: 0.02em; }
+    .nav-logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 32px; list-style: none; }
+    .nav-links a { color: rgba(255,255,255,0.75); text-decoration: none; font-size: 14px; font-weight: 400; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-right { display: flex; align-items: center; gap: 8px; }
+    .lang-switch { color: rgba(255,255,255,0.5); text-decoration: none; font-size: 12px; border: 1px solid rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 4px; transition: all 0.2s; }
+    .lang-switch:hover { color: var(--gold); border-color: var(--gold); }
+    .nav-cta { background: var(--gold); color: var(--navy); padding: 10px 22px; border-radius: 4px; font-size: 14px; font-weight: 600; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--gold-light); }
+
+    .hero {
+      min-height: 100vh; background: var(--navy);
+      background-image: radial-gradient(ellipse 80% 60% at 60% 40%, rgba(201,168,76,0.08) 0%, transparent 60%), radial-gradient(ellipse 40% 40% at 10% 80%, rgba(28,52,88,0.6) 0%, transparent 50%);
+      display: flex; align-items: center; padding: 120px 5% 80px; position: relative; overflow: hidden;
+    }
+    .hero::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 1px; background: linear-gradient(90deg, transparent, rgba(201,168,76,0.4), transparent); }
+    .hero-content { max-width: 700px; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(201,168,76,0.12); border: 1px solid rgba(201,168,76,0.3); border-radius: 20px; padding: 6px 16px; font-size: 13px; font-weight: 500; color: var(--gold); letter-spacing: 0.06em; margin-bottom: 32px; }
+    .hero-badge::before { content: ''; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; }
+    .hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(36px, 5.5vw, 62px); font-weight: 600; line-height: 1.25; color: var(--white); margin-bottom: 24px; }
+    .hero h1 em { font-style: italic; color: var(--gold); }
+    .hero p { font-size: 17px; font-weight: 300; color: rgba(255,255,255,0.65); max-width: 560px; margin-bottom: 48px; line-height: 1.9; }
+    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+    .btn-primary { background: var(--gold); color: var(--navy); padding: 16px 36px; border-radius: 4px; font-size: 15px; font-weight: 600; text-decoration: none; transition: all 0.2s; }
+    .btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); }
+    .btn-secondary { background: transparent; color: var(--white); padding: 16px 36px; border-radius: 4px; border: 1px solid rgba(255,255,255,0.25); font-size: 15px; text-decoration: none; transition: all 0.2s; }
+    .btn-secondary:hover { border-color: rgba(255,255,255,0.5); }
+
+    .stats-banner { background: var(--navy-mid); border-top: 1px solid rgba(201,168,76,0.15); border-bottom: 1px solid rgba(201,168,76,0.15); padding: 40px 5%; display: flex; justify-content: center; gap: 0; flex-wrap: wrap; }
+    .stat-item { flex: 1; min-width: 160px; max-width: 220px; text-align: center; padding: 20px 24px; border-right: 1px solid rgba(255,255,255,0.08); }
+    .stat-item:last-child { border-right: none; }
+    .stat-number { font-family: 'Playfair Display', serif; font-size: 42px; font-weight: 600; color: var(--gold); line-height: 1.1; display: block; margin-bottom: 8px; }
+    .stat-label { font-size: 13px; color: rgba(255,255,255,0.55); line-height: 1.5; }
+
+    section { padding: 100px 5%; }
+    .section-tag { font-size: 12px; font-weight: 600; color: var(--gold); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px; }
+    .section-title { font-family: 'Playfair Display', serif; font-size: clamp(30px, 4vw, 46px); font-weight: 600; line-height: 1.25; color: var(--text-dark); margin-bottom: 20px; }
+    .section-title em { font-style: italic; color: var(--navy-light); }
+    .section-sub { font-size: 16px; color: var(--text-muted); max-width: 580px; line-height: 1.9; margin-bottom: 60px; }
+
+    .results { background: var(--off-white); }
+    .results-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; margin-bottom: 40px; }
+    .uni-card { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 20px 16px; text-align: center; transition: border-color 0.2s, transform 0.2s; }
+    .uni-card:hover { border-color: var(--gold); transform: translateY(-2px); }
+    .uni-name { font-size: 14px; font-weight: 600; color: var(--text-dark); margin-bottom: 4px; }
+    .uni-detail { font-size: 11px; color: var(--text-muted); line-height: 1.4; }
+    .uni-tier { display: flex; justify-content: center; margin-bottom: 10px; }
+    .tier-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .tier-1 { background: #B8860B; } .tier-2 { background: #4A7C59; } .tier-3 { background: #5B7FA6; }
+    .tier-label { font-size: 13px; font-weight: 600; color: var(--gold); letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 16px; }
+
+    .packages-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+    .package-card { background: var(--white); border: 1px solid var(--border); border-radius: 12px; padding: 36px 28px; position: relative; transition: transform 0.2s, border-color 0.2s; }
+    .package-card:hover { transform: translateY(-4px); border-color: #D1D5DB; }
+    .package-card.featured { border: 2px solid var(--gold); background: var(--navy); }
+    .package-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--gold); color: var(--navy); font-size: 11px; font-weight: 700; padding: 4px 16px; border-radius: 20px; white-space: nowrap; }
+    .package-name { font-size: 13px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 12px; }
+    .package-card.featured .package-name { color: rgba(255,255,255,0.6); }
+    .package-schools { font-size: 14px; color: var(--text-muted); margin-bottom: 16px; }
+    .package-card.featured .package-schools { color: rgba(255,255,255,0.5); }
+    .package-price { font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 600; color: var(--text-dark); margin-bottom: 4px; }
+    .package-card.featured .package-price { color: var(--gold); }
+    .package-max { font-size: 13px; color: var(--text-muted); margin-bottom: 28px; }
+    .package-card.featured .package-max { color: rgba(255,255,255,0.45); }
+    .package-features { list-style: none; }
+    .package-features li { font-size: 14px; color: var(--text-muted); padding: 8px 0; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 10px; }
+    .package-card.featured .package-features li { color: rgba(255,255,255,0.7); border-bottom-color: rgba(255,255,255,0.1); }
+    .package-features li::before { content: '✓'; color: var(--gold); font-weight: 700; font-size: 13px; flex-shrink: 0; }
+    .package-features li.no::before { content: '—'; color: #D1D5DB; }
+    .package-features li.no { opacity: 0.5; }
+
+    .alc-heading {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px; font-weight: 600;
+      color: var(--text-dark); text-align: center;
+      margin: 64px 0 8px;
+    }
+    .alc-sub {
+      font-size: 14px; color: var(--text-muted);
+      text-align: center; margin-bottom: 32px;
+    }
+    .alc-table {
+      width: 100%; border-collapse: collapse;
+      border-radius: 10px; overflow: hidden;
+      font-size: 15px;
+    }
+    .alc-table thead th {
+      background: var(--navy); color: var(--white);
+      font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.06em; font-size: 12px;
+      padding: 14px 20px; text-align: left;
+    }
+    .alc-table thead th:nth-child(2),
+    .alc-table thead th:nth-child(3) { text-align: right; }
+    .alc-table tbody td {
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-dark);
+    }
+    .alc-table tbody td:nth-child(2),
+    .alc-table tbody td:nth-child(3) {
+      text-align: right; font-weight: 600; white-space: nowrap;
+    }
+    .alc-table tbody tr:nth-child(even) td { background: var(--off-white); }
+    .alc-table tbody tr:hover td { background: rgba(201,168,76,0.06); }
+
+    .method { background: var(--navy); }
+    .method .section-title { color: var(--white); }
+    .method .section-sub { color: rgba(255,255,255,0.55); }
+    .method-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 32px; }
+    .method-card { padding: 32px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; transition: border-color 0.2s; }
+    .method-card:hover { border-color: rgba(201,168,76,0.3); }
+    .method-num { font-family: 'Playfair Display', serif; font-size: 42px; font-weight: 600; color: rgba(201,168,76,0.3); margin-bottom: 16px; }
+    .method-title { font-size: 18px; font-weight: 600; color: var(--white); margin-bottom: 12px; }
+    .method-desc { font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.85; }
+
+    .about-inner { display: grid; grid-template-columns: 1fr 1.4fr; gap: 80px; align-items: center; }
+    .about-image-block { background: var(--navy); border-radius: 12px; aspect-ratio: 4/5; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 40px; }
+    .about-initial { font-family: 'Playfair Display', serif; font-size: 80px; font-weight: 600; color: var(--gold); line-height: 1; }
+    .about-name-block { text-align: center; }
+    .about-name { font-size: 20px; font-weight: 600; color: var(--white); margin-bottom: 6px; }
+    .about-title-text { font-size: 13px; color: rgba(255,255,255,0.5); letter-spacing: 0.04em; }
+    .about-divider { width: 40px; height: 2px; background: var(--gold); margin: 0 auto 16px; }
+    .credentials { list-style: none; display: flex; flex-direction: column; gap: 4px; }
+    .credentials li { font-size: 12px; color: rgba(255,255,255,0.45); text-align: center; }
+    .about-content p { font-size: 16px; color: var(--text-muted); line-height: 1.9; margin-bottom: 20px; }
+    .about-content strong { color: var(--text-dark); font-weight: 600; }
+    .about-quote { border-left: 3px solid var(--gold); padding: 16px 0 16px 24px; margin: 32px 0; }
+    .about-quote p { font-family: 'Playfair Display', serif; font-style: italic; font-size: 17px; color: var(--text-dark); margin: 0; }
+
+    .contact { background: var(--off-white); }
+    .contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+    .contact-info h2 { font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 600; color: var(--text-dark); margin-bottom: 20px; line-height: 1.25; }
+    .contact-info p { font-size: 16px; color: var(--text-muted); line-height: 1.85; margin-bottom: 36px; }
+    .contact-details { display: flex; flex-direction: column; gap: 16px; }
+    .contact-item { display: flex; align-items: center; gap: 12px; }
+    .contact-icon { width: 40px; height: 40px; background: var(--navy); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; }
+    .contact-text { font-size: 14px; }
+    .contact-text strong { display: block; color: var(--text-dark); margin-bottom: 2px; }
+    .contact-text span { color: var(--text-muted); }
+    .contact-form { display: flex; flex-direction: column; gap: 16px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-group label { font-size: 13px; font-weight: 500; color: var(--text-dark); }
+    .form-group input, .form-group select, .form-group textarea { padding: 12px 16px; border: 1px solid var(--border); border-radius: 6px; font-size: 14px; font-family: 'Noto Sans SC', sans-serif; color: var(--text-dark); background: var(--white); outline: none; transition: border-color 0.2s; }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--gold); }
+    .form-group textarea { resize: vertical; min-height: 120px; }
+    .form-submit { background: var(--navy); color: var(--white); padding: 16px 36px; border-radius: 6px; border: none; cursor: pointer; font-size: 15px; font-weight: 600; font-family: 'Noto Sans SC', sans-serif; transition: background 0.2s; align-self: flex-start; }
+    .form-submit:hover { background: var(--navy-light); }
+
+    footer { background: var(--navy); padding: 60px 5% 40px; border-top: 1px solid rgba(201,168,76,0.15); }
+    .footer-inner { display: flex; justify-content: space-between; align-items: flex-start; gap: 40px; margin-bottom: 48px; flex-wrap: wrap; }
+    .footer-brand .nav-logo { font-size: 24px; display: block; margin-bottom: 12px; }
+    .footer-brand p { font-size: 13px; color: rgba(255,255,255,0.4); max-width: 260px; line-height: 1.7; }
+    .footer-links h4 { font-size: 12px; font-weight: 600; color: rgba(255,255,255,0.4); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 16px; }
+    .footer-links ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a { font-size: 14px; color: rgba(255,255,255,0.6); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.08); padding-top: 28px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+    .footer-bottom p { font-size: 12px; color: rgba(255,255,255,0.3); }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .about-inner, .contact-inner { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .stat-item { min-width: 50%; border-right: none; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">Kairos<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#results">录取成绩</a></li>
+      <li><a href="#services">服务</a></li>
+      <li><a href="#methodology">方法论</a></li>
+      <li><a href="#about">关于我们</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="/en/" class="lang-switch">EN</a>
+      <a href="/ko/" class="lang-switch">한국어</a>
+      <a href="/th/" class="lang-switch">ภาษาไทย</a>
+      <a href="#contact" class="nav-cta">预约咨询</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">精英大学申请咨询 · 全球服务</div>
+      <h1>
+        对的学生，<br />
+        <em>对的学校，</em><br />
+        对的时机。
+      </h1>
+      <p>
+        面向全球雄心勃勃学生的独立大学申请咨询服务 — 中国、韩国、新加坡、泰国、美国、欧洲及其他地区。
+        目标是哈佛、耶鲁、斯坦福以及世界上最顶尖的大学。
+        用真实成绩说话，而非模板化方案。
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">预约免费咨询</a>
+        <a href="#results" class="btn-secondary">查看录取成绩</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-banner">
+    <div class="stat-item">
+      <span class="stat-number">Harvard</span>
+      <span class="stat-label">常青藤录取成绩<br />含哈佛、耶鲁、哥大</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">30+</span>
+      <span class="stat-label">Top 40 名校<br />录取成绩</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">8</span>
+      <span class="stat-label">常青藤录取<br />（所有申请轮次）</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">100%</span>
+      <span class="stat-label">学生亲自撰写文书<br />绝不代笔</span>
+    </div>
+  </div>
+
+  <section class="results" id="results">
+    <div class="section-tag">录取成绩</div>
+    <h2 class="section-title">我们的学生<em>成功录取</em></h2>
+    <p class="section-sub">
+      Kairos 的学生来自中国、韩国、新加坡、泰国、美国、约旦、埃塞俄比亚、英国等地。
+      他们已被世界顶尖大学录取 — 从常青藤到工程、电影、科学和艺术领域的顶尖项目。
+    </p>
+
+    <p class="tier-label">常青藤 & Top 10</p>
+    <div class="results-grid" style="margin-bottom: 40px;">
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-1"></div></div><div class="uni-name">Harvard</div><div class="uni-detail">环境科学与公共政策</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-1"></div></div><div class="uni-name">Yale</div><div class="uni-detail">电影与媒体研究</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-1"></div></div><div class="uni-name">Columbia</div><div class="uni-detail">经济学与哲学</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-1"></div></div><div class="uni-name">UPenn</div><div class="uni-detail">沃顿商学院 (ED1)</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-1"></div></div><div class="uni-name">Dartmouth</div><div class="uni-detail">国际关系 (ED1)</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-1"></div></div><div class="uni-name">Cornell</div><div class="uni-detail">录取 × 3 名学生</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-1"></div></div><div class="uni-name">Brown</div><div class="uni-detail">东亚研究 (ED)</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-1"></div></div><div class="uni-name">UChicago</div><div class="uni-detail">气候与可持续发展（转学）</div></div>
+    </div>
+
+    <p class="tier-label">Top 11–25</p>
+    <div class="results-grid" style="margin-bottom: 40px;">
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-2"></div></div><div class="uni-name">Duke</div><div class="uni-detail">生物医学工程 (ED) + 全额奖学金 × 2</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-2"></div></div><div class="uni-name">Johns Hopkins</div><div class="uni-detail">录取 × 2 名</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-2"></div></div><div class="uni-name">Northwestern</div><div class="uni-detail">生物医学工程 + 多人录取</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-2"></div></div><div class="uni-name">Carnegie Mellon</div><div class="uni-detail">工程 (ED) · 音乐与技术</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-2"></div></div><div class="uni-name">WashU St. Louis</div><div class="uni-detail">录取 × 3 名 (ED)</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-2"></div></div><div class="uni-name">Vanderbilt</div><div class="uni-detail">工程 (ED2)</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-2"></div></div><div class="uni-name">UC Berkeley</div><div class="uni-detail">录取 × 3 名</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-2"></div></div><div class="uni-name">Claremont McKenna</div><div class="uni-detail">录取 (ED)</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-2"></div></div><div class="uni-name">West Point</div><div class="uni-detail">美国陆军军官学校</div></div>
+    </div>
+
+    <p class="tier-label">Top 26–40 & 特殊专业</p>
+    <div class="results-grid" style="margin-bottom: 40px;">
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-3"></div></div><div class="uni-name">Emory</div><div class="uni-detail">录取 × 4 名</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-3"></div></div><div class="uni-name">NYU Stern</div><div class="uni-detail">商学院 (ED) × 2 名</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-3"></div></div><div class="uni-name">USC</div><div class="uni-detail">电影艺术学院（全美第一）</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-3"></div></div><div class="uni-name">Boston College</div><div class="uni-detail">录取 × 3 名 (ED2)</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-3"></div></div><div class="uni-name">Georgia Tech</div><div class="uni-detail">录取 × 2 名</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-3"></div></div><div class="uni-name">UCLA</div><div class="uni-detail">录取 × 2 名</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-3"></div></div><div class="uni-name">Northeastern</div><div class="uni-detail">录取 × 3 名 (ED)</div></div>
+      <div class="uni-card"><div class="uni-tier"><div class="tier-dot tier-3"></div></div><div class="uni-name">RISD</div><div class="uni-detail">全美第一艺术设计学院</div></div>
+    </div>
+    <p style="font-size: 13px; color: var(--text-muted);">● Top 10 &nbsp;&nbsp; ● Top 11–25 &nbsp;&nbsp; ● Top 26–40 &nbsp;&nbsp; · 2023–2027届录取成绩</p>
+  </section>
+
+  <section id="services">
+    <div class="section-tag">服务</div>
+    <h2 class="section-title">选择您的<em>服务方案</em></h2>
+    <p class="section-sub">
+      无论您身处世界何处，每位学生都享受与首席顾问一对一的深度服务。
+      我们跨时区工作 — 从不使用模板，每份申请都围绕您真实的个人特点量身定制。
+    </p>
+    <div class="packages-grid">
+      <div class="package-card">
+        <div class="package-name">Kairos Foundation</div>
+        <div class="package-schools">文书与申请冲刺 | 5–7个月 | 10次课程</div>
+        <div class="package-price">$4,300</div>
+        <div class="package-max">₩5,805,000</div>
+        <ul class="package-features">
+          <li>个人陈述开发（头脑风暴 → 终稿）</li>
+          <li>最多4篇补充文书（策略 + 编辑）</li>
+          <li>大学清单审核与学校匹配度分析</li>
+          <li>申请时间表与清单</li>
+          <li>活动列表优化</li>
+          <li>课程间电子邮件支持</li>
+        </ul>
+      </div>
+
+      <div class="package-card featured">
+        <div class="package-badge">最受欢迎</div>
+        <div class="package-name">Kairos Scholar</div>
+        <div class="package-schools">高三综合服务 | 12个月 | 22次课程</div>
+        <div class="package-price">$7,000</div>
+        <div class="package-max">₩9,450,000</div>
+        <ul class="package-features">
+          <li>完整选校策略（冲刺 / 匹配 / 保底）</li>
+          <li>个人陈述 + 无限补充文书</li>
+          <li>课外活动叙事与定位</li>
+          <li>申请门户审核（Common App / Coalition）</li>
+          <li>面试准备（2次模拟面试）</li>
+          <li>经济援助与奖学金指导</li>
+          <li>候补名单与延期策略</li>
+          <li>优先电子邮件与 KakaoTalk 支持</li>
+        </ul>
+      </div>
+
+      <div class="package-card">
+        <div class="package-name">Kairos Prestige</div>
+        <div class="package-schools">两年战略合作 | 24个月 | 40次课程</div>
+        <div class="package-price">$12,800</div>
+        <div class="package-max">₩17,280,000</div>
+        <ul class="package-features">
+          <li>包含 Kairos Scholar 全部内容</li>
+          <li>10–11年级学业与选课规划</li>
+          <li>课外活动策略与暑期项目选择</li>
+          <li>学术研究、竞赛与领导力定位</li>
+          <li>标准化考试策略（SAT / ACT / AP）</li>
+          <li>专属 KakaoTalk 频道</li>
+        </ul>
+      </div>
+
+      <div class="package-card">
+        <div class="package-name">Kairos Legacy</div>
+        <div class="package-schools">四年蜕变式合作 | 36–48个月 | 无限次课程</div>
+        <div class="package-price">$19,500</div>
+        <div class="package-max">₩26,325,000</div>
+        <ul class="package-features">
+          <li>包含 Kairos Prestige 全部内容</li>
+          <li>9年级入学引导与长期愿景设定</li>
+          <li>学术身份认同与热情项目设计</li>
+          <li>导师网络推荐</li>
+          <li>每半年家庭战略会议</li>
+          <li>录取后持续支持</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="alc-heading">单项服务</h3>
+    <p class="alc-sub">无需购买套餐即可使用的单项服务。</p>
+    <table class="alc-table">
+      <thead>
+        <tr><th>服务项目</th><th>USD</th><th>KRW</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>按小时咨询课程</td><td>$150</td><td>₩202,500</td></tr>
+        <tr><td>单篇文书审阅与编辑</td><td>$200</td><td>₩270,000</td></tr>
+        <tr><td>完整申请审查</td><td>$300</td><td>₩405,000</td></tr>
+        <tr><td>面试准备（3次课程）</td><td>$350</td><td>₩472,500</td></tr>
+        <tr><td>选校咨询（1次课程）</td><td>$100</td><td>₩135,000</td></tr>
+      </tbody>
+    </table>
+
+    <p style="font-size: 13px; color: var(--text-muted); margin-top: 32px; text-align: center;">
+      所有文书均由学生亲自撰写 — Kairos 只提供指导和反馈。
+    </p>
+  </section>
+
+  <section class="method" id="methodology">
+    <div class="section-tag" style="color: var(--gold);">我们的方法</div>
+    <h2 class="section-title">Kairos 意味着<em style="color: rgba(201,168,76,0.85);">最佳时机</em></h2>
+    <p class="section-sub">
+      大多数顾问专注于申请材料本身。我们专注于学生这个人。
+      申请材料只是我们共同努力的成果体现。
+    </p>
+    <div class="method-grid">
+      <div class="method-card">
+        <div class="method-num">01</div>
+        <div class="method-title">故事优先</div>
+        <div class="method-desc">在打开 Common App 之前，我们用几次会话深入挖掘您真正是谁 — 您的价值观、经历、思维方式。不是文书创造故事，而是故事成就文书。</div>
+      </div>
+      <div class="method-card">
+        <div class="method-num">02</div>
+        <div class="method-title">精准战略</div>
+        <div class="method-desc">ED、ED2、EA、RD — 时机就是一切。学校选择、专业方向、申请轮次、文书定位：每一个决策都针对您的具体背景量身制定，没有千篇一律的清单。</div>
+      </div>
+      <div class="method-card">
+        <div class="method-num">03</div>
+        <div class="method-title">保留您的声音</div>
+        <div class="method-desc">我们不会替您写一个字。我们指导、质疑、打磨 — 但每一句话都是您自己的。招生官能识别代写文书。真实性是您最大的竞争优势。</div>
+      </div>
+      <div class="method-card">
+        <div class="method-num">04</div>
+        <div class="method-title">跨文化理解</div>
+        <div class="method-desc">我们深刻理解国际学生 — 无论您在新加坡的IB学校、英国的寄宿学校，还是北京、上海的国际学校。我们帮您把自身经历转化为顶尖大学认可的语言。</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-image-block">
+        <div class="about-initial">RK</div>
+        <div class="about-name-block">
+          <div class="about-divider"></div>
+          <div class="about-name">Ron Kim</div>
+          <div class="about-title-text">Kairos Education 创始人</div>
+        </div>
+        <ul class="credentials">
+          <li>伊利诺伊大学（社会学与犯罪学）</li>
+          <li>国际学校大学升学顾问</li>
+          <li>IB毕业生 · 哈佛&耶鲁辩论奖</li>
+        </ul>
+      </div>
+      <div class="about-content">
+        <div class="section-tag">关于我们</div>
+        <h2 class="section-title">用真实成绩说话，<br /><em>而非品牌名气</em></h2>
+        <p>
+          我创立 Kairos Education 是因为我看到了一个缺口：真正有潜力的学生却只能得到千篇一律的策略。
+          大型咨询公司靠模板化方案扩张，而我靠的是<strong>亲自了解每一位学生</strong>。
+        </p>
+        <p>
+          我毕业于韩国的IB国际学校，后在伊利诺伊大学厄巴纳-香槟分校攻读社会学与犯罪学。
+          此后多年担任升学顾问、IB/AP讲师和国际学校升学辅导员，
+          指导来自韩国、新加坡、中国、泰国、埃塞俄比亚、约旦和英国的学生
+          成功录取哈佛、耶鲁、哥大、宾大、达特茅斯、康奈尔、杜克、约翰斯·霍普金斯和芝加哥大学。
+        </p>
+        <div class="about-quote">
+          <p>"我记得的学生，不是SAT分数最高的那些，而是找到了自己真实故事、并有勇气讲述它的人。"</p>
+        </div>
+        <p>在 Kairos，我亲自指导每一位学生。您不会被转交给助理顾问。战略规划、文书反馈、咨询通话 — 每次都由我亲自完成。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="contact-info">
+        <div class="section-tag">联系我们</div>
+        <h2>开启您的<br />Kairos 之旅</h2>
+        <p>首次咨询完全免费。我们将聊聊您的目标、当前背景，以及 Kairos 是否适合您。没有压力，没有推销 — 只是一次坦诚的对话。</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div class="contact-text"><strong>电子邮件</strong><span>Ronkim2015@gmail.com</span></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💬</div>
+            <div class="contact-text"><strong>KakaoTalk 频道</strong><span><a href="http://pf.kakao.com/_uWJKX" style="color: var(--gold); text-decoration: none;" target="_blank">添加频道 →</a></span></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-text"><strong>所在地</strong><span>首尔，韩国 · 服务全球10+国家学生</span></div>
+          </div>
+        </div>
+      </div>
+      <form name="contact-zh" class="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact-zh" />
+        <input type="hidden" name="bot-field" />
+        <div class="form-row">
+          <div class="form-group"><label>学生姓名</label><input type="text" name="name" placeholder="您的姓名" /></div>
+          <div class="form-group">
+            <label>年级</label>
+            <select name="grade">
+              <option>高一 (Grade 10)</option>
+              <option>高二 (Grade 11)</option>
+              <option>高三 (Grade 12)</option>
+              <option>Gap Year</option>
+              <option>其他</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group"><label>电子邮件</label><input type="email" name="email" placeholder="您的邮箱地址" /></div>
+        <div class="form-group"><label>目标院校（如已确定）</label><input type="text" name="universities" placeholder="例如：哈佛、斯坦福、MIT..." /></div>
+        <div class="form-group"><label>请简述您的目标和现状</label><textarea name="message" placeholder="您目前处于申请的哪个阶段？希望达成什么目标？您有什么独特的故事或背景？"></textarea></div>
+        <button type="submit" class="form-submit">发送消息 →</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">Kairos<span style="color:var(--gold)">.</span></span>
+        <p>为拒绝平庸的学生提供的独立精英大学申请咨询服务。</p>
+      </div>
+      <div class="footer-links">
+        <h4>导航</h4>
+        <ul>
+          <li><a href="#results">录取成绩</a></li>
+          <li><a href="#services">服务与价格</a></li>
+          <li><a href="#methodology">方法论</a></li>
+          <li><a href="#about">关于 Ron</a></li>
+          <li><a href="#contact">预约咨询</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>录取院校</h4>
+        <ul>
+          <li><a href="#results">Harvard University</a></li>
+          <li><a href="#results">Yale University</a></li>
+          <li><a href="#results">Columbia University</a></li>
+          <li><a href="#results">University of Pennsylvania</a></li>
+          <li><a href="#results">Dartmouth · Cornell · Duke</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Kairos Education. 版权所有。</p>
+      <p>首尔，韩国 · 全球服务 · Ronkim2015@gmail.com</p>
+    </div>
+  </footer>
+
+</body>
+</html>
