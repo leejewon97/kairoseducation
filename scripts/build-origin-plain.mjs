@@ -9,12 +9,12 @@ const langs = ['en', 'ko', 'zh', 'th'];
 
 const tpl = fs.readFileSync(path.join(root, 'src', 'templates', 'origin-page.njk'), 'utf8');
 
-function renderNetlifyForm(data, visible) {
+function renderNetlifyForm(data) {
   const f = data.contact.form;
-  const hidden = visible ? '' : ' hidden';
   const grades = f.grades.map((g) => `<option>${g}</option>`).join('');
-  return `<form name="${data.formName}" class="contact-form" data-contact-form method="POST" data-netlify="true" netlify-honeypot="bot-field"${hidden}>
-        <input type="hidden" name="form-name" value="${data.formName}" />
+  return `<form name="contact" class="contact-form" data-contact-form method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="language" value="${data.lang}" />
         <input type="hidden" name="bot-field" />
         <div class="form-row">
           <div class="form-group">
@@ -43,12 +43,7 @@ function renderNetlifyForm(data, visible) {
 }
 
 const en = JSON.parse(fs.readFileSync(path.join(root, 'locales', 'origin', 'en.json'), 'utf8'));
-const formsHtml = langs
-  .map((code) => {
-    const data = JSON.parse(fs.readFileSync(path.join(root, 'locales', 'origin', `${code}.json`), 'utf8'));
-    return renderNetlifyForm(data, code === 'en');
-  })
-  .join('\n');
+const formsHtml = renderNetlifyForm(en);
 
 const html = render(tpl, { ...en, netlifyFormsHtml: formsHtml });
 

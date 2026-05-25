@@ -458,12 +458,12 @@
     "form": {
       "nameLabel": "Student Name",
       "namePlaceholder": "Your name",
-      "gradeLabel": "Student Name",
-      "emailLabel": "Student Name",
+      "gradeLabel": "Current Grade Level",
+      "emailLabel": "Email",
       "emailPlaceholder": "you@email.com",
-      "universitiesLabel": "Student Name",
+      "universitiesLabel": "Target Universities",
       "universitiesPlaceholder": "e.g. Harvard, Stanford, MIT...",
-      "messageLabel": "Student Name",
+      "messageLabel": "Message",
       "messagePlaceholder": "Where are you in the process? What are you hoping to achieve? What makes your story unique?",
       "submit": "Send Message →",
       "grades": [

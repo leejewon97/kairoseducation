@@ -69,12 +69,9 @@ src/templates/origin-page.njk
 
 HTML 폼은 **Netlify Forms** (`data-netlify="true"`). Function URL로 POST하지 않음.
 
-| `name` | 경로 | `form-name` hidden |
-|--------|------|-------------------|
-| `contact` | `/origin.html` (en UI) | `contact` |
-| `contact-kr` | `/origin.html` (ko UI) | `contact-kr` |
-| `contact-zh` | `/origin.html` (zh UI) | `contact-zh` |
-| `contact-th` | `/origin.html` (th UI) | `contact-th` |
+| `name` | 경로 | 비고 |
+|--------|------|------|
+| `contact` | `/origin.html` | hidden `language` (en/ko/zh/th), UI 문구는 locale JSON |
 
 공통: `method="POST"`, `netlify-honeypot="bot-field"`, hidden `bot-field`.
 

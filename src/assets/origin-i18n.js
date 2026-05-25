@@ -120,16 +120,12 @@ function renderGradeOptions(grades) {
   return grades.map((g) => `<option>${esc(g)}</option>`).join('');
 }
 
-function switchVisibleForm(formName) {
-  document.querySelectorAll('[data-contact-form]').forEach((f) => {
-    f.hidden = f.getAttribute('name') !== formName;
-  });
-}
-
-function applyFormLabels(formName, contact) {
+function applyContactForm(contact, lang) {
   const f = contact.form;
-  const root = document.querySelector(`form[name="${formName}"]`);
+  const root = document.querySelector('[data-contact-form]');
   if (!root) return;
+  const langInput = root.querySelector('input[name="language"]');
+  if (langInput) langInput.value = lang;
   const labels = root.querySelectorAll('.form-group label');
   const fields = [
     f.nameLabel,
@@ -214,8 +210,7 @@ export function applyLocale(data) {
   setText('#mount-location-label', data.contact.locationLabel);
   setText('#mount-location', data.contact.location);
 
-  switchVisibleForm(data.formName);
-  applyFormLabels(data.formName, data.contact);
+  applyContactForm(data.contact, data.lang);
 
   setText('#mount-footer-tagline', data.footer.tagline);
   setText('#mount-footer-nav-heading', data.footer.navigateHeading);

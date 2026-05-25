@@ -441,12 +441,12 @@
     "form": {
       "nameLabel": "ชื่อนักเรียน",
       "namePlaceholder": "ชื่อของคุณ",
-      "gradeLabel": "ชื่อนักเรียน",
-      "emailLabel": "ชื่อนักเรียน",
+      "gradeLabel": "ระดับชั้นปัจจุบัน",
+      "emailLabel": "อีเมล",
       "emailPlaceholder": "อีเมลของคุณ",
-      "universitiesLabel": "ชื่อนักเรียน",
+      "universitiesLabel": "มหาวิทยาลัยเป้าหมาย",
       "universitiesPlaceholder": "เช่น Harvard, Stanford, MIT...",
-      "messageLabel": "ชื่อนักเรียน",
+      "messageLabel": "ข้อความ",
       "messagePlaceholder": "ตอนนี้อยู่ในขั้นตอนไหน? อยากบรรลุอะไร? เรื่องราวพิเศษของนักเรียนคืออะไร?",
       "submit": "ส่งข้อความ →",
       "grades": [

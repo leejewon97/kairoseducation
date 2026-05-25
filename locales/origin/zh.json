@@ -441,12 +441,12 @@
     "form": {
       "nameLabel": "学生姓名",
       "namePlaceholder": "您的姓名",
-      "gradeLabel": "学生姓名",
-      "emailLabel": "学生姓名",
+      "gradeLabel": "当前年级",
+      "emailLabel": "邮箱",
       "emailPlaceholder": "您的邮箱地址",
-      "universitiesLabel": "学生姓名",
+      "universitiesLabel": "目标大学",
       "universitiesPlaceholder": "例如：哈佛、斯坦福、MIT...",
-      "messageLabel": "学生姓名",
+      "messageLabel": "留言",
       "messagePlaceholder": "您目前处于申请的哪个阶段？希望达成什么目标？您有什么独特的故事或背景？",
       "submit": "发送消息 →",
       "grades": [

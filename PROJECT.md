@@ -44,10 +44,7 @@ npx --yes serve .
 
 | 폼 name | 페이지 |
 |---------|--------|
-| `contact` | `/origin.html` (영어 UI) |
-| `contact-kr` | `/origin.html` (한국어 UI) |
-| `contact-zh` | `/origin.html` (중국어 UI) |
-| `contact-th` | `/origin.html` (태국어 UI) |
+| `contact` | `/origin.html` (4언어 공통, hidden `language`: en/ko/zh/th) |
 
 연락 폼은 `data-netlify="true"`로 제출되며, 대시보드 **Forms**에도 쌓입니다.
 

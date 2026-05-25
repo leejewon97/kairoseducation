@@ -458,12 +458,12 @@
     "form": {
       "nameLabel": "학생 이름",
       "namePlaceholder": "이름을 입력하세요",
-      "gradeLabel": "학생 이름",
-      "emailLabel": "학생 이름",
+      "gradeLabel": "현재 학년",
+      "emailLabel": "이메일",
       "emailPlaceholder": "이메일 주소",
-      "universitiesLabel": "학생 이름",
+      "universitiesLabel": "목표 대학",
       "universitiesPlaceholder": "예: Harvard, Stanford, MIT...",
-      "messageLabel": "학생 이름",
+      "messageLabel": "메시지",
       "messagePlaceholder": "현재 어느 단계에 있나요? 무엇을 이루고 싶으신가요? 학생의 특별한 이야기는 무엇인가요?",
       "submit": "메시지 보내기 →",
       "grades": [
