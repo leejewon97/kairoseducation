@@ -1,0 +1,467 @@
+{
+  "code": "zh",
+  "lang": "zh-CN",
+  "title": "Study Korea — Kairos Education | 韩国大学与语言留学咨询",
+  "metaDescription": "为希望赴韩留学的外国人提供专业咨询。语言课程、学位申请与GKS奖学金支持。与首尔本地专家Ron Kim一对一辅导。",
+  "formName": "study-korea",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
+  "fontFamily": "'Noto Sans SC', sans-serif",
+  "langLinks": [
+    { "code": "en", "label": "English" },
+    { "code": "ko", "label": "한국어" },
+    { "code": "th", "label": "ภาษาไทย" }
+  ],
+  "nav": {
+    "pathways": "留学路径",
+    "universities": "大学",
+    "packages": "套餐",
+    "faq": "常见问题",
+    "back": "← 返回主站",
+    "cta": "预约咨询"
+  },
+  "hero": {
+    "badge": "Study Korea · 国际入学咨询",
+    "h1": "赴韩留学之路，<br /><em>从这里开始。</em>",
+    "sub": "为申请韩国语言课程、大学学位项目及政府全额GKS奖学金的外国人提供一对一专业咨询。首尔本地洞察，零模板化服务。",
+    "primaryCta": "查看套餐",
+    "secondaryCta": "了解留学选项"
+  },
+  "stats": [
+    {
+      "number": "Seoul",
+      "label": "立足韩国 —<br />本地资源，真实渠道"
+    },
+    {
+      "number": "3",
+      "label": "留学路径<br />语言 · 学位 · 奖学金"
+    },
+    {
+      "number": "SKY",
+      "label": "首尔大学 · 高丽大学 · 延世大学<br />及所有主流项目"
+    },
+    {
+      "number": "100%",
+      "label": "与Ron Kim一对一。<br />绝无初级顾问。"
+    }
+  ],
+  "why": {
+    "tag": "为什么选择韩国",
+    "title": "韩国不只是 <em>K-pop。</em><br />更是世界级留学目的地。",
+    "sub": "韩国多所大学跻身全球前100。学费远低于美国或英国。对于希望在亚洲发展的学生而言，首尔是当下最具活力的城市。",
+    "cards": [
+      {
+        "icon": "🏛️",
+        "title": "世界排名大学",
+        "desc": "首尔大学、KAIST、POSTECH、高丽大学、延世大学均位列全球100–200名。KAIST工程学科全球前50。这些绝非备选学校。"
+      },
+      {
+        "icon": "💰",
+        "title": "成本显著更低",
+        "desc": "韩国大学学费约每年$3,000–$8,000 USD，远低于美英。结合政府全额GKS奖学金，留学费用可接近零。"
+      },
+      {
+        "icon": "🌏",
+        "title": "活跃的国际学生社区",
+        "desc": "目前超过16万名国际学生在韩国学习。英语授课学位项目在过去十年激增。您不会孤立无援——而是身处全球校园的中心。"
+      },
+      {
+        "icon": "🎓",
+        "title": "韩语打开机遇之门",
+        "desc": "即使仅学习一年韩语，也能为三星、现代、LG、HYBE等韩国企业打开大门。TOPIK证书是亚洲——乃至全球——日益重要的职业资产。"
+      },
+      {
+        "icon": "🛫",
+        "title": "清晰的签证流程",
+        "desc": "D-4语言签证与D-2留学签证结构清晰，准备充分即可顺利申请。韩国领事馆遍布欧洲、美洲、东亚、东南亚、中东和非洲等100多个国家。"
+      },
+      {
+        "icon": "⭐",
+        "title": "韩流优势",
+        "desc": "音乐、电影、时尚、美食——韩国文化已是全球现象。现在学习韩语并在韩国留学，意味着领先于时代潮流。全球对韩国的兴趣是结构性变化，而非一时风尚。"
+      }
+    ]
+  },
+  "pathways": {
+    "tag": "留学路径",
+    "title": "赴韩的 <em>三条路径。</em>",
+    "sub": "无论从零开始学韩语，还是以全额奖学金为目标，都有清晰的路径。Kairos帮您找到最适合的方案并全程执行。",
+    "items": [
+      {
+        "num": "A",
+        "letter": "语言课程",
+        "title": "在大学语学院学习",
+        "visa": "D-4-1签证 · 语言研修",
+        "desc": "在大学语学院注册3个月至2年的沉浸式韩语课程。无需韩语基础。最易入门的途径——也是在线学习韩语者的自然下一步。",
+        "details": [
+          "延世KLI · 高丽大学KLC · 首尔大学LEI · 西江大学 · 梨花女子大学",
+          "每年4次入学：3月 · 6月 · 9月 · 12月",
+          "每学期（3个月）约$1,200–1,800 USD",
+          "需约$10,000 USD存款证明 + 入学许可书",
+          "在本国使馆申请（15个工作日）"
+        ]
+      },
+      {
+        "num": "B",
+        "letter": "学位项目",
+        "title": "本科或研究生学位",
+        "visa": "D-2签证 · 留学签证",
+        "desc": "在韩国大学获得学士、硕士或博士学位。许多项目提供英语授课（无需TOPIK）。韩语授课项目需TOPIK 3–4级。韩国SKY大学全球认可。",
+        "details": [
+          "首尔大学 · 高丽大学 · 延世大学 · KAIST · POSTECH · 梨花女子大学",
+          "4年本科 · 2年硕士 · 3年博士",
+          "韩语授课需TOPIK 3–4 · 可选英语项目",
+          "需个人陈述 · 成绩单 · 推荐信",
+          "入学：春季（3月）与秋季（9月）"
+        ]
+      },
+      {
+        "num": "C",
+        "letter": "GKS奖学金",
+        "title": "韩国政府全额资助",
+        "visa": "GKS / KGSP · NIIED项目",
+        "desc": "Global Korea Scholarship涵盖全额学费 + 每月约$900生活津贴 + 机票 + 健康保险。全球最慷慨的政府奖学金之一。竞争极为激烈——这正是Kairos价值最大的领域。",
+        "details": [
+          "涵盖：学费 · 月津贴 · 机票 · 保险",
+          "本科：1年韩语 + 4年学位 · 研究生：1年韩语 + 2–3年硕/博",
+          "使馆渠道或大学渠道",
+          "2026年全球研究生2,000+名额 · 本科280名额",
+          "100多个资格国家 — 欧洲、美洲、东亚、东南亚、中东、非洲"
+        ]
+      }
+    ]
+  },
+  "universities": {
+    "tag": "院校",
+    "title": "Kairos学生 <em>可以就读</em> 的地方。",
+    "sub": "Kairos凭借首尔本地洞察，为您匹配最合适的院校——无论是顶尖SKY名校、世界排名理工院校，还是最适合您目标的语言学院。",
+    "groups": [
+      {
+        "label": "SKY大学（韩国的常春藤）",
+        "universities": [
+          {
+            "flag": "🏛️",
+            "rank": "韩国第1",
+            "name": "Seoul National University",
+            "detail": "首尔大学 · 语言教育院(LEI) · 全部学位"
+          },
+          {
+            "flag": "📚",
+            "rank": "SKY · 前三",
+            "name": "Korea University",
+            "detail": "韩国语中心(KLC) · 商学 · 法学 · 计算机"
+          },
+          {
+            "flag": "🌿",
+            "rank": "SKY · 前三",
+            "name": "Yonsei University",
+            "detail": "KLI · 医学 · 工程 · 国际学"
+          },
+          {
+            "flag": "🌸",
+            "rank": "前十",
+            "name": "Ewha Womans University",
+            "detail": "KLC · 人文 · 国际学"
+          },
+          {
+            "flag": "🗣️",
+            "rank": "口语最佳",
+            "name": "Sogang University",
+            "detail": "KLEC · 会话教学法 · 全级别"
+          }
+        ]
+      },
+      {
+        "label": "理工院校（世界排名）",
+        "universities": [
+          {
+            "flag": "⚗️",
+            "rank": "全球前40",
+            "name": "KAIST",
+            "detail": "韩国科学技术院"
+          },
+          {
+            "flag": "🔬",
+            "rank": "全球前80",
+            "name": "POSTECH",
+            "detail": "浦项工科大学"
+          },
+          {
+            "flag": "💻",
+            "rank": "研究领先",
+            "name": "UNIST",
+            "detail": "蔚山科学技术院"
+          },
+          {
+            "flag": "🌐",
+            "rank": "亚洲前100",
+            "name": "Sungkyunkwan (SKKU)",
+            "detail": "工程 · 商学 · 理学 · 三星合作"
+          },
+          {
+            "flag": "🎨",
+            "rank": "艺术与设计领先",
+            "name": "Hongik University",
+            "detail": "美术 · 设计 · 建筑（弘大）"
+          }
+        ]
+      }
+    ],
+    "footnote": "Kairos咨询涵盖韩国所有大学及语言项目。院校选择将根据您的目标、预算、专业及语言水平量身定制。"
+  },
+  "packages": {
+    "tag": "服务与定价",
+    "title": "选择适合您的 <em>套餐。</em>",
+    "sub": "三个套餐，一个目标：以正确的项目、正确的签证和可执行的计划助您赴韩留学。所有咨询由Ron Kim一对一亲自提供——无初级顾问，无转手。",
+    "items": [
+      {
+        "roman": "I",
+        "name": "Gateway",
+        "subtitle": "语言课程冲刺",
+        "duration": "2–3个月 · 4次咨询",
+        "tagline": "适合：准备报名韩国语学院的学生",
+        "features": [
+          { "text": "语学院选择（延世、高丽大学、首尔大学、西江、梨花）" },
+          { "text": "申请准备与文件清单" },
+          { "text": "D-4-1签证指导与要求说明" },
+          { "text": "存款证明与财务文件策略" },
+          { "text": "行前指导（住房、交通、注册）" },
+          { "text": "抵达后30天消息支持" }
+        ],
+        "usd": "$800",
+        "krw": "₩1,080,000",
+        "sessions": "4次 · 每次60分钟<br />2–3个月周期",
+        "cta": "立即开始"
+      },
+      {
+        "roman": "II",
+        "name": "Passage",
+        "subtitle": "学位项目综合",
+        "badge": "最受欢迎",
+        "featured": true,
+        "duration": "5–6个月 · 10次咨询",
+        "tagline": "适合：申请韩国本科或研究生项目的学生",
+        "features": [
+          { "text": "大学短名单（专业、语言、预算、声誉）", "highlight": true },
+          { "text": "个人陈述(SOP)全程辅导——从构思到定稿", "highlight": true },
+          { "text": "成绩单审核与学术档案策略" },
+          { "text": "推荐信策略与时间规划" },
+          { "text": "TOPIK目标分数与考试策略" },
+          { "text": "D-2留学签证指导与文件准备" },
+          { "text": "面试准备（1次模拟面试+反馈）" },
+          { "text": "申请系统审核与提交清单" },
+          { "text": "含行前指导" },
+          { "text": "全程优先消息支持" }
+        ],
+        "usd": "$2,000",
+        "krw": "₩2,700,000",
+        "sessions": "10次 · 每次60分钟<br />5–6个月周期",
+        "cta": "立即开始"
+      },
+      {
+        "roman": "III",
+        "name": "Summit",
+        "subtitle": "GKS奖学金 + 学位",
+        "duration": "7–8个月 · 16次咨询",
+        "tagline": "适合：申请韩国政府全额GKS奖学金的学生",
+        "features": [
+          { "text": "Passage套餐全部内容", "highlight": true },
+          { "text": "GKS资格评估与渠道选择", "highlight": true },
+          { "text": "使馆或大学渠道院校选择" },
+          { "text": "奖学金申请文书与文件准备" },
+          { "text": "GKS个人陈述与研究计划辅导" },
+          { "text": "GKS面试准备——2次模拟+书面反馈" },
+          { "text": "使馆申请协调与时间规划" },
+          { "text": "项目开始前财务规划" },
+          { "text": "专属KakaoTalk实时支持频道" },
+          { "text": "录取后指导与入境规划" }
+        ],
+        "usd": "$3,500",
+        "krw": "₩4,725,000",
+        "sessions": "16次 · 每次60分钟<br />7–8个月周期",
+        "cta": "立即开始"
+      }
+    ],
+    "terms": {
+      "payment": {
+        "title": "付款与条款",
+        "items": [
+          "30%不可退定金以确认套餐",
+          "签约后30天内支付剩余70%",
+          "未使用咨询可顺延最多60天",
+          "套餐不可在学生之间转让",
+          "国际客户：通过Wise开具USD发票",
+          "韩国客户：通过Hometax开具세금계산서（税务发票）"
+        ]
+      },
+      "promise": {
+        "title": "我们的承诺",
+        "items": [
+          "所有咨询由Ron Kim亲自提供——无初级顾问",
+          "所有文件由学生自行撰写；Kairos仅辅导，绝不代写",
+          "仅提供一对一咨询——无团体课，无模板",
+          "通过Zoom进行——适应所有时区",
+          "活跃客户消息24小时内回复",
+          "支持KakaoTalk · WhatsApp · WeChat"
+        ]
+      }
+    }
+  },
+  "alacarte": {
+    "tag": "单项服务",
+    "title": "单项 <em>咨询与服务。</em>",
+    "sub": "尚未准备好完整套餐？从单次咨询开始。每项单项服务均为针对韩国留学旅程特定环节的60分钟一对一辅导。",
+    "items": [
+      {
+        "name": "按小时咨询",
+        "desc": "任何韩国留学话题——与Ron一对一",
+        "usd": "$120",
+        "krw": "₩162,000"
+      },
+      {
+        "name": "项目与大学清单",
+        "desc": "1次咨询——找到理想项目或语学院",
+        "usd": "$80",
+        "krw": "₩108,000"
+      },
+      {
+        "name": "D-4签证文件审核",
+        "desc": "语言签证申请文件全面审核",
+        "usd": "$100",
+        "krw": "₩135,000"
+      },
+      {
+        "name": "个人陈述(SOP)审核",
+        "desc": "对SOP草稿的详细书面反馈",
+        "usd": "$150",
+        "krw": "₩202,500"
+      },
+      {
+        "name": "GKS申请审核",
+        "desc": "GKS奖学金申请材料全面审核",
+        "usd": "$250",
+        "krw": "₩337,500"
+      },
+      {
+        "name": "TOPIK策略咨询",
+        "desc": "考试策略、目标等级、学习计划",
+        "usd": "$100",
+        "krw": "₩135,000"
+      },
+      {
+        "name": "行前指导",
+        "desc": "住房、银行、注册、韩国日常生活",
+        "usd": "$120",
+        "krw": "₩162,000"
+      },
+      {
+        "name": "模拟面试（GKS / 入学）",
+        "desc": "60分钟模拟 + 书面总结",
+        "usd": "$150",
+        "krw": "₩202,500"
+      }
+    ],
+    "disclaimer": "韩元按₩1,350/USD换算 · 受汇率变动影响 · 所有咨询通过Zoom进行"
+  },
+  "faq": {
+    "tag": "常见问题",
+    "title": "常见 <em>问题。</em>",
+    "sub": "开始之前您需要了解的一切。",
+    "items": [
+      {
+        "q": "申请语言课程前需要会韩语吗？",
+        "a": "不需要。语学院项目（D-4-1签证）专为零基础学员设计，从字母学起。延世KLI、高丽大学KLC、首尔大学LEI、西江大学均提供假设零基础的1级课程。若已有韩语基础，将分配至更高等级。"
+      },
+      {
+        "q": "GKS奖学金是什么？竞争有多激烈？",
+        "a": "Global Korea Scholarship（GKS，亦称KGSP）是由NIIED管理的韩国政府全额奖学金，涵盖学费、月生活津贴（约$900 USD）、机票及健康保险。2026年全球约2,000个研究生名额和280个本科名额。竞争激烈——但凭借正确的申请策略，来自欧洲、拉丁美洲、亚洲、非洲等100多个资格国的优秀申请者仍有机会。Kairos Summit套餐正是为此而设计。"
+      },
+      {
+        "q": "我可以从任何国家申请吗？有限制吗？",
+        "a": "韩国欢迎来自100多个国家的学生申请D-4语言签证和D-2留学签证。韩国领事馆和使馆遍布欧洲、拉丁美洲、东亚、东南亚、中东、非洲和北美。GKS奖学金同样向全球多国学生开放。签证处理时间因国家而异，通常为1–3周。Kairos帮助您确定合适的领事馆、准备材料并处理各国特有的后勤事宜。"
+      },
+      {
+        "q": "TOPIK是什么？我需要吗？",
+        "a": "TOPIK（韩国语能力考试）是官方韩语水平考试，分1–6级。语学院（D-4签证）不需要TOPIK。韩语授课学位项目大多要求TOPIK 3或4级。英语授课项目不要求TOPIK，但有证书会增强申请。GKS申请时不要求TOPIK——录取后需完成一年韩语培训。"
+      },
+      {
+        "q": "在韩国留学费用是多少？",
+        "a": "语学院每学期（3个月）约$1,200–$1,800 USD，另加生活费（首尔约$700–1,200/月，视住房而定）。大多数韩国大学学位学费约$3,000–$8,000 USD/年——远低于美英。若获得GKS奖学金，学费和月津贴（约$900 USD）由政府全额承担。"
+      },
+      {
+        "q": "免费咨询包含什么？",
+        "a": "首次咨询（Zoom 30–45分钟）免费且无义务。我们将讨论您的背景、韩语水平、目标（语言 vs 学位 vs 奖学金）、时间线，以及最适合的套餐或路径。无销售压力——若Kairos不适合，我会如实告知。"
+      },
+      {
+        "q": "使用Kairos韩国留学咨询需要会英语吗？",
+        "a": "咨询以英语进行。Kairos与来自世界各地的学生合作——西班牙、日本、中国、法国、墨西哥、巴西、泰国、印度尼西亚等。申请材料按各院校要求以英语和韩语准备。若您的母语不是英语，建议先通过免费咨询评估是否适合再选择套餐。"
+      },
+      {
+        "q": "Kairos与其他留学机构有何不同？",
+        "a": "大多数留学机构覆盖数十个国家并将学生转交给初级员工。Kairos有三点不同：(1) 每次咨询均与首尔居民Ron Kim一对一——而非远程读宣传册的代理。(2) 专注而非泛化。(3) 我们将产出哈佛、耶鲁、哥伦比亚录取的精英咨询标准应用于韩国留学路径。您的申请会被认真对待——因为它值得。"
+      }
+    ]
+  },
+  "contact": {
+    "tag": "联系",
+    "title": "开启您的<br />韩国留学之旅。",
+    "sub": "首次咨询免费。我们将讨论您的目标、韩语水平、时间线，以及Kairos是否适合您。无压力——只是与真正了解韩国的专家进行一次坦诚对话。",
+    "emailLabel": "电子邮件",
+    "kakaoLabel": "KakaoTalk频道",
+    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color:var(--gold);text-decoration:none;\" target=\"_blank\">添加频道 →</a>",
+    "messagingLabel": "WhatsApp / Telegram",
+    "messaging": "国际学生可用——请通过邮件咨询",
+    "locationLabel": "所在地",
+    "location": "韩国首尔 · 服务15+国家学生",
+    "form": {
+      "nameLabel": "姓名",
+      "namePlaceholder": "请输入全名",
+      "countryLabel": "居住国家",
+      "countryPlaceholder": "例如：西班牙、日本、中国、巴西…",
+      "emailLabel": "电子邮件",
+      "emailPlaceholder": "you@email.com",
+      "goalLabel": "留学目标",
+      "goalPlaceholder": "请选择目标…",
+      "goals": [
+        "语言课程（D-4签证）",
+        "本科学位",
+        "研究生学位（硕士/博士）",
+        "GKS奖学金（全额资助）",
+        "尚不确定——需要指导"
+      ],
+      "koreanLevelLabel": "当前韩语水平",
+      "koreanLevelPlaceholder": "请选择水平…",
+      "koreanLevels": [
+        "零基础——完全初学者",
+        "基础——会韩文、少量词汇",
+        "中级——TOPIK 2–3级",
+        "高级——TOPIK 4–6级"
+      ],
+      "universitiesLabel": "目标大学或项目（如已知）",
+      "universitiesPlaceholder": "例如：延世KLI、首尔大学、KAIST…",
+      "messageLabel": "告诉我们您的目标",
+      "messagePlaceholder": "您希望何时开始？希望在韩国学习或达成什么？对流程有何疑问？",
+      "submit": "发送消息 →"
+    }
+  },
+  "footer": {
+    "tagline": "为拒绝平庸的学生提供精英咨询——美国、韩国及更远。",
+    "studyKoreaHeading": "Study Korea",
+    "studyKorea": [
+      { "href": "#pathways", "text": "三条留学路径" },
+      { "href": "#universities", "text": "韩国大学" },
+      { "href": "#packages", "text": "套餐与定价" },
+      { "href": "#alacarte", "text": "单项服务" },
+      { "href": "#faq", "text": "常见问题" }
+    ],
+    "kairosHeading": "Kairos",
+    "kairos": [
+      { "href": "/", "text": "主站" },
+      { "href": "/origin.html#results", "text": "美国录取成果" },
+      { "href": "/origin.html#services", "text": "美国咨询套餐" },
+      { "href": "#contact", "text": "预约免费咨询" },
+      { "href": "mailto:Ronkim2015@gmail.com", "text": "Ronkim2015@gmail.com" }
+    ],
+    "copyright": "© 2026 Kairos Education. All rights reserved.",
+    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:Ronkim2015@gmail.com\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">Ronkim2015@gmail.com</a>"
+  }
+}
