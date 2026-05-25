@@ -160,8 +160,8 @@ export function applyLocale(data) {
   setText('#mount-nav-services', data.nav.services);
   setText('#mount-nav-methodology', data.nav.methodology);
   setText('#mount-nav-about', data.nav.about);
-  setText('#mount-nav-cta', data.nav.cta);
   document.getElementById('mount-lang-switcher').innerHTML = renderLangSwitcher(data.langLinks);
+  setText('#mount-nav-cta', data.nav.cta);
 
   setText('#mount-hero-badge', data.hero.badge);
   setHtml('#mount-hero-h1', data.hero.h1);

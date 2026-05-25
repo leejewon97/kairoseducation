@@ -12,17 +12,15 @@
 <body>
 
   <nav>
-    <a href="/" class="nav-logo" style="text-decoration:none;color:inherit">Kairos<span>.</span></a>
+    <a href="/" class="nav-logo">Kairos<span>.</span></a>
     <ul class="nav-links">
       <li><a href="#results" id="mount-nav-results">{{ nav.results }}</a></li>
       <li><a href="#services" id="mount-nav-services">{{ nav.services }}</a></li>
       <li><a href="#methodology" id="mount-nav-methodology">{{ nav.methodology }}</a></li>
       <li><a href="#about" id="mount-nav-about">{{ nav.about }}</a></li>
     </ul>
-    <div id="mount-lang-switcher" style="display:flex; align-items:center; gap:8px;">
-      {% for link in langLinks %}
-      <a href="#" data-switch-lang="{{ link.code }}" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:12px;border:1px solid rgba(255,255,255,0.2);padding:5px 10px;border-radius:4px;transition:all 0.2s" onmouseover="this.style.color='#C9A84C';this.style.borderColor='#C9A84C'" onmouseout="this.style.color='rgba(255,255,255,0.5)';this.style.borderColor='rgba(255,255,255,0.2)'">{{ link.label }}</a>
-      {% endfor %}
+    <div class="nav-right">
+      <div id="mount-lang-switcher" style="display:flex; align-items:center; gap:8px;"></div>
       <a href="#contact" class="nav-cta" id="mount-nav-cta">{{ nav.cta }}</a>
     </div>
   </nav>

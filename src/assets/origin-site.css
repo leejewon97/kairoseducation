@@ -45,6 +45,8 @@
       transition: color 0.2s;
     }
     .nav-links a:hover { color: var(--gold); }
+    .nav-right { display: flex; align-items: center; gap: 12px; }
+    .nav-logo { text-decoration: none; }
     .nav-cta {
       background: var(--gold); color: var(--navy);
       padding: 10px 24px; border-radius: 4px;
