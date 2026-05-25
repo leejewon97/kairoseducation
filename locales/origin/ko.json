@@ -1,0 +1,492 @@
+{
+  "code": "ko",
+  "lang": "ko",
+  "title": "카이로스 에듀케이션 | 엘리트 대입 컨설팅",
+  "formName": "contact-kr",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
+  "fontFamily": "'Noto Sans KR', sans-serif",
+  "langLinks": [
+    {
+      "code": "en",
+      "href": "/en/",
+      "label": "English"
+    },
+    {
+      "code": "zh",
+      "href": "/zh/",
+      "label": "中文"
+    },
+    {
+      "code": "th",
+      "href": "/th/",
+      "label": "ภาษาไทย"
+    }
+  ],
+  "nav": {
+    "results": "합격 실적",
+    "services": "서비스",
+    "methodology": "방법론",
+    "about": "소개",
+    "cta": "무료 상담 신청"
+  },
+  "hero": {
+    "badge": "엘리트 대입 컨설팅 · 전 세계",
+    "h1": "적합한 학생이,<br />\r\n        적합한 대학에,<br />\r\n        <em>적합한 순간에.</em>",
+    "sub": "한국, 싱가포르, 미국, 유럽 등 전 세계 야심 있는 학생들을 위한 독립 대입 컨설팅. 하버드, 예일, 스탠퍼드를 비롯한 세계 최고의 명문대를 목표로 합니다. 템플릿이 아닌, 실제 결과로 증명합니다.",
+    "primaryCta": "무료 상담 신청",
+    "secondaryCta": "합격 실적 보기"
+  },
+  "stats": [
+    {
+      "number": "Harvard",
+      "label": "아이비리그 합격 실적<br />하버드, 예일, 컬럼비아 포함"
+    },
+    {
+      "number": "30+",
+      "label": "Top 40 명문대<br />합격 실적"
+    },
+    {
+      "number": "8개",
+      "label": "아이비리그<br />합격 (전체)"
+    },
+    {
+      "number": "100%",
+      "label": "학생이 직접 쓴 에세이<br />대필 절대 없음"
+    }
+  ],
+  "results": {
+    "tag": "합격 실적",
+    "title": "저희 학생들은 <em>합격합니다.</em>",
+    "sub": "카이로스 학생들은 한국, 싱가포르, 미국, 요르단, 에티오피아, 영국 등 전 세계에서 옵니다. 아이비리그부터 공학, 영화, 예술 분야의 최상위 프로그램까지 합격 실적을 보유하고 있습니다.",
+    "tiers": [
+      {
+        "label": "아이비리그 & Top 10",
+        "tier": 1,
+        "universities": [
+          {
+            "name": "Harvard",
+            "detail": "환경과학 & 공공정책",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Yale",
+            "detail": "영화 & 미디어학",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Columbia",
+            "detail": "경제학 & 철학",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "UPenn",
+            "detail": "Wharton 경영 (ED1)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Dartmouth",
+            "detail": "국제관계학 (ED1)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Cornell",
+            "detail": "3명 합격",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Brown",
+            "detail": "동아시아학 (ED)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "UChicago",
+            "detail": "기후&지속가능성 (편입)",
+            "tier": 1,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "Top 11–25",
+        "tier": 2,
+        "universities": [
+          {
+            "name": "Duke",
+            "detail": "생명공학 (ED) + 전액 장학금 × 2",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Johns Hopkins",
+            "detail": "2명 합격",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Northwestern",
+            "detail": "생명공학 외 다수",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Carnegie Mellon",
+            "detail": "공학 (ED) · 음악&기술",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "WashU St. Louis",
+            "detail": "3명 합격 (ED)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Vanderbilt",
+            "detail": "공학 (ED2)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "UC Berkeley",
+            "detail": "3명 합격",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Claremont McKenna",
+            "detail": "합격 (ED)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "West Point",
+            "detail": "미국 육군사관학교",
+            "tier": 2,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "Top 26–40 & 특수 분야",
+        "tier": 3,
+        "universities": [
+          {
+            "name": "Emory",
+            "detail": "4명 합격",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "NYU Stern",
+            "detail": "경영 (ED) × 2명",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "USC",
+            "detail": "영화예술대학 (미국 1위)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Boston College",
+            "detail": "3명 합격 (ED2)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Georgia Tech",
+            "detail": "2명 합격",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "University of Michigan",
+            "detail": "합격",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "UCLA",
+            "detail": "2명 합격",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Northeastern",
+            "detail": "3명 합격 (ED)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Villanova",
+            "detail": "합격 및 등록",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "UW Madison",
+            "detail": "2명 합격",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Boston University",
+            "detail": "합격",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "RISD",
+            "detail": "미국 1위 예술학교 (등록)",
+            "tier": 3,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "해외 명문대",
+        "tier": 0,
+        "universities": [
+          {
+            "name": "UCL",
+            "detail": "영국 런던대학교",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Univ. of Toronto",
+            "detail": "세인트조지 캠퍼스 (캐나다)",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Waseda University",
+            "detail": "일본 도쿄",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Olin College",
+            "detail": "엘리트 공학대 (연간 80명)",
+            "tier": 0,
+            "intl": true
+          }
+        ]
+      }
+    ],
+    "legend": "● Top 10 &nbsp;&nbsp; ● Top 11–25 &nbsp;&nbsp; ● Top 26–40 &nbsp;&nbsp; · 2023–2027년도 합격 실적"
+  },
+  "services": {
+    "tag": "서비스",
+    "title": "패키지를 <em>선택하세요.</em>",
+    "sub": "모든 학생에게 1:1 맞춤 컨설팅을 제공합니다. 전 세계 어디서든 함께합니다. 템플릿은 없습니다. 오직 당신만을 위한 전략으로 지원합니다.",
+    "packages": [
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Foundation",
+        "schools": "에세이 & 지원서 스프린트 | 5–7개월 | 10회 세션",
+        "price": "$4,300",
+        "max": "₩5,805,000",
+        "features": [
+          "자기소개서 개발 (브레인스토밍 → 최종 초안)",
+          "보충 에세이 최대 4편 (전략 + 편집)",
+          "대학 리스트 검토 & 학교 적합성 분석",
+          "지원 일정 & 체크리스트",
+          "활동 목록 정리",
+          "세션 간 이메일 지원"
+        ]
+      },
+      {
+        "featured": true,
+        "badge": "가장 인기",
+        "name": "Kairos Scholar",
+        "schools": "12학년 종합 패키지 | 12개월 | 22회 세션",
+        "price": "$7,000",
+        "max": "₩9,450,000",
+        "features": [
+          "학교 리스트 전략 (상향 / 적정 / 안전)",
+          "자기소개서 + 무제한 보충 에세이",
+          "비교과 활동 서사 & 포지셔닝",
+          "지원 포털 검토 (Common App / Coalition)",
+          "면접 준비 (모의 면접 2회)",
+          "재정 지원 & 장학금 가이드",
+          "대기자 명단 & 연기 전략",
+          "우선 이메일 & 카카오톡 지원"
+        ]
+      },
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Prestige",
+        "schools": "2년 전략적 파트너십 | 24개월 | 40회 세션",
+        "price": "$12,800",
+        "max": "₩17,280,000",
+        "features": [
+          "Kairos Scholar의 모든 항목 포함",
+          "10–11학년 학업 & 수강 계획",
+          "비교과 활동 전략 & 여름 프로그램 선정",
+          "연구, 대회 & 리더십 포지셔닝",
+          "표준화 시험 전략 (SAT / ACT / AP)",
+          "전용 카카오톡 채널"
+        ]
+      },
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Legacy",
+        "schools": "4년 변혁적 파트너십 | 36–48개월 | 무제한 세션",
+        "price": "$19,500",
+        "max": "₩26,325,000",
+        "features": [
+          "Kairos Prestige의 모든 항목 포함",
+          "9학년 온보딩 & 장기 비전 설정",
+          "지적 정체성 & 열정 프로젝트 설계",
+          "멘토 네트워크 소개",
+          "반기별 가족 전략 회의",
+          "합격 후 지원"
+        ]
+      }
+    ],
+    "alacarteHeading": "개별 서비스",
+    "alacarteSub": "패키지 없이 개별적으로 이용 가능한 서비스입니다.",
+    "alacarteTable": {
+      "service": "서비스",
+      "usd": "USD",
+      "krw": "KRW"
+    },
+    "alacarte": [
+      {
+        "service": "시간당 컨설팅 세션",
+        "usd": "$150",
+        "krw": "₩202,500"
+      },
+      {
+        "service": "에세이 1편 검토 &amp; 편집",
+        "usd": "$200",
+        "krw": "₩270,000"
+      },
+      {
+        "service": "지원서 전체 검토",
+        "usd": "$300",
+        "krw": "₩405,000"
+      },
+      {
+        "service": "면접 준비 (3회 세션)",
+        "usd": "$350",
+        "krw": "₩472,500"
+      },
+      {
+        "service": "학교 리스트 상담 (1회 세션)",
+        "usd": "$100",
+        "krw": "₩135,000"
+      }
+    ],
+    "disclaimer": "모든 에세이는 학생이 직접 작성합니다 — 카이로스는 코칭과 피드백만 제공합니다."
+  },
+  "methodology": {
+    "tag": "저희의 접근 방식",
+    "title": "카이로스는 <em style=\"color: rgba(201,168,76,0.85);\">올바른 순간</em>을 의미합니다.",
+    "sub": "대부분의 컨설턴트는 지원서에 집중합니다. 저희는 학생에 집중합니다. 지원서는 우리가 함께 만든 스토리의 결과물일 뿐입니다.",
+    "cards": [
+      {
+        "num": "01",
+        "title": "스토리 먼저",
+        "desc": "지원서를 열기 전에, 당신이 실제로 어떤 사람인지 깊이 탐구합니다 — 가치관, 경험, 사고방식. 에세이가 스토리를 만드는 게 아닙니다. 스토리가 에세이를 만듭니다."
+      },
+      {
+        "num": "02",
+        "title": "전략적 정밀함",
+        "desc": "ED, ED2, EA, RD — 타이밍이 전부입니다. 학교 선정, 전공 선택, 지원 라운드, 에세이 포지셔닝까지 모든 결정을 당신의 프로필에 맞춰 개별적으로 설계합니다."
+      },
+      {
+        "num": "03",
+        "title": "목소리 보존",
+        "desc": "에세이 한 문장도 대신 쓰지 않습니다. 코칭하고, 질문하고, 다듬습니다 — 하지만 모든 문장은 당신의 것입니다. 입학사정관은 대필 에세이를 알아봅니다. 진정성이 최강의 경쟁력입니다."
+      },
+      {
+        "num": "04",
+        "title": "국제적 이해",
+        "desc": "싱가포르의 IB 학교, 영국의 보딩스쿨, 서울의 국제학교 — 어디서 공부하든 이해합니다. 한국, 요르단, 에티오피아, 싱가포르, 미국 등 10개국 이상의 학생을 지도했습니다."
+      }
+    ]
+  },
+  "about": {
+    "name": "Ron Kim",
+    "role": "창립자, 카이로스 에듀케이션",
+    "credentials": [
+      "일리노이 대학교 (사회학 & 범죄학)"
+    ],
+    "tag": "소개",
+    "title": "브랜드가 아닌,<br /><em>실제 결과로 증명합니다.</em>",
+    "blocks": [
+      {
+        "isP": true,
+        "html": "저는 카이로스 에듀케이션을 창립했습니다. 이유는 하나입니다: 뛰어난 잠재력을 가진 학생들이\r\n          획일적인 전략으로 원하는 결과를 얻지 못하는 것을 너무 많이 보았기 때문입니다.\r\n          큰 컨설팅 회사는 템플릿으로 성장합니다. 저는 <strong>학생 한 명 한 명을 직접 알아가며</strong> 성장합니다."
+      },
+      {
+        "isP": true,
+        "html": "한국의 IB 국제학교를 졸업하고 일리노이 대학교 어바나-샴페인에서 사회학과 범죄학을 공부했습니다.\r\n          이후 대입 컨설턴트, IB/AP 강사, 국제학교 대입 상담사로 활동하며 한국, 싱가포르, 에티오피아, 요르단,\r\n          영국, 미국의 학생들을 직접 지도해 하버드, 예일, 컬럼비아, UPenn, 다트머스, 코넬, 듀크, 존스홉킨스,\r\n          UChicago에 합격시켰습니다."
+      },
+      {
+        "isP": true,
+        "html": "\"제가 기억하는 학생들은 SAT 점수가 가장 높은 학생들이 아닙니다. 자신의 진짜 이야기를 찾고, 그것을 말할 용기를 가진 학생들입니다.\""
+      },
+      {
+        "isP": true,
+        "html": "카이로스에서 저는 모든 학생을 직접 담당합니다. 주니어 코치에게 넘기는 일은 없습니다.\r\n          전략, 에세이 피드백, 통화 — 항상 저와 직접 진행됩니다."
+      }
+    ]
+  },
+  "contact": {
+    "tag": "문의",
+    "title": "카이로스와 함께<br />시작하세요.",
+    "sub": "첫 상담은 무료입니다. 목표, 현재 프로필, 카이로스가 적합한지 솔직하게 이야기 나눕니다. 부담 없이 연락주세요.",
+    "emailLabel": "Email",
+    "kakaoLabel": "KakaoTalk Channel",
+    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">채널 추가하기 →</a>",
+    "locationLabel": "Based in",
+    "location": "서울, 대한민국 · 전 세계 10개국 이상 학생 지도",
+    "form": {
+      "nameLabel": "학생 이름",
+      "namePlaceholder": "이름을 입력하세요",
+      "gradeLabel": "학생 이름",
+      "emailLabel": "학생 이름",
+      "emailPlaceholder": "이메일 주소",
+      "universitiesLabel": "학생 이름",
+      "universitiesPlaceholder": "예: Harvard, Stanford, MIT...",
+      "messageLabel": "학생 이름",
+      "messagePlaceholder": "현재 어느 단계에 있나요? 무엇을 이루고 싶으신가요? 학생의 특별한 이야기는 무엇인가요?",
+      "submit": "메시지 보내기 →",
+      "grades": [
+        "9학년 (Grade 9)",
+        "10학년 (Grade 10)",
+        "11학년 (Grade 11)",
+        "12학년 (Grade 12)",
+        "갭이어 (Gap Year)"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "평범함을 거부하는 학생들을 위한 독립 엘리트 대입 컨설팅.",
+    "navigateHeading": "바로가기",
+    "admitsHeading": "바로가기",
+    "nav": [
+      {
+        "href": "#results",
+        "text": "합격 실적"
+      }
+    ],
+    "admits": [],
+    "copyright": "© 2026 Kairos Education. All rights reserved.",
+    "meta": "서울, 대한민국 · Worldwide · Ronkim2015@gmail.com"
+  }
+}

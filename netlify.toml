@@ -1,2 +1,59 @@
 [build]
   publish = "public"
+
+# 예전 /en/, /ko/ … 북마크
+[[redirects]]
+  from = "/en"
+  to = "/origin.html?lang=en"
+  status = 302
+
+[[redirects]]
+  from = "/en/"
+  to = "/origin.html?lang=en"
+  status = 302
+
+[[redirects]]
+  from = "/ko"
+  to = "/origin.html?lang=ko"
+  status = 302
+
+[[redirects]]
+  from = "/ko/"
+  to = "/origin.html?lang=ko"
+  status = 302
+
+[[redirects]]
+  from = "/zh"
+  to = "/origin.html?lang=zh"
+  status = 302
+
+[[redirects]]
+  from = "/zh/"
+  to = "/origin.html?lang=zh"
+  status = 302
+
+[[redirects]]
+  from = "/th"
+  to = "/origin.html?lang=th"
+  status = 302
+
+[[redirects]]
+  from = "/th/"
+  to = "/origin.html?lang=th"
+  status = 302
+
+# 예전 /us.html 북마크
+[[redirects]]
+  from = "/us.html"
+  to = "/origin.html"
+  status = 301
+
+[[redirects]]
+  from = "/assets/us-site.css"
+  to = "/assets/origin-site.css"
+  status = 301
+
+[[redirects]]
+  from = "/assets/us-locale.js"
+  to = "/assets/origin-locale.js"
+  status = 301

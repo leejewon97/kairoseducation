@@ -1,0 +1,475 @@
+{
+  "code": "th",
+  "lang": "th",
+  "title": "Kairos Education | ที่ปรึกษาการสมัครมหาวิทยาลัยชั้นนำ",
+  "formName": "contact-th",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
+  "fontFamily": "'Sarabun', sans-serif",
+  "langLinks": [
+    {
+      "code": "en",
+      "href": "/en/",
+      "label": "English"
+    },
+    {
+      "code": "ko",
+      "href": "/ko/",
+      "label": "한국어"
+    },
+    {
+      "code": "zh",
+      "href": "/zh/",
+      "label": "中文"
+    }
+  ],
+  "nav": {
+    "results": "ผลงาน",
+    "services": "บริการ",
+    "methodology": "แนวทาง",
+    "about": "เกี่ยวกับ",
+    "cta": "นัดหมายปรึกษา"
+  },
+  "hero": {
+    "badge": "ที่ปรึกษาการสมัครมหาวิทยาลัยชั้นนำ · ทั่วโลก",
+    "h1": "นักเรียนที่ใช่,<br />\r\n        มหาวิทยาลัย<em>ที่ใช่,</em><br />\r\n        ในช่วงเวลาที่ใช่",
+    "sub": "ที่ปรึกษาการสมัครมหาวิทยาลัยอิสระสำหรับนักเรียนทั่วโลก — ไทย, เกาหลี, สิงคโปร์, สหรัฐอเมริกา, ยุโรป และอื่นๆ มุ่งเป้าไปที่ Harvard, Yale, Stanford และมหาวิทยาลัยชั้นนำที่สุดในโลก พิสูจน์ด้วยผลงานจริง ไม่ใช่แม่แบบสำเร็จรูป",
+    "primaryCta": "นัดหมายปรึกษาฟรี",
+    "secondaryCta": "ดูผลงานของเรา"
+  },
+  "stats": [
+    {
+      "number": "Harvard",
+      "label": "ผลงานรับเข้า Ivy League<br />Harvard, Yale, Columbia"
+    },
+    {
+      "number": "30+",
+      "label": "มหาวิทยาลัย Top 40<br />ที่นักเรียนเราได้รับการตอบรับ"
+    },
+    {
+      "number": "8",
+      "label": "ผลรับเข้า Ivy League<br />ในทุกรอบการสมัคร"
+    },
+    {
+      "number": "100%",
+      "label": "essay เขียนโดยนักเรียน<br />ไม่มีการเขียนแทนเด็ดขาด"
+    }
+  ],
+  "results": {
+    "tag": "ผลงาน",
+    "title": "นักเรียนของเรา<em>ได้รับการตอบรับ</em>",
+    "sub": "นักเรียน Kairos มาจากไทย, เกาหลี, สิงคโปร์, สหรัฐอเมริกา, จอร์แดน, เอธิโอเปีย, สหราชอาณาจักร และอื่นๆ พวกเขาได้รับการตอบรับจากมหาวิทยาลัยชั้นนำของโลก ตั้งแต่ Ivy League จนถึงโปรแกรมชั้นนำด้านวิศวกรรม ภาพยนตร์ วิทยาศาสตร์ และศิลปะ",
+    "tiers": [
+      {
+        "label": "Ivy League & Top 10",
+        "tier": 1,
+        "universities": [
+          {
+            "name": "Harvard",
+            "detail": "วิทยาศาสตร์สิ่งแวดล้อมและนโยบายสาธารณะ",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Yale",
+            "detail": "ภาพยนตร์และสื่อ",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Columbia",
+            "detail": "เศรษศาสตร์และปรัชญา",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "UPenn",
+            "detail": "Wharton — ธุรกิจ (ED1)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Dartmouth",
+            "detail": "ความสัมพันธ์ระหว่างประเทศ (ED1)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Cornell",
+            "detail": "รับเข้า × 3 คน",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Brown",
+            "detail": "เอเชียตะวันออก (ED)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "UChicago",
+            "detail": "Climate & Sustainability (โอน)",
+            "tier": 1,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "Top 11–25",
+        "tier": 2,
+        "universities": [
+          {
+            "name": "Duke",
+            "detail": "Biomedical Eng. (ED) + ทุนเต็ม × 2",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Johns Hopkins",
+            "detail": "รับเข้า × 2 คน",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Northwestern",
+            "detail": "Biomedical Engineering + หลายคน",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Carnegie Mellon",
+            "detail": "วิศวกรรม (ED) · ดนตรีและเทคโนโลยี",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "WashU St. Louis",
+            "detail": "รับเข้า × 3 คน (ED)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Vanderbilt",
+            "detail": "วิศวกรรม (ED2)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "UC Berkeley",
+            "detail": "รับเข้า × 3 คน",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Claremont McKenna",
+            "detail": "รับเข้า (ED)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "West Point",
+            "detail": "โรงเรียนนายร้อยสหรัฐฯ",
+            "tier": 2,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "Top 26–40 & สาขาพิเศษ",
+        "tier": 3,
+        "universities": [
+          {
+            "name": "Emory",
+            "detail": "รับเข้า × 4 คน",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "NYU Stern",
+            "detail": "Business (ED) × 2 คน",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "USC",
+            "detail": "School of Cinematic Arts (#1 ภาพยนตร์)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Boston College",
+            "detail": "รับเข้า × 3 คน (ED2)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Georgia Tech",
+            "detail": "รับเข้า × 2 คน",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "University of Michigan",
+            "detail": "รับเข้า",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "UCLA",
+            "detail": "รับเข้า × 2 คน",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Northeastern",
+            "detail": "รับเข้า × 3 คน (ED)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Villanova",
+            "detail": "รับเข้าและลงทะเบียนแล้ว",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "UW Madison",
+            "detail": "รับเข้า × 2 คน",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Boston University",
+            "detail": "รับเข้า",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "RISD",
+            "detail": "สถาบันศิลปะ #1 สหรัฐฯ",
+            "tier": 3,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "International",
+        "tier": 0,
+        "universities": [
+          {
+            "name": "UCL",
+            "detail": "University College London (สหราชอาณาจักร)",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Univ. of Toronto",
+            "detail": "วิทยาเขต St. George (แคนาดา)",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Waseda University",
+            "detail": "โตเกียว ประเทศญี่ปุ่น",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Olin College",
+            "detail": "วิศวกรรมชั้นนำ (รับเข้า ~80 คน/ปี)",
+            "tier": 0,
+            "intl": true
+          }
+        ]
+      }
+    ],
+    "legend": "● Top 10 &nbsp;&nbsp; ● Top 11–25 &nbsp;&nbsp; ● Top 26–40 &nbsp;&nbsp; · ผลงานรุ่น 2023–2027"
+  },
+  "services": {
+    "tag": "บริการ",
+    "title": "เลือก<em>แพ็คเกจของคุณ</em>",
+    "sub": "นักเรียนทุกคนได้รับการดูแลแบบ 1:1 โดยตรงจากที่ปรึกษาหลัก ไม่ว่าจะอยู่ที่ไหนในโลก ไม่มีแม่แบบสำเร็จรูป เราสร้างกลยุทธ์เฉพาะสำหรับคุณเท่านั้น",
+    "packages": [
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Foundation",
+        "schools": "เขียน Essay & สมัครเรียนแบบเร่งรัด | 5–7 เดือน | 10 เซสชัน",
+        "price": "$4,300",
+        "max": "₩5,805,000",
+        "features": [
+          "พัฒนา Personal Statement (ระดมความคิด → ร่างสุดท้าย)",
+          "เขียน Supplemental Essay สูงสุด 4 ชิ้น (กลยุทธ์ + แก้ไข)",
+          "ตรวจสอบรายชื่อมหาวิทยาลัย & วิเคราะห์ความเหมาะสม",
+          "กำหนดการสมัคร & เช็คลิสต์",
+          "ปรับปรุงรายการกิจกรรม",
+          "สนับสนุนทางอีเมลระหว่างเซสชัน"
+        ]
+      },
+      {
+        "featured": true,
+        "badge": "ยอดนิยม",
+        "name": "Kairos Scholar",
+        "schools": "แพ็คเกจครบวงจรปีสุดท้าย | 12 เดือน | 22 เซสชัน",
+        "price": "$7,000",
+        "max": "₩9,450,000",
+        "features": [
+          "กลยุทธ์รายชื่อมหาวิทยาลัย (สูง / เหมาะสม / ปลอดภัย)",
+          "Personal Statement + Supplemental Essay ไม่จำกัด",
+          "การเล่าเรื่องกิจกรรมนอกหลักสูตร & การวางตำแหน่ง",
+          "ตรวจสอบพอร์ทัลสมัคร (Common App / Coalition)",
+          "เตรียมสัมภาษณ์ (ซ้อมจำลอง 2 ครั้ง)",
+          "คำแนะนำทุนการศึกษา & การช่วยเหลือทางการเงิน",
+          "กลยุทธ์ Waitlist & การเลื่อน",
+          "อีเมลเร่งด่วน & สนับสนุนทาง KakaoTalk"
+        ]
+      },
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Prestige",
+        "schools": "พันธมิตรเชิงกลยุทธ์ 2 ปี | 24 เดือน | 40 เซสชัน",
+        "price": "$12,800",
+        "max": "₩17,280,000",
+        "features": [
+          "ทุกอย่างใน Kairos Scholar",
+          "วางแผนวิชาการ & รายวิชา ม.4–ม.5",
+          "กลยุทธ์กิจกรรมนอกหลักสูตร & เลือกโปรแกรมฤดูร้อน",
+          "วางตำแหน่งงานวิจัย, การแข่งขัน & ภาวะผู้นำ",
+          "กลยุทธ์สอบมาตรฐาน (SAT / ACT / AP)",
+          "ช่องทาง KakaoTalk เฉพาะ"
+        ]
+      },
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Legacy",
+        "schools": "พันธมิตรเปลี่ยนแปลงชีวิต 4 ปี | 36–48 เดือน | เซสชันไม่จำกัด",
+        "price": "$19,500",
+        "max": "₩26,325,000",
+        "features": [
+          "ทุกอย่างใน Kairos Prestige",
+          "ปฐมนิเทศ ม.3 & วางวิสัยทัศน์ระยะยาว",
+          "ออกแบบอัตลักษณ์ทางปัญญา & โปรเจกต์ที่หลงใหล",
+          "แนะนำเครือข่ายที่ปรึกษา",
+          "ประชุมกลยุทธ์ครอบครัวทุก 6 เดือน",
+          "สนับสนุนหลังการตอบรับเข้าศึกษา"
+        ]
+      }
+    ],
+    "alacarteHeading": "บริการแยกรายการ",
+    "alacarteSub": "บริการแต่ละรายการที่สามารถใช้ได้โดยไม่ต้องซื้อแพ็คเกจ",
+    "alacarteTable": {
+      "service": "บริการ",
+      "usd": "USD",
+      "krw": "KRW"
+    },
+    "alacarte": [
+      {
+        "service": "เซสชันให้คำปรึกษารายชั่วโมง",
+        "usd": "$150",
+        "krw": "₩202,500"
+      },
+      {
+        "service": "ตรวจแก้ Essay 1 ชิ้น",
+        "usd": "$200",
+        "krw": "₩270,000"
+      },
+      {
+        "service": "ตรวจสอบใบสมัครทั้งหมด",
+        "usd": "$300",
+        "krw": "₩405,000"
+      },
+      {
+        "service": "เตรียมสัมภาษณ์ (3 เซสชัน)",
+        "usd": "$350",
+        "krw": "₩472,500"
+      },
+      {
+        "service": "ปรึกษารายชื่อมหาวิทยาลัย (1 เซสชัน)",
+        "usd": "$100",
+        "krw": "₩135,000"
+      }
+    ],
+    "disclaimer": "Essay ทุกชิ้นเขียนโดยนักเรียนเอง — Kairos ให้คำแนะนำและ feedback เท่านั้น"
+  },
+  "methodology": {
+    "tag": "แนวทางของเรา",
+    "title": "Kairos หมายถึง<em style=\"color: rgba(201,168,76,0.85);\">ช่วงเวลาที่ใช่</em>",
+    "sub": "ที่ปรึกษาส่วนใหญ่มุ่งเน้นที่ใบสมัคร เรามุ่งเน้นที่ตัวนักเรียน ใบสมัครเป็นเพียงการแสดงออกของงานที่เราทำร่วมกัน",
+    "cards": [
+      {
+        "num": "01",
+        "title": "เรื่องราวก่อนเสมอ",
+        "desc": "ก่อนเปิด Common App เราใช้เวลาหลายเซสชันค้นหาว่าคุณเป็นใครจริงๆ — ค่านิยม, ประสบการณ์, รูปแบบการคิด essay ไม่ได้สร้างเรื่องราว เรื่องราวต่างหากที่สร้าง essay"
+      },
+      {
+        "num": "02",
+        "title": "ความแม่นยำเชิงกลยุทธ์",
+        "desc": "ED, ED2, EA, RD — timing คือทุกอย่าง การเลือกมหาวิทยาลัย, สาขาวิชา, รอบสมัคร, การวางตำแหน่ง essay ทุกการตัดสินใจทำขึ้นโดยคำนึงถึงโปรไฟล์เฉพาะของคุณ ไม่มีรายการสำเร็จรูป"
+      },
+      {
+        "num": "03",
+        "title": "รักษาเสียงของคุณ",
+        "desc": "เราไม่เขียน essay แม้แต่คำเดียวแทนคุณ เราให้คำปรึกษา, ตั้งคำถาม และปรับปรุง — แต่ทุกประโยคเป็นของคุณ Admissions officers สามารถตรวจพบ essay ที่เขียนแทน ความแท้จริงคือข้อได้เปรียบสูงสุด"
+      },
+      {
+        "num": "04",
+        "title": "ความเข้าใจข้ามวัฒนธรรม",
+        "desc": "เราเข้าใจนักเรียนนานาชาติ — ไม่ว่าจะอยู่ที่โรงเรียน IB ในสิงคโปร์, Boarding School ในสหราชอาณาจักร หรือโรงเรียนนานาชาติในกรุงเทพฯ เราแปลประสบการณ์ของคุณให้มหาวิทยาลัยชั้นนำตอบสนอง"
+      }
+    ]
+  },
+  "about": {
+    "name": "Ron Kim",
+    "role": "ผู้ก่อตั้ง Kairos Education",
+    "credentials": [
+      "University of Illinois (สังคมวิทยา & อาชญาวิทยา)"
+    ],
+    "tag": "เกี่ยวกับเรา",
+    "title": "สร้างจากผลงานจริง<br /><em>ไม่ใช่ชื่อแบรนด์</em>",
+    "blocks": []
+  },
+  "contact": {
+    "tag": "ติดต่อ",
+    "title": "เริ่มต้น<br />การเดินทาง Kairos",
+    "sub": "การปรึกษาครั้งแรกฟรี เราจะพูดคุยเกี่ยวกับเป้าหมาย โปรไฟล์ปัจจุบัน และว่า Kairos เหมาะกับคุณหรือไม่ ไม่มีแรงกดดัน ไม่มีการขาย — แค่การพูดคุยตรงไปตรงมา",
+    "emailLabel": "Email",
+    "kakaoLabel": "KakaoTalk Channel",
+    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">เพิ่มช่องทาง →</a>",
+    "locationLabel": "Based in",
+    "location": "โซล, เกาหลีใต้ · ดูแลนักเรียนใน 10+ ประเทศ",
+    "form": {
+      "nameLabel": "ชื่อนักเรียน",
+      "namePlaceholder": "ชื่อของคุณ",
+      "gradeLabel": "ชื่อนักเรียน",
+      "emailLabel": "ชื่อนักเรียน",
+      "emailPlaceholder": "อีเมลของคุณ",
+      "universitiesLabel": "ชื่อนักเรียน",
+      "universitiesPlaceholder": "เช่น Harvard, Stanford, MIT...",
+      "messageLabel": "ชื่อนักเรียน",
+      "messagePlaceholder": "ตอนนี้อยู่ในขั้นตอนไหน? อยากบรรลุอะไร? เรื่องราวพิเศษของนักเรียนคืออะไร?",
+      "submit": "ส่งข้อความ →",
+      "grades": [
+        "ม.4 (Grade 10)",
+        "ม.5 (Grade 11)",
+        "ม.6 (Grade 12)",
+        "Gap Year",
+        "อื่นๆ"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "ที่ปรึกษาการสมัครมหาวิทยาลัยอิสระชั้นนำสำหรับนักเรียนที่ปฏิเสธความธรรมดา",
+    "navigateHeading": "เมนู",
+    "admitsHeading": "เมนู",
+    "nav": [
+      {
+        "href": "#results",
+        "text": "ผลงาน"
+      }
+    ],
+    "admits": [],
+    "copyright": "© 2026 Kairos Education. All rights reserved.",
+    "meta": "โซล, เกาหลีใต้ · Worldwide · Ronkim2015@gmail.com"
+  }
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title }}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="/assets/origin-site.css" />
+  <style>body { font-family: sans-serif; } body.i18n-loading { visibility: hidden; }</style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-logo" style="text-decoration:none;color:inherit">Kairos<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#results" id="mount-nav-results">{{ nav.results }}</a></li>
+      <li><a href="#services" id="mount-nav-services">{{ nav.services }}</a></li>
+      <li><a href="#methodology" id="mount-nav-methodology">{{ nav.methodology }}</a></li>
+      <li><a href="#about" id="mount-nav-about">{{ nav.about }}</a></li>
+    </ul>
+    <div id="mount-lang-switcher" style="display:flex; align-items:center; gap:8px;">
+      {% for link in langLinks %}
+      <a href="#" data-switch-lang="{{ link.code }}" style="color:rgba(255,255,255,0.5);text-decoration:none;font-size:12px;border:1px solid rgba(255,255,255,0.2);padding:5px 10px;border-radius:4px;transition:all 0.2s" onmouseover="this.style.color='#C9A84C';this.style.borderColor='#C9A84C'" onmouseout="this.style.color='rgba(255,255,255,0.5)';this.style.borderColor='rgba(255,255,255,0.2)'">{{ link.label }}</a>
+      {% endfor %}
+      <a href="#contact" class="nav-cta" id="mount-nav-cta">{{ nav.cta }}</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge" id="mount-hero-badge">{{ hero.badge }}</div>
+      <h1 id="mount-hero-h1">{{{ hero.h1 }}}</h1>
+      <p id="mount-hero-sub">{{ hero.sub }}</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary" id="mount-hero-primary">{{ hero.primaryCta }}</a>
+        <a href="#results" class="btn-secondary" id="mount-hero-secondary">{{ hero.secondaryCta }}</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-banner" id="mount-stats">
+    {% for stat in stats %}
+    <div class="stat-item">
+      <span class="stat-number">{{ stat.number }}</span>
+      <span class="stat-label">{{{ stat.label }}}</span>
+    </div>
+    {% endfor %}
+  </div>
+
+  <section class="results" id="results">
+    <div class="section-tag" id="mount-results-tag">{{ results.tag }}</div>
+    <h2 class="section-title" id="mount-results-title">{{{ results.title }}}</h2>
+    <p class="section-sub" id="mount-results-sub">{{ results.sub }}</p>
+    <div id="mount-results-tiers">
+    {% for tierGroup in results.tiers %}
+    <p class="tier-label">{{ tierGroup.label }}</p>
+    <div class="results-grid" style="margin-bottom: 40px;">
+      {% for uni in tierGroup.universities %}
+      <div class="uni-card">
+        <div class="uni-tier">
+          {% if uni.intl %}
+          <div class="tier-dot" style="background:#6B7280"></div>
+          {% else %}
+          <div class="tier-dot tier-{{ uni.tier }}"></div>
+          {% endif %}
+        </div>
+        <div class="uni-name">{{ uni.name }}</div>
+        <div class="uni-detail">{{ uni.detail }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+    </div>
+    <p style="font-size: 13px; color: var(--text-muted);" id="mount-results-legend">{{ results.legend }}</p>
+  </section>
+
+  <section id="services">
+    <div class="section-tag" id="mount-services-tag">{{ services.tag }}</div>
+    <h2 class="section-title" id="mount-services-title">{{{ services.title }}}</h2>
+    <p class="section-sub" id="mount-services-sub">{{ services.sub }}</p>
+    <div class="packages-grid" id="mount-packages">
+      {% for pkg in services.packages %}
+      <div class="package-card{% if pkg.featured %} featured{% endif %}">
+        {% if pkg.badge %}<div class="package-badge">{{ pkg.badge }}</div>{% endif %}
+        <div class="package-name">{{ pkg.name }}</div>
+        <div class="package-schools">{{ pkg.schools }}</div>
+        <div class="package-price">{{ pkg.price }}</div>
+        <div class="package-max">{{ pkg.max }}</div>
+        <ul class="package-features">
+          {% for feature in pkg.features %}
+          <li>{{ feature }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+    <h3 class="alc-heading" id="mount-alc-heading">{{ services.alacarteHeading }}</h3>
+    <p class="alc-sub" id="mount-alc-sub">{{ services.alacarteSub }}</p>
+    <table class="alc-table">
+      <thead>
+        <tr>
+          <th id="mount-alc-th-service">{{ services.alacarteTable.service }}</th>
+          <th id="mount-alc-th-usd">{{ services.alacarteTable.usd }}</th>
+          <th id="mount-alc-th-krw">{{ services.alacarteTable.krw }}</th>
+        </tr>
+      </thead>
+      <tbody id="mount-alacarte">
+        {% for row in services.alacarte %}
+        <tr><td>{{ row.service }}</td><td>{{ row.usd }}</td><td>{{ row.krw }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <p style="font-size: 13px; color: var(--text-muted); margin-top: 32px; text-align: center;" id="mount-services-disclaimer">{{ services.disclaimer }}</p>
+  </section>
+
+  <section class="method" id="methodology">
+    <div class="section-tag" style="color: var(--gold);" id="mount-method-tag">{{ methodology.tag }}</div>
+    <h2 class="section-title" id="mount-method-title">{{{ methodology.title }}}</h2>
+    <p class="section-sub" id="mount-method-sub">{{ methodology.sub }}</p>
+    <div class="method-grid" id="mount-method-cards">
+      {% for card in methodology.cards %}
+      <div class="method-card">
+        <div class="method-num">{{ card.num }}</div>
+        <div class="method-title">{{ card.title }}</div>
+        <div class="method-desc">{{ card.desc }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-inner">
+      <div class="about-image-block">
+        <div class="about-initial">RK</div>
+        <div class="about-name-block">
+          <div class="about-divider"></div>
+          <div class="about-name" id="mount-about-name">{{ about.name }}</div>
+          <div class="about-title" id="mount-about-role">{{ about.role }}</div>
+        </div>
+        <ul class="credentials" id="mount-credentials">
+          {% for cred in about.credentials %}
+          <li>{{ cred }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="about-content">
+        <div class="section-tag" id="mount-about-tag">{{ about.tag }}</div>
+        <h2 class="section-title" id="mount-about-title">{{{ about.title }}}</h2>
+        <div id="mount-about-blocks">
+        {% for block in about.blocks %}
+        {% if block.isP %}
+        <p>{{{ block.html }}}</p>
+        {% else %}
+        <div class="about-quote">
+          <p>{{ block.text }}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="contact-info">
+        <div class="section-tag" id="mount-contact-tag">{{ contact.tag }}</div>
+        <h2 id="mount-contact-title">{{{ contact.title }}}</h2>
+        <p id="mount-contact-sub">{{ contact.sub }}</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div class="contact-text">
+              <strong id="mount-email-label">{{ contact.emailLabel }}</strong>
+              <span>Ronkim2015@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💬</div>
+            <div class="contact-text">
+              <strong id="mount-kakao-label">{{ contact.kakaoLabel }}</strong>
+              <span id="mount-kakao-html">{{{ contact.kakaoLinkHtml }}}</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-text">
+              <strong id="mount-location-label">{{ contact.locationLabel }}</strong>
+              <span id="mount-location">{{ contact.location }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mount-forms">
+        {{ netlifyFormsHtml }}
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="nav-logo">Kairos<span style="color:var(--gold)">.</span></span>
+        <p id="mount-footer-tagline">{{ footer.tagline }}</p>
+      </div>
+      <div class="footer-links">
+        <h4 id="mount-footer-nav-heading">{{ footer.navigateHeading }}</h4>
+        <ul id="mount-footer-nav">
+          {% for item in footer.nav %}
+          <li><a href="{{ item.href }}">{{ item.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4 id="mount-footer-admits-heading">{{ footer.admitsHeading }}</h4>
+        <ul id="mount-footer-admits">
+          {% for item in footer.admits %}
+          <li><a href="{{ item.href }}">{{ item.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p id="mount-footer-copyright">{{ footer.copyright }}</p>
+      <p id="mount-footer-meta">{{ footer.meta }}</p>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/origin-locale.js"></script>
+</body>
+</html>

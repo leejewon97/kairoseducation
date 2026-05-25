@@ -1,0 +1,497 @@
+{
+  "code": "en",
+  "lang": "en",
+  "title": "Kairos Education | Elite College Consulting",
+  "formName": "contact",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
+  "fontFamily": "'Inter', sans-serif",
+  "langLinks": [
+    {
+      "code": "ko",
+      "href": "/ko/",
+      "label": "한국어"
+    },
+    {
+      "code": "zh",
+      "href": "/zh/",
+      "label": "中文"
+    },
+    {
+      "code": "th",
+      "href": "/th/",
+      "label": "ภาษาไทย"
+    }
+  ],
+  "nav": {
+    "results": "Results",
+    "services": "Services",
+    "methodology": "Approach",
+    "about": "About",
+    "cta": "Book Consultation"
+  },
+  "hero": {
+    "badge": "Elite College Consulting · Worldwide",
+    "h1": "The right student,<br />\r\n        at the <em>right school,</em><br />\r\n        at the right moment.",
+    "sub": "Independent college counseling for ambitious students worldwide — Korea, Singapore, the US, Europe, and beyond. Targeting Harvard, Yale, Stanford, and the world's most selective universities. Built on real results, not templates.",
+    "primaryCta": "Book a Free Consultation",
+    "secondaryCta": "View Our Results"
+  },
+  "stats": [
+    {
+      "number": "Harvard",
+      "label": "Ivy League admits include<br />Harvard, Yale, Columbia"
+    },
+    {
+      "number": "30+",
+      "label": "Top 40 university<br />placements"
+    },
+    {
+      "number": "8",
+      "label": "Ivy League admits<br />across all cycles"
+    },
+    {
+      "number": "100%",
+      "label": "Student-written essays.<br />No ghostwriting, ever."
+    }
+  ],
+  "results": {
+    "tag": "Track Record",
+    "title": "Our students get in.",
+    "sub": "Kairos students come from Korea, Singapore, the US, Jordan, Ethiopia, the UK, and beyond. They've been admitted to the world's most selective universities — from Ivy League schools to top programs in engineering, film, science, and the arts.",
+    "tiers": [
+      {
+        "label": "Ivy League & Top 10",
+        "tier": 1,
+        "universities": [
+          {
+            "name": "Harvard",
+            "detail": "Environmental Science & Public Policy",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Yale",
+            "detail": "Film & Media Studies",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Columbia",
+            "detail": "Economics & Philosophy",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "UPenn",
+            "detail": "Wharton — Business (ED1)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Dartmouth",
+            "detail": "International Relations (ED1)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Cornell",
+            "detail": "Admitted × 3 students",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Brown",
+            "detail": "East Asian Studies (ED)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "UChicago",
+            "detail": "Climate & Sustainability (Transfer)",
+            "tier": 1,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "Top 11–25",
+        "tier": 2,
+        "universities": [
+          {
+            "name": "Duke",
+            "detail": "Biomedical Eng. (ED) + Full Merit Scholarship × 2",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Johns Hopkins",
+            "detail": "Admitted × 2 students",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Northwestern",
+            "detail": "Biomedical Engineering + multiple admits",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Carnegie Mellon",
+            "detail": "Engineering (ED) · Music & Technology",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "WashU St. Louis",
+            "detail": "Admitted × 3 students (ED)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Vanderbilt",
+            "detail": "Engineering (ED2)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "UC Berkeley",
+            "detail": "Admitted × 3 students",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Claremont McKenna",
+            "detail": "Admitted (ED)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "West Point",
+            "detail": "US Military Academy",
+            "tier": 2,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "Top 26–40 & Specialty",
+        "tier": 3,
+        "universities": [
+          {
+            "name": "Emory",
+            "detail": "Admitted × 4 students",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "NYU Stern",
+            "detail": "Business (ED) × 2 students",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "USC",
+            "detail": "School of Cinematic Arts (#1 Film)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Boston College",
+            "detail": "Admitted × 3 students (ED2)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Georgia Tech",
+            "detail": "Admitted × 2 students",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "University of Michigan",
+            "detail": "Admitted",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "UCLA",
+            "detail": "Admitted × 2 students",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Northeastern",
+            "detail": "Admitted × 3 students (ED)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Villanova",
+            "detail": "Enrolled",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "UW Madison",
+            "detail": "Admitted × 2 students",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Boston University",
+            "detail": "Admitted",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "RISD",
+            "detail": "#1 Art & Design School (Enrolled)",
+            "tier": 3,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "International",
+        "tier": 0,
+        "universities": [
+          {
+            "name": "UCL",
+            "detail": "University College London (UK)",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Univ. of Toronto",
+            "detail": "St. George Campus (Canada)",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Waseda University",
+            "detail": "Tokyo, Japan",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Olin College",
+            "detail": "Elite Engineering (80 admits/year)",
+            "tier": 0,
+            "intl": true
+          }
+        ]
+      }
+    ],
+    "legend": "● Top 10 &nbsp;&nbsp; ● Top 11–25 &nbsp;&nbsp; ● Top 26–40 &nbsp;&nbsp; · Results from classes of 2023–2027."
+  },
+  "services": {
+    "tag": "Services",
+    "title": "Choose your <em>package.</em>",
+    "sub": "Every student receives deeply personal, one-on-one attention regardless of where they are in the world. We work across time zones — and we never use templates. We build each application around who you actually are.",
+    "packages": [
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Foundation",
+        "schools": "Essay & Application Sprint | 5–7 months | 10 sessions",
+        "price": "$4,300",
+        "max": "₩5,805,000",
+        "features": [
+          "Personal Statement development (brainstorming → final draft)",
+          "Up to 4 supplemental essays (strategy + editing)",
+          "College list review & school fit analysis",
+          "Application timeline & checklist",
+          "Activities list refinement",
+          "Email support between sessions"
+        ]
+      },
+      {
+        "featured": true,
+        "badge": "Most Popular",
+        "name": "Kairos Scholar",
+        "schools": "Senior Year Comprehensive | 12 months | 22 sessions",
+        "price": "$7,000",
+        "max": "₩9,450,000",
+        "features": [
+          "Full school list strategy (reach / match / safety)",
+          "Personal Statement + unlimited supplemental essays",
+          "Extracurricular narrative & positioning",
+          "Application portal review (Common App / Coalition)",
+          "Interview preparation (2 mock sessions)",
+          "Financial aid & scholarship guidance",
+          "Waitlist & deferral strategy",
+          "Priority email & KakaoTalk support"
+        ]
+      },
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Prestige",
+        "schools": "Two-Year Strategic Partnership | 24 months | 40 sessions",
+        "price": "$12,800",
+        "max": "₩17,280,000",
+        "features": [
+          "Everything in Kairos Scholar",
+          "10th–11th grade academic & course planning",
+          "Extracurricular strategy & summer program selection",
+          "Research, competition & leadership positioning",
+          "Standardized test strategy (SAT / ACT / AP)",
+          "Dedicated KakaoTalk channel"
+        ]
+      },
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Legacy",
+        "schools": "Four-Year Transformational Partnership | 36–48 months | Unlimited sessions",
+        "price": "$19,500",
+        "max": "₩26,325,000",
+        "features": [
+          "Everything in Kairos Prestige",
+          "9th grade onboarding & long-term vision setting",
+          "Intellectual identity & passion project design",
+          "Mentor network introductions",
+          "Bi-annual family strategy meetings",
+          "Post-admission support"
+        ]
+      }
+    ],
+    "alacarteHeading": "À La Carte Services",
+    "alacarteSub": "Individual services available without a package commitment.",
+    "alacarteTable": {
+      "service": "Service",
+      "usd": "USD",
+      "krw": "KRW"
+    },
+    "alacarte": [
+      {
+        "service": "Hourly Consulting Session",
+        "usd": "$150",
+        "krw": "₩202,500"
+      },
+      {
+        "service": "Single Essay Review &amp; Edit",
+        "usd": "$200",
+        "krw": "₩270,000"
+      },
+      {
+        "service": "Full Application Review",
+        "usd": "$300",
+        "krw": "₩405,000"
+      },
+      {
+        "service": "Interview Prep (3 sessions)",
+        "usd": "$350",
+        "krw": "₩472,500"
+      },
+      {
+        "service": "School List Consultation (1 session)",
+        "usd": "$100",
+        "krw": "₩135,000"
+      }
+    ],
+    "disclaimer": "All essays are student-written — Kairos provides coaching and feedback only."
+  },
+  "methodology": {
+    "tag": "Our Approach",
+    "title": "Kairos means the <em style=\"color: rgba(201,168,76,0.85);\">right moment.</em>",
+    "sub": "Most consultants focus on the application. We focus on the student. The application is just the expression of the work we do together.",
+    "cards": [
+      {
+        "num": "01",
+        "title": "Story First",
+        "desc": "Before we open Common App, we spend sessions excavating who you actually are — your values, your experiences, your thinking patterns. The essay doesn't create the story. The story creates the essay."
+      },
+      {
+        "num": "02",
+        "title": "Strategic Precision",
+        "desc": "ED, ED2, EA, RD — timing is everything. School selection, major choice, application round, essay positioning: every decision is made with your specific profile in mind. No cookie-cutter lists."
+      },
+      {
+        "num": "03",
+        "title": "Voice Preservation",
+        "desc": "We never write a single word of your essay. We coach, challenge, and refine — but every sentence is yours. Admissions officers can detect a ghost-written essay. Authenticity is your greatest competitive advantage."
+      },
+      {
+        "num": "04",
+        "title": "Cultural Fluency",
+        "desc": "We understand international students — whether you're at an IB school in Singapore, a boarding school in the UK, or a private school in Seoul. We've worked with students from Korea, Jordan, Ethiopia, Singapore, the US, and more. We translate your experience into a language elite universities respond to."
+      }
+    ]
+  },
+  "about": {
+    "name": "Ron Kim",
+    "role": "Founder, Kairos Education",
+    "credentials": [
+      "University of Illinois (Sociology & Criminology)"
+    ],
+    "tag": "About",
+    "title": "Built on real results,<br /><em>not brand names.</em>",
+    "blocks": [
+      {
+        "isP": true,
+        "html": "I founded Kairos Education because I saw a gap: students who deserved elite outcomes\r\n          were getting generic strategies. Big consulting firms scale by selling templates.\r\n          I scale by <strong>knowing every student by name.</strong>"
+      },
+      {
+        "isP": true,
+        "html": "I graduated from an IB international school in Korea and went on to study Sociology and Criminology\r\n          at the University of Illinois Urbana-Champaign. I then spent years as a college consultant,\r\n          IB/AP instructor, and international school college counselor — working directly with students\r\n          from Korea, Singapore, Ethiopia, Jordan, the UK, and the US, guiding them to admissions at\r\n          Harvard, Yale, Columbia, UPenn, Dartmouth, Cornell, Duke, Johns Hopkins, and UChicago."
+      },
+      {
+        "isP": true,
+        "html": "\"The students I remember aren't the ones with the highest SAT scores.\r\n          They're the ones who found their real story — and had the courage to tell it.\""
+      },
+      {
+        "isP": true,
+        "html": "At Kairos, I work directly with every student. You will never be handed off to a junior coach.\r\n          The strategy, the essay feedback, the calls — that's me, every time."
+      }
+    ]
+  },
+  "contact": {
+    "tag": "Contact",
+    "title": "Start your<br />Kairos journey.",
+    "sub": "The first consultation is free. We'll talk about your goals, your current profile, and whether Kairos is the right fit. No pressure, no pitch — just an honest conversation.",
+    "emailLabel": "Email",
+    "kakaoLabel": "KakaoTalk Channel",
+    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">채널 추가하기 →</a>",
+    "locationLabel": "Based in",
+    "location": "Seoul, Korea · Working with students across 10+ countries",
+    "form": {
+      "nameLabel": "Student Name",
+      "namePlaceholder": "Your name",
+      "gradeLabel": "Student Name",
+      "emailLabel": "Student Name",
+      "emailPlaceholder": "you@email.com",
+      "universitiesLabel": "Student Name",
+      "universitiesPlaceholder": "e.g. Harvard, Stanford, MIT...",
+      "messageLabel": "Student Name",
+      "messagePlaceholder": "Where are you in the process? What are you hoping to achieve? What makes your story unique?",
+      "submit": "Send Message →",
+      "grades": [
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12",
+        "Gap Year"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "Elite independent college consulting for students who refuse to be average.",
+    "navigateHeading": "Navigate",
+    "admitsHeading": "Navigate",
+    "nav": [
+      {
+        "href": "#results",
+        "text": "Results"
+      }
+    ],
+    "admits": [
+      {
+        "href": "#results",
+        "text": "Harvard University"
+      }
+    ],
+    "copyright": "© 2026 Kairos Education. All rights reserved.",
+    "meta": "Seoul, Korea · Worldwide · Ronkim2015@gmail.com"
+  }
+}

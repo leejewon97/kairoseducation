@@ -1,0 +1,475 @@
+{
+  "code": "zh",
+  "lang": "zh-CN",
+  "title": "Kairos Education | 顶尖大学申请咨询",
+  "formName": "contact-zh",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
+  "fontFamily": "'Noto Sans SC', sans-serif",
+  "langLinks": [
+    {
+      "code": "en",
+      "href": "/en/",
+      "label": "English"
+    },
+    {
+      "code": "ko",
+      "href": "/ko/",
+      "label": "한국어"
+    },
+    {
+      "code": "th",
+      "href": "/th/",
+      "label": "ภาษาไทย"
+    }
+  ],
+  "nav": {
+    "results": "录取成绩",
+    "services": "服务",
+    "methodology": "方法论",
+    "about": "关于我们",
+    "cta": "预约咨询"
+  },
+  "hero": {
+    "badge": "精英大学申请咨询 · 全球服务",
+    "h1": "对的学生，<br />\r\n        <em>对的学校，</em><br />\r\n        对的时机。",
+    "sub": "面向全球雄心勃勃学生的独立大学申请咨询服务 — 中国、韩国、新加坡、泰国、美国、欧洲及其他地区。 目标是哈佛、耶鲁、斯坦福以及世界上最顶尖的大学。 用真实成绩说话，而非模板化方案。",
+    "primaryCta": "预约免费咨询",
+    "secondaryCta": "查看录取成绩"
+  },
+  "stats": [
+    {
+      "number": "Harvard",
+      "label": "常青藤录取成绩<br />含哈佛、耶鲁、哥大"
+    },
+    {
+      "number": "30+",
+      "label": "Top 40 名校<br />录取成绩"
+    },
+    {
+      "number": "8",
+      "label": "常青藤录取<br />（所有申请轮次）"
+    },
+    {
+      "number": "100%",
+      "label": "学生亲自撰写文书<br />绝不代笔"
+    }
+  ],
+  "results": {
+    "tag": "录取成绩",
+    "title": "我们的学生<em>成功录取</em>",
+    "sub": "Kairos 的学生来自中国、韩国、新加坡、泰国、美国、约旦、埃塞俄比亚、英国等地。 他们已被世界顶尖大学录取 — 从常青藤到工程、电影、科学和艺术领域的顶尖项目。",
+    "tiers": [
+      {
+        "label": "常青藤 & Top 10",
+        "tier": 1,
+        "universities": [
+          {
+            "name": "Harvard",
+            "detail": "环境科学与公共政策",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Yale",
+            "detail": "电影与媒体研究",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Columbia",
+            "detail": "经济学与哲学",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "UPenn",
+            "detail": "沃顿商学院 (ED1)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Dartmouth",
+            "detail": "国际关系 (ED1)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Cornell",
+            "detail": "录取 × 3 名学生",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Brown",
+            "detail": "东亚研究 (ED)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "UChicago",
+            "detail": "气候与可持续发展（转学）",
+            "tier": 1,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "Top 11–25",
+        "tier": 2,
+        "universities": [
+          {
+            "name": "Duke",
+            "detail": "生物医学工程 (ED) + 全额奖学金 × 2",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Johns Hopkins",
+            "detail": "录取 × 2 名",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Northwestern",
+            "detail": "生物医学工程 + 多人录取",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Carnegie Mellon",
+            "detail": "工程 (ED) · 音乐与技术",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "WashU St. Louis",
+            "detail": "录取 × 3 名 (ED)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Vanderbilt",
+            "detail": "工程 (ED2)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "UC Berkeley",
+            "detail": "录取 × 3 名",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Claremont McKenna",
+            "detail": "录取 (ED)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "West Point",
+            "detail": "美国陆军军官学校",
+            "tier": 2,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "Top 26–40 & 特殊专业",
+        "tier": 3,
+        "universities": [
+          {
+            "name": "Emory",
+            "detail": "录取 × 4 名",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "NYU Stern",
+            "detail": "商学院 (ED) × 2 名",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "USC",
+            "detail": "电影艺术学院（全美第一）",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Boston College",
+            "detail": "录取 × 3 名 (ED2)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Georgia Tech",
+            "detail": "录取 × 2 名",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "University of Michigan",
+            "detail": "录取",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "UCLA",
+            "detail": "录取 × 2 名",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Northeastern",
+            "detail": "录取 × 3 名 (ED)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Villanova",
+            "detail": "录取并注册",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "UW Madison",
+            "detail": "录取 × 2 名",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Boston University",
+            "detail": "录取",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "RISD",
+            "detail": "全美第一艺术设计学院",
+            "tier": 3,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "International",
+        "tier": 0,
+        "universities": [
+          {
+            "name": "UCL",
+            "detail": "伦敦大学学院（英国）",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Univ. of Toronto",
+            "detail": "圣乔治校区（加拿大）",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Waseda University",
+            "detail": "日本东京",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Olin College",
+            "detail": "精英工程学院（每年约80名录取）",
+            "tier": 0,
+            "intl": true
+          }
+        ]
+      }
+    ],
+    "legend": "● Top 10 &nbsp;&nbsp; ● Top 11–25 &nbsp;&nbsp; ● Top 26–40 &nbsp;&nbsp; · 2023–2027届录取成绩"
+  },
+  "services": {
+    "tag": "服务",
+    "title": "选择您的<em>服务方案</em>",
+    "sub": "无论您身处世界何处，每位学生都享受与首席顾问一对一的深度服务。 我们跨时区工作 — 从不使用模板，每份申请都围绕您真实的个人特点量身定制。",
+    "packages": [
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Foundation",
+        "schools": "文书与申请冲刺 | 5–7个月 | 10次课程",
+        "price": "$4,300",
+        "max": "₩5,805,000",
+        "features": [
+          "个人陈述开发（头脑风暴 → 终稿）",
+          "最多4篇补充文书（策略 + 编辑）",
+          "大学清单审核与学校匹配度分析",
+          "申请时间表与清单",
+          "活动列表优化",
+          "课程间电子邮件支持"
+        ]
+      },
+      {
+        "featured": true,
+        "badge": "最受欢迎",
+        "name": "Kairos Scholar",
+        "schools": "高三综合服务 | 12个月 | 22次课程",
+        "price": "$7,000",
+        "max": "₩9,450,000",
+        "features": [
+          "完整选校策略（冲刺 / 匹配 / 保底）",
+          "个人陈述 + 无限补充文书",
+          "课外活动叙事与定位",
+          "申请门户审核（Common App / Coalition）",
+          "面试准备（2次模拟面试）",
+          "经济援助与奖学金指导",
+          "候补名单与延期策略",
+          "优先电子邮件与 KakaoTalk 支持"
+        ]
+      },
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Prestige",
+        "schools": "两年战略合作 | 24个月 | 40次课程",
+        "price": "$12,800",
+        "max": "₩17,280,000",
+        "features": [
+          "包含 Kairos Scholar 全部内容",
+          "10–11年级学业与选课规划",
+          "课外活动策略与暑期项目选择",
+          "学术研究、竞赛与领导力定位",
+          "标准化考试策略（SAT / ACT / AP）",
+          "专属 KakaoTalk 频道"
+        ]
+      },
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Legacy",
+        "schools": "四年蜕变式合作 | 36–48个月 | 无限次课程",
+        "price": "$19,500",
+        "max": "₩26,325,000",
+        "features": [
+          "包含 Kairos Prestige 全部内容",
+          "9年级入学引导与长期愿景设定",
+          "学术身份认同与热情项目设计",
+          "导师网络推荐",
+          "每半年家庭战略会议",
+          "录取后持续支持"
+        ]
+      }
+    ],
+    "alacarteHeading": "单项服务",
+    "alacarteSub": "无需购买套餐即可使用的单项服务。",
+    "alacarteTable": {
+      "service": "服务项目",
+      "usd": "USD",
+      "krw": "KRW"
+    },
+    "alacarte": [
+      {
+        "service": "按小时咨询课程",
+        "usd": "$150",
+        "krw": "₩202,500"
+      },
+      {
+        "service": "单篇文书审阅与编辑",
+        "usd": "$200",
+        "krw": "₩270,000"
+      },
+      {
+        "service": "完整申请审查",
+        "usd": "$300",
+        "krw": "₩405,000"
+      },
+      {
+        "service": "面试准备（3次课程）",
+        "usd": "$350",
+        "krw": "₩472,500"
+      },
+      {
+        "service": "选校咨询（1次课程）",
+        "usd": "$100",
+        "krw": "₩135,000"
+      }
+    ],
+    "disclaimer": "所有文书均由学生亲自撰写 — Kairos 只提供指导和反馈。"
+  },
+  "methodology": {
+    "tag": "我们的方法",
+    "title": "Kairos 意味着<em style=\"color: rgba(201,168,76,0.85);\">最佳时机</em>",
+    "sub": "大多数顾问专注于申请材料本身。我们专注于学生这个人。 申请材料只是我们共同努力的成果体现。",
+    "cards": [
+      {
+        "num": "01",
+        "title": "故事优先",
+        "desc": "在打开 Common App 之前，我们用几次会话深入挖掘您真正是谁 — 您的价值观、经历、思维方式。不是文书创造故事，而是故事成就文书。"
+      },
+      {
+        "num": "02",
+        "title": "精准战略",
+        "desc": "ED、ED2、EA、RD — 时机就是一切。学校选择、专业方向、申请轮次、文书定位：每一个决策都针对您的具体背景量身制定，没有千篇一律的清单。"
+      },
+      {
+        "num": "03",
+        "title": "保留您的声音",
+        "desc": "我们不会替您写一个字。我们指导、质疑、打磨 — 但每一句话都是您自己的。招生官能识别代写文书。真实性是您最大的竞争优势。"
+      },
+      {
+        "num": "04",
+        "title": "跨文化理解",
+        "desc": "我们深刻理解国际学生 — 无论您在新加坡的IB学校、英国的寄宿学校，还是北京、上海的国际学校。我们帮您把自身经历转化为顶尖大学认可的语言。"
+      }
+    ]
+  },
+  "about": {
+    "name": "Ron Kim",
+    "role": "Kairos Education 创始人",
+    "credentials": [
+      "伊利诺伊大学（社会学与犯罪学）"
+    ],
+    "tag": "关于我们",
+    "title": "用真实成绩说话，<br /><em>而非品牌名气</em>",
+    "blocks": []
+  },
+  "contact": {
+    "tag": "联系我们",
+    "title": "开启您的<br />Kairos 之旅",
+    "sub": "首次咨询完全免费。我们将聊聊您的目标、当前背景，以及 Kairos 是否适合您。没有压力，没有推销 — 只是一次坦诚的对话。",
+    "emailLabel": "Email",
+    "kakaoLabel": "KakaoTalk Channel",
+    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">添加频道 →</a>",
+    "locationLabel": "Based in",
+    "location": "首尔，韩国 · 服务全球10+国家学生",
+    "form": {
+      "nameLabel": "学生姓名",
+      "namePlaceholder": "您的姓名",
+      "gradeLabel": "学生姓名",
+      "emailLabel": "学生姓名",
+      "emailPlaceholder": "您的邮箱地址",
+      "universitiesLabel": "学生姓名",
+      "universitiesPlaceholder": "例如：哈佛、斯坦福、MIT...",
+      "messageLabel": "学生姓名",
+      "messagePlaceholder": "您目前处于申请的哪个阶段？希望达成什么目标？您有什么独特的故事或背景？",
+      "submit": "发送消息 →",
+      "grades": [
+        "高一 (Grade 10)",
+        "高二 (Grade 11)",
+        "高三 (Grade 12)",
+        "Gap Year",
+        "其他"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "为拒绝平庸的学生提供的独立精英大学申请咨询服务。",
+    "navigateHeading": "导航",
+    "admitsHeading": "导航",
+    "nav": [
+      {
+        "href": "#results",
+        "text": "录取成绩"
+      }
+    ],
+    "admits": [],
+    "copyright": "© 2026 Kairos Education. 版权所有。",
+    "meta": "首尔，韩国 · 全球服务 · Ronkim2015@gmail.com"
+  }
+}

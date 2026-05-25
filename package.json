@@ -1,0 +1,9 @@
+{
+  "name": "kairoseducation",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-origin-plain.mjs",
+    "extract-locales": "node scripts/extract-locales-plain.mjs",
+    "rebuild": "node scripts/extract-locales-plain.mjs && node scripts/build-origin-plain.mjs"
+  }
+}

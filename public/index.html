@@ -21,33 +21,166 @@
       display: flex; align-items: center; justify-content: center;
       color: var(--white);
     }
-    .container { text-align: center; max-width: 600px; padding: 40px 20px; }
+    .container { text-align: center; max-width: 600px; padding: 40px 20px; width: 100%; }
     .logo { font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 600; margin-bottom: 8px; }
     .logo span { color: var(--gold); }
     .subtitle { color: rgba(255,255,255,0.5); font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 48px; }
-    .lang-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-    .lang-card {
-      display: block; padding: 28px 20px;
+    .step { display: none; }
+    .step.active { display: block; }
+    .lang-grid, .track-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .lang-card, .track-card {
+      display: block; padding: 28px 20px; width: 100%;
       background: rgba(255,255,255,0.04); border: 1px solid rgba(201,168,76,0.2);
       border-radius: 8px; text-decoration: none; color: var(--white);
-      transition: all 0.25s;
+      transition: all 0.25s; cursor: pointer; font-family: inherit; text-align: center;
     }
-    .lang-card:hover { background: rgba(201,168,76,0.1); border-color: var(--gold); transform: translateY(-2px); }
-    .lang-card .native { font-size: 22px; font-weight: 600; margin-bottom: 4px; }
-    .lang-card .label { font-size: 13px; color: rgba(255,255,255,0.5); }
+    button.lang-card { border: 1px solid rgba(201,168,76,0.2); }
+    .lang-card:hover, .track-card:hover { background: rgba(201,168,76,0.1); border-color: var(--gold); transform: translateY(-2px); }
+    .lang-card .native, .track-card .native { font-size: 22px; font-weight: 600; margin-bottom: 4px; }
+    .lang-card .label, .track-card .label { font-size: 13px; color: rgba(255,255,255,0.5); }
+    .track-grid { grid-template-columns: 1fr; max-width: 360px; margin: 0 auto; }
+    .back-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: none; border: none; color: rgba(255,255,255,0.45);
+      font-size: 13px; font-family: inherit; cursor: pointer; margin-bottom: 28px;
+      transition: color 0.2s;
+    }
+    .back-btn:hover { color: var(--gold); }
+    .lang-pill {
+      display: inline-block; font-size: 12px; color: var(--gold);
+      letter-spacing: 0.06em; margin-bottom: 12px;
+    }
     @media (max-width: 480px) { .lang-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="logo">Kairos<span>.</span></div>
-    <div class="subtitle">Select Your Language</div>
-    <div class="lang-grid">
-      <a href="/en/" class="lang-card"><div class="native">English</div><div class="label">English</div></a>
-      <a href="/ko/" class="lang-card"><div class="native">한국어</div><div class="label">Korean</div></a>
-      <a href="/zh/" class="lang-card"><div class="native">中文</div><div class="label">Chinese</div></a>
-      <a href="/th/" class="lang-card"><div class="native">ภาษาไทย</div><div class="label">Thai</div></a>
+
+    <div id="step-lang" class="step active">
+      <div class="subtitle">Select Your Language</div>
+      <div class="lang-grid">
+        <button type="button" class="lang-card" data-lang="en"><div class="native">English</div><div class="label">English</div></button>
+        <button type="button" class="lang-card" data-lang="ko"><div class="native">한국어</div><div class="label">Korean</div></button>
+        <button type="button" class="lang-card" data-lang="zh"><div class="native">中文</div><div class="label">Chinese</div></button>
+        <button type="button" class="lang-card" data-lang="th"><div class="native">ภาษาไทย</div><div class="label">Thai</div></button>
+      </div>
+    </div>
+
+    <div id="step-track" class="step">
+      <button type="button" class="back-btn" id="btn-back" aria-label="Back to language selection">← Back</button>
+      <div class="lang-pill" id="lang-pill"></div>
+      <div class="subtitle" id="track-subtitle">Choose Your Pathway</div>
+      <div class="track-grid">
+        <a href="/origin.html" class="track-card" id="track-origin">
+          <div class="native" id="label-us">Study in US</div>
+          <div class="label" id="sublabel-us">US college admissions consulting</div>
+        </a>
+        <a href="/study-korea.html" class="track-card" id="track-kr">
+          <div class="native" id="label-kr">Study in KR</div>
+          <div class="label" id="sublabel-kr">Study in Korea programs</div>
+        </a>
+      </div>
     </div>
   </div>
+
+  <script>
+    const originFontHref = {
+      en: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap',
+      ko: 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap',
+      zh: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap',
+      th: 'https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap'
+    };
+
+    function preloadOriginFont(code) {
+      const href = originFontHref[code];
+      if (!href) return;
+      let link = document.getElementById('origin-font-preload');
+      if (!link) {
+        link = document.createElement('link');
+        link.id = 'origin-font-preload';
+        link.rel = 'preload';
+        link.as = 'style';
+        document.head.appendChild(link);
+      }
+      link.href = href;
+    }
+
+    const copy = {
+      en: {
+        pill: 'English',
+        subtitle: 'Choose Your Pathway',
+        back: 'Back',
+        us: 'Study in US',
+        usSub: 'US college admissions consulting',
+        kr: 'Study in KR',
+        krSub: 'Korean universities & language programs',
+        originHref: '/origin.html',
+        krHref: '/study-korea.html'
+      },
+      ko: {
+        pill: '한국어',
+        subtitle: '진로를 선택하세요',
+        back: '뒤로',
+        us: '미국 유학',
+        usSub: '미국 대입 컨설팅',
+        kr: '한국 유학',
+        krSub: '한국 대학·어학연수 상담',
+        originHref: '/origin.html',
+        krHref: '/study-korea.html'
+      },
+      zh: {
+        pill: '中文',
+        subtitle: '选择您的方向',
+        back: '返回',
+        us: '赴美留学',
+        usSub: '美国大学申请咨询',
+        kr: '赴韩留学',
+        krSub: '韩国大学与语学院项目',
+        originHref: '/origin.html',
+        krHref: '/study-korea.html'
+      },
+      th: {
+        pill: 'ภาษาไทย',
+        subtitle: 'เลือกเส้นทางของคุณ',
+        back: 'กลับ',
+        us: 'เรียนต่อสหรัฐฯ',
+        usSub: 'ที่ปรึกษาเข้ามหาวิทยาลัยสหรัฐ',
+        kr: 'เรียนต่อเกาหลี',
+        krSub: 'มหาวิทยาลัยและภาษาเกาหลี',
+        originHref: '/origin.html',
+        krHref: '/study-korea.html'
+      }
+    };
+
+    const stepLang = document.getElementById('step-lang');
+    const stepTrack = document.getElementById('step-track');
+    let selectedLang = 'en';
+
+    document.querySelectorAll('.lang-card').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        selectedLang = btn.dataset.lang;
+        sessionStorage.setItem('kairos-lang', selectedLang);
+        preloadOriginFont(selectedLang);
+        const t = copy[selectedLang];
+        document.getElementById('lang-pill').textContent = t.pill;
+        document.getElementById('track-subtitle').textContent = t.subtitle;
+        document.getElementById('btn-back').textContent = '← ' + t.back;
+        document.getElementById('label-us').textContent = t.us;
+        document.getElementById('sublabel-us').textContent = t.usSub;
+        document.getElementById('label-kr').textContent = t.kr;
+        document.getElementById('sublabel-kr').textContent = t.krSub;
+        document.getElementById('track-origin').href = t.originHref;
+        document.getElementById('track-kr').href = t.krHref;
+        stepLang.classList.remove('active');
+        stepTrack.classList.add('active');
+      });
+    });
+
+    document.getElementById('btn-back').addEventListener('click', () => {
+      stepTrack.classList.remove('active');
+      stepLang.classList.add('active');
+    });
+  </script>
 </body>
 </html>
