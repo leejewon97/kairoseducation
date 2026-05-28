@@ -78,6 +78,7 @@ fs.copyFileSync(
   path.join(root, 'src', 'assets', 'study-korea-locale.js'),
   path.join(root, 'public', 'assets', 'study-korea-locale.js')
 );
+fs.copyFileSync(path.join(root, 'src', 'assets', 'kairos_logo.png'), path.join(root, 'public', 'assets', 'kairos_logo.png'));
 
 for (const code of langs) {
   fs.copyFileSync(

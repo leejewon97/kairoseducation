@@ -22,8 +22,8 @@
       color: var(--white);
     }
     .container { text-align: center; max-width: 600px; padding: 40px 20px; width: 100%; }
-    .logo { font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 600; margin-bottom: 8px; }
-    .logo span { color: var(--gold); }
+    .logo { margin-bottom: 18px; display:flex; justify-content:center; }
+    .logo img { height: 64px; width: auto; display:block; }
     .subtitle { color: rgba(255,255,255,0.5); font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 48px; }
     .step { display: none; }
     .step.active { display: block; }
@@ -55,7 +55,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="logo">Kairos<span>.</span></div>
+    <div class="logo"><img src="/assets/kairos_logo.png" alt="Kairos" /></div>
 
     <div id="step-lang" class="step active">
       <div class="subtitle">Select Your Language</div>

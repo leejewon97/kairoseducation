@@ -38,6 +38,7 @@
       color: var(--white); letter-spacing: 0.02em;
     }
     .nav-logo span { color: var(--gold); }
+    .nav-logo img.site-logo { height: 34px; width: auto; display: block; }
     .nav-links { display: flex; gap: 36px; list-style: none; }
     .nav-links a {
       color: rgba(255,255,255,0.75); text-decoration: none;

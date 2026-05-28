@@ -12,7 +12,9 @@
 <body>
 
 <nav>
-  <a href="/" class="nav-logo">Kairos<span>.</span></a>
+  <a href="/" class="nav-logo" aria-label="Kairos">
+    <img src="/assets/kairos_logo.png" alt="Kairos" class="site-logo" />
+  </a>
   <ul class="nav-links">
     <li><a href="#pathways" id="mount-nav-pathways">{{ nav.pathways }}</a></li>
     <li><a href="#universities" id="mount-nav-universities">{{ nav.universities }}</a></li>
@@ -244,7 +246,9 @@
 <footer>
   <div class="footer-inner">
     <div class="footer-brand">
-      <a href="/" class="nav-logo" style="display:block;margin-bottom:12px;">Kairos<span style="color:var(--gold)">.</span></a>
+      <a href="/" class="nav-logo" style="display:block;margin-bottom:12px;" aria-label="Kairos">
+        <img src="/assets/kairos_logo.png" alt="Kairos" class="site-logo" />
+      </a>
       <p id="mount-footer-tagline">{{ footer.tagline }}</p>
     </div>
     <div class="footer-links">
