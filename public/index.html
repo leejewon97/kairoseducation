@@ -157,30 +157,39 @@
     const stepTrack = document.getElementById('step-track');
     let selectedLang = 'en';
 
+    function showTrackStep(lang) {
+      if (!copy[lang]) return;
+      selectedLang = lang;
+      sessionStorage.setItem('kairos-lang', selectedLang);
+      preloadOriginFont(selectedLang);
+      const t = copy[selectedLang];
+      document.getElementById('lang-pill').textContent = t.pill;
+      document.getElementById('track-subtitle').textContent = t.subtitle;
+      document.getElementById('btn-back').textContent = '← ' + t.back;
+      document.getElementById('label-us').textContent = t.us;
+      document.getElementById('sublabel-us').textContent = t.usSub;
+      document.getElementById('label-kr').textContent = t.kr;
+      document.getElementById('sublabel-kr').textContent = t.krSub;
+      document.getElementById('track-origin').href = t.originHref;
+      document.getElementById('track-kr').href = t.krHref;
+      stepLang.classList.remove('active');
+      stepTrack.classList.add('active');
+    }
+
     document.querySelectorAll('.lang-card').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        selectedLang = btn.dataset.lang;
-        sessionStorage.setItem('kairos-lang', selectedLang);
-        preloadOriginFont(selectedLang);
-        const t = copy[selectedLang];
-        document.getElementById('lang-pill').textContent = t.pill;
-        document.getElementById('track-subtitle').textContent = t.subtitle;
-        document.getElementById('btn-back').textContent = '← ' + t.back;
-        document.getElementById('label-us').textContent = t.us;
-        document.getElementById('sublabel-us').textContent = t.usSub;
-        document.getElementById('label-kr').textContent = t.kr;
-        document.getElementById('sublabel-kr').textContent = t.krSub;
-        document.getElementById('track-origin').href = t.originHref;
-        document.getElementById('track-kr').href = t.krHref;
-        stepLang.classList.remove('active');
-        stepTrack.classList.add('active');
-      });
+      btn.addEventListener('click', () => showTrackStep(btn.dataset.lang));
     });
 
     document.getElementById('btn-back').addEventListener('click', () => {
       stepTrack.classList.remove('active');
       stepLang.classList.add('active');
     });
+
+    const langParam = new URLSearchParams(window.location.search).get('lang');
+    if (langParam && copy[langParam]) {
+      showTrackStep(langParam);
+      history.replaceState(null, '', '/');
+    }
   </script>
 </body>
 </html>

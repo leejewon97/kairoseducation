@@ -1,51 +1,51 @@
 [build]
   publish = "public"
 
-# 예전 /en/, /ko/ … 북마크
+# 예전 /en/, /ko/ … → 홈에서 US / Study in KR 선택
 [[redirects]]
   from = "/en"
-  to = "/origin.html?lang=en"
+  to = "/?lang=en"
   status = 302
 
 [[redirects]]
-  from = "/en/"
-  to = "/origin.html?lang=en"
+  from = "/en/*"
+  to = "/?lang=en"
   status = 302
 
 [[redirects]]
   from = "/ko"
-  to = "/origin.html?lang=ko"
+  to = "/?lang=ko"
   status = 302
 
 [[redirects]]
-  from = "/ko/"
-  to = "/origin.html?lang=ko"
+  from = "/ko/*"
+  to = "/?lang=ko"
   status = 302
 
 [[redirects]]
   from = "/zh"
-  to = "/origin.html?lang=zh"
+  to = "/?lang=zh"
   status = 302
 
 [[redirects]]
-  from = "/zh/"
-  to = "/origin.html?lang=zh"
+  from = "/zh/*"
+  to = "/?lang=zh"
   status = 302
 
 [[redirects]]
   from = "/th"
-  to = "/origin.html?lang=th"
+  to = "/?lang=th"
   status = 302
 
 [[redirects]]
-  from = "/th/"
-  to = "/origin.html?lang=th"
+  from = "/th/*"
+  to = "/?lang=th"
   status = 302
 
 # 예전 /us.html 북마크
 [[redirects]]
   from = "/us.html"
-  to = "/origin.html"
+  to = "/"
   status = 301
 
 [[redirects]]
