@@ -24,7 +24,7 @@
   ],
   "nav": {
     "results": "Results",
-    "services": "Services",
+    "packages": "Packages",
     "methodology": "Approach",
     "about": "About",
     "cta": "Book Consultation"
@@ -33,7 +33,7 @@
     "badge": "Elite College Consulting · Worldwide",
     "h1": "The right student,<br />\r\n        at the <em>right school,</em><br />\r\n        at the right moment.",
     "sub": "Independent college counseling for ambitious students worldwide — Korea, Singapore, the US, Europe, and beyond. Targeting Harvard, Yale, Stanford, and the world's most selective universities. Built on real results, not templates.",
-    "primaryCta": "Book a Free Consultation",
+    "primaryCta": "View Packages",
     "secondaryCta": "View Our Results"
   },
   "stats": [
@@ -285,9 +285,10 @@
     "legend": "● Top 10 &nbsp;&nbsp; ● Top 11–25 &nbsp;&nbsp; ● Top 26–40 &nbsp;&nbsp; · Results from classes of 2023–2027."
   },
   "services": {
-    "tag": "Services",
+    "tag": "Services & Pricing",
     "title": "Choose your <em>package.</em>",
     "sub": "Every student receives deeply personal, one-on-one attention regardless of where they are in the world. We work across time zones — and we never use templates. We build each application around who you actually are.",
+    "packageCta": "Get Started",
     "packages": [
       {
         "featured": false,

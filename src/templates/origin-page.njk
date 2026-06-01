@@ -17,7 +17,7 @@
     </a>
     <ul class="nav-links">
       <li><a href="#results" id="mount-nav-results">{{ nav.results }}</a></li>
-      <li><a href="#services" id="mount-nav-services">{{ nav.services }}</a></li>
+      <li><a href="#packages" id="mount-nav-packages">{{ nav.packages }}</a></li>
       <li><a href="#methodology" id="mount-nav-methodology">{{ nav.methodology }}</a></li>
       <li><a href="#about" id="mount-nav-about">{{ nav.about }}</a></li>
     </ul>
@@ -33,7 +33,7 @@
       <h1 id="mount-hero-h1">{{{ hero.h1 }}}</h1>
       <p id="mount-hero-sub">{{ hero.sub }}</p>
       <div class="hero-actions">
-        <a href="#contact" class="btn-primary" id="mount-hero-primary">{{ hero.primaryCta }}</a>
+        <a href="#packages" class="btn-primary" id="mount-hero-primary">{{ hero.primaryCta }}</a>
         <a href="#results" class="btn-secondary" id="mount-hero-secondary">{{ hero.secondaryCta }}</a>
       </div>
     </div>
@@ -75,43 +75,55 @@
     <p style="font-size: 13px; color: var(--text-muted);" id="mount-results-legend">{{ results.legend }}</p>
   </section>
 
-  <section id="services">
+  <section class="packages-section" id="packages">
     <div class="section-tag" id="mount-services-tag">{{ services.tag }}</div>
     <h2 class="section-title" id="mount-services-title">{{{ services.title }}}</h2>
     <p class="section-sub" id="mount-services-sub">{{ services.sub }}</p>
-    <div class="packages-grid" id="mount-packages">
+    <div class="packages-row" id="mount-packages">
       {% for pkg in services.packages %}
-      <div class="package-card{% if pkg.featured %} featured{% endif %}">
-        {% if pkg.badge %}<div class="package-badge">{{ pkg.badge }}</div>{% endif %}
-        <div class="package-name">{{ pkg.name }}</div>
-        <div class="package-schools">{{ pkg.schools }}</div>
-        <div class="package-price">{{ pkg.price }}</div>
-        <div class="package-max">{{ pkg.max }}</div>
-        <ul class="package-features">
-          {% for feature in pkg.features %}
-          <li>{{ feature }}</li>
-          {% endfor %}
-        </ul>
+      <div class="pkg{% if pkg.featured %} featured{% endif %}">
+        <div class="pkg-tier">
+          <div>
+            <div class="pkg-roman">{{ pkg.roman }}</div>
+            <div class="pkg-name">{{ pkg.name }}</div>
+            <div class="pkg-subtitle">{{ pkg.schools }}</div>
+            {% if pkg.badge %}<div class="pkg-badge">{{ pkg.badge }}</div>{% endif %}
+          </div>
+        </div>
+        <div class="pkg-features-col">
+          <ul class="pkg-feat-list">
+            {% for feature in pkg.features %}
+            <li>{{ feature }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="pkg-price-col">
+          <div class="pkg-usd">{{ pkg.price }}</div>
+          <div class="pkg-krw">{{ pkg.max }}</div>
+          <a href="#contact" class="pkg-cta">{{ services.packageCta }}</a>
+        </div>
       </div>
       {% endfor %}
     </div>
-    <h3 class="alc-heading" id="mount-alc-heading">{{ services.alacarteHeading }}</h3>
-    <p class="alc-sub" id="mount-alc-sub">{{ services.alacarteSub }}</p>
-    <table class="alc-table">
-      <thead>
-        <tr>
-          <th id="mount-alc-th-service">{{ services.alacarteTable.service }}</th>
-          <th id="mount-alc-th-usd">{{ services.alacarteTable.usd }}</th>
-          <th id="mount-alc-th-krw">{{ services.alacarteTable.krw }}</th>
-        </tr>
-      </thead>
-      <tbody id="mount-alacarte">
-        {% for row in services.alacarte %}
-        <tr><td>{{ row.service }}</td><td>{{ row.usd }}</td><td>{{ row.krw }}</td></tr>
-        {% endfor %}
-      </tbody>
-    </table>
-    <p style="font-size: 13px; color: var(--text-muted); margin-top: 32px; text-align: center;" id="mount-services-disclaimer">{{ services.disclaimer }}</p>
+  </section>
+
+  <section class="origin-alacarte-section" id="alacarte">
+    <h2 class="section-title" id="mount-alc-title">{{ services.alacarteHeading }}</h2>
+    <p class="section-sub" id="mount-alc-sub">{{ services.alacarteSub }}</p>
+    <div class="alacarte-grid" id="mount-alacarte-grid">
+      {% for row in services.alacarte %}
+      <div class="alacarte-card">
+        <div>
+          <div class="alacarte-name">{{ row.service }}</div>
+        </div>
+        <div class="alacarte-price">
+          <div class="alacarte-usd">{{ row.usd }}</div>
+          <div class="alacarte-krw">{{ row.krw }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <p style="font-size:13px;color:var(--text-muted);margin-top:28px;text-align:center;" id="mount-services-disclaimer">{{ services.disclaimer }}</p>
   </section>
 
   <section class="method" id="methodology">

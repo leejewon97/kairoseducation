@@ -3,12 +3,20 @@ function get(obj, path) {
 }
 
 function esc(s) {
+  if (s == null) return '';
   return String(s)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
 }
+
+const PACKAGE_CTA_FALLBACK = {
+  en: 'Get Started',
+  ko: '시작하기',
+  zh: '立即开始',
+  th: 'เริ่มต้น',
+};
 
 function setHtml(sel, html) {
   const el = document.querySelector(sel);
@@ -53,27 +61,50 @@ function renderResults(tiers) {
     .join('');
 }
 
-function renderPackages(packages) {
+const PKG_ROMANS = ['I', 'II', 'III', 'IV'];
+
+function renderPackages(packages, packageCta) {
   return packages
-    .map((pkg) => {
+    .map((pkg, i) => {
       const featured = pkg.featured ? ' featured' : '';
-      const badge = pkg.badge ? `<div class="package-badge">${esc(pkg.badge)}</div>` : '';
+      const badge = pkg.badge ? `<div class="pkg-badge">${esc(pkg.badge)}</div>` : '';
       const features = pkg.features.map((f) => `<li>${esc(f)}</li>`).join('');
-      return `<div class="package-card${featured}">
-        ${badge}
-        <div class="package-name">${esc(pkg.name)}</div>
-        <div class="package-schools">${esc(pkg.schools)}</div>
-        <div class="package-price">${esc(pkg.price)}</div>
-        <div class="package-max">${esc(pkg.max)}</div>
-        <ul class="package-features">${features}</ul>
-      </div>`;
+      const roman = PKG_ROMANS[i] ?? '';
+      return `<div class="pkg${featured}">
+      <div class="pkg-tier">
+        <div>
+          <div class="pkg-roman">${roman}</div>
+          <div class="pkg-name">${esc(pkg.name)}</div>
+          <div class="pkg-subtitle">${esc(pkg.schools)}</div>
+          ${badge}
+        </div>
+      </div>
+      <div class="pkg-features-col">
+        <ul class="pkg-feat-list">${features}</ul>
+      </div>
+      <div class="pkg-price-col">
+        <div class="pkg-usd">${esc(pkg.price)}</div>
+        <div class="pkg-krw">${esc(pkg.max)}</div>
+        <a href="#contact" class="pkg-cta">${esc(packageCta)}</a>
+      </div>
+    </div>`;
     })
     .join('');
 }
 
 function renderAlacarte(rows) {
   return rows
-    .map((r) => `<tr><td>${esc(r.service)}</td><td>${esc(r.usd)}</td><td>${esc(r.krw)}</td></tr>`)
+    .map(
+      (r) => `<div class="alacarte-card">
+      <div>
+        <div class="alacarte-name">${esc(r.service)}</div>
+      </div>
+      <div class="alacarte-price">
+        <div class="alacarte-usd">${esc(r.usd)}</div>
+        <div class="alacarte-krw">${esc(r.krw)}</div>
+      </div>
+    </div>`
+    )
     .join('');
 }
 
@@ -157,7 +188,7 @@ export function applyLocale(data) {
   document.body.style.fontFamily = data.fontFamily;
 
   setText('#mount-nav-results', data.nav.results);
-  setText('#mount-nav-services', data.nav.services);
+  setText('#mount-nav-packages', data.nav.packages);
   setText('#mount-nav-methodology', data.nav.methodology);
   setText('#mount-nav-about', data.nav.about);
   document.getElementById('mount-lang-switcher').innerHTML = renderLangSwitcher(data.langLinks);
@@ -180,13 +211,15 @@ export function applyLocale(data) {
   setText('#mount-services-tag', data.services.tag);
   setHtml('#mount-services-title', data.services.title);
   setText('#mount-services-sub', data.services.sub);
-  document.getElementById('mount-packages').innerHTML = renderPackages(data.services.packages);
-  setText('#mount-alc-heading', data.services.alacarteHeading);
+  const packageCta =
+    data.services?.packageCta ?? PACKAGE_CTA_FALLBACK[data.lang] ?? PACKAGE_CTA_FALLBACK.en;
+  document.getElementById('mount-packages').innerHTML = renderPackages(
+    data.services.packages,
+    packageCta
+  );
+  setText('#mount-alc-title', data.services.alacarteHeading);
   setText('#mount-alc-sub', data.services.alacarteSub);
-  setText('#mount-alc-th-service', data.services.alacarteTable.service);
-  setText('#mount-alc-th-usd', data.services.alacarteTable.usd);
-  setText('#mount-alc-th-krw', data.services.alacarteTable.krw);
-  document.getElementById('mount-alacarte').innerHTML = renderAlacarte(data.services.alacarte);
+  document.getElementById('mount-alacarte-grid').innerHTML = renderAlacarte(data.services.alacarte);
   setText('#mount-services-disclaimer', data.services.disclaimer);
 
   setText('#mount-method-tag', data.methodology.tag);

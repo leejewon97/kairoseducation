@@ -42,10 +42,18 @@ function renderNetlifyForm(data) {
       </form>`;
 }
 
+const PKG_ROMANS = ['I', 'II', 'III', 'IV'];
 const en = JSON.parse(fs.readFileSync(path.join(root, 'locales', 'origin', 'en.json'), 'utf8'));
-const formsHtml = renderNetlifyForm(en);
+const enBuilt = {
+  ...en,
+  services: {
+    ...en.services,
+    packages: en.services.packages.map((p, i) => ({ ...p, roman: PKG_ROMANS[i] ?? '' })),
+  },
+};
+const formsHtml = renderNetlifyForm(enBuilt);
 
-const html = render(tpl, { ...en, netlifyFormsHtml: formsHtml });
+const html = render(tpl, { ...enBuilt, netlifyFormsHtml: formsHtml });
 
 fs.mkdirSync(path.join(root, 'public', 'assets'), { recursive: true });
 fs.mkdirSync(path.join(root, 'public', 'locales', 'origin'), { recursive: true });

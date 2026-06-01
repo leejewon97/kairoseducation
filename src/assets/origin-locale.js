@@ -41,11 +41,16 @@ function loadFontStylesheet(href) {
   });
 }
 
+let langLoadSeq = 0;
+
 async function setLang(code) {
+  const seq = ++langLoadSeq;
   document.body.classList.add('i18n-loading');
   try {
     const data = await loadLocale(code);
+    if (seq !== langLoadSeq) return;
     await loadFontStylesheet(data.fontsHref);
+    if (seq !== langLoadSeq) return;
     sessionStorage.setItem(STORAGE_KEY, code);
     applyLocale(data);
     if (window.history.replaceState) {
