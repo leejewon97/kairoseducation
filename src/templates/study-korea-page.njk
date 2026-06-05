@@ -163,27 +163,6 @@
   </div>
 </section>
 
-<section style="background:var(--off-white);padding:80px 5%;" id="alacarte">
-  <div class="section-tag" id="mount-alc-tag">{{ alacarte.tag }}</div>
-  <h2 class="section-title" id="mount-alc-title">{{{ alacarte.title }}}</h2>
-  <p class="section-sub" id="mount-alc-sub">{{ alacarte.sub }}</p>
-  <div class="alacarte-grid" id="mount-alacarte-grid">
-    {% for a in alacarte.items %}
-    <div class="alacarte-card">
-      <div>
-        <div class="alacarte-name">{{ a.name }}</div>
-        <div class="alacarte-desc">{{ a.desc }}</div>
-      </div>
-      <div class="alacarte-price">
-        <div class="alacarte-usd">{{ a.usd }}</div>
-        <div class="alacarte-krw">{{ a.krw }}</div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  <p style="font-size:13px;color:var(--text-muted);margin-top:28px;text-align:center;" id="mount-alc-disclaimer">{{ alacarte.disclaimer }}</p>
-</section>
-
 <section class="faq-section" id="faq">
   <div class="section-tag" id="mount-faq-tag">{{ faq.tag }}</div>
   <h2 class="section-title" id="mount-faq-title">{{{ faq.title }}}</h2>

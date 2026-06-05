@@ -114,23 +114,6 @@ function renderTermsList(items) {
   return items.map((t) => `<li>${esc(t)}</li>`).join('');
 }
 
-function renderAlacarte(items) {
-  return items
-    .map(
-      (a) => `<div class="alacarte-card">
-      <div>
-        <div class="alacarte-name">${esc(a.name)}</div>
-        <div class="alacarte-desc">${esc(a.desc)}</div>
-      </div>
-      <div class="alacarte-price">
-        <div class="alacarte-usd">${esc(a.usd)}</div>
-        <div class="alacarte-krw">${esc(a.krw)}</div>
-      </div>
-    </div>`
-    )
-    .join('');
-}
-
 function renderFaq(items) {
   return items
     .map(
@@ -268,12 +251,6 @@ export function applyLocale(data) {
   document.getElementById('mount-terms-promise').innerHTML = renderTermsList(
     data.packages.terms.promise.items
   );
-
-  setText('#mount-alc-tag', data.alacarte.tag);
-  setHtml('#mount-alc-title', data.alacarte.title);
-  setText('#mount-alc-sub', data.alacarte.sub);
-  document.getElementById('mount-alacarte-grid').innerHTML = renderAlacarte(data.alacarte.items);
-  setText('#mount-alc-disclaimer', data.alacarte.disclaimer);
 
   setText('#mount-faq-tag', data.faq.tag);
   setHtml('#mount-faq-title', data.faq.title);

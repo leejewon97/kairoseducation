@@ -223,20 +223,6 @@ section { padding:100px 5%; }
 .pkg.featured .pkg-cta { background:var(--gold); color:var(--navy); }
 .pkg.featured .pkg-cta:hover { background:var(--gold-light); }
 
-/* ── À LA CARTE ──────────────────────────────────── */
-.alacarte-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:16px; }
-.alacarte-card {
-  background:var(--off-white); border:1px solid var(--border); border-radius:8px;
-  padding:20px 24px; display:flex; justify-content:space-between; align-items:center;
-  transition:border-color 0.2s;
-}
-.alacarte-card:hover { border-color:var(--gold); }
-.alacarte-name { font-size:15px; font-weight:500; color:var(--text-dark); margin-bottom:3px; }
-.alacarte-desc { font-size:12px; color:var(--text-muted); }
-.alacarte-price { text-align:right; flex-shrink:0; margin-left:16px; }
-.alacarte-usd { font-family:'Playfair Display',serif; font-size:22px; font-weight:600; color:var(--text-dark); }
-.alacarte-krw { font-size:11px; color:var(--text-muted); margin-top:2px; }
-
 /* ── TERMS ───────────────────────────────────────── */
 .terms-grid { display:grid; grid-template-columns:1fr 1fr; gap:60px; }
 .terms-col h3 { font-family:'Playfair Display',serif; font-size:20px; font-weight:600; color:var(--text-dark); margin-bottom:20px; }

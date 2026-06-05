@@ -375,62 +375,6 @@
       }
     }
   },
-  "alacarte": {
-    "tag": "Dịch Vụ Lẻ",
-    "title": "Buổi học & dịch vụ <em>riêng lẻ.</em>",
-    "sub": "Chưa sẵn sàng cho gói đầy đủ? Bắt đầu với một buổi đơn lẻ. Mỗi dịch vụ lẻ là một buổi tập trung 60 phút nhắm vào một phần cụ thể trong hành trình du học Hàn Quốc của bạn.",
-    "items": [
-      {
-        "name": "Buổi Tư Vấn Theo Giờ",
-        "desc": "Bất kỳ chủ đề du học Hàn Quốc — 1-on-1 với Ron",
-        "usd": "$120",
-        "krw": "₩162,000"
-      },
-      {
-        "name": "Danh Sách Chương Trình & Trường Đại Học",
-        "desc": "1 buổi — tìm chương trình hoặc trung tâm ngôn ngữ lý tưởng",
-        "usd": "$80",
-        "krw": "₩108,000"
-      },
-      {
-        "name": "Xem Xét Hồ Sơ Visa D-4",
-        "desc": "Xem xét đầy đủ hồ sơ xin visa ngôn ngữ của bạn",
-        "usd": "$100",
-        "krw": "₩135,000"
-      },
-      {
-        "name": "Xem Xét Statement of Purpose",
-        "desc": "Phản hồi bằng văn bản chi tiết về bản nháp SOP của bạn",
-        "usd": "$150",
-        "krw": "₩202,500"
-      },
-      {
-        "name": "Xem Xét Hồ Sơ GKS",
-        "desc": "Xem xét toàn diện gói hồ sơ học bổng GKS của bạn",
-        "usd": "$250",
-        "krw": "₩337,500"
-      },
-      {
-        "name": "Buổi Chiến Lược TOPIK",
-        "desc": "Chiến lược thi, xác định cấp độ, kế hoạch học tập",
-        "usd": "$100",
-        "krw": "₩135,000"
-      },
-      {
-        "name": "Định Hướng Trước Khởi Hành",
-        "desc": "Nhà ở, ngân hàng, đăng ký, cuộc sống hàng ngày tại Hàn Quốc",
-        "usd": "$120",
-        "krw": "₩162,000"
-      },
-      {
-        "name": "Phỏng Vấn Thử (GKS / Tuyển Sinh)",
-        "desc": "Mô phỏng 60 phút + phân tích bằng văn bản",
-        "usd": "$150",
-        "krw": "₩202,500"
-      }
-    ],
-    "disclaimer": "KRW tính theo tỷ giá ₩1,350/USD · Có thể thay đổi theo tỷ giá hối đoái · Tất cả buổi học qua Zoom"
-  },
   "faq": {
     "tag": "Câu Hỏi Thường Gặp",
     "title": "Những câu hỏi <em>phổ biến.</em>",
@@ -527,10 +471,6 @@
       {
         "href": "#packages",
         "text": "Gói Dịch Vụ & Học Phí"
-      },
-      {
-        "href": "#alacarte",
-        "text": "Dịch Vụ Lẻ"
       },
       {
         "href": "#faq",

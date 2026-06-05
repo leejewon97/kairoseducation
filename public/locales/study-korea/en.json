@@ -375,62 +375,6 @@
       }
     }
   },
-  "alacarte": {
-    "tag": "À La Carte",
-    "title": "Individual <em>sessions & services.</em>",
-    "sub": "Not ready for a full package? Start with a single session. Each à la carte service is a focused, 60-minute engagement targeting one specific part of your Korea study journey.",
-    "items": [
-      {
-        "name": "Hourly Consulting Session",
-        "desc": "Any Korea study topic — 1-on-1 with Ron",
-        "usd": "$120",
-        "krw": "₩162,000"
-      },
-      {
-        "name": "Program & University List",
-        "desc": "1 session — find your ideal program or language center",
-        "usd": "$80",
-        "krw": "₩108,000"
-      },
-      {
-        "name": "D-4 Visa Document Review",
-        "desc": "Full review of your language visa application docs",
-        "usd": "$100",
-        "krw": "₩135,000"
-      },
-      {
-        "name": "Statement of Purpose Review",
-        "desc": "Detailed written feedback on your SOP draft",
-        "usd": "$150",
-        "krw": "₩202,500"
-      },
-      {
-        "name": "GKS Application Review",
-        "desc": "Complete review of your GKS scholarship package",
-        "usd": "$250",
-        "krw": "₩337,500"
-      },
-      {
-        "name": "TOPIK Strategy Session",
-        "desc": "Test strategy, level targeting, study plan",
-        "usd": "$100",
-        "krw": "₩135,000"
-      },
-      {
-        "name": "Pre-Departure Orientation",
-        "desc": "Housing, banking, registration, daily life in Korea",
-        "usd": "$120",
-        "krw": "₩162,000"
-      },
-      {
-        "name": "Mock Interview (GKS / Admissions)",
-        "desc": "60-min simulation + written debrief",
-        "usd": "$150",
-        "krw": "₩202,500"
-      }
-    ],
-    "disclaimer": "KRW calculated at ₩1,350/USD · Subject to exchange rate changes · All sessions via Zoom"
-  },
   "faq": {
     "tag": "FAQ",
     "title": "Common <em>questions.</em>",
@@ -527,10 +471,6 @@
       {
         "href": "#packages",
         "text": "Packages & Pricing"
-      },
-      {
-        "href": "#alacarte",
-        "text": "À La Carte Services"
       },
       {
         "href": "#faq",
