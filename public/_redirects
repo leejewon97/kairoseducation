@@ -1,3 +1,4 @@
+/favicon.ico    /assets/kairos_logo.png    200!
 /en    /?lang=en    302
 /en/*    /?lang=en    302
 /ko    /?lang=ko    302
@@ -6,6 +7,8 @@
 /zh/*    /?lang=zh    302
 /th    /?lang=th    302
 /th/*    /?lang=th    302
+/vi    /?lang=vi    302
+/vi/*    /?lang=vi    302
 /us.html    /    301
 /assets/us-site.css    /assets/origin-site.css    301
 /assets/us-locale.js    /assets/origin-locale.js    301
