@@ -49,7 +49,7 @@ npx --yes serve .
 
 연락 폼은 `data-netlify="true"`로 제출되며, 대시보드 **Forms**에도 쌓입니다.
 
-**이메일 알림:** 설정됨. 제출 시 `formresponses@netlify.com` → `Ronkim2015@gmail.com` 으로 발송 (2026-05 테스트: `/ko/` `contact-kr` 폼). 본문 필드: `name`, `grade`, `email`, `universities`, `message`.
+**이메일 알림:** 설정됨. 제출 시 `formresponses@netlify.com` → `ronkim@kairos-education.org` 으로 발송 (2026-05 테스트: `/ko/` `contact-kr` 폼). 본문 필드: `name`, `grade`, `email`, `universities`, `message`.
 
 사이트에 `/.netlify/functions/emails` Function이 배포되어 있을 수 있으나, 현재 HTML 폼은 Function이 아니라 **Netlify Forms** 경로를 사용합니다.
 
@@ -72,7 +72,7 @@ npx --yes serve .
 
 ### 공통 연락처 (4개 언어 페이지 동일)
 
-- 이메일: `Ronkim2015@gmail.com`
+- 이메일: `ronkim@kairos-education.org`
 - 카카오: `http://pf.kakao.com/_uWJKX`
 
 ---

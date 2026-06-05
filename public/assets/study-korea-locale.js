@@ -1,7 +1,7 @@
 import { applyLocale } from './study-korea-i18n.js';
 
 const STORAGE_KEY = 'kairos-lang';
-const SUPPORTED = ['en', 'ko', 'zh', 'th'];
+const SUPPORTED = ['en', 'ko', 'zh', 'th', 'vi'];
 
 function resolveLang() {
   const q = new URLSearchParams(window.location.search).get('lang');

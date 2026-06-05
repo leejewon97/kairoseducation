@@ -1,6 +1,13 @@
 [build]
   publish = "public"
 
+# 브라우저 기본 /favicon.ico 요청
+[[redirects]]
+  from = "/favicon.ico"
+  to = "/assets/kairos_logo.png"
+  status = 200
+  force = true
+
 # 예전 /en/, /ko/ … → 홈에서 US / Study in KR 선택
 [[redirects]]
   from = "/en"
@@ -40,6 +47,16 @@
 [[redirects]]
   from = "/th/*"
   to = "/?lang=th"
+  status = 302
+
+[[redirects]]
+  from = "/vi"
+  to = "/?lang=vi"
+  status = 302
+
+[[redirects]]
+  from = "/vi/*"
+  to = "/?lang=vi"
   status = 302
 
 # 예전 /us.html 북마크

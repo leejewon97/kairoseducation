@@ -7,9 +7,22 @@
   "fontsHref": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
   "fontFamily": "'Noto Sans KR', sans-serif",
   "langLinks": [
-    { "code": "en", "label": "English" },
-    { "code": "zh", "label": "中文" },
-    { "code": "th", "label": "ภาษาไทย" }
+    {
+      "code": "en",
+      "label": "English"
+    },
+    {
+      "code": "zh",
+      "label": "中文"
+    },
+    {
+      "code": "th",
+      "label": "ภาษาไทย"
+    },
+    {
+      "code": "vi",
+      "label": "Tiếng Việt"
+    }
   ],
   "nav": {
     "pathways": "유학 경로",
@@ -220,12 +233,24 @@
         "duration": "2~3개월 · 4회 세션",
         "tagline": "추천: 한국어 어학당 등록을 준비하는 학생",
         "features": [
-          { "text": "어학당 선정 (연세, 고려대, 서울대, 서강대, 이화)" },
-          { "text": "지원서 준비 및 서류 체크리스트" },
-          { "text": "D-4-1 비자 안내 및 요건 설명" },
-          { "text": "예치금 증명 및 재정 서류 전략" },
-          { "text": "출국 전 오리엔테이션 (주거, 교통, 등록)" },
-          { "text": "도착 후 30일 메시지 지원" }
+          {
+            "text": "어학당 선정 (연세, 고려대, 서울대, 서강대, 이화)"
+          },
+          {
+            "text": "지원서 준비 및 서류 체크리스트"
+          },
+          {
+            "text": "D-4-1 비자 안내 및 요건 설명"
+          },
+          {
+            "text": "예치금 증명 및 재정 서류 전략"
+          },
+          {
+            "text": "출국 전 오리엔테이션 (주거, 교통, 등록)"
+          },
+          {
+            "text": "도착 후 30일 메시지 지원"
+          }
         ],
         "usd": "$800",
         "krw": "₩1,080,000",
@@ -241,16 +266,38 @@
         "duration": "5~6개월 · 10회 세션",
         "tagline": "추천: 한국 학·석·박 과정 지원 학생",
         "features": [
-          { "text": "대학 단기 리스트 (전공, 언어, 예산, 명문도)", "highlight": true },
-          { "text": "자기소개서(SOP) 전 과정 코칭 — 브레인스토밍부터 최종본까지", "highlight": true },
-          { "text": "성적증명 검토 및 학업 프로필 전략" },
-          { "text": "추천서 전략 및 일정 관리" },
-          { "text": "TOPIK 목표 점수 설정 및 시험 전략" },
-          { "text": "D-2 유학 비자 안내 및 서류 준비" },
-          { "text": "면접 준비 (모의 면접 1회 + 피드백)" },
-          { "text": "지원 포털 검토 및 제출 체크리스트" },
-          { "text": "출국 전 오리엔테이션 포함" },
-          { "text": "전 기간 우선 메시지 지원" }
+          {
+            "text": "대학 단기 리스트 (전공, 언어, 예산, 명문도)",
+            "highlight": true
+          },
+          {
+            "text": "자기소개서(SOP) 전 과정 코칭 — 브레인스토밍부터 최종본까지",
+            "highlight": true
+          },
+          {
+            "text": "성적증명 검토 및 학업 프로필 전략"
+          },
+          {
+            "text": "추천서 전략 및 일정 관리"
+          },
+          {
+            "text": "TOPIK 목표 점수 설정 및 시험 전략"
+          },
+          {
+            "text": "D-2 유학 비자 안내 및 서류 준비"
+          },
+          {
+            "text": "면접 준비 (모의 면접 1회 + 피드백)"
+          },
+          {
+            "text": "지원 포털 검토 및 제출 체크리스트"
+          },
+          {
+            "text": "출국 전 오리엔테이션 포함"
+          },
+          {
+            "text": "전 기간 우선 메시지 지원"
+          }
         ],
         "usd": "$2,000",
         "krw": "₩2,700,000",
@@ -264,16 +311,38 @@
         "duration": "7~8개월 · 16회 세션",
         "tagline": "추천: 정부 전액 장학 GKS를 목표로 하는 학생",
         "features": [
-          { "text": "Passage 패키지 전체 포함", "highlight": true },
-          { "text": "GKS 자격 평가 및 트랙 선정", "highlight": true },
-          { "text": "대사관·대학 트랙 대학 선정" },
-          { "text": "장학금 지원서 작성 및 서류 준비" },
-          { "text": "GKS 자기소개서·연구계획서 코칭" },
-          { "text": "GKS 면접 준비 — 모의 면접 2회 + 서면 피드백" },
-          { "text": "대사관 지원 조율 및 일정 관리" },
-          { "text": "프로그램 시작 전 재정 계획" },
-          { "text": "실시간 지원 전용 카카오톡 채널" },
-          { "text": "합격 후 오리엔테이션 및 입국 계획" }
+          {
+            "text": "Passage 패키지 전체 포함",
+            "highlight": true
+          },
+          {
+            "text": "GKS 자격 평가 및 트랙 선정",
+            "highlight": true
+          },
+          {
+            "text": "대사관·대학 트랙 대학 선정"
+          },
+          {
+            "text": "장학금 지원서 작성 및 서류 준비"
+          },
+          {
+            "text": "GKS 자기소개서·연구계획서 코칭"
+          },
+          {
+            "text": "GKS 면접 준비 — 모의 면접 2회 + 서면 피드백"
+          },
+          {
+            "text": "대사관 지원 조율 및 일정 관리"
+          },
+          {
+            "text": "프로그램 시작 전 재정 계획"
+          },
+          {
+            "text": "실시간 지원 전용 카카오톡 채널"
+          },
+          {
+            "text": "합격 후 오리엔테이션 및 입국 계획"
+          }
         ],
         "usd": "$3,500",
         "krw": "₩4,725,000",
@@ -447,21 +516,51 @@
     "tagline": "평범함을 거부하는 학생을 위한 엘리트 컨설팅 — 미국, 한국, 그 너머까지.",
     "studyKoreaHeading": "Study Korea",
     "studyKorea": [
-      { "href": "#pathways", "text": "세 가지 유학 경로" },
-      { "href": "#universities", "text": "한국 대학" },
-      { "href": "#packages", "text": "패키지 & 요금" },
-      { "href": "#alacarte", "text": "개별 서비스" },
-      { "href": "#faq", "text": "FAQ" }
+      {
+        "href": "#pathways",
+        "text": "세 가지 유학 경로"
+      },
+      {
+        "href": "#universities",
+        "text": "한국 대학"
+      },
+      {
+        "href": "#packages",
+        "text": "패키지 & 요금"
+      },
+      {
+        "href": "#alacarte",
+        "text": "개별 서비스"
+      },
+      {
+        "href": "#faq",
+        "text": "FAQ"
+      }
     ],
     "kairosHeading": "Kairos",
     "kairos": [
-      { "href": "/", "text": "메인 사이트" },
-      { "href": "/origin.html#results", "text": "미국 입시 합격 실적" },
-      { "href": "/origin.html#packages", "text": "미국 입시 컨설팅" },
-      { "href": "#contact", "text": "무료 상담 예약" },
-      { "href": "mailto:Ronkim2015@gmail.com", "text": "Ronkim2015@gmail.com" }
+      {
+        "href": "/",
+        "text": "메인 사이트"
+      },
+      {
+        "href": "/origin.html#results",
+        "text": "미국 입시 합격 실적"
+      },
+      {
+        "href": "/origin.html#packages",
+        "text": "미국 입시 컨설팅"
+      },
+      {
+        "href": "#contact",
+        "text": "무료 상담 예약"
+      },
+      {
+        "href": "mailto:ronkim@kairos-education.org",
+        "text": "ronkim@kairos-education.org"
+      }
     ],
     "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:Ronkim2015@gmail.com\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">Ronkim2015@gmail.com</a>"
+    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   }
 }

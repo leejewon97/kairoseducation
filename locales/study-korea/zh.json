@@ -7,9 +7,22 @@
   "fontsHref": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
   "fontFamily": "'Noto Sans SC', sans-serif",
   "langLinks": [
-    { "code": "en", "label": "English" },
-    { "code": "ko", "label": "한국어" },
-    { "code": "th", "label": "ภาษาไทย" }
+    {
+      "code": "en",
+      "label": "English"
+    },
+    {
+      "code": "ko",
+      "label": "한국어"
+    },
+    {
+      "code": "th",
+      "label": "ภาษาไทย"
+    },
+    {
+      "code": "vi",
+      "label": "Tiếng Việt"
+    }
   ],
   "nav": {
     "pathways": "留学路径",
@@ -220,12 +233,24 @@
         "duration": "2–3个月 · 4次咨询",
         "tagline": "适合：准备报名韩国语学院的学生",
         "features": [
-          { "text": "语学院选择（延世、高丽大学、首尔大学、西江、梨花）" },
-          { "text": "申请准备与文件清单" },
-          { "text": "D-4-1签证指导与要求说明" },
-          { "text": "存款证明与财务文件策略" },
-          { "text": "行前指导（住房、交通、注册）" },
-          { "text": "抵达后30天消息支持" }
+          {
+            "text": "语学院选择（延世、高丽大学、首尔大学、西江、梨花）"
+          },
+          {
+            "text": "申请准备与文件清单"
+          },
+          {
+            "text": "D-4-1签证指导与要求说明"
+          },
+          {
+            "text": "存款证明与财务文件策略"
+          },
+          {
+            "text": "行前指导（住房、交通、注册）"
+          },
+          {
+            "text": "抵达后30天消息支持"
+          }
         ],
         "usd": "$800",
         "krw": "₩1,080,000",
@@ -241,16 +266,38 @@
         "duration": "5–6个月 · 10次咨询",
         "tagline": "适合：申请韩国本科或研究生项目的学生",
         "features": [
-          { "text": "大学短名单（专业、语言、预算、声誉）", "highlight": true },
-          { "text": "个人陈述(SOP)全程辅导——从构思到定稿", "highlight": true },
-          { "text": "成绩单审核与学术档案策略" },
-          { "text": "推荐信策略与时间规划" },
-          { "text": "TOPIK目标分数与考试策略" },
-          { "text": "D-2留学签证指导与文件准备" },
-          { "text": "面试准备（1次模拟面试+反馈）" },
-          { "text": "申请系统审核与提交清单" },
-          { "text": "含行前指导" },
-          { "text": "全程优先消息支持" }
+          {
+            "text": "大学短名单（专业、语言、预算、声誉）",
+            "highlight": true
+          },
+          {
+            "text": "个人陈述(SOP)全程辅导——从构思到定稿",
+            "highlight": true
+          },
+          {
+            "text": "成绩单审核与学术档案策略"
+          },
+          {
+            "text": "推荐信策略与时间规划"
+          },
+          {
+            "text": "TOPIK目标分数与考试策略"
+          },
+          {
+            "text": "D-2留学签证指导与文件准备"
+          },
+          {
+            "text": "面试准备（1次模拟面试+反馈）"
+          },
+          {
+            "text": "申请系统审核与提交清单"
+          },
+          {
+            "text": "含行前指导"
+          },
+          {
+            "text": "全程优先消息支持"
+          }
         ],
         "usd": "$2,000",
         "krw": "₩2,700,000",
@@ -264,16 +311,38 @@
         "duration": "7–8个月 · 16次咨询",
         "tagline": "适合：申请韩国政府全额GKS奖学金的学生",
         "features": [
-          { "text": "Passage套餐全部内容", "highlight": true },
-          { "text": "GKS资格评估与渠道选择", "highlight": true },
-          { "text": "使馆或大学渠道院校选择" },
-          { "text": "奖学金申请文书与文件准备" },
-          { "text": "GKS个人陈述与研究计划辅导" },
-          { "text": "GKS面试准备——2次模拟+书面反馈" },
-          { "text": "使馆申请协调与时间规划" },
-          { "text": "项目开始前财务规划" },
-          { "text": "专属KakaoTalk实时支持频道" },
-          { "text": "录取后指导与入境规划" }
+          {
+            "text": "Passage套餐全部内容",
+            "highlight": true
+          },
+          {
+            "text": "GKS资格评估与渠道选择",
+            "highlight": true
+          },
+          {
+            "text": "使馆或大学渠道院校选择"
+          },
+          {
+            "text": "奖学金申请文书与文件准备"
+          },
+          {
+            "text": "GKS个人陈述与研究计划辅导"
+          },
+          {
+            "text": "GKS面试准备——2次模拟+书面反馈"
+          },
+          {
+            "text": "使馆申请协调与时间规划"
+          },
+          {
+            "text": "项目开始前财务规划"
+          },
+          {
+            "text": "专属KakaoTalk实时支持频道"
+          },
+          {
+            "text": "录取后指导与入境规划"
+          }
         ],
         "usd": "$3,500",
         "krw": "₩4,725,000",
@@ -447,21 +516,51 @@
     "tagline": "为拒绝平庸的学生提供精英咨询——美国、韩国及更远。",
     "studyKoreaHeading": "Study Korea",
     "studyKorea": [
-      { "href": "#pathways", "text": "三条留学路径" },
-      { "href": "#universities", "text": "韩国大学" },
-      { "href": "#packages", "text": "套餐与定价" },
-      { "href": "#alacarte", "text": "单项服务" },
-      { "href": "#faq", "text": "常见问题" }
+      {
+        "href": "#pathways",
+        "text": "三条留学路径"
+      },
+      {
+        "href": "#universities",
+        "text": "韩国大学"
+      },
+      {
+        "href": "#packages",
+        "text": "套餐与定价"
+      },
+      {
+        "href": "#alacarte",
+        "text": "单项服务"
+      },
+      {
+        "href": "#faq",
+        "text": "常见问题"
+      }
     ],
     "kairosHeading": "Kairos",
     "kairos": [
-      { "href": "/", "text": "主站" },
-      { "href": "/origin.html#results", "text": "美国录取成果" },
-      { "href": "/origin.html#packages", "text": "美国咨询套餐" },
-      { "href": "#contact", "text": "预约免费咨询" },
-      { "href": "mailto:Ronkim2015@gmail.com", "text": "Ronkim2015@gmail.com" }
+      {
+        "href": "/",
+        "text": "主站"
+      },
+      {
+        "href": "/origin.html#results",
+        "text": "美国录取成果"
+      },
+      {
+        "href": "/origin.html#packages",
+        "text": "美国咨询套餐"
+      },
+      {
+        "href": "#contact",
+        "text": "预约免费咨询"
+      },
+      {
+        "href": "mailto:ronkim@kairos-education.org",
+        "text": "ronkim@kairos-education.org"
+      }
     ],
     "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:Ronkim2015@gmail.com\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">Ronkim2015@gmail.com</a>"
+    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   }
 }

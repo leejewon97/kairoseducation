@@ -1,0 +1,503 @@
+{
+  "code": "vi",
+  "lang": "vi",
+  "title": "Kairos Education | Tư Vấn Đại Học Hàng Đầu",
+  "formName": "contact",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
+  "fontFamily": "'Inter', sans-serif",
+  "langLinks": [
+    {
+      "code": "en",
+      "href": "/en/",
+      "label": "English"
+    },
+    {
+      "code": "ko",
+      "href": "/ko/",
+      "label": "한국어"
+    },
+    {
+      "code": "zh",
+      "href": "/zh/",
+      "label": "中文"
+    },
+    {
+      "code": "th",
+      "href": "/th/",
+      "label": "ภาษาไทย"
+    }
+  ],
+  "nav": {
+    "results": "Kết Quả",
+    "packages": "Gói Dịch Vụ",
+    "methodology": "Phương Pháp",
+    "about": "Về Chúng Tôi",
+    "cta": "Đặt Lịch Tư Vấn"
+  },
+  "hero": {
+    "badge": "Tư Vấn Đại Học Hàng Đầu · Toàn Cầu",
+    "h1": "Đúng học sinh,<br />\r\n        vào đúng <em>ngôi trường,</em><br />\r\n        vào đúng thời điểm.",
+    "sub": "Dịch vụ tư vấn đại học độc lập dành cho những học sinh đầy tham vọng trên toàn thế giới — Hàn Quốc, Singapore, Mỹ, châu Âu và hơn thế nữa. Hướng đến Harvard, Yale, Stanford và những trường đại học danh tiếng nhất thế giới. Xây dựng trên kết quả thực tế, không phải mẫu có sẵn.",
+    "primaryCta": "Xem Gói Dịch Vụ",
+    "secondaryCta": "Xem Kết Quả Của Chúng Tôi"
+  },
+  "stats": [
+    {
+      "number": "Harvard",
+      "label": "Ivy League bao gồm<br />Harvard, Yale, Columbia"
+    },
+    {
+      "number": "30+",
+      "label": "Học sinh vào được<br />Top 40 đại học"
+    },
+    {
+      "number": "8",
+      "label": "Học sinh đỗ vào<br />Ivy League"
+    },
+    {
+      "number": "100%",
+      "label": "Bài luận do học sinh tự viết.<br />Không ghostwriting."
+    }
+  ],
+  "results": {
+    "tag": "Thành Tích",
+    "title": "Học sinh của chúng tôi <em>đỗ đại học.</em>",
+    "sub": "Học sinh Kairos đến từ Hàn Quốc, Singapore, Mỹ, Jordan, Ethiopia, Anh và nhiều nơi khác. Họ đã được nhận vào những trường đại học danh giá nhất thế giới — từ Ivy League đến các chương trình hàng đầu về kỹ thuật, điện ảnh, khoa học và nghệ thuật.",
+    "tiers": [
+      {
+        "label": "Ivy League & Top 10",
+        "tier": 1,
+        "universities": [
+          {
+            "name": "Harvard",
+            "detail": "Khoa học Môi trường & Chính sách Công",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Yale",
+            "detail": "Điện ảnh & Truyền thông",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Columbia",
+            "detail": "Kinh tế & Triết học",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "UPenn",
+            "detail": "Wharton — Kinh doanh (ED1)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Dartmouth",
+            "detail": "Quan hệ Quốc tế (ED1)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Cornell",
+            "detail": "3 học sinh được nhận",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "Brown",
+            "detail": "Đông Á học (ED)",
+            "tier": 1,
+            "intl": false
+          },
+          {
+            "name": "UChicago",
+            "detail": "Khí hậu & Phát triển Bền vững (Chuyển tiếp)",
+            "tier": 1,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "Top 11–25",
+        "tier": 2,
+        "universities": [
+          {
+            "name": "Duke",
+            "detail": "Kỹ thuật Y sinh (ED) + Học bổng toàn phần × 2",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Johns Hopkins",
+            "detail": "2 học sinh được nhận",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Northwestern",
+            "detail": "Kỹ thuật Y sinh + nhiều học sinh khác",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Carnegie Mellon",
+            "detail": "Kỹ thuật (ED) · Âm nhạc & Công nghệ",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "WashU St. Louis",
+            "detail": "3 học sinh được nhận (ED)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Vanderbilt",
+            "detail": "Kỹ thuật (ED2)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "UC Berkeley",
+            "detail": "3 học sinh được nhận",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "Claremont McKenna",
+            "detail": "Được nhận (ED)",
+            "tier": 2,
+            "intl": false
+          },
+          {
+            "name": "West Point",
+            "detail": "Học viện Quân sự Hoa Kỳ",
+            "tier": 2,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "Top 26–40 & Chuyên ngành",
+        "tier": 3,
+        "universities": [
+          {
+            "name": "Emory",
+            "detail": "4 học sinh được nhận",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "NYU Stern",
+            "detail": "Kinh doanh (ED) × 2 học sinh",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "USC",
+            "detail": "Trường Điện ảnh (#1 về Phim)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Boston College",
+            "detail": "3 học sinh được nhận (ED2)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Georgia Tech",
+            "detail": "2 học sinh được nhận",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "University of Michigan",
+            "detail": "Được nhận",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "UCLA",
+            "detail": "2 học sinh được nhận",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Northeastern",
+            "detail": "3 học sinh được nhận (ED)",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Villanova",
+            "detail": "Đã nhập học",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "UW Madison",
+            "detail": "2 học sinh được nhận",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "Boston University",
+            "detail": "Được nhận",
+            "tier": 3,
+            "intl": false
+          },
+          {
+            "name": "RISD",
+            "detail": "Trường Nghệ thuật & Thiết kế #1 (Đã nhập học)",
+            "tier": 3,
+            "intl": false
+          }
+        ]
+      },
+      {
+        "label": "Quốc Tế",
+        "tier": 0,
+        "universities": [
+          {
+            "name": "UCL",
+            "detail": "University College London (Anh)",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Univ. of Toronto",
+            "detail": "Khuôn viên St. George (Canada)",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Waseda University",
+            "detail": "Tokyo, Nhật Bản",
+            "tier": 0,
+            "intl": true
+          },
+          {
+            "name": "Olin College",
+            "detail": "Kỹ thuật xuất sắc (80 suất/năm)",
+            "tier": 0,
+            "intl": true
+          }
+        ]
+      }
+    ],
+    "legend": "● Top 10 &nbsp;&nbsp; ● Top 11–25 &nbsp;&nbsp; ● Top 26–40 &nbsp;&nbsp; · Kết quả từ các khóa 2023–2027."
+  },
+  "services": {
+    "tag": "Dịch Vụ & Học Phí",
+    "title": "Chọn <em>gói dịch vụ</em> của bạn.",
+    "sub": "Mỗi học sinh đều nhận được sự hướng dẫn cá nhân hoá, một-một sâu sát dù ở bất cứ đâu trên thế giới. Chúng tôi làm việc xuyên múi giờ — và không bao giờ dùng mẫu có sẵn. Chúng tôi xây dựng từng hồ sơ dựa trên con người thực sự của bạn.",
+    "packageCta": "Bắt Đầu Ngay",
+    "packages": [
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Foundation",
+        "schools": "Sprint Bài Luận & Hồ Sơ | 5–7 tháng | 10 buổi",
+        "price": "$4,300",
+        "max": "₩5,805,000",
+        "features": [
+          "Phát triển Personal Statement (brainstorming → bản cuối)",
+          "Tối đa 4 bài luận bổ sung (chiến lược + chỉnh sửa)",
+          "Xem xét danh sách trường & phân tích phù hợp",
+          "Lịch trình nộp hồ sơ & checklist",
+          "Tinh chỉnh danh sách hoạt động",
+          "Hỗ trợ email giữa các buổi"
+        ]
+      },
+      {
+        "featured": true,
+        "badge": "Phổ Biến Nhất",
+        "name": "Kairos Scholar",
+        "schools": "Gói Toàn Diện Năm Cuối | 12 tháng | 22 buổi",
+        "price": "$7,000",
+        "max": "₩9,450,000",
+        "features": [
+          "Chiến lược danh sách trường (reach / match / safety)",
+          "Personal Statement + bài luận bổ sung không giới hạn",
+          "Định vị hoạt động ngoại khoá & câu chuyện cá nhân",
+          "Xem xét cổng nộp hồ sơ (Common App / Coalition)",
+          "Chuẩn bị phỏng vấn (2 buổi thử)",
+          "Hướng dẫn hỗ trợ tài chính & học bổng",
+          "Chiến lược waitlist & deferral",
+          "Hỗ trợ email & KakaoTalk ưu tiên"
+        ]
+      },
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Prestige",
+        "schools": "Đối tác Chiến lược 2 Năm | 24 tháng | 40 buổi",
+        "price": "$12,800",
+        "max": "₩17,280,000",
+        "features": [
+          "Tất cả nội dung gói Kairos Scholar",
+          "Lập kế hoạch học tập lớp 10–11",
+          "Chiến lược hoạt động ngoại khoá & chương trình hè",
+          "Định vị nghiên cứu, cuộc thi & lãnh đạo",
+          "Chiến lược thi chuẩn hoá (SAT / ACT / AP)",
+          "Kênh KakaoTalk riêng"
+        ]
+      },
+      {
+        "featured": false,
+        "badge": "",
+        "name": "Kairos Legacy",
+        "schools": "Đối tác Chuyển hoá 4 Năm | 36–48 tháng | Buổi học không giới hạn",
+        "price": "$19,500",
+        "max": "₩26,325,000",
+        "features": [
+          "Tất cả nội dung gói Kairos Prestige",
+          "Onboarding lớp 9 & thiết lập tầm nhìn dài hạn",
+          "Thiết kế bản sắc trí tuệ & dự án đam mê",
+          "Giới thiệu mạng lưới mentor",
+          "Họp chiến lược gia đình 2 lần/năm",
+          "Hỗ trợ sau khi nhận học"
+        ]
+      }
+    ],
+    "alacarteHeading": "Dịch Vụ Lẻ",
+    "alacarteSub": "Các dịch vụ riêng lẻ không cần cam kết gói đầy đủ.",
+    "alacarteTable": {
+      "service": "Dịch vụ",
+      "usd": "USD",
+      "krw": "KRW"
+    },
+    "alacarte": [
+      {
+        "service": "Buổi Tư Vấn Theo Giờ",
+        "usd": "$150",
+        "krw": "₩202,500"
+      },
+      {
+        "service": "Xem Xét & Chỉnh Sửa 1 Bài Luận",
+        "usd": "$200",
+        "krw": "₩270,000"
+      },
+      {
+        "service": "Xem Xét Toàn Bộ Hồ Sơ",
+        "usd": "$300",
+        "krw": "₩405,000"
+      },
+      {
+        "service": "Chuẩn Bị Phỏng Vấn (3 buổi)",
+        "usd": "$350",
+        "krw": "₩472,500"
+      },
+      {
+        "service": "Tư Vấn Danh Sách Trường (1 buổi)",
+        "usd": "$100",
+        "krw": "₩135,000"
+      }
+    ],
+    "disclaimer": "Tất cả bài luận đều do học sinh tự viết — Kairos chỉ huấn luyện và phản hồi."
+  },
+  "methodology": {
+    "tag": "Phương Pháp Của Chúng Tôi",
+    "title": "Kairos nghĩa là <em style=\"color: rgba(201,168,76,0.85);\">đúng thời điểm.</em>",
+    "sub": "Hầu hết các công ty tư vấn tập trung vào hồ sơ. Chúng tôi tập trung vào học sinh. Hồ sơ chỉ là kết quả biểu hiện của những gì chúng ta cùng nhau xây dựng.",
+    "cards": [
+      {
+        "num": "01",
+        "title": "Câu Chuyện Là Nền Tảng",
+        "desc": "Trước khi mở Common App, chúng tôi dành nhiều buổi để khám phá bạn thực sự là ai — giá trị, trải nghiệm, cách bạn tư duy. Bài luận không tạo ra câu chuyện. Câu chuyện mới tạo ra bài luận."
+      },
+      {
+        "num": "02",
+        "title": "Chiến Lược Chính Xác",
+        "desc": "ED, ED2, EA, RD — thời điểm là tất cả. Lựa chọn trường, chuyên ngành, vòng nộp hồ sơ, định vị bài luận: mọi quyết định đều được đưa ra dựa trên hồ sơ riêng của bạn. Không có danh sách rập khuôn."
+      },
+      {
+        "num": "03",
+        "title": "Bảo Tồn Giọng Văn",
+        "desc": "Chúng tôi không viết một từ nào trong bài luận của bạn. Chúng tôi huấn luyện, đặt câu hỏi và tinh chỉnh — nhưng mọi câu văn đều là của bạn. Hội đồng tuyển sinh có thể nhận ra bài luận được viết thay. Sự chân thực chính là lợi thế cạnh tranh lớn nhất của bạn."
+      },
+      {
+        "num": "04",
+        "title": "Am Hiểu Văn Hoá",
+        "desc": "Chúng tôi hiểu học sinh quốc tế — dù bạn đang học tại trường IB ở Singapore, trường nội trú ở Anh, hay trường tư thục ở Seoul. Chúng tôi đã làm việc với học sinh từ Hàn Quốc, Jordan, Ethiopia, Singapore, Mỹ và nhiều nơi khác. Chúng tôi chuyển hoá trải nghiệm của bạn thành ngôn ngữ mà các trường đại học hàng đầu đón nhận."
+      }
+    ]
+  },
+  "about": {
+    "name": "Ron Kim",
+    "role": "Người Sáng Lập, Kairos Education",
+    "credentials": [
+      "Đại học Illinois (Xã hội học & Tội phạm học)"
+    ],
+    "tag": "Về Chúng Tôi",
+    "title": "Xây dựng trên kết quả thực tế,<br /><em>không phải thương hiệu.</em>",
+    "blocks": [
+      {
+        "isP": true,
+        "html": "Tôi sáng lập Kairos Education vì nhận ra một khoảng trống: những học sinh xứng đáng với kết quả xuất sắc\r\n          lại đang nhận được các chiến lược chung chung. Các công ty tư vấn lớn mở rộng quy mô bằng cách bán mẫu có sẵn.\r\n          Tôi mở rộng bằng cách <strong>biết từng học sinh theo tên.</strong>"
+      },
+      {
+        "isP": true,
+        "html": "Tôi tốt nghiệp từ một trường quốc tế IB tại Hàn Quốc và tiếp tục học Xã hội học và Tội phạm học\r\n          tại Đại học Illinois Urbana-Champaign. Sau đó tôi dành nhiều năm làm cố vấn đại học,\r\n          giảng viên IB/AP và cố vấn đại học tại trường quốc tế — làm việc trực tiếp với học sinh\r\n          từ Hàn Quốc, Singapore, Ethiopia, Jordan, Anh và Mỹ, hướng dẫn họ đến Harvard, Yale, Columbia, UPenn, Dartmouth, Cornell, Duke, Johns Hopkins và UChicago."
+      },
+      {
+        "isP": true,
+        "html": "\"Những học sinh tôi nhớ mãi không phải là những em có điểm SAT cao nhất.\r\n          Đó là những em đã tìm ra câu chuyện thật sự của mình — và có can đảm để kể nó.\""
+      },
+      {
+        "isP": true,
+        "html": "Tại Kairos, tôi làm việc trực tiếp với từng học sinh. Bạn sẽ không bao giờ bị chuyển giao cho một huấn luyện viên cấp dưới.\r\n          Chiến lược, phản hồi bài luận, các buổi trao đổi — đó là tôi, mọi lúc mọi nơi."
+      }
+    ]
+  },
+  "contact": {
+    "tag": "Liên Hệ",
+    "title": "Bắt đầu hành trình<br />Kairos của bạn.",
+    "sub": "Buổi tư vấn đầu tiên hoàn toàn miễn phí. Chúng ta sẽ nói chuyện về mục tiêu của bạn, hồ sơ hiện tại và liệu Kairos có phù hợp hay không. Không áp lực, không bán hàng — chỉ là một cuộc trò chuyện thật sự.",
+    "emailLabel": "Email",
+    "kakaoLabel": "KakaoTalk",
+    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">Thêm kênh →</a>",
+    "locationLabel": "Trụ sở",
+    "location": "Seoul, Hàn Quốc · Hỗ trợ học sinh tại 10+ quốc gia",
+    "form": {
+      "nameLabel": "Tên Học Sinh",
+      "namePlaceholder": "Họ và tên của bạn",
+      "gradeLabel": "Khối / Năm học",
+      "emailLabel": "Email",
+      "emailPlaceholder": "ban@email.com",
+      "universitiesLabel": "Trường Mục Tiêu",
+      "universitiesPlaceholder": "VD: Harvard, Stanford, MIT...",
+      "messageLabel": "Chia sẻ mục tiêu của bạn",
+      "messagePlaceholder": "Bạn đang ở giai đoạn nào trong quá trình? Bạn muốn đạt được điều gì? Điều gì làm cho câu chuyện của bạn trở nên đặc biệt?",
+      "submit": "Gửi Tin Nhắn →",
+      "grades": [
+        "Lớp 9",
+        "Lớp 10",
+        "Lớp 11",
+        "Lớp 12",
+        "Gap Year"
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "Tư vấn đại học độc lập hàng đầu dành cho những học sinh không chấp nhận sự tầm thường.",
+    "navigateHeading": "Điều Hướng",
+    "admitsHeading": "Điều Hướng",
+    "nav": [
+      {
+        "href": "#results",
+        "text": "Kết Quả"
+      }
+    ],
+    "admits": [
+      {
+        "href": "#results",
+        "text": "Harvard University"
+      }
+    ],
+    "copyright": "© 2026 Kairos Education. Bảo lưu mọi quyền.",
+    "meta": "Seoul, Hàn Quốc · Toàn Cầu · ronkim@kairos-education.org"
+  }
+}

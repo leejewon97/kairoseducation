@@ -20,6 +20,11 @@
       "code": "th",
       "href": "/th/",
       "label": "ภาษาไทย"
+    },
+    {
+      "code": "vi",
+      "href": "/vi/",
+      "label": "Tiếng Việt"
     }
   ],
   "nav": {
@@ -493,6 +498,6 @@
       }
     ],
     "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "Seoul, Korea · Worldwide · Ronkim2015@gmail.com"
+    "meta": "Seoul, Korea · Worldwide · ronkim@kairos-education.org"
   }
 }

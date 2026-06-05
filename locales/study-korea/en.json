@@ -7,9 +7,22 @@
   "fontsHref": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
   "fontFamily": "'Inter', sans-serif",
   "langLinks": [
-    { "code": "ko", "label": "한국어" },
-    { "code": "zh", "label": "中文" },
-    { "code": "th", "label": "ภาษาไทย" }
+    {
+      "code": "ko",
+      "label": "한국어"
+    },
+    {
+      "code": "zh",
+      "label": "中文"
+    },
+    {
+      "code": "th",
+      "label": "ภาษาไทย"
+    },
+    {
+      "code": "vi",
+      "label": "Tiếng Việt"
+    }
   ],
   "nav": {
     "pathways": "Pathways",
@@ -220,12 +233,24 @@
         "duration": "2–3 months · 4 sessions",
         "tagline": "Best for: Students ready to enroll in a Korean language center",
         "features": [
-          { "text": "Language center selection (Yonsei, Korea U, SNU, Sogang, Ewha)" },
-          { "text": "Application prep & document checklist" },
-          { "text": "D-4-1 visa guidance & requirements walkthrough" },
-          { "text": "Bank statement & financial documentation strategy" },
-          { "text": "Pre-departure orientation (housing, transport, registration)" },
-          { "text": "30-day post-arrival messaging support" }
+          {
+            "text": "Language center selection (Yonsei, Korea U, SNU, Sogang, Ewha)"
+          },
+          {
+            "text": "Application prep & document checklist"
+          },
+          {
+            "text": "D-4-1 visa guidance & requirements walkthrough"
+          },
+          {
+            "text": "Bank statement & financial documentation strategy"
+          },
+          {
+            "text": "Pre-departure orientation (housing, transport, registration)"
+          },
+          {
+            "text": "30-day post-arrival messaging support"
+          }
         ],
         "usd": "$800",
         "krw": "₩1,080,000",
@@ -241,16 +266,38 @@
         "duration": "5–6 months · 10 sessions",
         "tagline": "Best for: Students applying to Korean undergraduate or graduate programs",
         "features": [
-          { "text": "University shortlisting (major, language, budget, prestige)", "highlight": true },
-          { "text": "Full SOP coaching — brainstorm to final draft", "highlight": true },
-          { "text": "Transcript review & academic profile strategy" },
-          { "text": "Recommendation letter strategy & timeline" },
-          { "text": "TOPIK score targeting & exam strategy" },
-          { "text": "D-2 student visa guidance & document prep" },
-          { "text": "Interview preparation (1 mock session with feedback)" },
-          { "text": "Application portal review & submission checklist" },
-          { "text": "Pre-departure orientation included" },
-          { "text": "Priority messaging support throughout" }
+          {
+            "text": "University shortlisting (major, language, budget, prestige)",
+            "highlight": true
+          },
+          {
+            "text": "Full SOP coaching — brainstorm to final draft",
+            "highlight": true
+          },
+          {
+            "text": "Transcript review & academic profile strategy"
+          },
+          {
+            "text": "Recommendation letter strategy & timeline"
+          },
+          {
+            "text": "TOPIK score targeting & exam strategy"
+          },
+          {
+            "text": "D-2 student visa guidance & document prep"
+          },
+          {
+            "text": "Interview preparation (1 mock session with feedback)"
+          },
+          {
+            "text": "Application portal review & submission checklist"
+          },
+          {
+            "text": "Pre-departure orientation included"
+          },
+          {
+            "text": "Priority messaging support throughout"
+          }
         ],
         "usd": "$2,000",
         "krw": "₩2,700,000",
@@ -264,16 +311,38 @@
         "duration": "7–8 months · 16 sessions",
         "tagline": "Best for: Students pursuing the fully-funded Korean Government Scholarship",
         "features": [
-          { "text": "Everything in Passage", "highlight": true },
-          { "text": "GKS eligibility assessment & pathway selection", "highlight": true },
-          { "text": "University selection for Embassy or University Track" },
-          { "text": "Full scholarship application writing & document prep" },
-          { "text": "GKS personal statement & research plan coaching" },
-          { "text": "GKS interview prep — 2 mock sessions with written feedback" },
-          { "text": "Embassy application coordination & timeline management" },
-          { "text": "Financial planning for program start" },
-          { "text": "Dedicated KakaoTalk channel for real-time support" },
-          { "text": "Post-acceptance orientation & arrival planning" }
+          {
+            "text": "Everything in Passage",
+            "highlight": true
+          },
+          {
+            "text": "GKS eligibility assessment & pathway selection",
+            "highlight": true
+          },
+          {
+            "text": "University selection for Embassy or University Track"
+          },
+          {
+            "text": "Full scholarship application writing & document prep"
+          },
+          {
+            "text": "GKS personal statement & research plan coaching"
+          },
+          {
+            "text": "GKS interview prep — 2 mock sessions with written feedback"
+          },
+          {
+            "text": "Embassy application coordination & timeline management"
+          },
+          {
+            "text": "Financial planning for program start"
+          },
+          {
+            "text": "Dedicated KakaoTalk channel for real-time support"
+          },
+          {
+            "text": "Post-acceptance orientation & arrival planning"
+          }
         ],
         "usd": "$3,500",
         "krw": "₩4,725,000",
@@ -447,21 +516,51 @@
     "tagline": "Elite consulting for students who refuse to be average — in the US, in Korea, and beyond.",
     "studyKoreaHeading": "Study Korea",
     "studyKorea": [
-      { "href": "#pathways", "text": "Three Pathways" },
-      { "href": "#universities", "text": "Korean Universities" },
-      { "href": "#packages", "text": "Packages & Pricing" },
-      { "href": "#alacarte", "text": "À La Carte Services" },
-      { "href": "#faq", "text": "FAQ" }
+      {
+        "href": "#pathways",
+        "text": "Three Pathways"
+      },
+      {
+        "href": "#universities",
+        "text": "Korean Universities"
+      },
+      {
+        "href": "#packages",
+        "text": "Packages & Pricing"
+      },
+      {
+        "href": "#alacarte",
+        "text": "À La Carte Services"
+      },
+      {
+        "href": "#faq",
+        "text": "FAQ"
+      }
     ],
     "kairosHeading": "Kairos",
     "kairos": [
-      { "href": "/", "text": "Main Site" },
-      { "href": "/origin.html#results", "text": "US Admissions Results" },
-      { "href": "/origin.html#packages", "text": "US Consulting Packages" },
-      { "href": "#contact", "text": "Book Free Consultation" },
-      { "href": "mailto:Ronkim2015@gmail.com", "text": "Ronkim2015@gmail.com" }
+      {
+        "href": "/",
+        "text": "Main Site"
+      },
+      {
+        "href": "/origin.html#results",
+        "text": "US Admissions Results"
+      },
+      {
+        "href": "/origin.html#packages",
+        "text": "US Consulting Packages"
+      },
+      {
+        "href": "#contact",
+        "text": "Book Free Consultation"
+      },
+      {
+        "href": "mailto:ronkim@kairos-education.org",
+        "text": "ronkim@kairos-education.org"
+      }
     ],
     "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:Ronkim2015@gmail.com\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">Ronkim2015@gmail.com</a>"
+    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   }
 }

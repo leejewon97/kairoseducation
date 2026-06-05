@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kairos Education | Select Language</title>
+  <link rel="icon" href="/assets/kairos_logo.png" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet" />
   <style>
@@ -64,6 +65,7 @@
         <button type="button" class="lang-card" data-lang="ko"><div class="native">한국어</div><div class="label">Korean</div></button>
         <button type="button" class="lang-card" data-lang="zh"><div class="native">中文</div><div class="label">Chinese</div></button>
         <button type="button" class="lang-card" data-lang="th"><div class="native">ภาษาไทย</div><div class="label">Thai</div></button>
+        <button type="button" class="lang-card" data-lang="vi"><div class="native">Tiếng Việt</div><div class="label">Vietnamese</div></button>
       </div>
     </div>
 
@@ -89,7 +91,8 @@
       en: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap',
       ko: 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap',
       zh: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap',
-      th: 'https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap'
+      th: 'https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap',
+      vi: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap'
     };
 
     function preloadOriginFont(code) {
@@ -148,6 +151,17 @@
         usSub: 'ที่ปรึกษาเข้ามหาวิทยาลัยสหรัฐ',
         kr: 'เรียนต่อเกาหลี',
         krSub: 'มหาวิทยาลัยและภาษาเกาหลี',
+        originHref: '/origin.html',
+        krHref: '/study-korea.html'
+      },
+      vi: {
+        pill: 'Tiếng Việt',
+        subtitle: 'Chọn Lộ Trình Của Bạn',
+        back: 'Quay lại',
+        us: 'Du Học Mỹ',
+        usSub: 'Tư vấn tuyển sinh đại học Mỹ',
+        kr: 'Du Học Hàn Quốc',
+        krSub: 'Đại học & chương trình ngôn ngữ Hàn Quốc',
         originHref: '/origin.html',
         krHref: '/study-korea.html'
       }

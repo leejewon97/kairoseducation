@@ -5,7 +5,7 @@ import { render } from './lib/mini-template.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
-const langs = ['en', 'ko', 'zh', 'th'];
+const langs = ['en', 'ko', 'zh', 'th', 'vi'];
 
 const tpl = fs.readFileSync(path.join(root, 'src', 'templates', 'study-korea-page.njk'), 'utf8');
 
