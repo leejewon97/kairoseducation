@@ -1,3 +1,5 @@
+import { updateSeoMeta } from './seo-i18n.js';
+
 function get(obj, path) {
   return path.split('.').reduce((o, k) => (o == null ? undefined : o[k]), obj);
 }
@@ -185,6 +187,7 @@ function applyContactForm(contact, lang) {
 export function applyLocale(data) {
   document.documentElement.lang = data.lang;
   document.title = data.title;
+  updateSeoMeta(data, '/origin.html');
   document.body.style.fontFamily = data.fontFamily;
 
   setText('#mount-nav-results', data.nav.results);

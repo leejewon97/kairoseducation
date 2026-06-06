@@ -48,14 +48,17 @@ async function setLang(code) {
     await loadFontStylesheet(data.fontsHref);
     sessionStorage.setItem(STORAGE_KEY, code);
     applyLocale(data);
-    if (window.history.replaceState) {
-      const url = new URL(window.location.href);
-      url.searchParams.delete('lang');
-      window.history.replaceState({}, '', url.pathname + url.hash);
-    }
+    syncLangToUrl(code);
   } finally {
     document.body.classList.remove('i18n-loading');
   }
+}
+
+function syncLangToUrl(code) {
+  if (!window.history.replaceState) return;
+  const url = new URL(window.location.href);
+  url.searchParams.set('lang', code);
+  window.history.replaceState({}, '', url.pathname + url.search + url.hash);
 }
 
 document.getElementById('mount-lang-switcher')?.addEventListener('click', (e) => {

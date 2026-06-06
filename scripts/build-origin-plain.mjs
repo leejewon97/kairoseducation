@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { render } from './lib/mini-template.mjs';
+import { buildSeoLinks, buildOgTwitterTags } from './lib/seo-head.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
@@ -53,7 +54,17 @@ const enBuilt = {
 };
 const formsHtml = renderNetlifyForm(enBuilt);
 
-const html = render(tpl, { ...enBuilt, netlifyFormsHtml: formsHtml });
+const html = render(tpl, {
+  ...enBuilt,
+  netlifyFormsHtml: formsHtml,
+  seoLinks: buildSeoLinks('/origin.html'),
+  ogTwitterTags: buildOgTwitterTags({
+    title: enBuilt.title,
+    metaDescription: enBuilt.metaDescription,
+    pagePath: '/origin.html',
+    lang: 'en',
+  }),
+});
 
 fs.mkdirSync(path.join(root, 'public', 'assets'), { recursive: true });
 fs.mkdirSync(path.join(root, 'public', 'locales', 'origin'), { recursive: true });
@@ -61,6 +72,7 @@ fs.mkdirSync(path.join(root, 'public', 'locales', 'origin'), { recursive: true }
 fs.copyFileSync(path.join(root, 'src', 'assets', 'origin-site.css'), path.join(root, 'public', 'assets', 'origin-site.css'));
 fs.copyFileSync(path.join(root, 'src', 'assets', 'origin-i18n.js'), path.join(root, 'public', 'assets', 'origin-i18n.js'));
 fs.copyFileSync(path.join(root, 'src', 'assets', 'origin-locale.js'), path.join(root, 'public', 'assets', 'origin-locale.js'));
+fs.copyFileSync(path.join(root, 'src', 'assets', 'seo-i18n.js'), path.join(root, 'public', 'assets', 'seo-i18n.js'));
 fs.copyFileSync(path.join(root, 'src', 'assets', 'kairos_logo.png'), path.join(root, 'public', 'assets', 'kairos_logo.png'));
 
 for (const code of langs) {

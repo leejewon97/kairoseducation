@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { render } from './lib/mini-template.mjs';
+import { buildSeoLinks, buildOgTwitterTags } from './lib/seo-head.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
@@ -61,7 +62,17 @@ function renderStudyKoreaForm(data) {
 
 const en = JSON.parse(fs.readFileSync(path.join(root, 'locales', 'study-korea', 'en.json'), 'utf8'));
 const formsHtml = renderStudyKoreaForm(en);
-const html = render(tpl, { ...en, netlifyFormsHtml: formsHtml });
+const html = render(tpl, {
+  ...en,
+  netlifyFormsHtml: formsHtml,
+  seoLinks: buildSeoLinks('/study-korea.html'),
+  ogTwitterTags: buildOgTwitterTags({
+    title: en.title,
+    metaDescription: en.metaDescription,
+    pagePath: '/study-korea.html',
+    lang: 'en',
+  }),
+});
 
 fs.mkdirSync(path.join(root, 'public', 'assets'), { recursive: true });
 fs.mkdirSync(path.join(root, 'public', 'locales', 'study-korea'), { recursive: true });
@@ -78,6 +89,7 @@ fs.copyFileSync(
   path.join(root, 'src', 'assets', 'study-korea-locale.js'),
   path.join(root, 'public', 'assets', 'study-korea-locale.js')
 );
+fs.copyFileSync(path.join(root, 'src', 'assets', 'seo-i18n.js'), path.join(root, 'public', 'assets', 'seo-i18n.js'));
 fs.copyFileSync(path.join(root, 'src', 'assets', 'kairos_logo.png'), path.join(root, 'public', 'assets', 'kairos_logo.png'));
 
 for (const code of langs) {

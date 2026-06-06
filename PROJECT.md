@@ -44,12 +44,12 @@ npx --yes serve .
 
 | 폼 name | 페이지 |
 |---------|--------|
-| `contact` | `/origin.html` (4언어 공통, hidden `language`: en/ko/zh/th) |
-| `study-korea` | `/study-korea.html` (4언어 공통, hidden `language`: en/ko/zh/th) |
+| `contact` | `/origin.html` (5언어 공통, hidden `language`: en/ko/zh/th/vi) |
+| `study-korea` | `/study-korea.html` (5언어 공통, hidden `language`: en/ko/zh/th/vi) |
 
 연락 폼은 `data-netlify="true"`로 제출되며, 대시보드 **Forms**에도 쌓입니다.
 
-**이메일 알림:** 설정됨. 제출 시 `formresponses@netlify.com` → `ronkim@kairos-education.org` 으로 발송 (2026-05 테스트: `/ko/` `contact-kr` 폼). 본문 필드: `name`, `grade`, `email`, `universities`, `message`.
+**이메일 알림:** 설정됨. 제출 시 `formresponses@netlify.com` → `ronkim@kairos-education.org` 으로 발송 (2026-05 테스트: `/origin.html` `contact` 폼). 본문 필드: `name`, `grade`, `email`, `universities`, `message`.
 
 사이트에 `/.netlify/functions/emails` Function이 배포되어 있을 수 있으나, 현재 HTML 폼은 Function이 아니라 **Netlify Forms** 경로를 사용합니다.
 
@@ -70,7 +70,7 @@ npx --yes serve .
 | **배포 담당** | 사용자 (Netlify 수동 업로드) |
 | **스택** | 순수 HTML/CSS, 프레임워크 없음 |
 
-### 공통 연락처 (4개 언어 페이지 동일)
+### 공통 연락처 (5개 locale UI 동일)
 
 - 이메일: `ronkim@kairos-education.org`
 - 카카오: `http://pf.kakao.com/_uWJKX`
@@ -92,18 +92,23 @@ public/
   assets/study-korea-site.css
   assets/study-korea-locale.js
   assets/study-korea-i18n.js
+  assets/kairos_logo.png      # 로고 + favicon
 
-locales/origin/{en,ko,zh,th}.json
-locales/study-korea/{en,ko,zh,th}.json
+locales/origin/{en,ko,zh,th,vi}.json
+locales/study-korea/{en,ko,zh,th,vi}.json
 src/templates/origin-page.njk
 src/templates/study-korea-page.njk
 scripts/build-origin-plain.mjs
 scripts/build-study-korea-plain.mjs
 ```
 
-예전 `/en/`, `/ko/`, `/us.html` … → [`public/_redirects`](public/_redirects) 리다이렉트.
+예전 `/en/`, `/ko/`, `/vi/`, `/us.html` … 및 `/favicon.ico` → [`public/_redirects`](public/_redirects) 리다이렉트.
 
-### 4언어(영문 기준) 수정 절차
+**Favicon:** 템플릿·`index.html`에 `<link rel="icon" href="/assets/kairos_logo.png">`. `_redirects`에서 `/favicon.ico` → 동일 PNG.
+
+**SEO·hreflang:** 콘텐츠 페이지는 `origin.html?lang=ko`, `study-korea.html?lang=zh` 형식. `<head>`에 hreflang·canonical·OG(로고 이미지)는 빌드 시 주입(`scripts/lib/seo-head.mjs`). locale JSON의 `title`·`metaDescription`은 JS로 언어 전환 시 갱신. 본문은 JS i18n(크롤러는 메타·hreflang 위주).
+
+### 5언어(영문 기준) 수정 절차
 
 1. **번역 문구** → [`locales/origin/ko.json`](locales/origin/ko.json) 등 (HTML 밖)
 2. **레이아웃·영문 기본** → [`src/templates/origin-page.njk`](src/templates/origin-page.njk)
@@ -113,7 +118,7 @@ scripts/build-study-korea-plain.mjs
 
 `origin.html`·`study-korea.html`에는 **영문만** 들어 있습니다. `/`에서 고른 언어는 각각 `origin-locale.js` / `study-korea-locale.js`가 JSON을 불러와 **같은 DOM**에 채웁니다 (`sessionStorage` 키 `kairos-lang` 공유).
 
-### Study in KR 4언어 수정 절차
+### Study in KR 5언어 수정 절차
 
 1. **번역 문구** → `locales/study-korea/{lang}.json`
 2. **레이아웃·영문 기본** → `src/templates/study-korea-page.njk`
@@ -124,6 +129,3 @@ scripts/build-study-korea-plain.mjs
 `public/study-korea.html`을 직접 고치지 말 것.
 
 ---
-
-## 알려진 개선 후보 (우선순위 미정)
-- SEO 메타·`hreflang`·favicon

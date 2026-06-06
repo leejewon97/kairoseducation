@@ -1,3 +1,5 @@
+import { updateSeoMeta } from './seo-i18n.js';
+
 function esc(s) {
   return String(s)
     .replace(/&/g, '&amp;')
@@ -203,8 +205,7 @@ function bindFaqToggle() {
 export function applyLocale(data) {
   document.documentElement.lang = data.lang;
   document.title = data.title;
-  const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc && data.metaDescription) metaDesc.setAttribute('content', data.metaDescription);
+  updateSeoMeta(data, '/study-korea.html');
   document.body.style.fontFamily = data.fontFamily;
 
   setText('#mount-nav-pathways', data.nav.pathways);
