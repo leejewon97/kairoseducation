@@ -51,11 +51,13 @@ function renderResults(tiers) {
           const dot = uni.intl
             ? '<div class="tier-dot" style="background:#6B7280"></div>'
             : `<div class="tier-dot tier-${uni.tier}"></div>`;
-          return `<div class="uni-card">
-        <div class="uni-tier">${dot}</div>
+          const inner = `<div class="uni-tier">${dot}</div>
         <div class="uni-name">${esc(uni.name)}</div>
-        <div class="uni-detail">${esc(uni.detail)}</div>
-      </div>`;
+        <div class="uni-detail">${esc(uni.detail)}</div>`;
+          if (uni.nicheUrl) {
+            return `<a class="uni-card" href="${esc(uni.nicheUrl)}" target="_blank" rel="noopener">${inner}</a>`;
+          }
+          return `<div class="uni-card">${inner}</div>`;
         })
         .join('')}
     </div>`
@@ -72,6 +74,9 @@ function renderPackages(packages, packageCta) {
       const badge = pkg.badge ? `<div class="pkg-badge">${esc(pkg.badge)}</div>` : '';
       const features = pkg.features.map((f) => `<li>${esc(f)}</li>`).join('');
       const roman = PKG_ROMANS[i] ?? '';
+      const krw = pkg.max
+        ? `<div class="pkg-krw">${esc(pkg.max)}</div>`
+        : `<div class="pkg-krw pkg-krw--placeholder" aria-hidden="true">&#8203;</div>`;
       return `<div class="pkg${featured}">
       <div class="pkg-tier">
         <div>
@@ -86,7 +91,7 @@ function renderPackages(packages, packageCta) {
       </div>
       <div class="pkg-price-col">
         <div class="pkg-usd">${esc(pkg.price)}</div>
-        <div class="pkg-krw">${esc(pkg.max)}</div>
+        ${krw}
         <a href="#contact" class="pkg-cta">${esc(packageCta)}</a>
       </div>
     </div>`;
@@ -97,17 +102,50 @@ function renderPackages(packages, packageCta) {
 function renderAlacarte(rows) {
   return rows
     .map(
-      (r) => `<div class="alacarte-card">
+      (r) => {
+        const krw = r.krw
+          ? `<div class="alacarte-krw">${esc(r.krw)}</div>`
+          : `<div class="alacarte-krw alacarte-krw--placeholder" aria-hidden="true">&#8203;</div>`;
+        return `<div class="alacarte-card">
       <div>
         <div class="alacarte-name">${esc(r.service)}</div>
       </div>
       <div class="alacarte-price">
         <div class="alacarte-usd">${esc(r.usd)}</div>
-        <div class="alacarte-krw">${esc(r.krw)}</div>
+        ${krw}
       </div>
+    </div>`;
+      }
+    )
+    .join('');
+}
+
+function renderFaq(items) {
+  return items
+    .map(
+      (f) => `<div class="faq-item">
+      <button class="faq-q" type="button">
+        ${esc(f.q)}
+        <span class="faq-icon">+</span>
+      </button>
+      <div class="faq-a">${f.a}</div>
     </div>`
     )
     .join('');
+}
+
+function bindFaqToggle() {
+  document.querySelectorAll('.faq-q').forEach((btn) => {
+    btn.onclick = () => {
+      const isOpen = btn.classList.contains('open');
+      document.querySelectorAll('.faq-q').forEach((b) => b.classList.remove('open'));
+      document.querySelectorAll('.faq-a').forEach((a) => a.classList.remove('open'));
+      if (!isOpen) {
+        btn.classList.add('open');
+        btn.nextElementSibling?.classList.add('open');
+      }
+    };
+  });
 }
 
 function renderMethodology(cards) {
@@ -194,6 +232,7 @@ export function applyLocale(data) {
   setText('#mount-nav-packages', data.nav.packages);
   setText('#mount-nav-methodology', data.nav.methodology);
   setText('#mount-nav-about', data.nav.about);
+  setText('#mount-nav-faq', data.nav.faq);
   document.getElementById('mount-lang-switcher').innerHTML = renderLangSwitcher(data.langLinks);
   setText('#mount-nav-cta', data.nav.cta);
 
@@ -223,6 +262,12 @@ export function applyLocale(data) {
   setText('#mount-alc-title', data.services.alacarteHeading);
   setText('#mount-alc-sub', data.services.alacarteSub);
   document.getElementById('mount-alacarte-grid').innerHTML = renderAlacarte(data.services.alacarte);
+  const noteEl = document.getElementById('mount-alacarte-note');
+  if (noteEl) {
+    const note = data.services.alacarteNote ?? '';
+    noteEl.textContent = note;
+    noteEl.style.display = note ? 'block' : 'none';
+  }
   setText('#mount-services-disclaimer', data.services.disclaimer);
 
   setText('#mount-method-tag', data.methodology.tag);
@@ -236,6 +281,14 @@ export function applyLocale(data) {
   setText('#mount-about-tag', data.about.tag);
   setHtml('#mount-about-title', data.about.title);
   document.getElementById('mount-about-blocks').innerHTML = renderAboutBlocks(data.about.blocks);
+
+  if (data.faq) {
+    setText('#mount-faq-tag', data.faq.tag);
+    setHtml('#mount-faq-title', data.faq.title);
+    setText('#mount-faq-sub', data.faq.sub);
+    document.getElementById('mount-faq-list').innerHTML = renderFaq(data.faq.items);
+    bindFaqToggle();
+  }
 
   setText('#mount-contact-tag', data.contact.tag);
   setHtml('#mount-contact-title', data.contact.title);

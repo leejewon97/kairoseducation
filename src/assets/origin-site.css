@@ -184,6 +184,10 @@
       padding: 20px 16px;
       text-align: center;
       transition: border-color 0.2s, transform 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      display: block;
     }
     .uni-card:hover { border-color: var(--gold); transform: translateY(-2px); }
     .uni-name {
@@ -269,6 +273,7 @@
       color: var(--text-dark); line-height: 1.1;
     }
     .pkg-krw { font-size: 13px; color: var(--text-muted); margin-top: 4px; margin-bottom: 20px; }
+    .pkg-krw--placeholder { visibility: hidden; user-select: none; }
     .pkg-cta {
       display: inline-block; padding: 12px 24px; border-radius: 6px;
       font-size: 13px; font-weight: 600; text-decoration: none; transition: all 0.2s;
@@ -298,6 +303,25 @@
       color: var(--text-dark);
     }
     .alacarte-krw { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+    .alacarte-krw--placeholder { visibility: hidden; user-select: none; }
+
+    /* FAQ — match study-korea-site.css */
+    .faq-section { background: var(--off-white); }
+    .faq-list { max-width: 760px; display: flex; flex-direction: column; gap: 0; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-q {
+      width: 100%; background: none; border: none; text-align: left; cursor: pointer;
+      padding: 22px 0; display: flex; justify-content: space-between; align-items: center;
+      font-family: 'Inter', sans-serif; font-size: 16px; font-weight: 500; color: var(--text-dark);
+      transition: color 0.2s;
+    }
+    .faq-q:hover { color: var(--gold); }
+    .faq-q .faq-icon { font-size: 22px; color: var(--gold); font-weight: 300; flex-shrink: 0; margin-left: 24px; transition: transform 0.25s; }
+    .faq-q.open .faq-icon { transform: rotate(45deg); }
+    .faq-a { display: none; padding: 0 0 22px; font-size: 15px; color: var(--text-muted); line-height: 1.8; max-width: 660px; }
+    .faq-a.open { display: block; }
+    .faq-a a { color: var(--gold); text-decoration: none; }
+    .faq-a a:hover { text-decoration: underline; }
 
     /* METHODOLOGY */
     .method { background: var(--navy); }

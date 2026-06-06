@@ -33,7 +33,8 @@
     "packages": "แพ็กเกจ",
     "methodology": "แนวทาง",
     "about": "เกี่ยวกับ",
-    "cta": "นัดหมายปรึกษา"
+    "cta": "นัดหมายปรึกษา",
+    "faq": "FAQ"
   },
   "hero": {
     "badge": "ที่ปรึกษาการสมัครมหาวิทยาลัยชั้นนำ · ทั่วโลก",
@@ -73,49 +74,57 @@
             "name": "Harvard",
             "detail": "วิทยาศาสตร์สิ่งแวดล้อมและนโยบายสาธารณะ",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/harvard-university/"
           },
           {
             "name": "Yale",
             "detail": "ภาพยนตร์และสื่อ",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/yale-university/"
           },
           {
             "name": "Columbia",
             "detail": "เศรษศาสตร์และปรัชญา",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/columbia-university/"
           },
           {
             "name": "UPenn",
             "detail": "Wharton — ธุรกิจ (ED1)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-pennsylvania/"
           },
           {
             "name": "Dartmouth",
             "detail": "ความสัมพันธ์ระหว่างประเทศ (ED1)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/dartmouth-college/"
           },
           {
             "name": "Cornell",
             "detail": "รับเข้า × 3 คน",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/cornell-university/"
           },
           {
             "name": "Brown",
             "detail": "เอเชียตะวันออก (ED)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/brown-university/"
           },
           {
             "name": "UChicago",
             "detail": "Climate & Sustainability (โอน)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-chicago/"
           }
         ]
       },
@@ -127,55 +136,64 @@
             "name": "Duke",
             "detail": "Biomedical Eng. (ED) + ทุนเต็ม × 2",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/duke-university/"
           },
           {
             "name": "Johns Hopkins",
             "detail": "รับเข้า × 2 คน",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/johns-hopkins-university/"
           },
           {
             "name": "Northwestern",
             "detail": "Biomedical Engineering + หลายคน",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/northwestern-university/"
           },
           {
             "name": "Carnegie Mellon",
             "detail": "วิศวกรรม (ED) · ดนตรีและเทคโนโลยี",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/carnegie-mellon-university/"
           },
           {
             "name": "WashU St. Louis",
             "detail": "รับเข้า × 3 คน (ED)",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/washington-university-in-st-louis/"
           },
           {
             "name": "Vanderbilt",
             "detail": "วิศวกรรม (ED2)",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/vanderbilt-university/"
           },
           {
             "name": "UC Berkeley",
             "detail": "รับเข้า × 3 คน",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-california-berkeley/"
           },
           {
             "name": "Claremont McKenna",
             "detail": "รับเข้า (ED)",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/claremont-mckenna-college/"
           },
           {
             "name": "West Point",
             "detail": "โรงเรียนนายร้อยสหรัฐฯ",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/united-states-military-academy/"
           }
         ]
       },
@@ -187,31 +205,36 @@
             "name": "Emory",
             "detail": "รับเข้า × 4 คน",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/emory-university/"
           },
           {
             "name": "NYU Stern",
             "detail": "Business (ED) × 2 คน",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/new-york-university/"
           },
           {
             "name": "USC",
             "detail": "School of Cinematic Arts (#1 ภาพยนตร์)",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-southern-california/"
           },
           {
             "name": "Boston College",
             "detail": "รับเข้า × 3 คน (ED2)",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/boston-college/"
           },
           {
             "name": "Georgia Tech",
             "detail": "รับเข้า × 2 คน",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/georgia-institute-of-technology/"
           },
           {
             "name": "University of Michigan",
@@ -223,37 +246,43 @@
             "name": "UCLA",
             "detail": "รับเข้า × 2 คน",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-california-los-angeles/"
           },
           {
             "name": "Northeastern",
             "detail": "รับเข้า × 3 คน (ED)",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/northeastern-university/"
           },
           {
             "name": "Villanova",
             "detail": "รับเข้าและลงทะเบียนแล้ว",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/villanova-university/"
           },
           {
             "name": "UW Madison",
             "detail": "รับเข้า × 2 คน",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-wisconsin/"
           },
           {
             "name": "Boston University",
             "detail": "รับเข้า",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/boston-university/"
           },
           {
             "name": "RISD",
             "detail": "สถาบันศิลปะ #1 สหรัฐฯ",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/rhode-island-school-of-design/"
           }
         ]
       },
@@ -283,7 +312,8 @@
             "name": "Olin College",
             "detail": "วิศวกรรมชั้นนำ (รับเข้า ~80 คน/ปี)",
             "tier": 0,
-            "intl": true
+            "intl": true,
+            "nicheUrl": "https://www.niche.com/colleges/olin-college-of-engineering/"
           }
         ]
       }
@@ -302,7 +332,7 @@
         "name": "Kairos Foundation",
         "schools": "เขียน Essay & สมัครเรียนแบบเร่งรัด | 5–7 เดือน | 10 เซสชัน",
         "price": "$4,300",
-        "max": "₩5,805,000",
+        "max": "",
         "features": [
           "พัฒนา Personal Statement (ระดมความคิด → ร่างสุดท้าย)",
           "เขียน Supplemental Essay สูงสุด 4 ชิ้น (กลยุทธ์ + แก้ไข)",
@@ -318,7 +348,7 @@
         "name": "Kairos Scholar",
         "schools": "แพ็คเกจครบวงจรปีสุดท้าย | 12 เดือน | 22 เซสชัน",
         "price": "$7,000",
-        "max": "₩9,450,000",
+        "max": "",
         "features": [
           "กลยุทธ์รายชื่อมหาวิทยาลัย (สูง / เหมาะสม / ปลอดภัย)",
           "Personal Statement + Supplemental Essay ไม่จำกัด",
@@ -336,7 +366,7 @@
         "name": "Kairos Prestige",
         "schools": "พันธมิตรเชิงกลยุทธ์ 2 ปี | 24 เดือน | 40 เซสชัน",
         "price": "$12,800",
-        "max": "₩17,280,000",
+        "max": "",
         "features": [
           "ทุกอย่างใน Kairos Scholar",
           "วางแผนวิชาการ & รายวิชา ม.4–ม.5",
@@ -352,7 +382,7 @@
         "name": "Kairos Legacy",
         "schools": "พันธมิตรเปลี่ยนแปลงชีวิต 4 ปี | 36–48 เดือน | เซสชันไม่จำกัด",
         "price": "$19,500",
-        "max": "₩26,325,000",
+        "max": "",
         "features": [
           "ทุกอย่างใน Kairos Prestige",
           "ปฐมนิเทศ ม.3 & วางวิสัยทัศน์ระยะยาว",
@@ -374,40 +404,61 @@
       {
         "service": "เซสชันให้คำปรึกษารายชั่วโมง",
         "usd": "$150",
-        "krw": "₩202,500"
+        "krw": ""
       },
       {
         "service": "ตรวจสอบและแก้ไข Essay 1 ชิ้น",
         "usd": "$200",
-        "krw": "₩270,000"
+        "krw": ""
       },
       {
         "service": "ตรวจสอบใบสมัครทั้งหมด",
         "usd": "$300",
-        "krw": "₩405,000"
+        "krw": ""
       },
       {
         "service": "เตรียมสัมภาษณ์ (3 เซสชัน)",
         "usd": "$350",
-        "krw": "₩472,500"
+        "krw": ""
       },
       {
         "service": "ปรึกษารายชื่อมหาวิทยาลัย (1 เซสชัน)",
         "usd": "$100",
-        "krw": "₩135,000"
+        "krw": ""
+      },
+      {
+        "service": "SAT / ACT Tutoring (ต่อชั่วโมง)",
+        "usd": "$120",
+        "krw": ""
+      },
+      {
+        "service": "AP Subject Tutoring (ต่อชั่วโมง)",
+        "usd": "$100",
+        "krw": ""
+      },
+      {
+        "service": "TOEFL / IELTS Tutoring (ต่อชั่วโมง)",
+        "usd": "$100",
+        "krw": ""
+      },
+      {
+        "service": "Competition Tutoring (ต่อชั่วโมง)",
+        "usd": "$150",
+        "krw": ""
       }
     ],
-    "disclaimer": "Essay ทุกชิ้นเขียนโดยนักเรียนเอง — Kairos ให้คำแนะนำและ feedback เท่านั้น"
+    "disclaimer": "Essay ทุกชิ้นเขียนโดยนักเรียนเอง — Kairos ให้คำแนะนำและ feedback เท่านั้น",
+    "alacarteNote": "การสนับสนุนการแข่งขัน ได้แก่ John Locke Essay, Physics Bowl, AMC/AIME, NY Times Student Essay Contest, KSEF"
   },
   "methodology": {
-    "tag": "แนวทางของเรา",
+    "tag": "แนวทาง",
     "title": "Kairos หมายถึง<em style=\"color: rgba(201,168,76,0.85);\">ช่วงเวลาที่ใช่</em>",
-    "sub": "ที่ปรึกษาส่วนใหญ่มุ่งเน้นที่ใบสมัคร เรามุ่งเน้นที่ตัวนักเรียน ใบสมัครเป็นเพียงการแสดงออกของงานที่เราทำร่วมกัน",
+    "sub": "ที่ปรึกษาส่วนใหญ่โฟกัสใบสมัคร ผมโฟกัสที่ตัวนักเรียน ใบสมัครเป็นเพียงผลลัพธ์ของงานที่เราทำร่วมกัน",
     "cards": [
       {
         "num": "01",
         "title": "เรื่องราวก่อนเสมอ",
-        "desc": "ก่อนเปิด Common App เราใช้เวลาหลายเซสชันค้นหาว่าคุณเป็นใครจริงๆ — ค่านิยม, ประสบการณ์, รูปแบบการคิด essay ไม่ได้สร้างเรื่องราว เรื่องราวต่างหากที่สร้าง essay"
+        "desc": "ก่อนเปิด Common App ผมใช้เวลาหลายเซสชันค้นหาว่าคุณเป็นใครจริงๆ — ค่านิยม ประสบการณ์ รูปแบบการคิด essay ไม่ได้สร้างเรื่องราว เรื่องราวต่างหากที่สร้าง essay"
       },
       {
         "num": "02",
@@ -417,12 +468,12 @@
       {
         "num": "03",
         "title": "รักษาเสียงของคุณ",
-        "desc": "เราไม่เขียน essay แม้แต่คำเดียวแทนคุณ เราให้คำปรึกษา, ตั้งคำถาม และปรับปรุง — แต่ทุกประโยคเป็นของคุณ Admissions officers สามารถตรวจพบ essay ที่เขียนแทน ความแท้จริงคือข้อได้เปรียบสูงสุด"
+        "desc": "ผมไม่เขียน essay แทนคุณสักคำ ผม coach ท้าทาย และ refine — ทุกประโยคเป็นของคุณ ผู้ตรวจรับรู้ essay ที่เขียนแทน ความจริงใจคือข้อได้เปรียบที่ยิ่งใหญ่ที่สุด"
       },
       {
         "num": "04",
         "title": "ความเข้าใจข้ามวัฒนธรรม",
-        "desc": "เราเข้าใจนักเรียนนานาชาติ — ไม่ว่าจะอยู่ที่โรงเรียน IB ในสิงคโปร์, Boarding School ในสหราชอาณาจักร หรือโรงเรียนนานาชาติในกรุงเทพฯ เราแปลประสบการณ์ของคุณให้มหาวิทยาลัยชั้นนำตอบสนอง"
+        "desc": "ผมเข้าใจนักเรียนนานาชาติ — ไม่ว่าจะ IB ที่สิงคโปร์ boarding school ที่ UK หรือโรงเรียนเอกชนที่โซล ผมทำงานกับนักเรียนจากเกาหลี จอร์แดน เอธิโอเปีย สิงคโปร์ สหรัฐ และอื่นๆ แปลประสบการณ์ของคุณเป็นภาษาที่มหาวิทยาลัยชั้นนำตอบสนอง"
       }
     ]
   },
@@ -432,9 +483,26 @@
     "credentials": [
       "University of Illinois (สังคมวิทยา & อาชญาวิทยา)"
     ],
-    "tag": "เกี่ยวกับเรา",
+    "tag": "เกี่ยวกับ Ron",
     "title": "สร้างจากผลงานจริง<br /><em>ไม่ใช่ชื่อแบรนด์</em>",
-    "blocks": []
+    "blocks": [
+      {
+        "isP": true,
+        "html": "ผมก่อตั้ง Kairos Education เพราะเห็นช่องว่าง: นักเรียนที่สมควรได้ผลลัพธ์ระดับ elite กลับได้กลยุทธ์แบบสำเร็จรูป บริษัทใหญ่ขยายด้วยเทมเพลต ผมขยายด้วยการ<strong>รู้จักนักเรียนทุกคนเป็นรายบุคคล</strong>"
+      },
+      {
+        "isP": true,
+        "html": "ผมจบจากโรงเรียนนานาชาติ IB ในเกาหลี และเรียนสังคมวิทยาและอาชญาวิทยาที่ University of Illinois Urbana-Champaign จากนั้นทำงานเป็นที่ปรึกษามหาวิทยาลัย ผู้สอน IB/AP และที่ปรึกษาในโรงเรียนนานาชาติ — ดูแลนักเรียนจากเกาหลี สิงคโปร์ เอธิโอเปีย จอร์แดน สหราชอาณาจักร และสหรัฐ นำไปสู่ Harvard Yale Columbia UPenn Dartmouth Cornell Duke Johns Hopkins และ UChicago"
+      },
+      {
+        "isP": true,
+        "html": "\"นักเรียนที่ผมจำได้ไม่ใช่คนที่ SAT สูงสุด แต่เป็นคนที่เจอเรื่องราวจริงของตัวเอง — และกล้าเล่ามัน\""
+      },
+      {
+        "isP": true,
+        "html": "ที่ Kairos ผมดูแลนักเรียนทุกคนโดยตรง คุณจะไม่ถูกส่งต่อให้ junior coach กลยุทธ์ feedback เรื่อง essay การโทร — คือผมทุกครั้ง"
+      }
+    ]
   },
   "contact": {
     "tag": "ติดต่อ",
@@ -478,5 +546,32 @@
     "admits": [],
     "copyright": "© 2026 Kairos Education. All rights reserved.",
     "meta": "โซล, เกาหลีใต้ · Worldwide · ronkim@kairos-education.org"
+  },
+  "faq": {
+    "tag": "FAQ",
+    "title": "คำถามที่พบบ่อย",
+    "sub": "คำตอบตรงๆ ก่อนที่คุณจะติดต่อเรา",
+    "items": [
+      {
+        "q": "Kairos ต่างจากบริษัทใหญ่ๆ อย่าง Crimson อย่างไร?",
+        "a": "ทุกเซสชันคือ Ron Kim โดยตรง — ไม่มี junior associate ไม่มีการส่งต่อ บริษัทใหญ่ส่วนใหญ่มอบหมายให้ coordinator หลัง onboarding ที่ Kairos คุณได้คนที่มี track record จริงทุกครั้ง"
+      },
+      {
+        "q": "คุณเขียน essay แทนนักเรียนหรือไม่?",
+        "a": "ไม่เคย ทุกคำเป็นของนักเรียน ผม coach ท้าทาย และ refine — essay ที่เขียนแทนตรวจจับได้และผิดจริยธรรม ผลลัพธ์ของเรามาจากงานที่แท้จริง"
+      },
+      {
+        "q": "นักเรียนควรเริ่มที่เกรดไหน?",
+        "a": "Legacy เกรด 9, Prestige เกรด 10, Scholar เกรด 11 Foundation สำหรับเกรด 12 ที่ต้องการ essay support เริ่มเร็วยิ่งดี — แต่ไม่สายเกินไป"
+      },
+      {
+        "q": "รับนักเรียนนอกเกาหลีหรือไม่?",
+        "a": "ใช่ ลูกค้าปัจจุบันและในอดีตมาจากเกาหลี ไทย สิงคโปร์ เอธิโอเปีย จอร์แดน และสหรัฐ ทุกเซสชันผ่าน Zoom — timezone ไม่ใช่ปัญหา"
+      },
+      {
+        "q": "เซสชันทั่วไปเป็นอย่างไร?",
+        "a": "60 นาทีบน Zoom เราทำสิ่งที่เร่งด่วนที่สุด — essay draft กลยุทธ์ school list เตรียมสัมภาษณ์ หรือ activity positioning คุณนำสิ่งที่จะทำมา ผมมาพร้อม"
+      }
+    ]
   }
 }

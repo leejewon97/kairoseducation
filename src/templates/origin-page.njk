@@ -26,6 +26,7 @@
       <li><a href="#packages" id="mount-nav-packages">{{ nav.packages }}</a></li>
       <li><a href="#methodology" id="mount-nav-methodology">{{ nav.methodology }}</a></li>
       <li><a href="#about" id="mount-nav-about">{{ nav.about }}</a></li>
+      <li><a href="#faq" id="mount-nav-faq">{{ nav.faq }}</a></li>
     </ul>
     <div class="nav-right">
       <div id="mount-lang-switcher" style="display:flex; align-items:center; gap:8px;"></div>
@@ -63,6 +64,19 @@
     <p class="tier-label">{{ tierGroup.label }}</p>
     <div class="results-grid" style="margin-bottom: 40px;">
       {% for uni in tierGroup.universities %}
+      {% if uni.nicheUrl %}
+      <a class="uni-card" href="{{ uni.nicheUrl }}" target="_blank" rel="noopener">
+        <div class="uni-tier">
+          {% if uni.intl %}
+          <div class="tier-dot" style="background:#6B7280"></div>
+          {% else %}
+          <div class="tier-dot tier-{{ uni.tier }}"></div>
+          {% endif %}
+        </div>
+        <div class="uni-name">{{ uni.name }}</div>
+        <div class="uni-detail">{{ uni.detail }}</div>
+      </a>
+      {% else %}
       <div class="uni-card">
         <div class="uni-tier">
           {% if uni.intl %}
@@ -74,6 +88,7 @@
         <div class="uni-name">{{ uni.name }}</div>
         <div class="uni-detail">{{ uni.detail }}</div>
       </div>
+      {% endif %}
       {% endfor %}
     </div>
     {% endfor %}
@@ -105,7 +120,11 @@
         </div>
         <div class="pkg-price-col">
           <div class="pkg-usd">{{ pkg.price }}</div>
+          {% if pkg.max %}
           <div class="pkg-krw">{{ pkg.max }}</div>
+          {% else %}
+          <div class="pkg-krw pkg-krw--placeholder" aria-hidden="true">&#8203;</div>
+          {% endif %}
           <a href="#contact" class="pkg-cta">{{ services.packageCta }}</a>
         </div>
       </div>
@@ -124,11 +143,16 @@
         </div>
         <div class="alacarte-price">
           <div class="alacarte-usd">{{ row.usd }}</div>
+          {% if row.krw %}
           <div class="alacarte-krw">{{ row.krw }}</div>
+          {% else %}
+          <div class="alacarte-krw alacarte-krw--placeholder" aria-hidden="true">&#8203;</div>
+          {% endif %}
         </div>
       </div>
       {% endfor %}
     </div>
+    <p style="font-size:13px;color:var(--text-muted);margin-top:16px;text-align:center;" id="mount-alacarte-note">{{ services.alacarteNote }}</p>
     <p style="font-size:13px;color:var(--text-muted);margin-top:28px;text-align:center;" id="mount-services-disclaimer">{{ services.disclaimer }}</p>
   </section>
 
@@ -177,6 +201,23 @@
         {% endfor %}
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="faq-section" id="faq">
+    <div class="section-tag" id="mount-faq-tag">{{ faq.tag }}</div>
+    <h2 class="section-title" id="mount-faq-title">{{{ faq.title }}}</h2>
+    <p class="section-sub" id="mount-faq-sub">{{ faq.sub }}</p>
+    <div class="faq-list" id="mount-faq-list">
+      {% for item in faq.items %}
+      <div class="faq-item">
+        <button class="faq-q" type="button">
+          {{ item.q }}
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-a">{{{ item.a }}}</div>
+      </div>
+      {% endfor %}
     </div>
   </section>
 

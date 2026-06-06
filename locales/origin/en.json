@@ -33,6 +33,7 @@
     "packages": "Packages",
     "methodology": "Approach",
     "about": "About",
+    "faq": "FAQ",
     "cta": "Book Consultation"
   },
   "hero": {
@@ -73,49 +74,57 @@
             "name": "Harvard",
             "detail": "Environmental Science & Public Policy",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/harvard-university/"
           },
           {
             "name": "Yale",
             "detail": "Film & Media Studies",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/yale-university/"
           },
           {
             "name": "Columbia",
             "detail": "Economics & Philosophy",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/columbia-university/"
           },
           {
             "name": "UPenn",
             "detail": "Wharton — Business (ED1)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-pennsylvania/"
           },
           {
             "name": "Dartmouth",
             "detail": "International Relations (ED1)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/dartmouth-college/"
           },
           {
             "name": "Cornell",
             "detail": "Admitted × 3 students",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/cornell-university/"
           },
           {
             "name": "Brown",
             "detail": "East Asian Studies (ED)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/brown-university/"
           },
           {
             "name": "UChicago",
             "detail": "Climate & Sustainability (Transfer)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-chicago/"
           }
         ]
       },
@@ -127,55 +136,64 @@
             "name": "Duke",
             "detail": "Biomedical Eng. (ED) + Full Merit Scholarship × 2",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/duke-university/"
           },
           {
             "name": "Johns Hopkins",
             "detail": "Admitted × 2 students",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/johns-hopkins-university/"
           },
           {
             "name": "Northwestern",
             "detail": "Biomedical Engineering + multiple admits",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/northwestern-university/"
           },
           {
             "name": "Carnegie Mellon",
             "detail": "Engineering (ED) · Music & Technology",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/carnegie-mellon-university/"
           },
           {
             "name": "WashU St. Louis",
             "detail": "Admitted × 3 students (ED)",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/washington-university-in-st-louis/"
           },
           {
             "name": "Vanderbilt",
             "detail": "Engineering (ED2)",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/vanderbilt-university/"
           },
           {
             "name": "UC Berkeley",
             "detail": "Admitted × 3 students",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-california-berkeley/"
           },
           {
             "name": "Claremont McKenna",
             "detail": "Admitted (ED)",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/claremont-mckenna-college/"
           },
           {
             "name": "West Point",
             "detail": "US Military Academy",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/united-states-military-academy/"
           }
         ]
       },
@@ -187,31 +205,36 @@
             "name": "Emory",
             "detail": "Admitted × 4 students",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/emory-university/"
           },
           {
             "name": "NYU Stern",
             "detail": "Business (ED) × 2 students",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/new-york-university/"
           },
           {
             "name": "USC",
             "detail": "School of Cinematic Arts (#1 Film)",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-southern-california/"
           },
           {
             "name": "Boston College",
             "detail": "Admitted × 3 students (ED2)",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/boston-college/"
           },
           {
             "name": "Georgia Tech",
             "detail": "Admitted × 2 students",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/georgia-institute-of-technology/"
           },
           {
             "name": "University of Michigan",
@@ -223,37 +246,43 @@
             "name": "UCLA",
             "detail": "Admitted × 2 students",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-california-los-angeles/"
           },
           {
             "name": "Northeastern",
             "detail": "Admitted × 3 students (ED)",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/northeastern-university/"
           },
           {
             "name": "Villanova",
             "detail": "Enrolled",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/villanova-university/"
           },
           {
             "name": "UW Madison",
             "detail": "Admitted × 2 students",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-wisconsin/"
           },
           {
             "name": "Boston University",
             "detail": "Admitted",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/boston-university/"
           },
           {
             "name": "RISD",
             "detail": "#1 Art & Design School (Enrolled)",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/rhode-island-school-of-design/"
           }
         ]
       },
@@ -283,7 +312,8 @@
             "name": "Olin College",
             "detail": "Elite Engineering (80 admits/year)",
             "tier": 0,
-            "intl": true
+            "intl": true,
+            "nicheUrl": "https://www.niche.com/colleges/olin-college-of-engineering/"
           }
         ]
       }
@@ -302,7 +332,7 @@
         "name": "Kairos Foundation",
         "schools": "Essay & Application Sprint | 5–7 months | 10 sessions",
         "price": "$4,300",
-        "max": "₩5,805,000",
+        "max": "",
         "features": [
           "Personal Statement development (brainstorming → final draft)",
           "Up to 4 supplemental essays (strategy + editing)",
@@ -318,7 +348,7 @@
         "name": "Kairos Scholar",
         "schools": "Senior Year Comprehensive | 12 months | 22 sessions",
         "price": "$7,000",
-        "max": "₩9,450,000",
+        "max": "",
         "features": [
           "Full school list strategy (reach / match / safety)",
           "Personal Statement + unlimited supplemental essays",
@@ -336,7 +366,7 @@
         "name": "Kairos Prestige",
         "schools": "Two-Year Strategic Partnership | 24 months | 40 sessions",
         "price": "$12,800",
-        "max": "₩17,280,000",
+        "max": "",
         "features": [
           "Everything in Kairos Scholar",
           "10th–11th grade academic & course planning",
@@ -352,7 +382,7 @@
         "name": "Kairos Legacy",
         "schools": "Four-Year Transformational Partnership | 36–48 months | Unlimited sessions",
         "price": "$19,500",
-        "max": "₩26,325,000",
+        "max": "",
         "features": [
           "Everything in Kairos Prestige",
           "9th grade onboarding & long-term vision setting",
@@ -374,35 +404,56 @@
       {
         "service": "Hourly Consulting Session",
         "usd": "$150",
-        "krw": "₩202,500"
+        "krw": ""
       },
       {
         "service": "Single Essay Review & Edit",
         "usd": "$200",
-        "krw": "₩270,000"
+        "krw": ""
       },
       {
         "service": "Full Application Review",
         "usd": "$300",
-        "krw": "₩405,000"
+        "krw": ""
       },
       {
         "service": "Interview Prep (3 sessions)",
         "usd": "$350",
-        "krw": "₩472,500"
+        "krw": ""
       },
       {
         "service": "School List Consultation (1 session)",
         "usd": "$100",
-        "krw": "₩135,000"
+        "krw": ""
+      },
+      {
+        "service": "SAT / ACT Tutoring (per hour)",
+        "usd": "$120",
+        "krw": ""
+      },
+      {
+        "service": "AP Subject Tutoring (per hour)",
+        "usd": "$100",
+        "krw": ""
+      },
+      {
+        "service": "TOEFL / IELTS Tutoring (per hour)",
+        "usd": "$100",
+        "krw": ""
+      },
+      {
+        "service": "Competition Tutoring (per hour)",
+        "usd": "$150",
+        "krw": ""
       }
     ],
+    "alacarteNote": "Competition support includes: John Locke Essay, Physics Bowl, AMC/AIME, NY Times Student Essay Contest, KSEF",
     "disclaimer": "All essays are student-written — Kairos provides coaching and feedback only."
   },
   "methodology": {
     "tag": "Our Approach",
     "title": "Kairos means the <em style=\"color: rgba(201,168,76,0.85);\">right moment.</em>",
-    "sub": "Most consultants focus on the application. We focus on the student. The application is just the expression of the work we do together.",
+    "sub": "Most consultants focus on the application. I focus on the student. The application is just the expression of the work we do together.",
     "cards": [
       {
         "num": "01",
@@ -417,12 +468,12 @@
       {
         "num": "03",
         "title": "Voice Preservation",
-        "desc": "We never write a single word of your essay. We coach, challenge, and refine — but every sentence is yours. Admissions officers can detect a ghost-written essay. Authenticity is your greatest competitive advantage."
+        "desc": "I never write a single word of your essay. I coach, challenge, and refine — but every sentence is yours. Admissions officers can detect a ghost-written essay. Authenticity is your greatest competitive advantage."
       },
       {
         "num": "04",
         "title": "Cultural Fluency",
-        "desc": "We understand international students — whether you're at an IB school in Singapore, a boarding school in the UK, or a private school in Seoul. We've worked with students from Korea, Jordan, Ethiopia, Singapore, the US, and more. We translate your experience into a language elite universities respond to."
+        "desc": "I understand international students — whether you're at an IB school in Singapore, a boarding school in the UK, or a private school in Seoul. I've worked with students from Korea, Jordan, Ethiopia, Singapore, the US, and more. I translate your experience into a language elite universities respond to."
       }
     ]
   },
@@ -450,6 +501,33 @@
       {
         "isP": true,
         "html": "At Kairos, I work directly with every student. You will never be handed off to a junior coach.\r\n          The strategy, the essay feedback, the calls — that's me, every time."
+      }
+    ]
+  },
+  "faq": {
+    "tag": "FAQ",
+    "title": "Common Questions",
+    "sub": "Straight answers before you reach out.",
+    "items": [
+      {
+        "q": "How is Kairos different from large consulting firms like Crimson?",
+        "a": "Every session is with Ron Kim directly — no junior associates, no handoffs. Most large firms assign you to a coordinator after onboarding. At Kairos, you get the person with the actual track record, every time."
+      },
+      {
+        "q": "Do you write the essays for students?",
+        "a": "Never. Every word stays the student's. I coach, challenge, and refine — but ghostwritten essays are both detectable and ethically wrong. Our results come from authentic work."
+      },
+      {
+        "q": "What grade should students start consulting?",
+        "a": "Grade 9 for Legacy, Grade 10 for Prestige, Grade 11 for Scholar. Foundation is for Grade 12 students who need focused essay support. Earlier is always better — but it's never too late."
+      },
+      {
+        "q": "Do you work with students outside Korea?",
+        "a": "Yes. Current and past clients are from Korea, Thailand, Singapore, Ethiopia, Jordan, and the US. All sessions via Zoom — time zone is never an issue."
+      },
+      {
+        "q": "What does a typical session look like?",
+        "a": "60 minutes on Zoom. We work on whatever is most urgent — essay drafts, school list strategy, interview prep, or activity positioning. You come with something to work on; I come prepared."
       }
     ]
   },

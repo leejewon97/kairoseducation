@@ -33,7 +33,8 @@
     "packages": "Gói Dịch Vụ",
     "methodology": "Phương Pháp",
     "about": "Về Chúng Tôi",
-    "cta": "Đặt Lịch Tư Vấn"
+    "cta": "Đặt Lịch Tư Vấn",
+    "faq": "FAQ"
   },
   "hero": {
     "badge": "Tư Vấn Đại Học Hàng Đầu · Toàn Cầu",
@@ -73,49 +74,57 @@
             "name": "Harvard",
             "detail": "Khoa học Môi trường & Chính sách Công",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/harvard-university/"
           },
           {
             "name": "Yale",
             "detail": "Điện ảnh & Truyền thông",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/yale-university/"
           },
           {
             "name": "Columbia",
             "detail": "Kinh tế & Triết học",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/columbia-university/"
           },
           {
             "name": "UPenn",
             "detail": "Wharton — Kinh doanh (ED1)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-pennsylvania/"
           },
           {
             "name": "Dartmouth",
             "detail": "Quan hệ Quốc tế (ED1)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/dartmouth-college/"
           },
           {
             "name": "Cornell",
             "detail": "3 học sinh được nhận",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/cornell-university/"
           },
           {
             "name": "Brown",
             "detail": "Đông Á học (ED)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/brown-university/"
           },
           {
             "name": "UChicago",
             "detail": "Khí hậu & Phát triển Bền vững (Chuyển tiếp)",
             "tier": 1,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-chicago/"
           }
         ]
       },
@@ -127,55 +136,64 @@
             "name": "Duke",
             "detail": "Kỹ thuật Y sinh (ED) + Học bổng toàn phần × 2",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/duke-university/"
           },
           {
             "name": "Johns Hopkins",
             "detail": "2 học sinh được nhận",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/johns-hopkins-university/"
           },
           {
             "name": "Northwestern",
             "detail": "Kỹ thuật Y sinh + nhiều học sinh khác",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/northwestern-university/"
           },
           {
             "name": "Carnegie Mellon",
             "detail": "Kỹ thuật (ED) · Âm nhạc & Công nghệ",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/carnegie-mellon-university/"
           },
           {
             "name": "WashU St. Louis",
             "detail": "3 học sinh được nhận (ED)",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/washington-university-in-st-louis/"
           },
           {
             "name": "Vanderbilt",
             "detail": "Kỹ thuật (ED2)",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/vanderbilt-university/"
           },
           {
             "name": "UC Berkeley",
             "detail": "3 học sinh được nhận",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-california-berkeley/"
           },
           {
             "name": "Claremont McKenna",
             "detail": "Được nhận (ED)",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/claremont-mckenna-college/"
           },
           {
             "name": "West Point",
             "detail": "Học viện Quân sự Hoa Kỳ",
             "tier": 2,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/united-states-military-academy/"
           }
         ]
       },
@@ -187,31 +205,36 @@
             "name": "Emory",
             "detail": "4 học sinh được nhận",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/emory-university/"
           },
           {
             "name": "NYU Stern",
             "detail": "Kinh doanh (ED) × 2 học sinh",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/new-york-university/"
           },
           {
             "name": "USC",
             "detail": "Trường Điện ảnh (#1 về Phim)",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-southern-california/"
           },
           {
             "name": "Boston College",
             "detail": "3 học sinh được nhận (ED2)",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/boston-college/"
           },
           {
             "name": "Georgia Tech",
             "detail": "2 học sinh được nhận",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/georgia-institute-of-technology/"
           },
           {
             "name": "University of Michigan",
@@ -223,37 +246,43 @@
             "name": "UCLA",
             "detail": "2 học sinh được nhận",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-california-los-angeles/"
           },
           {
             "name": "Northeastern",
             "detail": "3 học sinh được nhận (ED)",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/northeastern-university/"
           },
           {
             "name": "Villanova",
             "detail": "Đã nhập học",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/villanova-university/"
           },
           {
             "name": "UW Madison",
             "detail": "2 học sinh được nhận",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/university-of-wisconsin/"
           },
           {
             "name": "Boston University",
             "detail": "Được nhận",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/boston-university/"
           },
           {
             "name": "RISD",
             "detail": "Trường Nghệ thuật & Thiết kế #1 (Đã nhập học)",
             "tier": 3,
-            "intl": false
+            "intl": false,
+            "nicheUrl": "https://www.niche.com/colleges/rhode-island-school-of-design/"
           }
         ]
       },
@@ -283,7 +312,8 @@
             "name": "Olin College",
             "detail": "Kỹ thuật xuất sắc (80 suất/năm)",
             "tier": 0,
-            "intl": true
+            "intl": true,
+            "nicheUrl": "https://www.niche.com/colleges/olin-college-of-engineering/"
           }
         ]
       }
@@ -302,7 +332,7 @@
         "name": "Kairos Foundation",
         "schools": "Sprint Bài Luận & Hồ Sơ | 5–7 tháng | 10 buổi",
         "price": "$4,300",
-        "max": "₩5,805,000",
+        "max": "",
         "features": [
           "Phát triển Personal Statement (brainstorming → bản cuối)",
           "Tối đa 4 bài luận bổ sung (chiến lược + chỉnh sửa)",
@@ -318,7 +348,7 @@
         "name": "Kairos Scholar",
         "schools": "Gói Toàn Diện Năm Cuối | 12 tháng | 22 buổi",
         "price": "$7,000",
-        "max": "₩9,450,000",
+        "max": "",
         "features": [
           "Chiến lược danh sách trường (reach / match / safety)",
           "Personal Statement + bài luận bổ sung không giới hạn",
@@ -336,7 +366,7 @@
         "name": "Kairos Prestige",
         "schools": "Đối tác Chiến lược 2 Năm | 24 tháng | 40 buổi",
         "price": "$12,800",
-        "max": "₩17,280,000",
+        "max": "",
         "features": [
           "Tất cả nội dung gói Kairos Scholar",
           "Lập kế hoạch học tập lớp 10–11",
@@ -352,7 +382,7 @@
         "name": "Kairos Legacy",
         "schools": "Đối tác Chuyển hoá 4 Năm | 36–48 tháng | Buổi học không giới hạn",
         "price": "$19,500",
-        "max": "₩26,325,000",
+        "max": "",
         "features": [
           "Tất cả nội dung gói Kairos Prestige",
           "Onboarding lớp 9 & thiết lập tầm nhìn dài hạn",
@@ -374,40 +404,61 @@
       {
         "service": "Buổi Tư Vấn Theo Giờ",
         "usd": "$150",
-        "krw": "₩202,500"
+        "krw": ""
       },
       {
         "service": "Xem Xét & Chỉnh Sửa 1 Bài Luận",
         "usd": "$200",
-        "krw": "₩270,000"
+        "krw": ""
       },
       {
         "service": "Xem Xét Toàn Bộ Hồ Sơ",
         "usd": "$300",
-        "krw": "₩405,000"
+        "krw": ""
       },
       {
         "service": "Chuẩn Bị Phỏng Vấn (3 buổi)",
         "usd": "$350",
-        "krw": "₩472,500"
+        "krw": ""
       },
       {
         "service": "Tư Vấn Danh Sách Trường (1 buổi)",
         "usd": "$100",
-        "krw": "₩135,000"
+        "krw": ""
+      },
+      {
+        "service": "Gia sư SAT / ACT (theo giờ)",
+        "usd": "$120",
+        "krw": ""
+      },
+      {
+        "service": "Gia sư AP (theo giờ)",
+        "usd": "$100",
+        "krw": ""
+      },
+      {
+        "service": "Gia sư TOEFL / IELTS (theo giờ)",
+        "usd": "$100",
+        "krw": ""
+      },
+      {
+        "service": "Gia sư cuộc thi (theo giờ)",
+        "usd": "$150",
+        "krw": ""
       }
     ],
-    "disclaimer": "Tất cả bài luận đều do học sinh tự viết — Kairos chỉ huấn luyện và phản hồi."
+    "disclaimer": "Tất cả bài luận đều do học sinh tự viết — Kairos chỉ huấn luyện và phản hồi.",
+    "alacarteNote": "Hỗ trợ cuộc thi gồm: John Locke Essay, Physics Bowl, AMC/AIME, NY Times Student Essay Contest, KSEF"
   },
   "methodology": {
-    "tag": "Phương Pháp Của Chúng Tôi",
+    "tag": "Phương Pháp",
     "title": "Kairos nghĩa là <em style=\"color: rgba(201,168,76,0.85);\">đúng thời điểm.</em>",
-    "sub": "Hầu hết các công ty tư vấn tập trung vào hồ sơ. Chúng tôi tập trung vào học sinh. Hồ sơ chỉ là kết quả biểu hiện của những gì chúng ta cùng nhau xây dựng.",
+    "sub": "Hầu hết tư vấn viên tập trung vào hồ sơ. Tôi tập trung vào học sinh. Hồ sơ chỉ là biểu hiện của công việc chúng ta làm cùng nhau.",
     "cards": [
       {
         "num": "01",
         "title": "Câu Chuyện Là Nền Tảng",
-        "desc": "Trước khi mở Common App, chúng tôi dành nhiều buổi để khám phá bạn thực sự là ai — giá trị, trải nghiệm, cách bạn tư duy. Bài luận không tạo ra câu chuyện. Câu chuyện mới tạo ra bài luận."
+        "desc": "Trước khi mở Common App, tôi dành nhiều buổi để khám phá bạn thực sự là ai — giá trị, trải nghiệm, cách bạn tư duy. Bài luận không tạo ra câu chuyện. Câu chuyện mới tạo ra bài luận."
       },
       {
         "num": "02",
@@ -417,12 +468,12 @@
       {
         "num": "03",
         "title": "Bảo Tồn Giọng Văn",
-        "desc": "Chúng tôi không viết một từ nào trong bài luận của bạn. Chúng tôi huấn luyện, đặt câu hỏi và tinh chỉnh — nhưng mọi câu văn đều là của bạn. Hội đồng tuyển sinh có thể nhận ra bài luận được viết thay. Sự chân thực chính là lợi thế cạnh tranh lớn nhất của bạn."
+        "desc": "Tôi không viết một chữ nào thay bạn. Tôi coach, thách thức và chỉnh sửa — mọi câu đều là của bạn. Ban tuyển sinh phát hiện bài luận ghostwrite. Sự chân thực là lợi thế cạnh tranh lớn nhất."
       },
       {
         "num": "04",
         "title": "Am Hiểu Văn Hoá",
-        "desc": "Chúng tôi hiểu học sinh quốc tế — dù bạn đang học tại trường IB ở Singapore, trường nội trú ở Anh, hay trường tư thục ở Seoul. Chúng tôi đã làm việc với học sinh từ Hàn Quốc, Jordan, Ethiopia, Singapore, Mỹ và nhiều nơi khác. Chúng tôi chuyển hoá trải nghiệm của bạn thành ngôn ngữ mà các trường đại học hàng đầu đón nhận."
+        "desc": "Tôi hiểu học sinh quốc tế — dù bạn học IB ở Singapore, trường nội trú ở Anh hay trường tư ở Seoul. Tôi đã làm việc với học sinh từ Hàn Quốc, Jordan, Ethiopia, Singapore, Mỹ và hơn thế. Tôi chuyển trải nghiệm của bạn sang ngôn ngữ mà các trường hàng đầu phản hồi."
       }
     ]
   },
@@ -432,7 +483,7 @@
     "credentials": [
       "Đại học Illinois (Xã hội học & Tội phạm học)"
     ],
-    "tag": "Về Chúng Tôi",
+    "tag": "Giới Thiệu",
     "title": "Xây dựng trên kết quả thực tế,<br /><em>không phải thương hiệu.</em>",
     "blocks": [
       {
@@ -500,5 +551,32 @@
     ],
     "copyright": "© 2026 Kairos Education. Bảo lưu mọi quyền.",
     "meta": "Seoul, Hàn Quốc · Toàn Cầu · ronkim@kairos-education.org"
+  },
+  "faq": {
+    "tag": "FAQ",
+    "title": "Câu hỏi thường gặp",
+    "sub": "Câu trả lời thẳng thắn trước khi bạn liên hệ.",
+    "items": [
+      {
+        "q": "Kairos khác các công ty lớn như Crimson thế nào?",
+        "a": "Mỗi buổi đều trực tiếp với Ron Kim — không junior associate, không chuyển giao. Hầu hết công ty lớn giao cho coordinator sau onboarding. Tại Kairos, bạn luôn gặp người có thành tích thực."
+      },
+      {
+        "q": "Bạn có viết bài luận thay học sinh không?",
+        "a": "Không bao giờ. Mọi chữ đều là của học sinh. Tôi coach, thách thức và chỉnh sửa — bài luận ghostwrite dễ bị phát hiện và sai đạo đức. Kết quả của chúng tôi đến từ công việc chân thực."
+      },
+      {
+        "q": "Học sinh nên bắt đầu tư vấn từ lớp mấy?",
+        "a": "Legacy lớp 9, Prestige lớp 10, Scholar lớp 11. Foundation dành cho lớp 12 cần hỗ trợ essay tập trung. Càng sớm càng tốt — nhưng không bao giờ là quá muộn."
+      },
+      {
+        "q": "Có làm việc với học sinh ngoài Hàn Quốc không?",
+        "a": "Có. Khách hàng hiện tại và trước đây đến từ Hàn Quốc, Thái Lan, Singapore, Ethiopia, Jordan và Mỹ. Mọi buổi qua Zoom — múi giờ không phải vấn đề."
+      },
+      {
+        "q": "Một buổi tư vấn điển hình diễn ra thế nào?",
+        "a": "60 phút trên Zoom. Chúng tôi xử lý việc cấp bách nhất — bản nháp essay, chiến lược danh sách trường, phỏng vấn hoặc định vị hoạt động. Bạn mang việc cần làm; tôi đến sẵn sàng."
+      }
+    ]
   }
 }
