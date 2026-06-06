@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { render } from './lib/mini-template.mjs';
 import { buildSeoLinks, buildOgTwitterTags } from './lib/seo-head.mjs';
+import { copyFavicons } from './lib/copy-favicons.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
@@ -90,7 +91,7 @@ fs.copyFileSync(
   path.join(root, 'public', 'assets', 'study-korea-locale.js')
 );
 fs.copyFileSync(path.join(root, 'src', 'assets', 'seo-i18n.js'), path.join(root, 'public', 'assets', 'seo-i18n.js'));
-fs.copyFileSync(path.join(root, 'src', 'assets', 'kairos_logo.png'), path.join(root, 'public', 'assets', 'kairos_logo.png'));
+copyFavicons(root);
 
 for (const code of langs) {
   fs.copyFileSync(

@@ -51,7 +51,10 @@ public/assets/origin-i18n.js
 public/assets/study-korea-site.css
 public/assets/study-korea-locale.js
 public/assets/study-korea-i18n.js
-public/assets/kairos_logo.png
+public/assets/kairos_logo-web.png
+public/assets/og-image.png
+
+src/assets/kairos_logo.png    # 마스터 (배포 X)
 
 locales/origin/{en,ko,zh,th,vi}.json
 locales/study-korea/{en,ko,zh,th,vi}.json
@@ -60,8 +63,8 @@ src/templates/study-korea-page.njk
 ```
 
 - **언어 선택 URL:** `/` 만. `/origin.html`·`/study-korea.html` 영문 + `fetch('/locales/{page}/{lang}.json')`로 동일 DOM 번역 (`kairos-lang` sessionStorage 공유).
-- 예전 `/en/`, `/ko/`, `/vi/`, `/us.html` … 및 `/favicon.ico` → `public/_redirects` 리다이렉트.
-- **Favicon:** `<link rel="icon" href="/assets/kairos_logo.png">` (템플릿·`index.html`).
+- 예전 `/en/`, `/ko/`, `/vi/`, `/us.html` … → `public/_redirects` 리다이렉트.
+- **이미지:** 마스터 `src/assets/kairos_logo.png` → `python scripts/generate-favicons.py`로 favicon·`kairos_logo-web.png`·`og-image.png` 생성. 화면 `/assets/kairos_logo-web.png`, OG `/assets/og-image.png`.
 - **SEO·hreflang:** `origin.html?lang=` / `study-korea.html?lang=` (en/ko/zh/th/vi). hreflang·canonical·OG는 빌드 주입(`scripts/lib/seo-head.mjs`); `metaDescription`·OG는 locale JSON + `src/assets/seo-i18n.js`.
 - 섹션: hero, results, services, methodology, about, contact (`#contact`).
 

@@ -1,5 +1,5 @@
 export const SITE = 'https://kairoseducation.org';
-export const OG_IMAGE = `${SITE}/assets/kairos_logo.png`;
+export const OG_IMAGE = `${SITE}/assets/og-image.png`;
 export const OG_LOCALE = { en: 'en_US', ko: 'ko_KR', zh: 'zh_CN', th: 'th_TH', vi: 'vi_VN' };
 export const LANG_CODES = ['en', 'ko', 'zh', 'th', 'vi'];
 

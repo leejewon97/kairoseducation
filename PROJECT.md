@@ -92,7 +92,13 @@ public/
   assets/study-korea-site.css
   assets/study-korea-locale.js
   assets/study-korea-i18n.js
-  assets/kairos_logo.png      # 로고 + favicon
+  assets/kairos_logo-web.png  # 페이지 로고 (512px, 생성)
+  assets/og-image.png         # OG/Twitter (1200×630, 생성)
+  assets/favicon-48x48.png    # Google 검색 favicon (48px)
+  assets/apple-touch-icon.png # iOS 홈 화면
+  favicon.ico                 # public/ 루트 (16·32·48 multi-size)
+
+src/assets/kairos_logo.png    # 마스터 (배포 X, generate-favicons.py 입력)
 
 locales/origin/{en,ko,zh,th,vi}.json
 locales/study-korea/{en,ko,zh,th,vi}.json
@@ -102,11 +108,11 @@ scripts/build-origin-plain.mjs
 scripts/build-study-korea-plain.mjs
 ```
 
-예전 `/en/`, `/ko/`, `/vi/`, `/us.html` … 및 `/favicon.ico` → [`public/_redirects`](public/_redirects) 리다이렉트.
+예전 `/en/`, `/ko/`, `/vi/`, `/us.html` … → [`public/_redirects`](public/_redirects) 리다이렉트.
 
-**Favicon:** 템플릿·`index.html`에 `<link rel="icon" href="/assets/kairos_logo.png">`. `_redirects`에서 `/favicon.ico` → 동일 PNG.
+**이미지:** 마스터 `src/assets/kairos_logo.png` → `python scripts/generate-favicons.py`로 favicon·`kairos_logo-web.png`(512px)·`og-image.png`(1200×630) 생성 후 `public/`에 복사(빌드 스크립트의 `copyFavicons`). 화면 `<img>`는 `/assets/kairos_logo-web.png`, OG/Twitter는 `/assets/og-image.png`.
 
-**SEO·hreflang:** 콘텐츠 페이지는 `origin.html?lang=ko`, `study-korea.html?lang=zh` 형식. `<head>`에 hreflang·canonical·OG(로고 이미지)는 빌드 시 주입(`scripts/lib/seo-head.mjs`). locale JSON의 `title`·`metaDescription`은 JS로 언어 전환 시 갱신. 본문은 JS i18n(크롤러는 메타·hreflang 위주).
+**SEO·hreflang:** 콘텐츠 페이지는 `origin.html?lang=ko`, `study-korea.html?lang=zh` 형식. `<head>`에 hreflang·canonical·OG(`og-image.png`)는 빌드 시 주입(`scripts/lib/seo-head.mjs`). locale JSON의 `title`·`metaDescription`은 JS로 언어 전환 시 갱신. 본문은 JS i18n(크롤러는 메타·hreflang 위주).
 
 ### 5언어(영문 기준) 수정 절차
 
