@@ -90,6 +90,7 @@ fs.copyFileSync(
   path.join(root, 'src', 'assets', 'study-korea-locale.js'),
   path.join(root, 'public', 'assets', 'study-korea-locale.js')
 );
+fs.copyFileSync(path.join(root, 'src', 'assets', 'hash-scroll.js'), path.join(root, 'public', 'assets', 'hash-scroll.js'));
 fs.copyFileSync(path.join(root, 'src', 'assets', 'seo-i18n.js'), path.join(root, 'public', 'assets', 'seo-i18n.js'));
 copyFavicons(root);
 

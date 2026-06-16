@@ -458,47 +458,20 @@
   },
   "footer": {
     "tagline": "ที่ปรึกษาระดับ elite สำหรับนักเรียนที่ปฏิเสธความธรรมดา — ในสหรัฐ เกาหลี และที่อื่นๆ",
-    "studyKoreaHeading": "Study Korea",
-    "studyKorea": [
-      {
-        "href": "#pathways",
-        "text": "สามเส้นทางเรียน"
-      },
-      {
-        "href": "#universities",
-        "text": "มหาวิทยาลัยเกาหลี"
-      },
-      {
-        "href": "#packages",
-        "text": "แพ็กเกจและราคา"
-      },
-      {
-        "href": "#faq",
-        "text": "คำถามที่พบบ่อย"
-      }
+    "col1Heading": "เรียนต่อเกาหลี",
+    "col1": [
+      { "href": "#pathways", "text": "สามเส้นทางเรียนต่อเกาหลี" },
+      { "href": "#universities", "text": "มหาวิทยาลัยเกาหลี" },
+      { "href": "#packages", "text": "แพ็กเกจและราคา" },
+      { "href": "#faq", "text": "FAQ" }
     ],
-    "kairosHeading": "Kairos",
-    "kairos": [
-      {
-        "href": "/",
-        "text": "หน้าหลัก"
-      },
-      {
-        "href": "/origin.html#results",
-        "text": "ผลการสมัครสหรัฐ"
-      },
-      {
-        "href": "/origin.html#packages",
-        "text": "แพ็กเกจที่ปรึกษาสหรัฐ"
-      },
-      {
-        "href": "#contact",
-        "text": "นัดปรึกษาฟรี"
-      },
-      {
-        "href": "mailto:ronkim@kairos-education.org",
-        "text": "ronkim@kairos-education.org"
-      }
+    "col2Heading": "เรียนต่อสหรัฐ",
+    "col2": [
+      { "href": "/origin.html#results", "text": "ผลการสมัครสหรัฐ" },
+      { "href": "/origin.html#packages", "text": "แพ็กเกจและราคา" },
+      { "href": "/origin.html#methodology", "text": "แนวทางของเรา" },
+      { "href": "/origin.html#about", "text": "เกี่ยวกับเรา" },
+      { "href": "/origin.html#faq", "text": "FAQ" }
     ],
     "copyright": "© 2026 Kairos Education. All rights reserved.",
     "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"

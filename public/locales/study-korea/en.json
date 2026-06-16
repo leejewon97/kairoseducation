@@ -420,7 +420,7 @@
     "sub": "The first consultation is free. We'll talk about your goals, your Korean level, your timeline, and whether Kairos is the right fit. No pressure. Just an honest conversation with someone who knows Korea from the inside.",
     "emailLabel": "Email",
     "kakaoLabel": "KakaoTalk Channel",
-    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color:var(--gold);text-decoration:none;\" target=\"_blank\">채널 추가하기 →</a>",
+    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color:var(--gold);text-decoration:none;\" target=\"_blank\">Add Channel →</a>",
     "messagingLabel": "WhatsApp / Telegram",
     "messaging": "Available for international students — ask via email",
     "locationLabel": "Based in",
@@ -458,47 +458,20 @@
   },
   "footer": {
     "tagline": "Elite consulting for students who refuse to be average — in the US, in Korea, and beyond.",
-    "studyKoreaHeading": "Study Korea",
-    "studyKorea": [
-      {
-        "href": "#pathways",
-        "text": "Three Pathways"
-      },
-      {
-        "href": "#universities",
-        "text": "Korean Universities"
-      },
-      {
-        "href": "#packages",
-        "text": "Packages & Pricing"
-      },
-      {
-        "href": "#faq",
-        "text": "FAQ"
-      }
+    "col1Heading": "Study in Korea",
+    "col1": [
+      { "href": "#pathways", "text": "Three Pathways" },
+      { "href": "#universities", "text": "Korean Universities" },
+      { "href": "#packages", "text": "Packages & Pricing" },
+      { "href": "#faq", "text": "FAQ" }
     ],
-    "kairosHeading": "Kairos",
-    "kairos": [
-      {
-        "href": "/",
-        "text": "Main Site"
-      },
-      {
-        "href": "/origin.html#results",
-        "text": "US Admissions Results"
-      },
-      {
-        "href": "/origin.html#packages",
-        "text": "US Consulting Packages"
-      },
-      {
-        "href": "#contact",
-        "text": "Book Free Consultation"
-      },
-      {
-        "href": "mailto:ronkim@kairos-education.org",
-        "text": "ronkim@kairos-education.org"
-      }
+    "col2Heading": "Study in the US",
+    "col2": [
+      { "href": "/origin.html#results", "text": "Admissions Results" },
+      { "href": "/origin.html#packages", "text": "Packages & Pricing" },
+      { "href": "/origin.html#methodology", "text": "Our Approach" },
+      { "href": "/origin.html#about", "text": "About Kairos" },
+      { "href": "/origin.html#faq", "text": "FAQ" }
     ],
     "copyright": "© 2026 Kairos Education. All rights reserved.",
     "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"

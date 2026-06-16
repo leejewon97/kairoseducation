@@ -508,10 +508,10 @@
     "tag": "联系我们",
     "title": "开启您的<br />Kairos 之旅",
     "sub": "首次咨询完全免费。我们将聊聊您的目标、当前背景，以及 Kairos 是否适合您。没有压力，没有推销 — 只是一次坦诚的对话。",
-    "emailLabel": "Email",
-    "kakaoLabel": "KakaoTalk Channel",
+    "emailLabel": "电子邮件",
+    "kakaoLabel": "KakaoTalk频道",
     "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">添加频道 →</a>",
-    "locationLabel": "Based in",
+    "locationLabel": "所在地",
     "location": "首尔，韩国 · 服务全球10+国家学生",
     "form": {
       "nameLabel": "学生姓名",
@@ -534,18 +534,24 @@
     }
   },
   "footer": {
-    "tagline": "为拒绝平庸的学生提供的独立精英大学申请咨询服务。",
-    "navigateHeading": "导航",
-    "admitsHeading": "导航",
-    "nav": [
-      {
-        "href": "#results",
-        "text": "录取成绩"
-      }
+    "tagline": "为拒绝平庸的学生提供精英咨询——美国、韩国及更远。",
+    "col1Heading": "美国留学",
+    "col1": [
+      { "href": "#results", "text": "录取成果" },
+      { "href": "#packages", "text": "套餐与定价" },
+      { "href": "#methodology", "text": "我们的方法" },
+      { "href": "#about", "text": "关于我们" },
+      { "href": "#faq", "text": "FAQ" }
     ],
-    "admits": [],
+    "col2Heading": "韩国留学",
+    "col2": [
+      { "href": "/study-korea.html#pathways", "text": "三条留学路径" },
+      { "href": "/study-korea.html#universities", "text": "韩国大学" },
+      { "href": "/study-korea.html#packages", "text": "套餐与定价" },
+      { "href": "/study-korea.html#faq", "text": "FAQ" }
+    ],
     "copyright": "© 2026 Kairos Education. 版权所有。",
-    "meta": "首尔，韩国 · 全球服务 · ronkim@kairos-education.org"
+    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   },
   "faq": {
     "tag": "FAQ",

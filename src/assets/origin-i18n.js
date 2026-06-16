@@ -302,10 +302,10 @@ export function applyLocale(data) {
   applyContactForm(data.contact, data.lang);
 
   setText('#mount-footer-tagline', data.footer.tagline);
-  setText('#mount-footer-nav-heading', data.footer.navigateHeading);
-  document.getElementById('mount-footer-nav').innerHTML = renderFooterLinks(data.footer.nav);
-  setText('#mount-footer-admits-heading', data.footer.admitsHeading);
-  document.getElementById('mount-footer-admits').innerHTML = renderFooterLinks(data.footer.admits);
+  setText('#mount-footer-col1-heading', data.footer.col1Heading);
+  document.getElementById('mount-footer-col1').innerHTML = renderFooterLinks(data.footer.col1);
+  setText('#mount-footer-col2-heading', data.footer.col2Heading);
+  document.getElementById('mount-footer-col2').innerHTML = renderFooterLinks(data.footer.col2);
   setText('#mount-footer-copyright', data.footer.copyright);
-  setText('#mount-footer-meta', data.footer.meta);
+  setHtml('#mount-footer-meta', data.footer.meta);
 }

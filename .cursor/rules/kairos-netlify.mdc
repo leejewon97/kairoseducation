@@ -37,6 +37,29 @@ alwaysApply: true
 
 폼 제출은 로컬에서 Netlify로 전달되지 않음 — 배포 URL에서만 테스트.
 
+### 커밋 (키워드: 커밋하자)
+
+사용자가 **`커밋하자`** 또는 **`커밋해줘`** 등으로 **커밋을 명시**했을 때만 `git commit` 실행. 메시지만 달라는 요청이면 커밋하지 말 것.
+
+1. `git status` · `git diff` · `git log`로 변경 범위와 최근 메시지 스타일 확인
+2. 관련 파일만 스테이징 (`.env`, credentials, `bash.exe.stackdump` 등 제외)
+3. 아래 형식으로 메시지 작성 후 커밋. **`push`는 사용자가 요청할 때만**
+
+**메시지 형식** (repo 관례 — `git log` 참고):
+
+- **제목:** 영문, 동사로 시작 (`Add` / `Align` / `Fix` / `Remove` …), 한 줄, 마침표로 끝
+- **본문:** (선택) 1~2문장 — 무엇을·왜 바꿨는지
+
+예:
+
+```
+Unify origin and Study Korea footers to mirror nav section links.
+
+Replace footer CTA columns with col1/col2 link lists aligned to nav hrefs.
+```
+
+커밋 후에도 라이브 반영은 Netlify `public/` 재업로드 — § 프로덕션 참고.
+
 ## 페이지 구조
 
 ```
@@ -67,6 +90,7 @@ src/templates/study-korea-page.njk
 - **이미지:** 마스터 `src/assets/kairos_logo.png` → `python scripts/generate-favicons.py`로 favicon·`kairos_logo-web.png`·`og-image.png` 생성. 화면 `/assets/kairos_logo-web.png`, OG `/assets/og-image.png`.
 - **SEO·hreflang:** `origin.html?lang=` / `study-korea.html?lang=` (en/ko/zh/th/vi). hreflang·canonical·OG는 빌드 주입(`scripts/lib/seo-head.mjs`); `metaDescription`·OG는 locale JSON + `src/assets/seo-i18n.js`.
 - 섹션: hero, results, services, methodology, about, contact (`#contact`).
+- **푸터:** `locales/*/footer` — col1 현재 페이지 nav, col2 반대 페이지. CTA·카카오 링크 열 없음 (`footer.meta`·`contact` 참고). 상세는 [PROJECT.md](../PROJECT.md).
 
 ## 5언어 수정 (필수 워크플로)
 

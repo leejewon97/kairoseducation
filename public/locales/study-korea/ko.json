@@ -458,47 +458,20 @@
   },
   "footer": {
     "tagline": "평범함을 거부하는 학생을 위한 엘리트 컨설팅 — 미국, 한국, 그 너머까지.",
-    "studyKoreaHeading": "Study Korea",
-    "studyKorea": [
-      {
-        "href": "#pathways",
-        "text": "세 가지 유학 경로"
-      },
-      {
-        "href": "#universities",
-        "text": "한국 대학"
-      },
-      {
-        "href": "#packages",
-        "text": "패키지 & 요금"
-      },
-      {
-        "href": "#faq",
-        "text": "FAQ"
-      }
+    "col1Heading": "한국 유학",
+    "col1": [
+      { "href": "#pathways", "text": "세 가지 유학 경로" },
+      { "href": "#universities", "text": "한국 대학" },
+      { "href": "#packages", "text": "패키지 & 요금" },
+      { "href": "#faq", "text": "FAQ" }
     ],
-    "kairosHeading": "Kairos",
-    "kairos": [
-      {
-        "href": "/",
-        "text": "메인 사이트"
-      },
-      {
-        "href": "/origin.html#results",
-        "text": "미국 입시 합격 실적"
-      },
-      {
-        "href": "/origin.html#packages",
-        "text": "미국 입시 컨설팅"
-      },
-      {
-        "href": "#contact",
-        "text": "무료 상담 예약"
-      },
-      {
-        "href": "mailto:ronkim@kairos-education.org",
-        "text": "ronkim@kairos-education.org"
-      }
+    "col2Heading": "미국 유학",
+    "col2": [
+      { "href": "/origin.html#results", "text": "합격 실적" },
+      { "href": "/origin.html#packages", "text": "패키지 & 요금" },
+      { "href": "/origin.html#methodology", "text": "입시 전략" },
+      { "href": "/origin.html#about", "text": "카이로스 소개" },
+      { "href": "/origin.html#faq", "text": "FAQ" }
     ],
     "copyright": "© 2026 Kairos Education. All rights reserved.",
     "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"

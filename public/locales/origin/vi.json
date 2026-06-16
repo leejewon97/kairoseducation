@@ -534,23 +534,24 @@
     }
   },
   "footer": {
-    "tagline": "Tư vấn đại học độc lập hàng đầu dành cho những học sinh không chấp nhận sự tầm thường.",
-    "navigateHeading": "Điều Hướng",
-    "admitsHeading": "Điều Hướng",
-    "nav": [
-      {
-        "href": "#results",
-        "text": "Kết Quả"
-      }
+    "tagline": "Tư vấn hàng đầu cho những học sinh từ chối sự tầm thường — tại Mỹ, tại Hàn Quốc và hơn thế nữa.",
+    "col1Heading": "Du Học Mỹ",
+    "col1": [
+      { "href": "#results", "text": "Kết Quả Tuyển Sinh" },
+      { "href": "#packages", "text": "Gói Dịch Vụ & Học Phí" },
+      { "href": "#methodology", "text": "Phương Pháp Tư Vấn" },
+      { "href": "#about", "text": "Về Chúng Tôi" },
+      { "href": "#faq", "text": "FAQ" }
     ],
-    "admits": [
-      {
-        "href": "#results",
-        "text": "Harvard University"
-      }
+    "col2Heading": "Du Học Hàn Quốc",
+    "col2": [
+      { "href": "/study-korea.html#pathways", "text": "Ba Lộ Trình Du Học" },
+      { "href": "/study-korea.html#universities", "text": "Đại Học Hàn Quốc" },
+      { "href": "/study-korea.html#packages", "text": "Gói Dịch Vụ & Học Phí" },
+      { "href": "/study-korea.html#faq", "text": "FAQ" }
     ],
     "copyright": "© 2026 Kairos Education. Bảo lưu mọi quyền.",
-    "meta": "Seoul, Hàn Quốc · Toàn Cầu · ronkim@kairos-education.org"
+    "meta": "Seoul, Hàn Quốc · Toàn Cầu · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   },
   "faq": {
     "tag": "FAQ",

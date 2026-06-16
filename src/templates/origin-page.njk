@@ -260,23 +260,23 @@
   <footer>
     <div class="footer-inner">
       <div class="footer-brand">
-        <a href="/" class="nav-logo" aria-label="Kairos">
+        <a href="/" class="nav-logo" style="display:block;margin-bottom:12px;" aria-label="Kairos">
           <img src="/assets/kairos_logo-web.png" alt="Kairos" class="site-logo" />
         </a>
         <p id="mount-footer-tagline">{{ footer.tagline }}</p>
       </div>
       <div class="footer-links">
-        <h4 id="mount-footer-nav-heading">{{ footer.navigateHeading }}</h4>
-        <ul id="mount-footer-nav">
-          {% for item in footer.nav %}
+        <h4 id="mount-footer-col1-heading">{{ footer.col1Heading }}</h4>
+        <ul id="mount-footer-col1">
+          {% for item in footer.col1 %}
           <li><a href="{{ item.href }}">{{ item.text }}</a></li>
           {% endfor %}
         </ul>
       </div>
       <div class="footer-links">
-        <h4 id="mount-footer-admits-heading">{{ footer.admitsHeading }}</h4>
-        <ul id="mount-footer-admits">
-          {% for item in footer.admits %}
+        <h4 id="mount-footer-col2-heading">{{ footer.col2Heading }}</h4>
+        <ul id="mount-footer-col2">
+          {% for item in footer.col2 %}
           <li><a href="{{ item.href }}">{{ item.text }}</a></li>
           {% endfor %}
         </ul>
@@ -284,7 +284,7 @@
     </div>
     <div class="footer-bottom">
       <p id="mount-footer-copyright">{{ footer.copyright }}</p>
-      <p id="mount-footer-meta">{{ footer.meta }}</p>
+      <p id="mount-footer-meta">{{{ footer.meta }}}</p>
     </div>
   </footer>
 

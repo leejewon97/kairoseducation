@@ -458,49 +458,22 @@
   },
   "footer": {
     "tagline": "为拒绝平庸的学生提供精英咨询——美国、韩国及更远。",
-    "studyKoreaHeading": "Study Korea",
-    "studyKorea": [
-      {
-        "href": "#pathways",
-        "text": "三条留学路径"
-      },
-      {
-        "href": "#universities",
-        "text": "韩国大学"
-      },
-      {
-        "href": "#packages",
-        "text": "套餐与定价"
-      },
-      {
-        "href": "#faq",
-        "text": "常见问题"
-      }
+    "col1Heading": "韩国留学",
+    "col1": [
+      { "href": "#pathways", "text": "三条留学路径" },
+      { "href": "#universities", "text": "韩国大学" },
+      { "href": "#packages", "text": "套餐与定价" },
+      { "href": "#faq", "text": "FAQ" }
     ],
-    "kairosHeading": "Kairos",
-    "kairos": [
-      {
-        "href": "/",
-        "text": "主站"
-      },
-      {
-        "href": "/origin.html#results",
-        "text": "美国录取成果"
-      },
-      {
-        "href": "/origin.html#packages",
-        "text": "美国咨询套餐"
-      },
-      {
-        "href": "#contact",
-        "text": "预约免费咨询"
-      },
-      {
-        "href": "mailto:ronkim@kairos-education.org",
-        "text": "ronkim@kairos-education.org"
-      }
+    "col2Heading": "美国留学",
+    "col2": [
+      { "href": "/origin.html#results", "text": "录取成果" },
+      { "href": "/origin.html#packages", "text": "套餐与定价" },
+      { "href": "/origin.html#methodology", "text": "我们的方法" },
+      { "href": "/origin.html#about", "text": "关于我们" },
+      { "href": "/origin.html#faq", "text": "FAQ" }
     ],
-    "copyright": "© 2026 Kairos Education. All rights reserved.",
+    "copyright": "© 2026 Kairos Education. 版权所有。",
     "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   }
 }

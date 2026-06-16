@@ -537,7 +537,7 @@
     "sub": "The first consultation is free. We'll talk about your goals, your current profile, and whether Kairos is the right fit. No pressure, no pitch — just an honest conversation.",
     "emailLabel": "Email",
     "kakaoLabel": "KakaoTalk Channel",
-    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">채널 추가하기 →</a>",
+    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">Add Channel →</a>",
     "locationLabel": "Based in",
     "location": "Seoul, Korea · Working with students across 10+ countries",
     "form": {
@@ -561,22 +561,23 @@
     }
   },
   "footer": {
-    "tagline": "Elite independent college consulting for students who refuse to be average.",
-    "navigateHeading": "Navigate",
-    "admitsHeading": "Navigate",
-    "nav": [
-      {
-        "href": "#results",
-        "text": "Results"
-      }
+    "tagline": "Elite consulting for students who refuse to be average — in the US, in Korea, and beyond.",
+    "col1Heading": "Study in the US",
+    "col1": [
+      { "href": "#results", "text": "Admissions Results" },
+      { "href": "#packages", "text": "Packages & Pricing" },
+      { "href": "#methodology", "text": "Our Approach" },
+      { "href": "#about", "text": "About Kairos" },
+      { "href": "#faq", "text": "FAQ" }
     ],
-    "admits": [
-      {
-        "href": "#results",
-        "text": "Harvard University"
-      }
+    "col2Heading": "Study in Korea",
+    "col2": [
+      { "href": "/study-korea.html#pathways", "text": "Three Pathways" },
+      { "href": "/study-korea.html#universities", "text": "Korean Universities" },
+      { "href": "/study-korea.html#packages", "text": "Packages & Pricing" },
+      { "href": "/study-korea.html#faq", "text": "FAQ" }
     ],
     "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "Seoul, Korea · Worldwide · ronkim@kairos-education.org"
+    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   }
 }

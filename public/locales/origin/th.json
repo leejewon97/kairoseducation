@@ -33,7 +33,7 @@
     "packages": "แพ็กเกจ",
     "methodology": "แนวทาง",
     "about": "เกี่ยวกับ",
-    "cta": "นัดหมายปรึกษา",
+    "cta": "นัดปรึกษา",
     "faq": "FAQ"
   },
   "hero": {
@@ -508,10 +508,10 @@
     "tag": "ติดต่อ",
     "title": "เริ่มต้น<br />การเดินทาง Kairos",
     "sub": "การปรึกษาครั้งแรกฟรี เราจะพูดคุยเกี่ยวกับเป้าหมาย โปรไฟล์ปัจจุบัน และว่า Kairos เหมาะกับคุณหรือไม่ ไม่มีแรงกดดัน ไม่มีการขาย — แค่การพูดคุยตรงไปตรงมา",
-    "emailLabel": "Email",
-    "kakaoLabel": "KakaoTalk Channel",
+    "emailLabel": "อีเมล",
+    "kakaoLabel": "ช่อง KakaoTalk",
     "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">เพิ่มช่องทาง →</a>",
-    "locationLabel": "Based in",
+    "locationLabel": "ตั้งอยู่ที่",
     "location": "โซล, เกาหลีใต้ · ดูแลนักเรียนใน 10+ ประเทศ",
     "form": {
       "nameLabel": "ชื่อนักเรียน",
@@ -534,18 +534,24 @@
     }
   },
   "footer": {
-    "tagline": "ที่ปรึกษาการสมัครมหาวิทยาลัยอิสระชั้นนำสำหรับนักเรียนที่ปฏิเสธความธรรมดา",
-    "navigateHeading": "เมนู",
-    "admitsHeading": "เมนู",
-    "nav": [
-      {
-        "href": "#results",
-        "text": "ผลงาน"
-      }
+    "tagline": "ที่ปรึกษาระดับ elite สำหรับนักเรียนที่ปฏิเสธความธรรมดา — ในสหรัฐ เกาหลี และที่อื่นๆ",
+    "col1Heading": "เรียนต่อสหรัฐ",
+    "col1": [
+      { "href": "#results", "text": "ผลการสมัคร" },
+      { "href": "#packages", "text": "แพ็กเกจและราคา" },
+      { "href": "#methodology", "text": "แนวทางของเรา" },
+      { "href": "#about", "text": "เกี่ยวกับเรา" },
+      { "href": "#faq", "text": "FAQ" }
     ],
-    "admits": [],
+    "col2Heading": "เรียนต่อเกาหลี",
+    "col2": [
+      { "href": "/study-korea.html#pathways", "text": "สามเส้นทางเรียนต่อเกาหลี" },
+      { "href": "/study-korea.html#universities", "text": "มหาวิทยาลัยเกาหลี" },
+      { "href": "/study-korea.html#packages", "text": "แพ็กเกจและราคา" },
+      { "href": "/study-korea.html#faq", "text": "FAQ" }
+    ],
     "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "โซล, เกาหลีใต้ · Worldwide · ronkim@kairos-education.org"
+    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   },
   "faq": {
     "tag": "FAQ",

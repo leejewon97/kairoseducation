@@ -272,10 +272,10 @@ export function applyLocale(data) {
   applyStudyKoreaForm(data.contact, data.lang);
 
   setText('#mount-footer-tagline', data.footer.tagline);
-  setText('#mount-footer-kr-heading', data.footer.studyKoreaHeading);
-  document.getElementById('mount-footer-kr').innerHTML = renderFooterLinks(data.footer.studyKorea);
-  setText('#mount-footer-kairos-heading', data.footer.kairosHeading);
-  document.getElementById('mount-footer-kairos').innerHTML = renderFooterLinks(data.footer.kairos);
+  setText('#mount-footer-col1-heading', data.footer.col1Heading);
+  document.getElementById('mount-footer-col1').innerHTML = renderFooterLinks(data.footer.col1);
+  setText('#mount-footer-col2-heading', data.footer.col2Heading);
+  document.getElementById('mount-footer-col2').innerHTML = renderFooterLinks(data.footer.col2);
   setText('#mount-footer-copyright', data.footer.copyright);
   setHtml('#mount-footer-meta', data.footer.meta);
 }

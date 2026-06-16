@@ -33,7 +33,7 @@
     "packages": "패키지",
     "methodology": "전략",
     "about": "소개",
-    "cta": "무료 상담 신청",
+    "cta": "상담 예약",
     "faq": "FAQ"
   },
   "hero": {
@@ -508,10 +508,10 @@
     "tag": "문의",
     "title": "카이로스와 함께<br />시작하세요.",
     "sub": "첫 상담은 무료입니다. 목표, 현재 프로필, Kairos가 맞는지 솔직하게 이야기합니다. 부담 없이 연락 주세요.",
-    "emailLabel": "Email",
-    "kakaoLabel": "KakaoTalk Channel",
+    "emailLabel": "이메일",
+    "kakaoLabel": "카카오톡 채널",
     "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">채널 추가하기 →</a>",
-    "locationLabel": "Based in",
+    "locationLabel": "소재지",
     "location": "서울, 대한민국 · 전 세계 10개국 이상 학생 지도",
     "form": {
       "nameLabel": "학생 이름",
@@ -534,18 +534,24 @@
     }
   },
   "footer": {
-    "tagline": "평범함을 거부하는 학생들을 위한 독립 엘리트 대입 컨설팅.",
-    "navigateHeading": "바로가기",
-    "admitsHeading": "바로가기",
-    "nav": [
-      {
-        "href": "#results",
-        "text": "합격 실적"
-      }
+    "tagline": "평범함을 거부하는 학생을 위한 엘리트 컨설팅 — 미국, 한국, 그 너머까지.",
+    "col1Heading": "미국 유학",
+    "col1": [
+      { "href": "#results", "text": "합격 실적" },
+      { "href": "#packages", "text": "패키지 & 요금" },
+      { "href": "#methodology", "text": "입시 전략" },
+      { "href": "#about", "text": "카이로스 소개" },
+      { "href": "#faq", "text": "FAQ" }
     ],
-    "admits": [],
+    "col2Heading": "한국 유학",
+    "col2": [
+      { "href": "/study-korea.html#pathways", "text": "세 가지 유학 경로" },
+      { "href": "/study-korea.html#universities", "text": "한국 대학" },
+      { "href": "/study-korea.html#packages", "text": "패키지 & 요금" },
+      { "href": "/study-korea.html#faq", "text": "FAQ" }
+    ],
     "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "서울, 대한민국 · Worldwide · ronkim@kairos-education.org"
+    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   },
   "faq": {
     "tag": "FAQ",

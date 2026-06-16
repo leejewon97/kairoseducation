@@ -73,6 +73,7 @@ fs.mkdirSync(path.join(root, 'public', 'locales', 'origin'), { recursive: true }
 fs.copyFileSync(path.join(root, 'src', 'assets', 'origin-site.css'), path.join(root, 'public', 'assets', 'origin-site.css'));
 fs.copyFileSync(path.join(root, 'src', 'assets', 'origin-i18n.js'), path.join(root, 'public', 'assets', 'origin-i18n.js'));
 fs.copyFileSync(path.join(root, 'src', 'assets', 'origin-locale.js'), path.join(root, 'public', 'assets', 'origin-locale.js'));
+fs.copyFileSync(path.join(root, 'src', 'assets', 'hash-scroll.js'), path.join(root, 'public', 'assets', 'hash-scroll.js'));
 fs.copyFileSync(path.join(root, 'src', 'assets', 'seo-i18n.js'), path.join(root, 'public', 'assets', 'seo-i18n.js'));
 copyFavicons(root);
 

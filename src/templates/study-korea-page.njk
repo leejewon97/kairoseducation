@@ -236,17 +236,17 @@
       <p id="mount-footer-tagline">{{ footer.tagline }}</p>
     </div>
     <div class="footer-links">
-      <h4 id="mount-footer-kr-heading">{{ footer.studyKoreaHeading }}</h4>
-      <ul id="mount-footer-kr">
-        {% for item in footer.studyKorea %}
+      <h4 id="mount-footer-col1-heading">{{ footer.col1Heading }}</h4>
+      <ul id="mount-footer-col1">
+        {% for item in footer.col1 %}
         <li><a href="{{ item.href }}">{{ item.text }}</a></li>
         {% endfor %}
       </ul>
     </div>
     <div class="footer-links">
-      <h4 id="mount-footer-kairos-heading">{{ footer.kairosHeading }}</h4>
-      <ul id="mount-footer-kairos">
-        {% for item in footer.kairos %}
+      <h4 id="mount-footer-col2-heading">{{ footer.col2Heading }}</h4>
+      <ul id="mount-footer-col2">
+        {% for item in footer.col2 %}
         <li><a href="{{ item.href }}">{{ item.text }}</a></li>
         {% endfor %}
       </ul>

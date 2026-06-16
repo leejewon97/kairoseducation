@@ -1,4 +1,7 @@
 import { applyLocale } from './study-korea-i18n.js';
+import { initHashScrollRestoration, scrollToHashAfterLocale } from './hash-scroll.js';
+
+initHashScrollRestoration();
 
 const STORAGE_KEY = 'kairos-lang';
 const SUPPORTED = ['en', 'ko', 'zh', 'th', 'vi'];
@@ -49,6 +52,7 @@ async function setLang(code) {
     sessionStorage.setItem(STORAGE_KEY, code);
     applyLocale(data);
     syncLangToUrl(code);
+    scrollToHashAfterLocale();
   } finally {
     document.body.classList.remove('i18n-loading');
   }

@@ -458,47 +458,20 @@
   },
   "footer": {
     "tagline": "Tư vấn hàng đầu cho những học sinh từ chối sự tầm thường — tại Mỹ, tại Hàn Quốc và hơn thế nữa.",
-    "studyKoreaHeading": "Du Học Hàn Quốc",
-    "studyKorea": [
-      {
-        "href": "#pathways",
-        "text": "Ba Lộ Trình"
-      },
-      {
-        "href": "#universities",
-        "text": "Đại Học Hàn Quốc"
-      },
-      {
-        "href": "#packages",
-        "text": "Gói Dịch Vụ & Học Phí"
-      },
-      {
-        "href": "#faq",
-        "text": "Câu Hỏi Thường Gặp"
-      }
+    "col1Heading": "Du Học Hàn Quốc",
+    "col1": [
+      { "href": "#pathways", "text": "Ba Lộ Trình Du Học" },
+      { "href": "#universities", "text": "Đại Học Hàn Quốc" },
+      { "href": "#packages", "text": "Gói Dịch Vụ & Học Phí" },
+      { "href": "#faq", "text": "FAQ" }
     ],
-    "kairosHeading": "Kairos",
-    "kairos": [
-      {
-        "href": "/",
-        "text": "Trang Chủ"
-      },
-      {
-        "href": "/origin.html#results",
-        "text": "Kết Quả Tuyển Sinh Mỹ"
-      },
-      {
-        "href": "/origin.html#packages",
-        "text": "Gói Tư Vấn Mỹ"
-      },
-      {
-        "href": "#contact",
-        "text": "Đặt Lịch Tư Vấn Miễn Phí"
-      },
-      {
-        "href": "mailto:ronkim@kairos-education.org",
-        "text": "ronkim@kairos-education.org"
-      }
+    "col2Heading": "Du Học Mỹ",
+    "col2": [
+      { "href": "/origin.html#results", "text": "Kết Quả Tuyển Sinh Mỹ" },
+      { "href": "/origin.html#packages", "text": "Gói Dịch Vụ & Học Phí" },
+      { "href": "/origin.html#methodology", "text": "Phương Pháp Tư Vấn" },
+      { "href": "/origin.html#about", "text": "Về Chúng Tôi" },
+      { "href": "/origin.html#faq", "text": "FAQ" }
     ],
     "copyright": "© 2026 Kairos Education. Bảo lưu mọi quyền.",
     "meta": "Seoul, Hàn Quốc · Toàn Cầu · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
