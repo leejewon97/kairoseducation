@@ -37,19 +37,30 @@
 <body>
 
   <nav>
-    <a href="/" class="nav-logo" aria-label="Kairos">
-      <img src="/assets/kairos_logo-web.png" alt="Kairos" class="site-logo" />
-    </a>
-    <ul class="nav-links">
-      <li><a href="#results" id="mount-nav-results">Results</a></li>
-      <li><a href="#packages" id="mount-nav-packages">Packages</a></li>
-      <li><a href="#methodology" id="mount-nav-methodology">Approach</a></li>
-      <li><a href="#about" id="mount-nav-about">About</a></li>
-      <li><a href="#faq" id="mount-nav-faq">FAQ</a></li>
-    </ul>
-    <div class="nav-right">
-      <div id="mount-lang-switcher" style="display:flex; align-items:center; gap:8px;"></div>
-      <a href="#contact" class="nav-cta" id="mount-nav-cta">Book Consultation</a>
+    <div class="nav-bar">
+      <a href="/" class="nav-logo" aria-label="Kairos">
+        <img src="/assets/kairos_logo-web.png" alt="Kairos" class="site-logo" />
+      </a>
+      <div class="nav-end">
+        <div class="nav-actions">
+          <a href="#contact" class="nav-cta" id="mount-nav-cta">Book Consultation</a>
+        </div>
+        <button type="button" class="nav-toggle" aria-controls="nav-mobile-panel" aria-expanded="false" aria-label="Menu">
+          <span class="nav-toggle-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav-panel" id="nav-mobile-panel">
+      <ul class="nav-links">
+        <li><a href="#results" id="mount-nav-results">Results</a></li>
+        <li><a href="#packages" id="mount-nav-packages">Packages</a></li>
+        <li><a href="#methodology" id="mount-nav-methodology">Approach</a></li>
+        <li><a href="#about" id="mount-nav-about">About</a></li>
+        <li><a href="#faq" id="mount-nav-faq">FAQ</a></li>
+      </ul>
+      <div class="nav-right">
+        <div id="mount-lang-switcher" style="display:flex; align-items:center; gap:8px;"></div>
+      </div>
     </div>
   </nav>
 
@@ -859,6 +870,7 @@
     </div>
   </footer>
 
+  <script src="/assets/nav-mobile.js" defer></script>
   <script type="module" src="/assets/origin-locale.js"></script>
 </body>
 </html>

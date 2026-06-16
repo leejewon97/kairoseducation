@@ -89,6 +89,8 @@ public/
   assets/origin-site.css
   assets/origin-locale.js
   assets/origin-i18n.js
+  assets/hash-scroll.js       # 교차 페이지 # 앵커 재스크롤 (locale 후)
+  assets/nav-mobile.js        # 모바일 nav 햄버거 토글
   assets/study-korea-site.css
   assets/study-korea-locale.js
   assets/study-korea-i18n.js
@@ -141,25 +143,24 @@ origin·study-korea **동일 구조**: 브랜드(tagline) + 섹션 링크 2열 +
 - locale `footer`: `col1` = 현재 페이지 nav와 **href 동일**, `col2` = 반대 페이지 (`/origin.html#…` ↔ `/study-korea.html#…`). 열 제목은 `col1Heading` / `col2Heading`.
 - 상담 CTA는 nav `#contact`만. 이메일·카카오는 푸터 링크 열이 아니라 `footer.meta`·`contact` 섹션.
 - nav 섹션을 바꾸면 양쪽 `footer`와 템플릿·`*-i18n.js`도 함께 맞출 것.
+- 푸터 2열(반대 페이지 `#…` 링크)은 [`src/assets/hash-scroll.js`](src/assets/hash-scroll.js)가 locale·폰트 적용 후 고정 nav 높이를 고려해 재스크롤.
+
+### 모바일 nav
+
+- **≤900px:** 상단바는 로고 + back/CTA(study-korea) + `.nav-toggle`. 열면 `.nav-panel` 안에 섹션 링크·언어 스위처 드롭다운. **901px+** 가로 nav.
+- **구조:** `.nav-bar`(70px 고정) + `.nav-panel` + `.nav-end`
+- **JS:** [`src/assets/nav-mobile.js`](src/assets/nav-mobile.js) — 토글, ESC·바깥 클릭·링크 클릭 시 닫기, `body.nav-open` 스크롤 잠금, 901px+ 리사이즈 시 닫기.
+- **빌드:** `build-*-plain.mjs`가 `nav-mobile.js`·`hash-scroll.js`를 `public/assets/`로 복사.
 
 ---
 
 ## 해야 할 일 (백로그)
 
-### 모바일 반응형 nav (별도 작업 — 현재 미적용)
+### 모바일 nav (선택 개선)
 
-768px 이하에서 가로 nav 링크가 `display: none`으로만 숨겨지고 **햄버거·드로어 대체 UI가 없음**. 아래는 프로토타입으로 검토했으나 **코드는 커밋하지 않음** (일관성 작업 우선).
-
-| 항목 | 내용 |
-|------|------|
-| **구조** | `#site-nav` + `#nav-drawer`(섹션 링크·언어 전환·study-korea `nav-back`) + 상단 `nav-cta--bar` + `.nav-toggle` |
-| **JS** | `src/assets/nav-mobile.js` — 토글, ESC, 앵커 클릭 시 닫기, body scroll lock, focus trap |
-| **i18n** | locale `nav.menuOpen` / `nav.menuClose` + i18n `applyMenuLabels()` |
-| **CSS** | `origin-site.css` / `study-korea-site.css` — drawer·toggle·모바일 폼 16px 등 |
-| **빌드** | `build-*-plain.mjs`에 `nav-mobile.js` 복사 한 줄 |
-
-**추가 이슈 (데스크톱 중간 폭):** origin 한국어(`?lang=ko`)는 **769~900px** 구간에서 가로 nav가 2줄 wrap·링크 폭 깨짐. 햄버거 breakpoint(768px)만으로는 부족 — **900px 또는 1024px**까지 올리거나 ko nav 문구·gap 조정 검토.
-
-**적용 시:** 템플릿 2개 + CSS 2개 + JS 1개 + locale 5×2 + 빌드 스크립트 → `node scripts/build-origin-plain.mjs` / `build-study-korea-plain.mjs` → Netlify `public/` 재업로드.
+| 항목 | 현재 | 개선 시 |
+|------|------|---------|
+| 메뉴 버튼 라벨 | `aria-label="Menu"` 영문 고정 | locale `nav.menuOpen` / `nav.menuClose` + i18n |
+| 접근성 | ESC·`aria-expanded` | focus trap 추가 검토 |
 
 ---

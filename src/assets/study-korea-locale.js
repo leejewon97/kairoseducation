@@ -53,6 +53,7 @@ async function setLang(code) {
     applyLocale(data);
     syncLangToUrl(code);
     scrollToHashAfterLocale();
+    window.dispatchEvent(new CustomEvent('kairos:langchange', { detail: { lang: code } }));
   } finally {
     document.body.classList.remove('i18n-loading');
   }
