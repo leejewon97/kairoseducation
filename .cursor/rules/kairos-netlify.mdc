@@ -1,12 +1,12 @@
 ---
 description: Kairos Education — Netlify 정적 사이트 협업 규칙 (배포·폼·다국어)
-globs: public/**/*.html,locales/**/*.json,src/**/*,scripts/**/*,PROJECT.md
+globs: public/**/*.html,locales/**/*.json,src/**/*,scripts/**/*,README.md
 alwaysApply: true
 ---
 
 # Kairos Education
 
-대학 입시 컨설팅 랜딩 사이트. **순수 HTML/CSS** 정적 사이트. 영문 기준 5언어(en/ko/zh/th/vi)는 **locale JSON + 템플릿**을 `node scripts/build-all.mjs`로 빌드 (npm 불필요). 상세는 [PROJECT.md](../PROJECT.md).
+대학 입시 컨설팅 랜딩 사이트. **순수 HTML/CSS** 정적 사이트. 영문 기준 5언어(en/ko/zh/th/vi)는 **locale JSON + 템플릿**을 `node scripts/build-all.mjs`로 빌드 (npm 불필요). 상세는 [README.md](../README.md).
 
 **원본 vs 산출물:** `locales/`, `src/templates/`, `src/assets/`만 수정. `public/` HTML·`public/locales/`·`public/assets/`는 빌드 산출물 — 직접 수정 금지. 배포 전 `node scripts/verify-sync.mjs`로 동기화 확인.
 
@@ -19,7 +19,7 @@ alwaysApply: true
 | 게시 | `public/` |
 | 배포 | **사용자 수동 업로드** — `public/` 폴더 드래그앤드롭 (Netlify Git 연동 없음) |
 
-**Git vs Netlify:** 로컬 git에는 프로젝트 **전체**를 커밋. Netlify 수동 업로드는 **`public/`만** — `.cursor/`, `PROJECT.md`는 Netlify에 넣지 않음.
+**Git vs Netlify:** 로컬 git에는 프로젝트 **전체**를 커밋. Netlify 수동 업로드는 **`public/`만** — `.cursor/`, `README.md`는 Netlify에 넣지 않음. Collaborator는 PR만; 머지·배포는 저장소 관리자.
 
 로컬 수정·`git commit`만으로 라이브 사이트는 바뀌지 않음. **"push하면 배포된다"고 말하지 말 것.** 작업 후 Netlify에 `public/` 재업로드 안내.
 
@@ -100,7 +100,7 @@ scripts/verify-sync.mjs
 - **이미지:** 마스터 `src/assets/kairos_logo.png` → `python scripts/generate-favicons.py`로 favicon·`kairos_logo-web.png`·`og-image.png` 생성. 화면 `/assets/kairos_logo-web.png`, OG `/assets/og-image.png`.
 - **SEO·hreflang:** `origin.html?lang=` / `study-korea.html?lang=` (en/ko/zh/th/vi). hreflang·canonical·OG는 빌드 주입(`scripts/lib/seo-head.mjs`); `metaDescription`·OG는 locale JSON + `src/assets/seo-i18n.js`.
 - 섹션: hero, results, services, methodology, about, contact (`#contact`).
-- **푸터:** `locales/*/footer` — col1 현재 페이지 nav, col2 반대 페이지. CTA·카카오 링크 열 없음 (`footer.meta`·`contact` 참고). 상세는 [PROJECT.md](../PROJECT.md).
+- **푸터:** `locales/*/footer` — col1 현재 페이지 nav, col2 반대 페이지. CTA·카카오 링크 열 없음 (`footer.meta`·`contact` 참고). 상세는 [README.md](../README.md).
 
 ## 5언어 수정 (필수 워크플로)
 
