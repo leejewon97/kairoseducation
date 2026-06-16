@@ -34,7 +34,9 @@
     "methodology": "전략",
     "about": "소개",
     "cta": "상담 예약",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "menuOpen": "메뉴 열기",
+    "menuClose": "메뉴 닫기"
   },
   "hero": {
     "badge": "엘리트 대입 컨설팅 · 전 세계",

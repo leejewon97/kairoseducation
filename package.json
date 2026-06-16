@@ -2,8 +2,12 @@
   "name": "kairoseducation",
   "private": true,
   "scripts": {
-    "build": "node scripts/build-origin-plain.mjs",
+    "build": "node scripts/build-all.mjs",
+    "build:origin": "node scripts/build-origin-plain.mjs",
+    "build:study-korea": "node scripts/build-study-korea-plain.mjs",
+    "build:index": "node scripts/build-index-plain.mjs",
+    "verify": "node scripts/verify-sync.mjs",
     "extract-locales": "node scripts/extract-locales-plain.mjs",
-    "rebuild": "node scripts/extract-locales-plain.mjs && node scripts/build-origin-plain.mjs"
+    "rebuild": "node scripts/extract-locales-plain.mjs && node scripts/build-all.mjs"
   }
 }

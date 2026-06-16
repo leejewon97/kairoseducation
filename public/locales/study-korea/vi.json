@@ -30,7 +30,9 @@
     "packages": "Gói Dịch Vụ",
     "faq": "FAQ",
     "back": "← Trang Chủ",
-    "cta": "Đặt Lịch Tư Vấn"
+    "cta": "Đặt Lịch Tư Vấn",
+    "menuOpen": "Mở menu",
+    "menuClose": "Đóng menu"
   },
   "hero": {
     "badge": "Du Học Hàn Quốc · Tuyển Sinh Quốc Tế",

@@ -34,7 +34,9 @@
     "methodology": "Approach",
     "about": "About",
     "faq": "FAQ",
-    "cta": "Book Consultation"
+    "cta": "Book Consultation",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
   },
   "hero": {
     "badge": "Elite College Consulting · Worldwide",

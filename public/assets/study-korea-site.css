@@ -39,6 +39,7 @@ nav {
 .nav-right { display:flex; align-items:center; gap:12px; }
 .nav-actions { display:flex; align-items:center; gap:12px; }
 .nav-end { display:flex; align-items:center; gap:12px; }
+.nav-actions--mobile { display:none; }
 .nav-bar { display:contents; }
 .nav-panel { display:contents; }
 .nav-logo { order:1; }
@@ -104,6 +105,8 @@ body.nav-mobile .nav-end {
   flex-shrink:0;
   gap:8px;
 }
+body.nav-mobile .nav-actions--desktop { display:none; }
+body.nav-mobile .nav-actions--mobile { display:flex; }
 body.nav-mobile .nav-actions { gap:8px; }
 body.nav-mobile .nav-actions .nav-cta { padding:8px 14px; font-size:13px; }
 body.nav-mobile .nav-actions .nav-back { font-size:12px; white-space:nowrap; }
@@ -136,6 +139,8 @@ body.nav-mobile .nav-right {
 }
 body.nav-mobile #mount-lang-switcher { flex-wrap:wrap; }
 body.nav-mobile.nav-open { overflow:hidden; }
+
+body:not(.nav-mobile) .nav-end { display:none; }
 
 /* ── HERO ────────────────────────────────────────── */
 .hero {

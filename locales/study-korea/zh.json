@@ -30,7 +30,9 @@
     "packages": "套餐",
     "faq": "常见问题",
     "back": "← 返回主站",
-    "cta": "预约咨询"
+    "cta": "预约咨询",
+    "menuOpen": "打开菜单",
+    "menuClose": "关闭菜单"
   },
   "hero": {
     "badge": "Study Korea · 国际入学咨询",

@@ -71,150 +71,39 @@
     <div class="logo"><img src="/assets/kairos_logo-web.png" alt="Kairos" /></div>
 
     <div id="step-lang" class="step active">
-      <div class="subtitle">Select Your Language</div>
+      <div class="subtitle" id="step-lang-subtitle">Select Your Language</div>
       <div class="lang-grid">
+        
         <button type="button" class="lang-card" data-lang="en"><div class="native">English</div><div class="label">English</div></button>
+        
         <button type="button" class="lang-card" data-lang="ko"><div class="native">한국어</div><div class="label">Korean</div></button>
+        
         <button type="button" class="lang-card" data-lang="zh"><div class="native">中文</div><div class="label">Chinese</div></button>
+        
         <button type="button" class="lang-card" data-lang="th"><div class="native">ภาษาไทย</div><div class="label">Thai</div></button>
+        
         <button type="button" class="lang-card" data-lang="vi"><div class="native">Tiếng Việt</div><div class="label">Vietnamese</div></button>
+        
       </div>
     </div>
 
     <div id="step-track" class="step">
       <button type="button" class="back-btn" id="btn-back" aria-label="Back to language selection">← Back</button>
-      <div class="lang-pill" id="lang-pill"></div>
+      <div class="lang-pill" id="lang-pill">English</div>
       <div class="subtitle" id="track-subtitle">Choose Your Pathway</div>
       <div class="track-grid">
-        <a href="/origin.html" class="track-card" id="track-origin">
+        <a href="/origin.html?lang=en" class="track-card" id="track-origin">
           <div class="native" id="label-us">Study in US</div>
           <div class="label" id="sublabel-us">US college admissions consulting</div>
         </a>
-        <a href="/study-korea.html" class="track-card" id="track-kr">
+        <a href="/study-korea.html?lang=en" class="track-card" id="track-kr">
           <div class="native" id="label-kr">Study in KR</div>
-          <div class="label" id="sublabel-kr">Study in Korea programs</div>
+          <div class="label" id="sublabel-kr">Korean universities &amp; language programs</div>
         </a>
       </div>
     </div>
   </div>
 
-  <script>
-    const originFontHref = {
-      en: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap',
-      ko: 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap',
-      zh: 'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap',
-      th: 'https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap',
-      vi: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap'
-    };
-
-    function preloadOriginFont(code) {
-      const href = originFontHref[code];
-      if (!href) return;
-      let link = document.getElementById('origin-font-preload');
-      if (!link) {
-        link = document.createElement('link');
-        link.id = 'origin-font-preload';
-        link.rel = 'preload';
-        link.as = 'style';
-        document.head.appendChild(link);
-      }
-      link.href = href;
-    }
-
-    const copy = {
-      en: {
-        pill: 'English',
-        subtitle: 'Choose Your Pathway',
-        back: 'Back',
-        us: 'Study in US',
-        usSub: 'US college admissions consulting',
-        kr: 'Study in KR',
-        krSub: 'Korean universities & language programs',
-        originHref: '/origin.html?lang=en',
-        krHref: '/study-korea.html?lang=en'
-      },
-      ko: {
-        pill: '한국어',
-        subtitle: '진로를 선택하세요',
-        back: '뒤로',
-        us: '미국 유학',
-        usSub: '미국 대입 컨설팅',
-        kr: '한국 유학',
-        krSub: '한국 대학·어학연수 상담',
-        originHref: '/origin.html?lang=en',
-        krHref: '/study-korea.html?lang=en'
-      },
-      zh: {
-        pill: '中文',
-        subtitle: '选择您的方向',
-        back: '返回',
-        us: '赴美留学',
-        usSub: '美国大学申请咨询',
-        kr: '赴韩留学',
-        krSub: '韩国大学与语学院项目',
-        originHref: '/origin.html?lang=en',
-        krHref: '/study-korea.html?lang=en'
-      },
-      th: {
-        pill: 'ภาษาไทย',
-        subtitle: 'เลือกเส้นทางของคุณ',
-        back: 'กลับ',
-        us: 'เรียนต่อสหรัฐฯ',
-        usSub: 'ที่ปรึกษาเข้ามหาวิทยาลัยสหรัฐ',
-        kr: 'เรียนต่อเกาหลี',
-        krSub: 'มหาวิทยาลัยและภาษาเกาหลี',
-        originHref: '/origin.html?lang=en',
-        krHref: '/study-korea.html?lang=en'
-      },
-      vi: {
-        pill: 'Tiếng Việt',
-        subtitle: 'Chọn Lộ Trình Của Bạn',
-        back: 'Quay lại',
-        us: 'Du Học Mỹ',
-        usSub: 'Tư vấn tuyển sinh đại học Mỹ',
-        kr: 'Du Học Hàn Quốc',
-        krSub: 'Đại học & chương trình ngôn ngữ Hàn Quốc',
-        originHref: '/origin.html?lang=en',
-        krHref: '/study-korea.html?lang=en'
-      }
-    };
-
-    const stepLang = document.getElementById('step-lang');
-    const stepTrack = document.getElementById('step-track');
-    let selectedLang = 'en';
-
-    function showTrackStep(lang) {
-      if (!copy[lang]) return;
-      selectedLang = lang;
-      sessionStorage.setItem('kairos-lang', selectedLang);
-      preloadOriginFont(selectedLang);
-      const t = copy[selectedLang];
-      document.getElementById('lang-pill').textContent = t.pill;
-      document.getElementById('track-subtitle').textContent = t.subtitle;
-      document.getElementById('btn-back').textContent = '← ' + t.back;
-      document.getElementById('label-us').textContent = t.us;
-      document.getElementById('sublabel-us').textContent = t.usSub;
-      document.getElementById('label-kr').textContent = t.kr;
-      document.getElementById('sublabel-kr').textContent = t.krSub;
-      document.getElementById('track-origin').href = `/origin.html?lang=${selectedLang}`;
-      document.getElementById('track-kr').href = `/study-korea.html?lang=${selectedLang}`;
-      stepLang.classList.remove('active');
-      stepTrack.classList.add('active');
-    }
-
-    document.querySelectorAll('.lang-card').forEach((btn) => {
-      btn.addEventListener('click', () => showTrackStep(btn.dataset.lang));
-    });
-
-    document.getElementById('btn-back').addEventListener('click', () => {
-      stepTrack.classList.remove('active');
-      stepLang.classList.add('active');
-    });
-
-    const langParam = new URLSearchParams(window.location.search).get('lang');
-    if (langParam && copy[langParam]) {
-      showTrackStep(langParam);
-    }
-  </script>
+  <script type="module" src="/assets/index-locale.js"></script>
 </body>
 </html>

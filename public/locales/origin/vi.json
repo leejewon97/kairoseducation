@@ -34,7 +34,9 @@
     "methodology": "Phương Pháp",
     "about": "Về Chúng Tôi",
     "cta": "Đặt Lịch Tư Vấn",
-    "faq": "FAQ"
+    "faq": "FAQ",
+    "menuOpen": "Mở menu",
+    "menuClose": "Đóng menu"
   },
   "hero": {
     "badge": "Tư Vấn Đại Học Hàng Đầu · Toàn Cầu",

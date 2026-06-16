@@ -1,10 +1,11 @@
 import { applyLocale } from './study-korea-i18n.js';
 import { initHashScrollRestoration, scrollToHashAfterLocale } from './hash-scroll.js';
+import { LANGS } from './langs.js';
 
 initHashScrollRestoration();
 
 const STORAGE_KEY = 'kairos-lang';
-const SUPPORTED = ['en', 'ko', 'zh', 'th', 'vi'];
+const SUPPORTED = LANGS;
 
 function resolveLang() {
   const q = new URLSearchParams(window.location.search).get('lang');
@@ -44,18 +45,23 @@ function loadFontStylesheet(href) {
   });
 }
 
+let langLoadSeq = 0;
+
 async function setLang(code) {
+  const seq = ++langLoadSeq;
   document.body.classList.add('i18n-loading');
   try {
     const data = await loadLocale(code);
+    if (seq !== langLoadSeq) return;
     await loadFontStylesheet(data.fontsHref);
+    if (seq !== langLoadSeq) return;
     sessionStorage.setItem(STORAGE_KEY, code);
     applyLocale(data);
     syncLangToUrl(code);
     scrollToHashAfterLocale();
     window.dispatchEvent(new CustomEvent('kairos:langchange', { detail: { lang: code } }));
   } finally {
-    document.body.classList.remove('i18n-loading');
+    if (seq === langLoadSeq) document.body.classList.remove('i18n-loading');
   }
 }
 

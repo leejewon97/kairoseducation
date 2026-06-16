@@ -34,7 +34,9 @@
     "methodology": "方法论",
     "about": "关于我们",
     "cta": "预约咨询",
-    "faq": "常见问题"
+    "faq": "常见问题",
+    "menuOpen": "打开菜单",
+    "menuClose": "关闭菜单"
   },
   "hero": {
     "badge": "精英大学申请咨询 · 全球服务",

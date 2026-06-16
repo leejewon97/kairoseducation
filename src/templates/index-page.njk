@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ metaDescription }}" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/assets/favicon-48x48.png" type="image/png" sizes="48x48" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:description" content="{{ ogDescription }}" />
+  <meta property="og:image" content="https://kairoseducation.org/assets/og-image.png" />
+  <meta property="og:url" content="https://kairoseducation.org/" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta name="twitter:description" content="{{ ogDescription }}" />
+  <meta name="twitter:image" content="https://kairoseducation.org/assets/og-image.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy: #0A1628; --navy-mid: #12243F; --navy-light: #1C3458;
+      --gold: #C9A84C; --gold-light: #E8C96C;
+      --white: #FFFFFF; --off-white: #F8F7F4;
+    }
+    html, body { height: 100%; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--navy);
+      background-image: radial-gradient(ellipse 80% 60% at 60% 40%, rgba(201,168,76,0.08) 0%, transparent 60%);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--white);
+    }
+    .container { text-align: center; max-width: 600px; padding: 40px 20px; width: 100%; }
+    .logo { margin-bottom: 18px; display:flex; justify-content:center; }
+    .logo img { height: 64px; width: auto; display:block; }
+    .subtitle { color: rgba(255,255,255,0.5); font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 48px; }
+    .step { display: none; }
+    .step.active { display: block; }
+    .lang-grid, .track-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .lang-card, .track-card {
+      display: block; padding: 28px 20px; width: 100%;
+      background: rgba(255,255,255,0.04); border: 1px solid rgba(201,168,76,0.2);
+      border-radius: 8px; text-decoration: none; color: var(--white);
+      transition: all 0.25s; cursor: pointer; font-family: inherit; text-align: center;
+    }
+    button.lang-card { border: 1px solid rgba(201,168,76,0.2); }
+    .lang-card:hover, .track-card:hover { background: rgba(201,168,76,0.1); border-color: var(--gold); transform: translateY(-2px); }
+    .lang-card .native, .track-card .native { font-size: 22px; font-weight: 600; margin-bottom: 4px; }
+    .lang-card .label, .track-card .label { font-size: 13px; color: rgba(255,255,255,0.5); }
+    .track-grid { grid-template-columns: 1fr; max-width: 360px; margin: 0 auto; }
+    .back-btn {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: none; border: none; color: rgba(255,255,255,0.45);
+      font-size: 13px; font-family: inherit; cursor: pointer; margin-bottom: 28px;
+      transition: color 0.2s;
+    }
+    .back-btn:hover { color: var(--gold); }
+    .lang-pill {
+      display: inline-block; font-size: 12px; color: var(--gold);
+      letter-spacing: 0.06em; margin-bottom: 12px;
+    }
+    @media (max-width: 480px) { .lang-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo"><img src="/assets/kairos_logo-web.png" alt="Kairos" /></div>
+
+    <div id="step-lang" class="step active">
+      <div class="subtitle" id="step-lang-subtitle">{{ stepLangSubtitle }}</div>
+      <div class="lang-grid">
+        {% for card in langCards %}
+        <button type="button" class="lang-card" data-lang="{{ card.code }}"><div class="native">{{ card.native }}</div><div class="label">{{ card.label }}</div></button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div id="step-track" class="step">
+      <button type="button" class="back-btn" id="btn-back" aria-label="{{ backAria }}">← {{ track.back }}</button>
+      <div class="lang-pill" id="lang-pill">{{ track.pill }}</div>
+      <div class="subtitle" id="track-subtitle">{{ track.subtitle }}</div>
+      <div class="track-grid">
+        <a href="/origin.html?lang=en" class="track-card" id="track-origin">
+          <div class="native" id="label-us">{{ track.us }}</div>
+          <div class="label" id="sublabel-us">{{ track.usSub }}</div>
+        </a>
+        <a href="/study-korea.html?lang=en" class="track-card" id="track-kr">
+          <div class="native" id="label-kr">{{ track.kr }}</div>
+          <div class="label" id="sublabel-kr">{{ track.krSub }}</div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/assets/index-locale.js"></script>
+</body>
+</html>

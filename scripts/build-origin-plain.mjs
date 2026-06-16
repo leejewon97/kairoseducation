@@ -3,11 +3,10 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { render } from './lib/mini-template.mjs';
 import { buildSeoLinks, buildOgTwitterTags } from './lib/seo-head.mjs';
-import { copyFavicons } from './lib/copy-favicons.mjs';
+import { buildPage } from './lib/build-page.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
-const langs = ['en', 'ko', 'zh', 'th', 'vi'];
 
 const tpl = fs.readFileSync(path.join(root, 'src', 'templates', 'origin-page.njk'), 'utf8');
 
@@ -67,23 +66,11 @@ const html = render(tpl, {
   }),
 });
 
-fs.mkdirSync(path.join(root, 'public', 'assets'), { recursive: true });
-fs.mkdirSync(path.join(root, 'public', 'locales', 'origin'), { recursive: true });
+buildPage(root, {
+  outputFile: 'origin.html',
+  localeDir: 'origin',
+  assetFiles: ['origin-site.css', 'origin-i18n.js', 'origin-locale.js'],
+  html,
+});
 
-fs.copyFileSync(path.join(root, 'src', 'assets', 'origin-site.css'), path.join(root, 'public', 'assets', 'origin-site.css'));
-fs.copyFileSync(path.join(root, 'src', 'assets', 'origin-i18n.js'), path.join(root, 'public', 'assets', 'origin-i18n.js'));
-fs.copyFileSync(path.join(root, 'src', 'assets', 'origin-locale.js'), path.join(root, 'public', 'assets', 'origin-locale.js'));
-fs.copyFileSync(path.join(root, 'src', 'assets', 'hash-scroll.js'), path.join(root, 'public', 'assets', 'hash-scroll.js'));
-fs.copyFileSync(path.join(root, 'src', 'assets', 'nav-mobile.js'), path.join(root, 'public', 'assets', 'nav-mobile.js'));
-fs.copyFileSync(path.join(root, 'src', 'assets', 'seo-i18n.js'), path.join(root, 'public', 'assets', 'seo-i18n.js'));
-copyFavicons(root);
-
-for (const code of langs) {
-  fs.copyFileSync(
-    path.join(root, 'locales', 'origin', `${code}.json`),
-    path.join(root, 'public', 'locales', 'origin', `${code}.json`)
-  );
-}
-
-fs.writeFileSync(path.join(root, 'public', 'origin.html'), html);
 console.log('Built public/origin.html (English HTML + locales in public/locales/origin/)');

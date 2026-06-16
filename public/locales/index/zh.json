@@ -1,0 +1,25 @@
+{
+  "code": "zh",
+  "title": "Kairos Education | 选择语言",
+  "metaDescription": "Kairos Education — 选择语言后，进入赴美留学（大学申请咨询）或赴韩留学（大学与语学院项目）。",
+  "ogDescription": "选择语言 — 美国大学申请咨询或韩国留学项目。",
+  "stepLangSubtitle": "选择您的语言",
+  "backAria": "返回语言选择",
+  "langCards": [
+    { "code": "en", "native": "English", "label": "English" },
+    { "code": "ko", "native": "한국어", "label": "Korean" },
+    { "code": "zh", "native": "中文", "label": "Chinese" },
+    { "code": "th", "native": "ภาษาไทย", "label": "Thai" },
+    { "code": "vi", "native": "Tiếng Việt", "label": "Vietnamese" }
+  ],
+  "track": {
+    "pill": "中文",
+    "subtitle": "选择您的方向",
+    "back": "返回",
+    "us": "赴美留学",
+    "usSub": "美国大学申请咨询",
+    "kr": "赴韩留学",
+    "krSub": "韩国大学与语学院项目"
+  },
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap"
+}

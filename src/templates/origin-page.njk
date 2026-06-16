@@ -23,10 +23,10 @@
         <img src="/assets/kairos_logo-web.png" alt="Kairos" class="site-logo" />
       </a>
       <div class="nav-end">
-        <div class="nav-actions">
-          <a href="#contact" class="nav-cta" id="mount-nav-cta">{{ nav.cta }}</a>
+        <div class="nav-actions nav-actions--mobile">
+          <a href="#contact" class="nav-cta" data-nav-cta>{{ nav.cta }}</a>
         </div>
-        <button type="button" class="nav-toggle" aria-controls="nav-mobile-panel" aria-expanded="false" aria-label="Menu">
+        <button type="button" class="nav-toggle" aria-controls="nav-mobile-panel" aria-expanded="false" aria-label="{{ nav.menuOpen }}">
           <span class="nav-toggle-icon" aria-hidden="true"></span>
         </button>
       </div>
@@ -41,6 +41,9 @@
       </ul>
       <div class="nav-right">
         <div id="mount-lang-switcher" style="display:flex; align-items:center; gap:8px;"></div>
+        <div class="nav-actions nav-actions--desktop">
+          <a href="#contact" class="nav-cta" data-nav-cta>{{ nav.cta }}</a>
+        </div>
       </div>
     </div>
   </nav>

@@ -30,7 +30,9 @@
     "packages": "패키지",
     "faq": "FAQ",
     "back": "← 메인 사이트",
-    "cta": "상담 예약"
+    "cta": "상담 예약",
+    "menuOpen": "메뉴 열기",
+    "menuClose": "메뉴 닫기"
   },
   "hero": {
     "badge": "Study Korea · 국제 입학 컨설팅",

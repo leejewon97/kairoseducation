@@ -41,11 +41,11 @@
       <img src="/assets/kairos_logo-web.png" alt="Kairos" class="site-logo" />
     </a>
     <div class="nav-end">
-      <div class="nav-actions">
-        <a href="/" class="nav-back" id="mount-nav-back">← Main Site</a>
-        <a href="#contact" class="nav-cta" id="mount-nav-cta">Book Consultation</a>
+      <div class="nav-actions nav-actions--mobile">
+        <a href="/" class="nav-back" data-nav-back>← Main Site</a>
+        <a href="#contact" class="nav-cta" data-nav-cta>Book Consultation</a>
       </div>
-      <button type="button" class="nav-toggle" aria-controls="nav-mobile-panel" aria-expanded="false" aria-label="Menu">
+      <button type="button" class="nav-toggle" aria-controls="nav-mobile-panel" aria-expanded="false" aria-label="Open menu">
         <span class="nav-toggle-icon" aria-hidden="true"></span>
       </button>
     </div>
@@ -59,6 +59,10 @@
     </ul>
     <div class="nav-right">
       <div id="mount-lang-switcher" style="display:flex;align-items:center;gap:8px;"></div>
+      <div class="nav-actions nav-actions--desktop">
+        <a href="/" class="nav-back" data-nav-back>← Main Site</a>
+        <a href="#contact" class="nav-cta" data-nav-cta>Book Consultation</a>
+      </div>
     </div>
   </div>
 </nav>

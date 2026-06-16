@@ -3,11 +3,10 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { render } from './lib/mini-template.mjs';
 import { buildSeoLinks, buildOgTwitterTags } from './lib/seo-head.mjs';
-import { copyFavicons } from './lib/copy-favicons.mjs';
+import { buildPage } from './lib/build-page.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
-const langs = ['en', 'ko', 'zh', 'th', 'vi'];
 
 const tpl = fs.readFileSync(path.join(root, 'src', 'templates', 'study-korea-page.njk'), 'utf8');
 
@@ -75,32 +74,12 @@ const html = render(tpl, {
   }),
 });
 
-fs.mkdirSync(path.join(root, 'public', 'assets'), { recursive: true });
-fs.mkdirSync(path.join(root, 'public', 'locales', 'study-korea'), { recursive: true });
+buildPage(root, {
+  outputFile: 'study-korea.html',
+  localeDir: 'study-korea',
+  assetFiles: ['study-korea-site.css', 'study-korea-i18n.js', 'study-korea-locale.js'],
+  html,
+  copyFavicon: false,
+});
 
-fs.copyFileSync(
-  path.join(root, 'src', 'assets', 'study-korea-site.css'),
-  path.join(root, 'public', 'assets', 'study-korea-site.css')
-);
-fs.copyFileSync(
-  path.join(root, 'src', 'assets', 'study-korea-i18n.js'),
-  path.join(root, 'public', 'assets', 'study-korea-i18n.js')
-);
-fs.copyFileSync(
-  path.join(root, 'src', 'assets', 'study-korea-locale.js'),
-  path.join(root, 'public', 'assets', 'study-korea-locale.js')
-);
-fs.copyFileSync(path.join(root, 'src', 'assets', 'hash-scroll.js'), path.join(root, 'public', 'assets', 'hash-scroll.js'));
-fs.copyFileSync(path.join(root, 'src', 'assets', 'nav-mobile.js'), path.join(root, 'public', 'assets', 'nav-mobile.js'));
-fs.copyFileSync(path.join(root, 'src', 'assets', 'seo-i18n.js'), path.join(root, 'public', 'assets', 'seo-i18n.js'));
-copyFavicons(root);
-
-for (const code of langs) {
-  fs.copyFileSync(
-    path.join(root, 'locales', 'study-korea', `${code}.json`),
-    path.join(root, 'public', 'locales', 'study-korea', `${code}.json`)
-  );
-}
-
-fs.writeFileSync(path.join(root, 'public', 'study-korea.html'), html);
 console.log('Built public/study-korea.html (English HTML + locales in public/locales/study-korea/)');

@@ -6,7 +6,9 @@ alwaysApply: true
 
 # Kairos Education
 
-대학 입시 컨설팅 랜딩 사이트. **순수 HTML/CSS** 정적 사이트. 영문 기준 5언어(en/ko/zh/th/vi)는 **locale JSON + 템플릿**을 `node scripts/build-origin-plain.mjs`로 빌드 (npm 불필요). 상세는 [PROJECT.md](../PROJECT.md).
+대학 입시 컨설팅 랜딩 사이트. **순수 HTML/CSS** 정적 사이트. 영문 기준 5언어(en/ko/zh/th/vi)는 **locale JSON + 템플릿**을 `node scripts/build-all.mjs`로 빌드 (npm 불필요). 상세는 [PROJECT.md](../PROJECT.md).
+
+**원본 vs 산출물:** `locales/`, `src/templates/`, `src/assets/`만 수정. `public/` HTML·`public/locales/`·`public/assets/`는 빌드 산출물 — 직접 수정 금지. 배포 전 `node scripts/verify-sync.mjs`로 동기화 확인.
 
 ## 프로덕션
 
@@ -63,26 +65,34 @@ Replace footer CTA columns with col1/col2 link lists aligned to nav hrefs.
 ## 페이지 구조
 
 ```
-public/index.html           # / — 언어·진로 선택만
+public/index.html           # / — 언어·진로 선택 (빌드 산출)
 public/origin.html          # 영문 HTML만 (빌드 산출)
 public/locales/origin/*.json
-public/study-korea.html          # 영문 HTML만 (빌드 산출)
+public/study-korea.html     # 영문 HTML만 (빌드 산출)
 public/locales/study-korea/*.json
+public/locales/index/*.json
 public/assets/origin-site.css
 public/assets/origin-locale.js
 public/assets/origin-i18n.js
+public/assets/index-locale.js
+public/assets/langs.js
 public/assets/study-korea-site.css
 public/assets/study-korea-locale.js
 public/assets/study-korea-i18n.js
 public/assets/kairos_logo-web.png
 public/assets/og-image.png
 
-src/assets/kairos_logo.png    # 마스터 (배포 X)
+config/langs.mjs            # LANGS·SEO 상수 단일 소스
+src/assets/kairos_logo.png  # 마스터 (배포 X)
 
 locales/origin/{en,ko,zh,th,vi}.json
 locales/study-korea/{en,ko,zh,th,vi}.json
+locales/index/{en,ko,zh,th,vi}.json
 src/templates/origin-page.njk
 src/templates/study-korea-page.njk
+src/templates/index-page.njk
+scripts/build-all.mjs
+scripts/verify-sync.mjs
 ```
 
 - **언어 선택 URL:** `/` 만. `/origin.html`·`/study-korea.html` 영문 + `fetch('/locales/{page}/{lang}.json')`로 동일 DOM 번역 (`kairos-lang` sessionStorage 공유).
@@ -97,7 +107,7 @@ src/templates/study-korea-page.njk
 1. 문구: `locales/origin/{lang}.json`
 2. 구조: `src/templates/origin-page.njk`
 3. 스타일: `src/assets/origin-site.css`
-4. `node scripts/build-origin-plain.mjs` → `public/origin.html`
+4. `node scripts/build-all.mjs` → `public/origin.html` (+ verify)
 5. Netlify 수동 업로드 (`public/`)
 
 `public/origin.html`을 직접 고치지 말 것. 재추출: `node scripts/extract-locales-plain.mjs` (origin.html→JSON).
@@ -107,10 +117,19 @@ src/templates/study-korea-page.njk
 1. 문구: `locales/study-korea/{lang}.json`
 2. 구조: `src/templates/study-korea-page.njk`
 3. 스타일: `src/assets/study-korea-site.css`
-4. `node scripts/build-study-korea-plain.mjs` → `public/study-korea.html`
+4. `node scripts/build-all.mjs` → `public/study-korea.html`
 5. Netlify 수동 업로드
 
 `public/study-korea.html`을 직접 고치지 말 것.
+
+## `/` 언어·진로 선택 수정
+
+1. 문구: `locales/index/{lang}.json`
+2. 구조: `src/templates/index-page.njk`
+3. `node scripts/build-all.mjs` → `public/index.html`
+4. Netlify 수동 업로드
+
+`public/index.html`을 직접 고치지 말 것.
 
 ## 다국어 수정 원칙
 

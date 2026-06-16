@@ -18,6 +18,12 @@ function setText(sel, text) {
   if (el) el.textContent = text ?? '';
 }
 
+function setTextAll(sel, text) {
+  document.querySelectorAll(sel).forEach((el) => {
+    el.textContent = text ?? '';
+  });
+}
+
 function renderStats(stats) {
   return stats
     .map(
@@ -202,6 +208,18 @@ function bindFaqToggle() {
   });
 }
 
+function applyNavMenuLabels(nav) {
+  const navEl = document.querySelector('nav');
+  if (!navEl || !nav) return;
+  navEl.dataset.menuOpen = nav.menuOpen || 'Open menu';
+  navEl.dataset.menuClose = nav.menuClose || 'Close menu';
+  const toggle = navEl.querySelector('.nav-toggle');
+  if (toggle) {
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-label', expanded ? navEl.dataset.menuClose : navEl.dataset.menuOpen);
+  }
+}
+
 export function applyLocale(data) {
   document.documentElement.lang = data.lang;
   document.title = data.title;
@@ -212,9 +230,10 @@ export function applyLocale(data) {
   setText('#mount-nav-universities', data.nav.universities);
   setText('#mount-nav-packages', data.nav.packages);
   setText('#mount-nav-faq', data.nav.faq);
-  setText('#mount-nav-back', data.nav.back);
+  setTextAll('[data-nav-back]', data.nav.back);
   document.getElementById('mount-lang-switcher').innerHTML = renderLangSwitcher(data.langLinks);
-  setText('#mount-nav-cta', data.nav.cta);
+  setTextAll('[data-nav-cta]', data.nav.cta);
+  applyNavMenuLabels(data.nav);
 
   setText('#mount-hero-badge', data.hero.badge);
   setHtml('#mount-hero-h1', data.hero.h1);

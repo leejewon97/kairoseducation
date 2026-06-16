@@ -1,10 +1,11 @@
 import { applyLocale } from './origin-i18n.js';
 import { initHashScrollRestoration, scrollToHashAfterLocale } from './hash-scroll.js';
+import { LANGS } from './langs.js';
 
 initHashScrollRestoration();
 
 const STORAGE_KEY = 'kairos-lang';
-const SUPPORTED = ['en', 'ko', 'zh', 'th', 'vi'];
+const SUPPORTED = LANGS;
 
 function resolveLang() {
   const q = new URLSearchParams(window.location.search).get('lang');
@@ -60,7 +61,7 @@ async function setLang(code) {
     scrollToHashAfterLocale();
     window.dispatchEvent(new CustomEvent('kairos:langchange', { detail: { lang: code } }));
   } finally {
-    document.body.classList.remove('i18n-loading');
+    if (seq === langLoadSeq) document.body.classList.remove('i18n-loading');
   }
 }
 

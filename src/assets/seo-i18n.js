@@ -1,7 +1,6 @@
-export const SITE = 'https://kairoseducation.org';
-export const OG_IMAGE = `${SITE}/assets/og-image.png`;
-export const OG_LOCALE = { en: 'en_US', ko: 'ko_KR', zh: 'zh_CN', th: 'th_TH', vi: 'vi_VN' };
-export const LANG_CODES = ['en', 'ko', 'zh', 'th', 'vi'];
+import { SITE, LANGS, OG_LOCALE, OG_IMAGE } from './langs.js';
+
+export { SITE, LANGS, OG_LOCALE, OG_IMAGE };
 
 export function pageUrl(pagePath, lang) {
   return `${SITE}${pagePath}?lang=${lang}`;
@@ -53,7 +52,7 @@ export function updateSeoMeta(data, pagePath) {
   setMetaProperty('og:locale', OG_LOCALE[lang] || OG_LOCALE.en);
 
   document.querySelectorAll('meta[property="og:locale:alternate"]').forEach((n) => n.remove());
-  LANG_CODES.filter((c) => c !== lang).forEach((c) => {
+  LANGS.filter((c) => c !== lang).forEach((c) => {
     const el = document.createElement('meta');
     el.setAttribute('property', 'og:locale:alternate');
     el.setAttribute('content', OG_LOCALE[c]);
