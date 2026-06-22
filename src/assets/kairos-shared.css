@@ -98,6 +98,42 @@
   background: rgba(24, 52, 92, 0.04);
 }
 
+.btn-light {
+  background: #F6EFDD;
+  color: var(--navy);
+}
+
+.btn-light:hover {
+  background: #fff;
+  transform: translateY(-2px);
+}
+
+.btn-kakao {
+  background: #FEE500;
+  color: #3A2C00;
+  border: none;
+}
+
+.btn-kakao:hover {
+  background: #FFD900;
+  transform: translateY(-2px);
+}
+
+.btn-whatsapp {
+  background: #25D366;
+  color: #fff;
+  border: none;
+}
+
+.btn-whatsapp:hover {
+  background: #1EBE5A;
+  transform: translateY(-2px);
+}
+
+.btn .btn-ic {
+  flex-shrink: 0;
+}
+
 .btn .arrow {
   transition: transform 0.35s var(--ease);
 }

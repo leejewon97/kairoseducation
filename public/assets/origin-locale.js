@@ -72,7 +72,7 @@ function syncLangToUrl(code) {
   window.history.replaceState({}, '', url.pathname + url.search + url.hash);
 }
 
-document.getElementById('mount-lang-switcher')?.addEventListener('click', (e) => {
+document.getElementById('lang')?.addEventListener('click', (e) => {
   const link = e.target.closest('[data-switch-lang]');
   if (!link) return;
   e.preventDefault();

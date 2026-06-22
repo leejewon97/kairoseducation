@@ -1,17 +1,12 @@
 {
   "code": "th",
   "lang": "th",
-  "title": "Kairos Education | ที่ปรึกษาการสมัครมหาวิทยาลัยชั้นนำ",
-  "metaDescription": "ที่ปรึกษาเข้ามหาวิทยาลัยอิสระสำหรับนักเรียนทั่วโลก ฮาร์วาร์ด เยล Stanford และมหาวิทยาลัยชั้นนำ ผลงานจริง ไม่ใช่เทมเพลต — 1 ต่อ 1 กับ Ron Kim",
-  "formName": "contact-th",
-  "fontsHref": "https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
-  "fontFamily": "'Sarabun', sans-serif",
+  "title": "Kairos Education | Elite College Consulting",
+  "metaDescription": "Independent college counseling for ambitious students worldwide. Harvard, Yale, Stanford and top universities. Real results, not templates — 1-on-1 with Ron Kim.",
+  "formName": "contact",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap",
+  "fontFamily": "'Hanken Grotesk', sans-serif",
   "langLinks": [
-    {
-      "code": "en",
-      "href": "/en/",
-      "label": "English"
-    },
     {
       "code": "ko",
       "href": "/ko/",
@@ -23,50 +18,131 @@
       "label": "中文"
     },
     {
+      "code": "th",
+      "href": "/th/",
+      "label": "ภาษาไทย"
+    },
+    {
       "code": "vi",
       "href": "/vi/",
       "label": "Tiếng Việt"
     }
   ],
+  "scarcity": "Kairos works with a limited number of families each year.<span class=\"dot\">◆</span>A few places remain for the current cycle.",
   "nav": {
-    "results": "ผลงาน",
-    "packages": "แพ็กเกจ",
-    "methodology": "แนวทาง",
-    "about": "เกี่ยวกับ",
-    "cta": "นัดปรึกษา",
+    "why": "Why It Matters",
+    "results": "Results",
+    "process": "How It Works",
+    "packages": "Packages",
+    "about": "About",
     "faq": "FAQ",
-    "menuOpen": "เปิดเมนู",
-    "menuClose": "ปิดเมนู"
+    "contact": "Contact",
+    "cta": "Book a consultation",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
   },
   "hero": {
-    "badge": "ที่ปรึกษาการสมัครมหาวิทยาลัยชั้นนำ · ทั่วโลก",
-    "h1": "นักเรียนที่ใช่,<br />\r\n        มหาวิทยาลัย<em>ที่ใช่,</em><br />\r\n        ในช่วงเวลาที่ใช่",
-    "sub": "ที่ปรึกษาการสมัครมหาวิทยาลัยอิสระสำหรับนักเรียนทั่วโลก — ไทย, เกาหลี, สิงคโปร์, สหรัฐอเมริกา, ยุโรป และอื่นๆ มุ่งเป้าไปที่ Harvard, Yale, Stanford และมหาวิทยาลัยชั้นนำที่สุดในโลก พิสูจน์ด้วยผลงานจริง ไม่ใช่แม่แบบสำเร็จรูป",
-    "primaryCta": "ดูแพ็กเกจ",
-    "secondaryCta": "ดูผลงานของเรา"
+    "badge": "Boutique College Admissions Consulting · Worldwide",
+    "h1": "Your child has one shot at the Ivy League. Give it the <span class=\"gold-foil\">counselor it deserves.</span>",
+    "lead": "Kairos is boutique admissions consulting for families targeting Harvard, Yale, and the world's most selective universities. From the first call to the final essay, your child works directly with Ron Kim — Kairos's founder, a former Crimson consultant whose students earn Ivy League admission. Never a junior associate, never a rotating team. At the big firms, your child is one file among thousands; here, they are the only student in the room.",
+    "authority": "Kairos students have been admitted to",
+    "primaryCta": "Book a free consultation <span class=\"arrow\">→</span>",
+    "secondaryCta": "See the results",
+    "marquee": [
+      "Harvard",
+      "Yale",
+      "Columbia",
+      "Penn",
+      "Dartmouth",
+      "Cornell",
+      "Brown",
+      "Chicago",
+      "Duke"
+    ]
   },
-  "stats": [
-    {
-      "number": "Harvard",
-      "label": "ผลงานรับเข้า Ivy League<br />Harvard, Yale, Columbia"
-    },
-    {
-      "number": "30+",
-      "label": "มหาวิทยาลัย Top 40<br />ที่นักเรียนเราได้รับการตอบรับ"
-    },
-    {
-      "number": "8",
-      "label": "ผลรับเข้า Ivy League<br />ในทุกรอบการสมัคร"
-    },
-    {
-      "number": "100%",
-      "label": "essay เขียนโดยนักเรียน<br />ไม่มีการเขียนแทนเด็ดขาด"
-    }
-  ],
+  "worries": {
+    "tag": "Why It Matters",
+    "title": "Does this sound like <span class=\"gold-foil\">your family?</span>",
+    "lead": "Most parents who come to Kairos are carrying one of these worries. Naming it is the first step to fixing it.",
+    "items": [
+      {
+        "title": "Strong grades, but is it enough?",
+        "desc": "Your child has the GPA and the scores. So do thousands of other applicants. Numbers get an application read, not admitted."
+      },
+      {
+        "title": "A long activities list with no through-line.",
+        "desc": "There is plenty on the resume, but nothing that adds up to a single story an admissions officer remembers."
+      },
+      {
+        "title": "The essay feels impossible to start.",
+        "desc": "Your child is talented, but getting that onto the page in their own voice is where almost everyone freezes."
+      },
+      {
+        "title": "A big firm already let you down.",
+        "desc": "You paid for a brand and got handed to a junior associate who gave you information, not a plan."
+      }
+    ],
+    "foot": "We have sat with every one of these. The fix is never more effort. It is the right strategy, built around your child."
+  },
+  "proof": {
+    "eyebrow": "By The Numbers",
+    "title": "A track record, not a promise.",
+    "sub": "Boutique scale, with outcomes families recognize.",
+    "stats": [
+      {
+        "value": "8",
+        "label": "Ivy League admits"
+      },
+      {
+        "value": "30+",
+        "label": "Top 40 placements"
+      },
+      {
+        "value": "1:1",
+        "label": "Directly with Ron, every session"
+      },
+      {
+        "value": "100%",
+        "label": "Student-written, no ghostwriting"
+      }
+    ],
+    "note": "Results vary by student, depending on starting point, timeline, target schools, and the work the student puts in. Past admissions do not guarantee future outcomes."
+  },
   "results": {
-    "tag": "ผลงาน",
-    "title": "นักเรียนของเรา<em>ได้รับการตอบรับ</em>",
-    "sub": "นักเรียน Kairos มาจากไทย, เกาหลี, สิงคโปร์, สหรัฐอเมริกา, จอร์แดน, เอธิโอเปีย, สหราชอาณาจักร และอื่นๆ พวกเขาได้รับการตอบรับจากมหาวิทยาลัยชั้นนำของโลก ตั้งแต่ Ivy League จนถึงโปรแกรมชั้นนำด้านวิศวกรรม ภาพยนตร์ วิทยาศาสตร์ และศิลปะ",
+    "tag": "Track Record",
+    "title": "Where Kairos students <span class=\"gold-foil\">get in.</span>",
+    "sub": "Kairos students come from Korea, Singapore, the US, the UK, Jordan, Ethiopia, and beyond, and they earn places at the universities parents hope for and rarely say out loud.",
+    "admit": "Admit",
+    "admitShowcase": [
+      {
+        "name": "Minjun",
+        "school": "Yale",
+        "year": "2028",
+        "image": "/assets/img/admit-yale.jpg",
+        "imageAlt": "Kairos student admitted to Yale"
+      },
+      {
+        "name": "Yujin",
+        "school": "Columbia",
+        "year": "2027",
+        "image": "/assets/img/admit-columbia.jpg",
+        "imageAlt": "Kairos student admitted to Columbia"
+      },
+      {
+        "name": "Tanawat",
+        "school": "Penn",
+        "year": "2026",
+        "image": "/assets/img/admit-penn.jpg",
+        "imageAlt": "Kairos student admitted to Penn"
+      },
+      {
+        "name": "Trang",
+        "school": "Cornell",
+        "year": "2028",
+        "image": "/assets/img/admit-cornell.jpg",
+        "imageAlt": "Kairos student admitted to Cornell"
+      }
+    ],
     "tiers": [
       {
         "label": "Ivy League & Top 10",
@@ -74,56 +150,56 @@
         "universities": [
           {
             "name": "Harvard",
-            "detail": "วิทยาศาสตร์สิ่งแวดล้อมและนโยบายสาธารณะ",
+            "detail": "Environmental Science & Public Policy",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/harvard-university/"
           },
           {
             "name": "Yale",
-            "detail": "ภาพยนตร์และสื่อ",
+            "detail": "Film & Media Studies",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/yale-university/"
           },
           {
             "name": "Columbia",
-            "detail": "เศรษศาสตร์และปรัชญา",
+            "detail": "Economics & Philosophy",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/columbia-university/"
           },
           {
             "name": "UPenn",
-            "detail": "Wharton — ธุรกิจ (ED1)",
+            "detail": "Wharton — Business (ED1)",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-pennsylvania/"
           },
           {
             "name": "Dartmouth",
-            "detail": "ความสัมพันธ์ระหว่างประเทศ (ED1)",
+            "detail": "International Relations (ED1)",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/dartmouth-college/"
           },
           {
             "name": "Cornell",
-            "detail": "รับเข้า × 3 คน",
+            "detail": "Admitted × 3 students",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/cornell-university/"
           },
           {
             "name": "Brown",
-            "detail": "เอเชียตะวันออก (ED)",
+            "detail": "East Asian Studies (ED)",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/brown-university/"
           },
           {
             "name": "UChicago",
-            "detail": "Climate & Sustainability (โอน)",
+            "detail": "Climate & Sustainability (Transfer)",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-chicago/"
@@ -136,63 +212,63 @@
         "universities": [
           {
             "name": "Duke",
-            "detail": "Biomedical Eng. (ED) + ทุนเต็ม × 2",
+            "detail": "Biomedical Eng. (ED) + Full Merit Scholarship × 2",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/duke-university/"
           },
           {
             "name": "Johns Hopkins",
-            "detail": "รับเข้า × 2 คน",
+            "detail": "Admitted × 2 students",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/johns-hopkins-university/"
           },
           {
             "name": "Northwestern",
-            "detail": "Biomedical Engineering + หลายคน",
+            "detail": "Biomedical Engineering + multiple admits",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/northwestern-university/"
           },
           {
             "name": "Carnegie Mellon",
-            "detail": "วิศวกรรม (ED) · ดนตรีและเทคโนโลยี",
+            "detail": "Engineering (ED) · Music & Technology",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/carnegie-mellon-university/"
           },
           {
             "name": "WashU St. Louis",
-            "detail": "รับเข้า × 3 คน (ED)",
+            "detail": "Admitted × 3 students (ED)",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/washington-university-in-st-louis/"
           },
           {
             "name": "Vanderbilt",
-            "detail": "วิศวกรรม (ED2)",
+            "detail": "Engineering (ED2)",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/vanderbilt-university/"
           },
           {
             "name": "UC Berkeley",
-            "detail": "รับเข้า × 3 คน",
+            "detail": "Admitted × 3 students",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-california-berkeley/"
           },
           {
             "name": "Claremont McKenna",
-            "detail": "รับเข้า (ED)",
+            "detail": "Admitted (ED)",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/claremont-mckenna-college/"
           },
           {
             "name": "West Point",
-            "detail": "โรงเรียนนายร้อยสหรัฐฯ",
+            "detail": "US Military Academy",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/united-states-military-academy/"
@@ -200,88 +276,88 @@
         ]
       },
       {
-        "label": "Top 26–40 & สาขาพิเศษ",
+        "label": "Top 26–40 & Specialty",
         "tier": 3,
         "universities": [
           {
             "name": "Emory",
-            "detail": "รับเข้า × 4 คน",
+            "detail": "Admitted × 4 students",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/emory-university/"
           },
           {
             "name": "NYU Stern",
-            "detail": "Business (ED) × 2 คน",
+            "detail": "Business (ED) × 2 students",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/new-york-university/"
           },
           {
             "name": "USC",
-            "detail": "School of Cinematic Arts (#1 ภาพยนตร์)",
+            "detail": "School of Cinematic Arts (#1 Film)",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-southern-california/"
           },
           {
             "name": "Boston College",
-            "detail": "รับเข้า × 3 คน (ED2)",
+            "detail": "Admitted × 3 students (ED2)",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/boston-college/"
           },
           {
             "name": "Georgia Tech",
-            "detail": "รับเข้า × 2 คน",
+            "detail": "Admitted × 2 students",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/georgia-institute-of-technology/"
           },
           {
             "name": "University of Michigan",
-            "detail": "รับเข้า",
+            "detail": "Admitted",
             "tier": 3,
             "intl": false
           },
           {
             "name": "UCLA",
-            "detail": "รับเข้า × 2 คน",
+            "detail": "Admitted × 2 students",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-california-los-angeles/"
           },
           {
             "name": "Northeastern",
-            "detail": "รับเข้า × 3 คน (ED)",
+            "detail": "Admitted × 3 students (ED)",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/northeastern-university/"
           },
           {
             "name": "Villanova",
-            "detail": "รับเข้าและลงทะเบียนแล้ว",
+            "detail": "Enrolled",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/villanova-university/"
           },
           {
             "name": "UW Madison",
-            "detail": "รับเข้า × 2 คน",
+            "detail": "Admitted × 2 students",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-wisconsin/"
           },
           {
             "name": "Boston University",
-            "detail": "รับเข้า",
+            "detail": "Admitted",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/boston-university/"
           },
           {
             "name": "RISD",
-            "detail": "สถาบันศิลปะ #1 สหรัฐฯ",
+            "detail": "#1 Art & Design School (Enrolled)",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/rhode-island-school-of-design/"
@@ -294,25 +370,25 @@
         "universities": [
           {
             "name": "UCL",
-            "detail": "University College London (สหราชอาณาจักร)",
+            "detail": "University College London (UK)",
             "tier": 0,
             "intl": true
           },
           {
             "name": "Univ. of Toronto",
-            "detail": "วิทยาเขต St. George (แคนาดา)",
+            "detail": "St. George Campus (Canada)",
             "tier": 0,
             "intl": true
           },
           {
             "name": "Waseda University",
-            "detail": "โตเกียว ประเทศญี่ปุ่น",
+            "detail": "Tokyo, Japan",
             "tier": 0,
             "intl": true
           },
           {
             "name": "Olin College",
-            "detail": "วิศวกรรมชั้นนำ (รับเข้า ~80 คน/ปี)",
+            "detail": "Elite Engineering (80 admits/year)",
             "tier": 0,
             "intl": true,
             "nicheUrl": "https://www.niche.com/colleges/olin-college-of-engineering/"
@@ -320,266 +396,337 @@
         ]
       }
     ],
-    "legend": "● Top 10 &nbsp;&nbsp; ● Top 11–25 &nbsp;&nbsp; ● Top 26–40 &nbsp;&nbsp; · ผลงานรุ่น 2023–2027"
+    "legend": "Results from the classes of 2023–2027."
+  },
+  "process": {
+    "tag": "The Process",
+    "title": "How it <span class=\"gold-foil\">works.</span>",
+    "lead": "A clear path from where your child is now to the acceptance letter. Every step is with Ron, in order, with nothing left to the last minute.",
+    "steps": [
+      {
+        "title": "Assessment & positioning",
+        "desc": "Ron starts by understanding your child honestly: their record, their strengths, and what genuinely sets them apart. This becomes the foundation everything else is built on."
+      },
+      {
+        "title": "The strategy roadmap",
+        "desc": "A year-by-year plan across courses, activities, testing, and the application timeline, sequenced so the work is paced and deliberate."
+      },
+      {
+        "title": "Building a standout profile",
+        "desc": "Ron guides the research, leadership, and projects that turn a strong student into a memorable applicant, not just a longer list."
+      },
+      {
+        "title": "School list & application strategy",
+        "desc": "The right schools and the right rounds. Early decision, early action, and regular, chosen around your child's real chances."
+      },
+      {
+        "title": "Essays & interviews",
+        "desc": "Your child writes; Ron coaches and refines until every essay sounds like them at their best, then prepares them to walk into any interview calm."
+      }
+    ]
+  },
+  "testimonials": {
+    "hidden": true,
+    "eyebrow": "Families",
+    "title": "What families <span class=\"gold-foil\">say.</span>",
+    "items": [
+      {
+        "quote": "We came to Ron the summer before senior year, anxious and behind. He treated our son like the only student he had. The essays sounded like our boy, and the acceptance still feels unreal.",
+        "by": "Parent of a 2025 Columbia admit"
+      },
+      {
+        "quote": "We had spoken to a large firm first and felt like a number. With Ron it was personal from the first call. He pushed our daughter to find her own voice, and it showed.",
+        "by": "Parent of a 2024 Yale admit"
+      },
+      {
+        "quote": "Every email, every draft, every late-night question went straight to Ron. That kind of attention is the reason my application stood out. I will never forget it.",
+        "by": "Kairos student, now at Dartmouth"
+      }
+    ],
+    "note": "Placeholder testimonials shown for layout. Replace with real, anonymized quotes before launch."
   },
   "services": {
-    "tag": "บริการและราคา",
-    "title": "เลือก<em>แพ็คเกจของคุณ</em>",
-    "sub": "นักเรียนทุกคนได้รับการดูแลแบบ 1:1 โดยตรงจากที่ปรึกษาหลัก ไม่ว่าจะอยู่ที่ไหนในโลก ไม่มีแม่แบบสำเร็จรูป เราสร้างกลยุทธ์เฉพาะสำหรับคุณเท่านั้น",
-    "packageCta": "เริ่มต้น",
+    "tag": "Services & Pricing",
+    "title": "Choose the right level <span class=\"gold-foil\">for your child.</span>",
+    "sub": "Every family works one-on-one with Ron, wherever they are in the world. No templates. Each plan is built around who your child actually is, and the earlier you start, the more there is to work with.",
+    "priceNote": "Transparent pricing, no inquiry required. Most families start with a free consultation to find the right fit.",
+    "packageCta": "Get started",
+    "packageCtaArrow": "Get started <span class=\"arrow\">→</span>",
+    "alacarteHeading": "À la carte",
+    "alacarteSub": "Individual services, no package required. All essays remain student-written; Ron coaches and gives feedback only.",
+    "alacarteNote": "Competition support (John Locke, Physics Bowl, AMC/AIME, NYT Student Essay, KSEF) from $150/hour.",
     "packages": [
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Foundation",
-        "schools": "เขียน Essay & สมัครเรียนแบบเร่งรัด | 5–7 เดือน | 10 เซสชัน",
+        "best": "Best for: families whose child is already in senior year and needs the application done right, and done now.",
+        "desc": "The application is the one part of your child's high school years that cannot be redone. Foundation makes sure it shows them at their best.",
+        "meta": "10 sessions · 5–7 months",
         "price": "$4,300",
         "max": "",
         "features": [
-          "พัฒนา Personal Statement (ระดมความคิด → ร่างสุดท้าย)",
-          "เขียน Supplemental Essay สูงสุด 4 ชิ้น (กลยุทธ์ + แก้ไข)",
-          "ตรวจสอบรายชื่อมหาวิทยาลัย & วิเคราะห์ความเหมาะสม",
-          "กำหนดการสมัคร & เช็คลิสต์",
-          "ปรับปรุงรายการกิจกรรม",
-          "สนับสนุนทางอีเมลระหว่างเซสชัน"
+          "A personal statement built from who your child really is, developed with Ron from first idea to final draft.",
+          "Up to four supplemental essays shaped so each target school reads like their first choice.",
+          "A college list reviewed for fit, so your child applies where they can both get in and thrive.",
+          "A clear timeline and checklist for the months that decide everything.",
+          "Direct email access to Ron between sessions."
         ]
       },
       {
         "featured": true,
-        "badge": "ยอดนิยม",
+        "badge": "Most Popular",
         "name": "Kairos Scholar",
-        "schools": "แพ็คเกจครบวงจรปีสุดท้าย | 12 เดือน | 22 เซสชัน",
+        "best": "Best for: families starting the summer before senior year who want the whole application handled, end to end.",
+        "desc": "The complete senior-year partnership. Every part of the application, shaped by Ron personally, so your child stands out for the right reasons.",
+        "meta": "22 sessions · 12 months",
         "price": "$7,000",
         "max": "",
         "features": [
-          "กลยุทธ์รายชื่อมหาวิทยาลัย (สูง / เหมาะสม / ปลอดภัย)",
-          "Personal Statement + Supplemental Essay ไม่จำกัด",
-          "การเล่าเรื่องกิจกรรมนอกหลักสูตร & การวางตำแหน่ง",
-          "ตรวจสอบพอร์ทัลสมัคร (Common App / Coalition)",
-          "เตรียมสัมภาษณ์ (ซ้อมจำลอง 2 ครั้ง)",
-          "คำแนะนำทุนการศึกษา & การช่วยเหลือทางการเงิน",
-          "กลยุทธ์ Waitlist & การเลื่อน",
-          "อีเมลเร่งด่วน & สนับสนุนทาง KakaoTalk"
+          "A full school strategy across reach, match, and safety schools.",
+          "The personal statement plus unlimited supplemental essays, revised until each one is right.",
+          "Their activities positioned to tell one coherent story rather than a list.",
+          "A full review of the Common App or Coalition portal before anything is submitted.",
+          "Two mock interviews, so your child walks in prepared and calm.",
+          "Guidance on financial aid and scholarships, plus a plan for any waitlist or deferral.",
+          "Priority access to Ron by email and KakaoTalk."
         ]
       },
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Prestige",
-        "schools": "พันธมิตรเชิงกลยุทธ์ 2 ปี | 24 เดือน | 40 เซสชัน",
+        "best": "Best for: families starting in tenth or eleventh grade who want the profile built, not just the application written.",
+        "desc": "Everything in Scholar, plus the two years that let Ron shape the transcript, activities, and testing admissions officers look at first.",
+        "meta": "40 sessions · 24 months",
         "price": "$12,800",
         "max": "",
         "features": [
-          "ทุกอย่างใน Kairos Scholar",
-          "วางแผนวิชาการ & รายวิชา ม.4–ม.5",
-          "กลยุทธ์กิจกรรมนอกหลักสูตร & เลือกโปรแกรมฤดูร้อน",
-          "วางตำแหน่งงานวิจัย, การแข่งขัน & ภาวะผู้นำ",
-          "กลยุทธ์สอบมาตรฐาน (SAT / ACT / AP)",
-          "ช่องทาง KakaoTalk เฉพาะ"
+          "Everything in Kairos Scholar.",
+          "Course and academic planning for tenth and eleventh grade.",
+          "Extracurricular strategy and summer program selection that build a distinctive profile.",
+          "Positioning for the research, competitions, and leadership that carry real weight.",
+          "A standardized testing plan across SAT, ACT, and AP.",
+          "A dedicated KakaoTalk channel with Ron."
         ]
       },
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Legacy",
-        "schools": "พันธมิตรเปลี่ยนแปลงชีวิต 4 ปี | 36–48 เดือน | เซสชันไม่จำกัด",
+        "best": "Best for: families who want to start in ninth grade and leave nothing to chance.",
+        "desc": "The full four-year partnership, and the most complete preparation Kairos offers, building the record and intellectual identity the most selective universities reward.",
+        "meta": "Unlimited sessions · 36–48 months",
         "price": "$19,500",
         "max": "",
         "features": [
-          "ทุกอย่างใน Kairos Prestige",
-          "ปฐมนิเทศ ม.3 & วางวิสัยทัศน์ระยะยาว",
-          "ออกแบบอัตลักษณ์ทางปัญญา & โปรเจกต์ที่หลงใหล",
-          "แนะนำเครือข่ายที่ปรึกษา",
-          "ประชุมกลยุทธ์ครอบครัวทุก 6 เดือน",
-          "สนับสนุนหลังการตอบรับเข้าศึกษา"
+          "Everything in Kairos Prestige.",
+          "Ninth-grade onboarding and a long-term plan built around a real vision.",
+          "An intellectual identity and passion project rooted in what your child actually cares about.",
+          "Introductions to Ron's mentor network.",
+          "Two family strategy meetings a year.",
+          "Support that continues after the acceptance arrives."
         ]
       }
     ],
-    "alacarteHeading": "บริการแยกรายการ",
-    "alacarteSub": "บริการแต่ละรายการที่สามารถใช้ได้โดยไม่ต้องซื้อแพ็คเกจ",
-    "alacarteTable": {
-      "service": "บริการ",
-      "usd": "USD",
-      "krw": "KRW"
-    },
     "alacarte": [
       {
-        "service": "เซสชันให้คำปรึกษารายชั่วโมง",
+        "service": "Hourly consulting session",
         "usd": "$150",
         "krw": ""
       },
       {
-        "service": "ตรวจสอบและแก้ไข Essay 1 ชิ้น",
+        "service": "Single essay review & edit",
         "usd": "$200",
         "krw": ""
       },
       {
-        "service": "ตรวจสอบใบสมัครทั้งหมด",
+        "service": "Full application review",
         "usd": "$300",
         "krw": ""
       },
       {
-        "service": "เตรียมสัมภาษณ์ (3 เซสชัน)",
+        "service": "Interview prep (3 sessions)",
         "usd": "$350",
         "krw": ""
       },
       {
-        "service": "ปรึกษารายชื่อมหาวิทยาลัย (1 เซสชัน)",
+        "service": "School list consultation",
         "usd": "$100",
         "krw": ""
       },
       {
-        "service": "SAT / ACT Tutoring (ต่อชั่วโมง)",
+        "service": "SAT / ACT tutoring (per hour)",
         "usd": "$120",
         "krw": ""
       },
       {
-        "service": "AP Subject Tutoring (ต่อชั่วโมง)",
+        "service": "AP subject tutoring (per hour)",
         "usd": "$100",
         "krw": ""
       },
       {
-        "service": "TOEFL / IELTS Tutoring (ต่อชั่วโมง)",
+        "service": "TOEFL / IELTS tutoring (per hour)",
         "usd": "$100",
         "krw": ""
-      },
-      {
-        "service": "Competition Tutoring (ต่อชั่วโมง)",
-        "usd": "$150",
-        "krw": ""
-      }
-    ],
-    "disclaimer": "Essay ทุกชิ้นเขียนโดยนักเรียนเอง — Kairos ให้คำแนะนำและ feedback เท่านั้น",
-    "alacarteNote": "การสนับสนุนการแข่งขัน ได้แก่ John Locke Essay, Physics Bowl, AMC/AIME, NY Times Student Essay Contest, KSEF"
-  },
-  "methodology": {
-    "tag": "แนวทาง",
-    "title": "Kairos หมายถึง<em style=\"color: rgba(201,168,76,0.85);\">ช่วงเวลาที่ใช่</em>",
-    "sub": "ที่ปรึกษาส่วนใหญ่โฟกัสใบสมัคร ผมโฟกัสที่ตัวนักเรียน ใบสมัครเป็นเพียงผลลัพธ์ของงานที่เราทำร่วมกัน",
-    "cards": [
-      {
-        "num": "01",
-        "title": "เรื่องราวก่อนเสมอ",
-        "desc": "ก่อนเปิด Common App ผมใช้เวลาหลายเซสชันค้นหาว่าคุณเป็นใครจริงๆ — ค่านิยม ประสบการณ์ รูปแบบการคิด essay ไม่ได้สร้างเรื่องราว เรื่องราวต่างหากที่สร้าง essay"
-      },
-      {
-        "num": "02",
-        "title": "ความแม่นยำเชิงกลยุทธ์",
-        "desc": "ED, ED2, EA, RD — timing คือทุกอย่าง การเลือกมหาวิทยาลัย, สาขาวิชา, รอบสมัคร, การวางตำแหน่ง essay ทุกการตัดสินใจทำขึ้นโดยคำนึงถึงโปรไฟล์เฉพาะของคุณ ไม่มีรายการสำเร็จรูป"
-      },
-      {
-        "num": "03",
-        "title": "รักษาเสียงของคุณ",
-        "desc": "ผมไม่เขียน essay แทนคุณสักคำ ผม coach ท้าทาย และ refine — ทุกประโยคเป็นของคุณ ผู้ตรวจรับรู้ essay ที่เขียนแทน ความจริงใจคือข้อได้เปรียบที่ยิ่งใหญ่ที่สุด"
-      },
-      {
-        "num": "04",
-        "title": "ความเข้าใจข้ามวัฒนธรรม",
-        "desc": "ผมเข้าใจนักเรียนนานาชาติ — ไม่ว่าจะ IB ที่สิงคโปร์ boarding school ที่ UK หรือโรงเรียนเอกชนที่โซล ผมทำงานกับนักเรียนจากเกาหลี จอร์แดน เอธิโอเปีย สิงคโปร์ สหรัฐ และอื่นๆ แปลประสบการณ์ของคุณเป็นภาษาที่มหาวิทยาลัยชั้นนำตอบสนอง"
       }
     ]
   },
   "about": {
     "name": "Ron Kim",
-    "role": "ผู้ก่อตั้ง Kairos Education",
-    "credentials": [
-      "University of Illinois (สังคมวิทยา & อาชญาวิทยา)"
+    "role": "Founder · Kairos Education",
+    "tag": "About",
+    "title": "The person who will actually <span class=\"gold-foil\">work with your child.</span>",
+    "paragraphs": [
+      "Ron Kim founded Kairos after years inside the admissions industry, including time as a consultant at Crimson Education, one of the largest firms in the world. He learned what the big firms do well. He also saw what they do to families: once you sign, you are often handed to a junior associate, while the person with the real track record stays a name on the website.",
+      "Kairos is built to be the opposite. Every session, every essay, every strategy call is Ron himself. He takes on only a small number of families each year, because that is the only way to know a student well enough to help them stand out.",
+      "Ron grew up in the international school system in Korea and studied at the University of Illinois. Over his career he has guided students into Harvard, Yale, Columbia, Penn, Dartmouth, Cornell, Duke, Johns Hopkins, and the University of Chicago, and has worked on the counseling side of the desk at international schools."
     ],
-    "tag": "เกี่ยวกับ Ron",
-    "title": "สร้างจากผลงานจริง<br /><em>ไม่ใช่ชื่อแบรนด์</em>",
-    "blocks": [
+    "quote": {
+      "text": "The students I remember are not the ones with the highest test scores. They are the ones who found their real story and had the courage to tell it.",
+      "by": "Ron Kim · Founder"
+    },
+    "reassure": "At Kairos, your child will never be handed to someone else. The strategy, the feedback, the calls: that is Ron, every time."
+  },
+  "faq": {
+    "tag": "FAQ",
+    "title": "Common <span class=\"gold-foil\">questions.</span>",
+    "items": [
       {
-        "isP": true,
-        "html": "ผมก่อตั้ง Kairos Education เพราะเห็นช่องว่าง: นักเรียนที่สมควรได้ผลลัพธ์ระดับ elite กลับได้กลยุทธ์แบบสำเร็จรูป บริษัทใหญ่ขยายด้วยเทมเพลต ผมขยายด้วยการ<strong>รู้จักนักเรียนทุกคนเป็นรายบุคคล</strong>"
+        "q": "How is Kairos different from a big firm like Crimson?",
+        "a": "At a large firm, after you sign, your child is usually assigned to a junior associate while the senior names stay in the marketing. At Kairos, every session is with Ron, who spent time inside one of those firms and built Kairos to fix exactly this. You get the person with the track record, every time."
       },
       {
-        "isP": true,
-        "html": "ผมจบจากโรงเรียนนานาชาติ IB ในเกาหลี และเรียนสังคมวิทยาและอาชญาวิทยาที่ University of Illinois Urbana-Champaign จากนั้นทำงานเป็นที่ปรึกษามหาวิทยาลัย ผู้สอน IB/AP และที่ปรึกษาในโรงเรียนนานาชาติ — ดูแลนักเรียนจากเกาหลี สิงคโปร์ เอธิโอเปีย จอร์แดน สหราชอาณาจักร และสหรัฐ นำไปสู่ Harvard Yale Columbia UPenn Dartmouth Cornell Duke Johns Hopkins และ UChicago"
+        "q": "Will Ron write my child's essays?",
+        "a": "No. Every word stays your child's. Ron coaches and refines, but ghostwritten essays are both detectable and a risk to your child. Our results come from authentic work."
       },
       {
-        "isP": true,
-        "html": "\"นักเรียนที่ผมจำได้ไม่ใช่คนที่ SAT สูงสุด แต่เป็นคนที่เจอเรื่องราวจริงของตัวเอง — และกล้าเล่ามัน\""
+        "q": "When should my child start?",
+        "a": "Grade 9 for Legacy, Grade 10 for Prestige, Grade 11 for Scholar. Foundation is for seniors who need focused help with the application itself. Earlier gives Ron more to work with, but it is rarely too late."
       },
       {
-        "isP": true,
-        "html": "ที่ Kairos ผมดูแลนักเรียนทุกคนโดยตรง คุณจะไม่ถูกส่งต่อให้ junior coach กลยุทธ์ feedback เรื่อง essay การโทร — คือผมทุกครั้ง"
+        "q": "Do you work with families outside Korea?",
+        "a": "Yes. Current and past families are in Korea, Thailand, Singapore, Ethiopia, Jordan, and the US. Every session is on Zoom, so time zone is never a problem."
+      },
+      {
+        "q": "What does a session look like?",
+        "a": "Sixty minutes on Zoom, focused on whatever matters most that week: an essay draft, the school list, interview prep, or how your child is spending their time. Your child comes with something to work on, and Ron comes prepared."
       }
     ]
   },
+  "videoCta": {
+    "title": "This could be your child.",
+    "sub": "Let's make it happen.",
+    "cta": "Start with a free consultation",
+    "poster": "/assets/img/admit-yale.jpg"
+  },
   "contact": {
-    "tag": "ติดต่อ",
-    "title": "เริ่มต้น<br />การเดินทาง Kairos",
-    "sub": "การปรึกษาครั้งแรกฟรี เราจะพูดคุยเกี่ยวกับเป้าหมาย โปรไฟล์ปัจจุบัน และว่า Kairos เหมาะกับคุณหรือไม่ ไม่มีแรงกดดัน ไม่มีการขาย — แค่การพูดคุยตรงไปตรงมา",
-    "emailLabel": "อีเมล",
-    "kakaoLabel": "ช่อง KakaoTalk",
-    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">เพิ่มช่องทาง →</a>",
-    "locationLabel": "ตั้งอยู่ที่",
-    "location": "โซล, เกาหลีใต้ · ดูแลนักเรียนใน 10+ ประเทศ",
+    "tag": "Contact",
+    "title": "Start with a <span class=\"gold-foil\">free consultation.</span>",
+    "sub": "The first consultation is free and there is no obligation. Ron will talk through your child's goals, where they stand today, and whether Kairos is the right fit. No pressure and no scripted pitch, just an honest conversation. Bring your child if you would like them on the call.",
+    "emailLabel": "Email",
+    "locationLabel": "Based in",
+    "location": "Seoul, Korea · working with families across 10+ countries",
+    "formNote": "We reply within 24 hours. Your details stay private and are never shared.",
+    "expect": {
+      "title": "During your consultation, you will:",
+      "steps": [
+        {
+          "title": "Get an honest assessment",
+          "desc": "An honest read on where things stand today, and what genuinely sets the student apart."
+        },
+        {
+          "title": "Talk through your goals",
+          "desc": "The student's strengths, their target schools or programs, and what it will take to get there."
+        },
+        {
+          "title": "See how Kairos works",
+          "desc": "The personalized roadmap we would build together, and exactly how working with Ron unfolds."
+        },
+        {
+          "title": "Leave with a clear plan",
+          "desc": "Clear next steps and the right level of support for your family — and the space to decide in your own time."
+        }
+      ]
+    },
     "form": {
-      "nameLabel": "ชื่อนักเรียน",
-      "namePlaceholder": "ชื่อของคุณ",
-      "gradeLabel": "ระดับชั้นปัจจุบัน",
-      "emailLabel": "อีเมล",
-      "emailPlaceholder": "อีเมลของคุณ",
-      "universitiesLabel": "มหาวิทยาลัยเป้าหมาย",
-      "universitiesPlaceholder": "เช่น Harvard, Stanford, MIT...",
-      "messageLabel": "ข้อความ",
-      "messagePlaceholder": "ตอนนี้อยู่ในขั้นตอนไหน? อยากบรรลุอะไร? เรื่องราวพิเศษของนักเรียนคืออะไร?",
-      "submit": "ส่งข้อความ →",
+      "nameLabel": "Your name",
+      "namePlaceholder": "Your name",
+      "gradeLabel": "Your child's grade",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "universitiesLabel": "Target universities",
+      "universitiesPlaceholder": "Harvard, Stanford, …",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your child and your goals",
+      "submit": "Send message <span class=\"arrow\">→</span>",
       "grades": [
-        "ม.4 (Grade 10)",
-        "ม.5 (Grade 11)",
-        "ม.6 (Grade 12)",
-        "Gap Year",
-        "อื่นๆ"
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12",
+        "Gap year"
       ]
     }
   },
   "footer": {
-    "tagline": "ที่ปรึกษาระดับ elite สำหรับนักเรียนที่ปฏิเสธความธรรมดา — ในสหรัฐ เกาหลี และที่อื่นๆ",
-    "col1Heading": "เรียนต่อสหรัฐ",
+    "tagline": "Boutique college admissions consulting. One student, one counselor, in the US and in Korea.",
+    "col1Heading": "Study in the US",
     "col1": [
-      { "href": "#results", "text": "ผลการสมัคร" },
-      { "href": "#packages", "text": "แพ็กเกจและราคา" },
-      { "href": "#methodology", "text": "แนวทางของเรา" },
-      { "href": "#about", "text": "เกี่ยวกับเรา" },
-      { "href": "#faq", "text": "FAQ" }
+      {
+        "href": "#results",
+        "text": "Admissions Results"
+      },
+      {
+        "href": "#packages",
+        "text": "Packages & Pricing"
+      },
+      {
+        "href": "#us-process",
+        "text": "How It Works"
+      },
+      {
+        "href": "#about",
+        "text": "About Kairos"
+      },
+      {
+        "href": "#faq",
+        "text": "FAQ"
+      }
     ],
-    "col2Heading": "เรียนต่อเกาหลี",
+    "col2Heading": "Study in Korea",
     "col2": [
-      { "href": "/study-korea.html#pathways", "text": "สามเส้นทางเรียนต่อเกาหลี" },
-      { "href": "/study-korea.html#universities", "text": "มหาวิทยาลัยเกาหลี" },
-      { "href": "/study-korea.html#packages", "text": "แพ็กเกจและราคา" },
-      { "href": "/study-korea.html#faq", "text": "FAQ" }
+      {
+        "href": "/study-korea.html#pathways",
+        "text": "Three Pathways"
+      },
+      {
+        "href": "/study-korea.html#universities",
+        "text": "Korean Universities"
+      },
+      {
+        "href": "/study-korea.html#packages",
+        "text": "Packages & Pricing"
+      },
+      {
+        "href": "/study-korea.html#faq",
+        "text": "FAQ"
+      }
     ],
+    "disc": "Kairos Education is an independent consultancy and is not affiliated with, endorsed by, or sponsored by any university or institution named on this site. Results vary by student and depend on starting point, timeline, target schools, and individual effort. Past admissions outcomes do not guarantee future results.",
     "copyright": "© 2026 Kairos Education. All rights reserved.",
     "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   },
-  "faq": {
-    "tag": "FAQ",
-    "title": "คำถามที่พบบ่อย",
-    "sub": "คำตอบตรงๆ ก่อนที่คุณจะติดต่อเรา",
-    "items": [
-      {
-        "q": "Kairos ต่างจากบริษัทใหญ่ๆ อย่าง Crimson อย่างไร?",
-        "a": "ทุกเซสชันคือ Ron Kim โดยตรง — ไม่มี junior associate ไม่มีการส่งต่อ บริษัทใหญ่ส่วนใหญ่มอบหมายให้ coordinator หลัง onboarding ที่ Kairos คุณได้คนที่มี track record จริงทุกครั้ง"
-      },
-      {
-        "q": "คุณเขียน essay แทนนักเรียนหรือไม่?",
-        "a": "ไม่เคย ทุกคำเป็นของนักเรียน ผม coach ท้าทาย และ refine — essay ที่เขียนแทนตรวจจับได้และผิดจริยธรรม ผลลัพธ์ของเรามาจากงานที่แท้จริง"
-      },
-      {
-        "q": "นักเรียนควรเริ่มที่เกรดไหน?",
-        "a": "Legacy เกรด 9, Prestige เกรด 10, Scholar เกรด 11 Foundation สำหรับเกรด 12 ที่ต้องการ essay support เริ่มเร็วยิ่งดี — แต่ไม่สายเกินไป"
-      },
-      {
-        "q": "รับนักเรียนนอกเกาหลีหรือไม่?",
-        "a": "ใช่ ลูกค้าปัจจุบันและในอดีตมาจากเกาหลี ไทย สิงคโปร์ เอธิโอเปีย จอร์แดน และสหรัฐ ทุกเซสชันผ่าน Zoom — timezone ไม่ใช่ปัญหา"
-      },
-      {
-        "q": "เซสชันทั่วไปเป็นอย่างไร?",
-        "a": "60 นาทีบน Zoom เราทำสิ่งที่เร่งด่วนที่สุด — essay draft กลยุทธ์ school list เตรียมสัมภาษณ์ หรือ activity positioning คุณนำสิ่งที่จะทำมา ผมมาพร้อม"
-      }
-    ]
+  "sticky": {
+    "msg": "<span class=\"sm-main\">Your child's one shot deserves the right counselor.</span><span class=\"sub\">The first consultation is free, with no obligation.</span>",
+    "getStarted": "Get started",
+    "bookFree": "Book a free consultation",
+    "kakao": "<span>💬</span> KakaoTalk",
+    "whatsapp": "WhatsApp"
+  },
+  "cta": {
+    "kakaoConsult": "<span>💬</span> KakaoTalk 1:1 consultation",
+    "whatsappConsult": "WhatsApp 1:1 consultation",
+    "sendMessage": "Send message <span class=\"arrow\">→</span>"
   }
 }

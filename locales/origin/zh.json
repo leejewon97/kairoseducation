@@ -1,21 +1,21 @@
 {
   "code": "zh",
-  "lang": "zh-CN",
-  "title": "Kairos Education | 顶尖大学申请咨询",
-  "metaDescription": "面向全球学生的独立大学申请咨询。哈佛、耶鲁、斯坦福等顶尖名校。以真实录取成果为本，非模板化服务 — 与 Ron Kim 一对一辅导。",
-  "formName": "contact-zh",
-  "fontsHref": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
-  "fontFamily": "'Noto Sans SC', sans-serif",
+  "lang": "zh",
+  "title": "Kairos Education | Elite College Consulting",
+  "metaDescription": "Independent college counseling for ambitious students worldwide. Harvard, Yale, Stanford and top universities. Real results, not templates — 1-on-1 with Ron Kim.",
+  "formName": "contact",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap",
+  "fontFamily": "'Hanken Grotesk', sans-serif",
   "langLinks": [
-    {
-      "code": "en",
-      "href": "/en/",
-      "label": "English"
-    },
     {
       "code": "ko",
       "href": "/ko/",
       "label": "한국어"
+    },
+    {
+      "code": "zh",
+      "href": "/zh/",
+      "label": "中文"
     },
     {
       "code": "th",
@@ -28,102 +28,178 @@
       "label": "Tiếng Việt"
     }
   ],
+  "scarcity": "Kairos works with a limited number of families each year.<span class=\"dot\">◆</span>A few places remain for the current cycle.",
   "nav": {
-    "results": "录取成绩",
-    "packages": "套餐",
-    "methodology": "方法论",
-    "about": "关于我们",
-    "cta": "预约咨询",
-    "faq": "常见问题",
-    "menuOpen": "打开菜单",
-    "menuClose": "关闭菜单"
+    "why": "Why It Matters",
+    "results": "Results",
+    "process": "How It Works",
+    "packages": "Packages",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cta": "Book a consultation",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu"
   },
   "hero": {
-    "badge": "精英大学申请咨询 · 全球服务",
-    "h1": "对的学生，<br />\r\n        <em>对的学校，</em><br />\r\n        对的时机。",
-    "sub": "面向全球雄心勃勃学生的独立大学申请咨询服务 — 中国、韩国、新加坡、泰国、美国、欧洲及其他地区。 目标是哈佛、耶鲁、斯坦福以及世界上最顶尖的大学。 用真实成绩说话，而非模板化方案。",
-    "primaryCta": "查看套餐",
-    "secondaryCta": "查看录取成绩"
+    "badge": "Boutique College Admissions Consulting · Worldwide",
+    "h1": "Your child has one shot at the Ivy League. Give it the <span class=\"gold-foil\">counselor it deserves.</span>",
+    "lead": "Kairos is boutique admissions consulting for families targeting Harvard, Yale, and the world's most selective universities. From the first call to the final essay, your child works directly with Ron Kim — Kairos's founder, a former Crimson consultant whose students earn Ivy League admission. Never a junior associate, never a rotating team. At the big firms, your child is one file among thousands; here, they are the only student in the room.",
+    "authority": "Kairos students have been admitted to",
+    "primaryCta": "Book a free consultation <span class=\"arrow\">→</span>",
+    "secondaryCta": "See the results",
+    "marquee": [
+      "Harvard",
+      "Yale",
+      "Columbia",
+      "Penn",
+      "Dartmouth",
+      "Cornell",
+      "Brown",
+      "Chicago",
+      "Duke"
+    ]
   },
-  "stats": [
-    {
-      "number": "Harvard",
-      "label": "常青藤录取成绩<br />含哈佛、耶鲁、哥大"
-    },
-    {
-      "number": "30+",
-      "label": "Top 40 名校<br />录取成绩"
-    },
-    {
-      "number": "8",
-      "label": "常青藤录取<br />（所有申请轮次）"
-    },
-    {
-      "number": "100%",
-      "label": "学生亲自撰写文书<br />绝不代笔"
-    }
-  ],
+  "worries": {
+    "tag": "Why It Matters",
+    "title": "Does this sound like <span class=\"gold-foil\">your family?</span>",
+    "lead": "Most parents who come to Kairos are carrying one of these worries. Naming it is the first step to fixing it.",
+    "items": [
+      {
+        "title": "Strong grades, but is it enough?",
+        "desc": "Your child has the GPA and the scores. So do thousands of other applicants. Numbers get an application read, not admitted."
+      },
+      {
+        "title": "A long activities list with no through-line.",
+        "desc": "There is plenty on the resume, but nothing that adds up to a single story an admissions officer remembers."
+      },
+      {
+        "title": "The essay feels impossible to start.",
+        "desc": "Your child is talented, but getting that onto the page in their own voice is where almost everyone freezes."
+      },
+      {
+        "title": "A big firm already let you down.",
+        "desc": "You paid for a brand and got handed to a junior associate who gave you information, not a plan."
+      }
+    ],
+    "foot": "We have sat with every one of these. The fix is never more effort. It is the right strategy, built around your child."
+  },
+  "proof": {
+    "eyebrow": "By The Numbers",
+    "title": "A track record, not a promise.",
+    "sub": "Boutique scale, with outcomes families recognize.",
+    "stats": [
+      {
+        "value": "8",
+        "label": "Ivy League admits"
+      },
+      {
+        "value": "30+",
+        "label": "Top 40 placements"
+      },
+      {
+        "value": "1:1",
+        "label": "Directly with Ron, every session"
+      },
+      {
+        "value": "100%",
+        "label": "Student-written, no ghostwriting"
+      }
+    ],
+    "note": "Results vary by student, depending on starting point, timeline, target schools, and the work the student puts in. Past admissions do not guarantee future outcomes."
+  },
   "results": {
-    "tag": "录取成绩",
-    "title": "我们的学生<em>成功录取</em>",
-    "sub": "Kairos 的学生来自中国、韩国、新加坡、泰国、美国、约旦、埃塞俄比亚、英国等地。 他们已被世界顶尖大学录取 — 从常青藤到工程、电影、科学和艺术领域的顶尖项目。",
+    "tag": "Track Record",
+    "title": "Where Kairos students <span class=\"gold-foil\">get in.</span>",
+    "sub": "Kairos students come from Korea, Singapore, the US, the UK, Jordan, Ethiopia, and beyond, and they earn places at the universities parents hope for and rarely say out loud.",
+    "admit": "Admit",
+    "admitShowcase": [
+      {
+        "name": "Minjun",
+        "school": "Yale",
+        "year": "2028",
+        "image": "/assets/img/admit-yale.jpg",
+        "imageAlt": "Kairos student admitted to Yale"
+      },
+      {
+        "name": "Yujin",
+        "school": "Columbia",
+        "year": "2027",
+        "image": "/assets/img/admit-columbia.jpg",
+        "imageAlt": "Kairos student admitted to Columbia"
+      },
+      {
+        "name": "Tanawat",
+        "school": "Penn",
+        "year": "2026",
+        "image": "/assets/img/admit-penn.jpg",
+        "imageAlt": "Kairos student admitted to Penn"
+      },
+      {
+        "name": "Trang",
+        "school": "Cornell",
+        "year": "2028",
+        "image": "/assets/img/admit-cornell.jpg",
+        "imageAlt": "Kairos student admitted to Cornell"
+      }
+    ],
     "tiers": [
       {
-        "label": "常青藤 & Top 10",
+        "label": "Ivy League & Top 10",
         "tier": 1,
         "universities": [
           {
-            "name": "哈佛大学 (Harvard)",
-            "detail": "环境科学与公共政策",
+            "name": "Harvard",
+            "detail": "Environmental Science & Public Policy",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/harvard-university/"
           },
           {
-            "name": "耶鲁大学 (Yale)",
-            "detail": "电影与媒体研究",
+            "name": "Yale",
+            "detail": "Film & Media Studies",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/yale-university/"
           },
           {
-            "name": "哥伦比亚大学 (Columbia)",
-            "detail": "经济学与哲学",
+            "name": "Columbia",
+            "detail": "Economics & Philosophy",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/columbia-university/"
           },
           {
-            "name": "宾夕法尼亚大学 — Wharton 沃顿商学院 (UPenn)",
-            "detail": "沃顿商学院 (ED1)",
+            "name": "UPenn",
+            "detail": "Wharton — Business (ED1)",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-pennsylvania/"
           },
           {
-            "name": "达特茅斯学院 (Dartmouth)",
-            "detail": "国际关系 (ED1)",
+            "name": "Dartmouth",
+            "detail": "International Relations (ED1)",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/dartmouth-college/"
           },
           {
-            "name": "康奈尔大学 (Cornell)",
-            "detail": "录取 × 3 名学生",
+            "name": "Cornell",
+            "detail": "Admitted × 3 students",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/cornell-university/"
           },
           {
-            "name": "布朗大学 (Brown)",
-            "detail": "东亚研究 (ED)",
+            "name": "Brown",
+            "detail": "East Asian Studies (ED)",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/brown-university/"
           },
           {
-            "name": "芝加哥大学 (UChicago)",
-            "detail": "气候与可持续发展（转学）",
+            "name": "UChicago",
+            "detail": "Climate & Sustainability (Transfer)",
             "tier": 1,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-chicago/"
@@ -135,64 +211,64 @@
         "tier": 2,
         "universities": [
           {
-            "name": "杜克大学 (Duke)",
-            "detail": "生物医学工程 (ED) + 全额奖学金 × 2",
+            "name": "Duke",
+            "detail": "Biomedical Eng. (ED) + Full Merit Scholarship × 2",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/duke-university/"
           },
           {
-            "name": "约翰斯·霍普金斯大学",
-            "detail": "录取 × 2 名",
+            "name": "Johns Hopkins",
+            "detail": "Admitted × 2 students",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/johns-hopkins-university/"
           },
           {
-            "name": "西北大学 (Northwestern)",
-            "detail": "生物医学工程 + 多人录取",
+            "name": "Northwestern",
+            "detail": "Biomedical Engineering + multiple admits",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/northwestern-university/"
           },
           {
-            "name": "卡内基梅隆大学 (CMU)",
-            "detail": "工程 (ED) · 音乐与技术",
+            "name": "Carnegie Mellon",
+            "detail": "Engineering (ED) · Music & Technology",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/carnegie-mellon-university/"
           },
           {
-            "name": "圣路易斯华盛顿大学",
-            "detail": "录取 × 3 名 (ED)",
+            "name": "WashU St. Louis",
+            "detail": "Admitted × 3 students (ED)",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/washington-university-in-st-louis/"
           },
           {
-            "name": "范德比尔特大学 (Vanderbilt)",
-            "detail": "工程 (ED2)",
+            "name": "Vanderbilt",
+            "detail": "Engineering (ED2)",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/vanderbilt-university/"
           },
           {
-            "name": "加州大学伯克利分校 (UC Berkeley)",
-            "detail": "录取 × 3 名",
+            "name": "UC Berkeley",
+            "detail": "Admitted × 3 students",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-california-berkeley/"
           },
           {
-            "name": "克莱蒙特麦肯纳学院",
-            "detail": "录取 (ED)",
+            "name": "Claremont McKenna",
+            "detail": "Admitted (ED)",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/claremont-mckenna-college/"
           },
           {
-            "name": "西点军校",
-            "detail": "美国陆军军官学校",
+            "name": "West Point",
+            "detail": "US Military Academy",
             "tier": 2,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/united-states-military-academy/"
@@ -200,88 +276,88 @@
         ]
       },
       {
-        "label": "Top 26–40 & 特殊专业",
+        "label": "Top 26–40 & Specialty",
         "tier": 3,
         "universities": [
           {
-            "name": "埃默里大学 (Emory)",
-            "detail": "录取 × 4 名",
+            "name": "Emory",
+            "detail": "Admitted × 4 students",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/emory-university/"
           },
           {
-            "name": "纽约大学斯特恩商学院",
-            "detail": "商学院 (ED) × 2 名",
+            "name": "NYU Stern",
+            "detail": "Business (ED) × 2 students",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/new-york-university/"
           },
           {
-            "name": "南加州大学 (USC)",
-            "detail": "电影艺术学院（全美第一）",
+            "name": "USC",
+            "detail": "School of Cinematic Arts (#1 Film)",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-southern-california/"
           },
           {
-            "name": "波士顿学院",
-            "detail": "录取 × 3 名 (ED2)",
+            "name": "Boston College",
+            "detail": "Admitted × 3 students (ED2)",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/boston-college/"
           },
           {
-            "name": "佐治亚理工学院",
-            "detail": "录取 × 2 名",
+            "name": "Georgia Tech",
+            "detail": "Admitted × 2 students",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/georgia-institute-of-technology/"
           },
           {
             "name": "University of Michigan",
-            "detail": "录取",
+            "detail": "Admitted",
             "tier": 3,
             "intl": false
           },
           {
-            "name": "加州大学洛杉矶分校 (UCLA)",
-            "detail": "录取 × 2 名",
+            "name": "UCLA",
+            "detail": "Admitted × 2 students",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-california-los-angeles/"
           },
           {
-            "name": "东北大学 (Northeastern)",
-            "detail": "录取 × 3 名 (ED)",
+            "name": "Northeastern",
+            "detail": "Admitted × 3 students (ED)",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/northeastern-university/"
           },
           {
-            "name": "维拉诺瓦大学",
-            "detail": "录取并注册",
+            "name": "Villanova",
+            "detail": "Enrolled",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/villanova-university/"
           },
           {
-            "name": "威斯康星大学麦迪逊分校",
-            "detail": "录取 × 2 名",
+            "name": "UW Madison",
+            "detail": "Admitted × 2 students",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/university-of-wisconsin/"
           },
           {
-            "name": "波士顿大学",
-            "detail": "录取",
+            "name": "Boston University",
+            "detail": "Admitted",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/boston-university/"
           },
           {
-            "name": "罗德岛设计学院 (RISD)",
-            "detail": "全美第一艺术设计学院",
+            "name": "RISD",
+            "detail": "#1 Art & Design School (Enrolled)",
             "tier": 3,
             "intl": false,
             "nicheUrl": "https://www.niche.com/colleges/rhode-island-school-of-design/"
@@ -293,26 +369,26 @@
         "tier": 0,
         "universities": [
           {
-            "name": "伦敦大学学院 (UCL)",
-            "detail": "伦敦大学学院（英国）",
+            "name": "UCL",
+            "detail": "University College London (UK)",
             "tier": 0,
             "intl": true
           },
           {
             "name": "Univ. of Toronto",
-            "detail": "圣乔治校区（加拿大）",
+            "detail": "St. George Campus (Canada)",
             "tier": 0,
             "intl": true
           },
           {
             "name": "Waseda University",
-            "detail": "日本东京",
+            "detail": "Tokyo, Japan",
             "tier": 0,
             "intl": true
           },
           {
-            "name": "奥林工程学院",
-            "detail": "精英工程学院（每年约80名录取）",
+            "name": "Olin College",
+            "detail": "Elite Engineering (80 admits/year)",
             "tier": 0,
             "intl": true,
             "nicheUrl": "https://www.niche.com/colleges/olin-college-of-engineering/"
@@ -320,266 +396,337 @@
         ]
       }
     ],
-    "legend": "● Top 10 &nbsp;&nbsp; ● Top 11–25 &nbsp;&nbsp; ● Top 26–40 &nbsp;&nbsp; · 2023–2027届录取成绩"
+    "legend": "Results from the classes of 2023–2027."
+  },
+  "process": {
+    "tag": "The Process",
+    "title": "How it <span class=\"gold-foil\">works.</span>",
+    "lead": "A clear path from where your child is now to the acceptance letter. Every step is with Ron, in order, with nothing left to the last minute.",
+    "steps": [
+      {
+        "title": "Assessment & positioning",
+        "desc": "Ron starts by understanding your child honestly: their record, their strengths, and what genuinely sets them apart. This becomes the foundation everything else is built on."
+      },
+      {
+        "title": "The strategy roadmap",
+        "desc": "A year-by-year plan across courses, activities, testing, and the application timeline, sequenced so the work is paced and deliberate."
+      },
+      {
+        "title": "Building a standout profile",
+        "desc": "Ron guides the research, leadership, and projects that turn a strong student into a memorable applicant, not just a longer list."
+      },
+      {
+        "title": "School list & application strategy",
+        "desc": "The right schools and the right rounds. Early decision, early action, and regular, chosen around your child's real chances."
+      },
+      {
+        "title": "Essays & interviews",
+        "desc": "Your child writes; Ron coaches and refines until every essay sounds like them at their best, then prepares them to walk into any interview calm."
+      }
+    ]
+  },
+  "testimonials": {
+    "hidden": true,
+    "eyebrow": "Families",
+    "title": "What families <span class=\"gold-foil\">say.</span>",
+    "items": [
+      {
+        "quote": "We came to Ron the summer before senior year, anxious and behind. He treated our son like the only student he had. The essays sounded like our boy, and the acceptance still feels unreal.",
+        "by": "Parent of a 2025 Columbia admit"
+      },
+      {
+        "quote": "We had spoken to a large firm first and felt like a number. With Ron it was personal from the first call. He pushed our daughter to find her own voice, and it showed.",
+        "by": "Parent of a 2024 Yale admit"
+      },
+      {
+        "quote": "Every email, every draft, every late-night question went straight to Ron. That kind of attention is the reason my application stood out. I will never forget it.",
+        "by": "Kairos student, now at Dartmouth"
+      }
+    ],
+    "note": "Placeholder testimonials shown for layout. Replace with real, anonymized quotes before launch."
   },
   "services": {
-    "tag": "服务与定价",
-    "title": "选择您的<em>服务方案</em>",
-    "sub": "无论您身处世界何处，每位学生都享受与首席顾问一对一的深度服务。 我们跨时区工作 — 从不使用模板，每份申请都围绕您真实的个人特点量身定制。",
-    "packageCta": "立即开始",
+    "tag": "Services & Pricing",
+    "title": "Choose the right level <span class=\"gold-foil\">for your child.</span>",
+    "sub": "Every family works one-on-one with Ron, wherever they are in the world. No templates. Each plan is built around who your child actually is, and the earlier you start, the more there is to work with.",
+    "priceNote": "Transparent pricing, no inquiry required. Most families start with a free consultation to find the right fit.",
+    "packageCta": "Get started",
+    "packageCtaArrow": "Get started <span class=\"arrow\">→</span>",
+    "alacarteHeading": "À la carte",
+    "alacarteSub": "Individual services, no package required. All essays remain student-written; Ron coaches and gives feedback only.",
+    "alacarteNote": "Competition support (John Locke, Physics Bowl, AMC/AIME, NYT Student Essay, KSEF) from $150/hour.",
     "packages": [
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Foundation",
-        "schools": "文书与申请冲刺 | 5–7个月 | 10次课程",
+        "best": "Best for: families whose child is already in senior year and needs the application done right, and done now.",
+        "desc": "The application is the one part of your child's high school years that cannot be redone. Foundation makes sure it shows them at their best.",
+        "meta": "10 sessions · 5–7 months",
         "price": "$4,300",
         "max": "",
         "features": [
-          "个人陈述开发（头脑风暴 → 终稿）",
-          "最多4篇补充文书（策略 + 编辑）",
-          "大学清单审核与学校匹配度分析",
-          "申请时间表与清单",
-          "活动列表优化",
-          "课程间电子邮件支持"
+          "A personal statement built from who your child really is, developed with Ron from first idea to final draft.",
+          "Up to four supplemental essays shaped so each target school reads like their first choice.",
+          "A college list reviewed for fit, so your child applies where they can both get in and thrive.",
+          "A clear timeline and checklist for the months that decide everything.",
+          "Direct email access to Ron between sessions."
         ]
       },
       {
         "featured": true,
-        "badge": "最受欢迎",
+        "badge": "Most Popular",
         "name": "Kairos Scholar",
-        "schools": "高三综合服务 | 12个月 | 22次课程",
+        "best": "Best for: families starting the summer before senior year who want the whole application handled, end to end.",
+        "desc": "The complete senior-year partnership. Every part of the application, shaped by Ron personally, so your child stands out for the right reasons.",
+        "meta": "22 sessions · 12 months",
         "price": "$7,000",
         "max": "",
         "features": [
-          "完整选校策略（冲刺 / 匹配 / 保底）",
-          "个人陈述 + 无限补充文书",
-          "课外活动叙事与定位",
-          "申请门户审核（Common App / Coalition）",
-          "面试准备（2次模拟面试）",
-          "经济援助与奖学金指导",
-          "候补名单与延期策略",
-          "优先电子邮件与 KakaoTalk 支持"
+          "A full school strategy across reach, match, and safety schools.",
+          "The personal statement plus unlimited supplemental essays, revised until each one is right.",
+          "Their activities positioned to tell one coherent story rather than a list.",
+          "A full review of the Common App or Coalition portal before anything is submitted.",
+          "Two mock interviews, so your child walks in prepared and calm.",
+          "Guidance on financial aid and scholarships, plus a plan for any waitlist or deferral.",
+          "Priority access to Ron by email and KakaoTalk."
         ]
       },
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Prestige",
-        "schools": "两年战略合作 | 24个月 | 40次课程",
+        "best": "Best for: families starting in tenth or eleventh grade who want the profile built, not just the application written.",
+        "desc": "Everything in Scholar, plus the two years that let Ron shape the transcript, activities, and testing admissions officers look at first.",
+        "meta": "40 sessions · 24 months",
         "price": "$12,800",
         "max": "",
         "features": [
-          "包含 Kairos Scholar 全部内容",
-          "10–11年级学业与选课规划",
-          "课外活动策略与暑期项目选择",
-          "学术研究、竞赛与领导力定位",
-          "标准化考试策略（SAT / ACT / AP）",
-          "专属 KakaoTalk 频道"
+          "Everything in Kairos Scholar.",
+          "Course and academic planning for tenth and eleventh grade.",
+          "Extracurricular strategy and summer program selection that build a distinctive profile.",
+          "Positioning for the research, competitions, and leadership that carry real weight.",
+          "A standardized testing plan across SAT, ACT, and AP.",
+          "A dedicated KakaoTalk channel with Ron."
         ]
       },
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Legacy",
-        "schools": "四年蜕变式合作 | 36–48个月 | 无限次课程",
+        "best": "Best for: families who want to start in ninth grade and leave nothing to chance.",
+        "desc": "The full four-year partnership, and the most complete preparation Kairos offers, building the record and intellectual identity the most selective universities reward.",
+        "meta": "Unlimited sessions · 36–48 months",
         "price": "$19,500",
         "max": "",
         "features": [
-          "包含 Kairos Prestige 全部内容",
-          "9年级入学引导与长期愿景设定",
-          "学术身份认同与热情项目设计",
-          "导师网络推荐",
-          "每半年家庭战略会议",
-          "录取后持续支持"
+          "Everything in Kairos Prestige.",
+          "Ninth-grade onboarding and a long-term plan built around a real vision.",
+          "An intellectual identity and passion project rooted in what your child actually cares about.",
+          "Introductions to Ron's mentor network.",
+          "Two family strategy meetings a year.",
+          "Support that continues after the acceptance arrives."
         ]
       }
     ],
-    "alacarteHeading": "单项服务",
-    "alacarteSub": "无需购买套餐即可使用的单项服务。",
-    "alacarteTable": {
-      "service": "服务项目",
-      "usd": "USD",
-      "krw": "KRW"
-    },
     "alacarte": [
       {
-        "service": "按小时咨询课程",
+        "service": "Hourly consulting session",
         "usd": "$150",
         "krw": ""
       },
       {
-        "service": "单篇文书审阅与编辑",
+        "service": "Single essay review & edit",
         "usd": "$200",
         "krw": ""
       },
       {
-        "service": "完整申请审查",
+        "service": "Full application review",
         "usd": "$300",
         "krw": ""
       },
       {
-        "service": "面试准备（3次课程）",
+        "service": "Interview prep (3 sessions)",
         "usd": "$350",
         "krw": ""
       },
       {
-        "service": "选校咨询（1次课程）",
+        "service": "School list consultation",
         "usd": "$100",
         "krw": ""
       },
       {
-        "service": "SAT / ACT 辅导（每小时）",
+        "service": "SAT / ACT tutoring (per hour)",
         "usd": "$120",
         "krw": ""
       },
       {
-        "service": "AP 科目辅导（每小时）",
+        "service": "AP subject tutoring (per hour)",
         "usd": "$100",
         "krw": ""
       },
       {
-        "service": "TOEFL / IELTS 辅导（每小时）",
+        "service": "TOEFL / IELTS tutoring (per hour)",
         "usd": "$100",
         "krw": ""
-      },
-      {
-        "service": "竞赛辅导（每小时）",
-        "usd": "$150",
-        "krw": ""
-      }
-    ],
-    "disclaimer": "所有文书均由学生亲自撰写 — Kairos 只提供指导和反馈。",
-    "alacarteNote": "竞赛支持包括：John Locke Essay、Physics Bowl、AMC/AIME、NY Times Student Essay Contest、KSEF"
-  },
-  "methodology": {
-    "tag": "我们的方法",
-    "title": "Kairos 意味着<em style=\"color: rgba(201,168,76,0.85);\">最佳时机</em>",
-    "sub": "大多数顾问关注申请材料。我关注学生这个人。申请材料是我与您共同工作的体现。",
-    "cards": [
-      {
-        "num": "01",
-        "title": "故事优先",
-        "desc": "在打开 Common App 之前，我会用几次会话深入挖掘您真正是谁 — 您的价值观、经历、思维方式。不是文书创造故事，而是故事成就文书。"
-      },
-      {
-        "num": "02",
-        "title": "精准战略",
-        "desc": "ED、ED2、EA、RD — 时机就是一切。学校选择、专业方向、申请轮次、文书定位：每一个决策都针对您的具体背景量身制定，没有千篇一律的清单。"
-      },
-      {
-        "num": "03",
-        "title": "保留您的声音",
-        "desc": "我从不代写任何一个字。我指导、挑战、修改——但每一句都是您的。招生官能识别代写文书。真实性是您最大的竞争优势。"
-      },
-      {
-        "num": "04",
-        "title": "跨文化理解",
-        "desc": "我理解国际学生——无论您在新加坡读 IB、在英国读寄宿学校，还是在首尔读私立学校。我曾与来自韩国、约旦、埃塞俄比亚、新加坡、美国等地的学生合作，将您的经历转化为名校能听懂的语言。"
       }
     ]
   },
   "about": {
     "name": "Ron Kim",
-    "role": "Kairos Education 创始人",
-    "credentials": [
-      "伊利诺伊大学（社会学与犯罪学）"
+    "role": "Founder · Kairos Education",
+    "tag": "About",
+    "title": "The person who will actually <span class=\"gold-foil\">work with your child.</span>",
+    "paragraphs": [
+      "Ron Kim founded Kairos after years inside the admissions industry, including time as a consultant at Crimson Education, one of the largest firms in the world. He learned what the big firms do well. He also saw what they do to families: once you sign, you are often handed to a junior associate, while the person with the real track record stays a name on the website.",
+      "Kairos is built to be the opposite. Every session, every essay, every strategy call is Ron himself. He takes on only a small number of families each year, because that is the only way to know a student well enough to help them stand out.",
+      "Ron grew up in the international school system in Korea and studied at the University of Illinois. Over his career he has guided students into Harvard, Yale, Columbia, Penn, Dartmouth, Cornell, Duke, Johns Hopkins, and the University of Chicago, and has worked on the counseling side of the desk at international schools."
     ],
-    "tag": "关于 Ron",
-    "title": "用真实成绩说话，<br /><em>而非品牌名气</em>",
-    "blocks": [
+    "quote": {
+      "text": "The students I remember are not the ones with the highest test scores. They are the ones who found their real story and had the courage to tell it.",
+      "by": "Ron Kim · Founder"
+    },
+    "reassure": "At Kairos, your child will never be handed to someone else. The strategy, the feedback, the calls: that is Ron, every time."
+  },
+  "faq": {
+    "tag": "FAQ",
+    "title": "Common <span class=\"gold-foil\">questions.</span>",
+    "items": [
       {
-        "isP": true,
-        "html": "我创立 Kairos Education，是因为见过太多有潜力的学生，却因为千篇一律的策略而错失理想结果。大型咨询公司靠模板扩张。我靠<strong>认识每一位学生</strong>来成长。"
+        "q": "How is Kairos different from a big firm like Crimson?",
+        "a": "At a large firm, after you sign, your child is usually assigned to a junior associate while the senior names stay in the marketing. At Kairos, every session is with Ron, who spent time inside one of those firms and built Kairos to fix exactly this. You get the person with the track record, every time."
       },
       {
-        "isP": true,
-        "html": "我毕业于韩国一所 IB 国际学校，后在伊利诺伊大学厄巴纳-香槟分校学习社会学与犯罪学。此后多年担任升学顾问、IB/AP 讲师和国际学校升学指导，直接指导来自韩国、新加坡、埃塞俄比亚、约旦、英国和美国的的学生，帮助他们进入哈佛、耶鲁、哥伦比亚、宾大、达特茅斯、康奈尔、杜克、约翰霍普金斯和芝加哥大学。"
+        "q": "Will Ron write my child's essays?",
+        "a": "No. Every word stays your child's. Ron coaches and refines, but ghostwritten essays are both detectable and a risk to your child. Our results come from authentic work."
       },
       {
-        "isP": true,
-        "html": "\"我记住的学生，不是 SAT 最高的那些，而是找到真实故事、并有勇气把它讲出来的人。\""
+        "q": "When should my child start?",
+        "a": "Grade 9 for Legacy, Grade 10 for Prestige, Grade 11 for Scholar. Foundation is for seniors who need focused help with the application itself. Earlier gives Ron more to work with, but it is rarely too late."
       },
       {
-        "isP": true,
-        "html": "在 Kairos，每位学生都由我亲自负责。绝不会交给初级顾问。策略、文书反馈、通话——每次都是我本人。"
+        "q": "Do you work with families outside Korea?",
+        "a": "Yes. Current and past families are in Korea, Thailand, Singapore, Ethiopia, Jordan, and the US. Every session is on Zoom, so time zone is never a problem."
+      },
+      {
+        "q": "What does a session look like?",
+        "a": "Sixty minutes on Zoom, focused on whatever matters most that week: an essay draft, the school list, interview prep, or how your child is spending their time. Your child comes with something to work on, and Ron comes prepared."
       }
     ]
   },
+  "videoCta": {
+    "title": "This could be your child.",
+    "sub": "Let's make it happen.",
+    "cta": "Start with a free consultation",
+    "poster": "/assets/img/admit-yale.jpg"
+  },
   "contact": {
-    "tag": "联系我们",
-    "title": "开启您的<br />Kairos 之旅",
-    "sub": "首次咨询完全免费。我们将聊聊您的目标、当前背景，以及 Kairos 是否适合您。没有压力，没有推销 — 只是一次坦诚的对话。",
-    "emailLabel": "电子邮件",
-    "kakaoLabel": "KakaoTalk频道",
-    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">添加频道 →</a>",
-    "locationLabel": "所在地",
-    "location": "首尔，韩国 · 服务全球10+国家学生",
+    "tag": "Contact",
+    "title": "Start with a <span class=\"gold-foil\">free consultation.</span>",
+    "sub": "The first consultation is free and there is no obligation. Ron will talk through your child's goals, where they stand today, and whether Kairos is the right fit. No pressure and no scripted pitch, just an honest conversation. Bring your child if you would like them on the call.",
+    "emailLabel": "Email",
+    "locationLabel": "Based in",
+    "location": "Seoul, Korea · working with families across 10+ countries",
+    "formNote": "We reply within 24 hours. Your details stay private and are never shared.",
+    "expect": {
+      "title": "During your consultation, you will:",
+      "steps": [
+        {
+          "title": "Get an honest assessment",
+          "desc": "An honest read on where things stand today, and what genuinely sets the student apart."
+        },
+        {
+          "title": "Talk through your goals",
+          "desc": "The student's strengths, their target schools or programs, and what it will take to get there."
+        },
+        {
+          "title": "See how Kairos works",
+          "desc": "The personalized roadmap we would build together, and exactly how working with Ron unfolds."
+        },
+        {
+          "title": "Leave with a clear plan",
+          "desc": "Clear next steps and the right level of support for your family — and the space to decide in your own time."
+        }
+      ]
+    },
     "form": {
-      "nameLabel": "学生姓名",
-      "namePlaceholder": "您的姓名",
-      "gradeLabel": "当前年级",
-      "emailLabel": "邮箱",
-      "emailPlaceholder": "您的邮箱地址",
-      "universitiesLabel": "目标大学",
-      "universitiesPlaceholder": "例如：哈佛、斯坦福、MIT...",
-      "messageLabel": "留言",
-      "messagePlaceholder": "您目前处于申请的哪个阶段？希望达成什么目标？您有什么独特的故事或背景？",
-      "submit": "发送消息 →",
+      "nameLabel": "Your name",
+      "namePlaceholder": "Your name",
+      "gradeLabel": "Your child's grade",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "universitiesLabel": "Target universities",
+      "universitiesPlaceholder": "Harvard, Stanford, …",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us about your child and your goals",
+      "submit": "Send message <span class=\"arrow\">→</span>",
       "grades": [
-        "高一 (Grade 10)",
-        "高二 (Grade 11)",
-        "高三 (Grade 12)",
-        "Gap Year",
-        "其他"
+        "Grade 9",
+        "Grade 10",
+        "Grade 11",
+        "Grade 12",
+        "Gap year"
       ]
     }
   },
   "footer": {
-    "tagline": "为拒绝平庸的学生提供精英咨询——美国、韩国及更远。",
-    "col1Heading": "美国留学",
+    "tagline": "Boutique college admissions consulting. One student, one counselor, in the US and in Korea.",
+    "col1Heading": "Study in the US",
     "col1": [
-      { "href": "#results", "text": "录取成果" },
-      { "href": "#packages", "text": "套餐与定价" },
-      { "href": "#methodology", "text": "我们的方法" },
-      { "href": "#about", "text": "关于我们" },
-      { "href": "#faq", "text": "FAQ" }
+      {
+        "href": "#results",
+        "text": "Admissions Results"
+      },
+      {
+        "href": "#packages",
+        "text": "Packages & Pricing"
+      },
+      {
+        "href": "#us-process",
+        "text": "How It Works"
+      },
+      {
+        "href": "#about",
+        "text": "About Kairos"
+      },
+      {
+        "href": "#faq",
+        "text": "FAQ"
+      }
     ],
-    "col2Heading": "韩国留学",
+    "col2Heading": "Study in Korea",
     "col2": [
-      { "href": "/study-korea.html#pathways", "text": "三条留学路径" },
-      { "href": "/study-korea.html#universities", "text": "韩国大学" },
-      { "href": "/study-korea.html#packages", "text": "套餐与定价" },
-      { "href": "/study-korea.html#faq", "text": "FAQ" }
+      {
+        "href": "/study-korea.html#pathways",
+        "text": "Three Pathways"
+      },
+      {
+        "href": "/study-korea.html#universities",
+        "text": "Korean Universities"
+      },
+      {
+        "href": "/study-korea.html#packages",
+        "text": "Packages & Pricing"
+      },
+      {
+        "href": "/study-korea.html#faq",
+        "text": "FAQ"
+      }
     ],
-    "copyright": "© 2026 Kairos Education. 版权所有。",
+    "disc": "Kairos Education is an independent consultancy and is not affiliated with, endorsed by, or sponsored by any university or institution named on this site. Results vary by student and depend on starting point, timeline, target schools, and individual effort. Past admissions outcomes do not guarantee future results.",
+    "copyright": "© 2026 Kairos Education. All rights reserved.",
     "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   },
-  "faq": {
-    "tag": "FAQ",
-    "title": "常见问题",
-    "sub": "联系前先了解这些。",
-    "items": [
-      {
-        "q": "Kairos 与 Crimson 等大型机构有何不同？",
-        "a": "每次课都由 Ron Kim 本人亲自进行——没有初级顾问，不会转手。大多数大型机构在签约后会安排协调员。在 Kairos，您每次见到的都是有真实录取记录的人。"
-      },
-      {
-        "q": "你们会代写文书吗？",
-        "a": "绝不。每个字都是学生自己的。我只做指导、挑战和修改——代写文书既容易被发现，也不符合伦理。我们的成果来自真实、原创的申请。"
-      },
-      {
-        "q": "学生应该从几年级开始咨询？",
-        "a": "Legacy 建议 9 年级，Prestige 10 年级，Scholar 11 年级。Foundation 面向需要集中文书支持的 12 年级学生。越早越好——但永远不嫌晚。"
-      },
-      {
-        "q": "是否接受韩国以外的学生？",
-        "a": "是的。现有及过往客户来自韩国、泰国、新加坡、埃塞俄比亚、约旦和美国。所有课程通过 Zoom 进行——时区不是问题。"
-      },
-      {
-        "q": "一次课程通常如何进行？",
-        "a": "Zoom 上 60 分钟。我们处理最紧迫的事项——文书草稿、选校策略、面试准备或活动定位。您带着要讨论的内容来，我做好充分准备。"
-      }
-    ]
+  "sticky": {
+    "msg": "<span class=\"sm-main\">Your child's one shot deserves the right counselor.</span><span class=\"sub\">The first consultation is free, with no obligation.</span>",
+    "getStarted": "Get started",
+    "bookFree": "Book a free consultation",
+    "kakao": "<span>💬</span> KakaoTalk",
+    "whatsapp": "WhatsApp"
+  },
+  "cta": {
+    "kakaoConsult": "<span>💬</span> KakaoTalk 1:1 consultation",
+    "whatsappConsult": "WhatsApp 1:1 consultation",
+    "sendMessage": "Send message <span class=\"arrow\">→</span>"
   }
 }

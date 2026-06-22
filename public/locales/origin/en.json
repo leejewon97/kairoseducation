@@ -4,8 +4,8 @@
   "title": "Kairos Education | Elite College Consulting",
   "metaDescription": "Independent college counseling for ambitious students worldwide. Harvard, Yale, Stanford and top universities. Real results, not templates — 1-on-1 with Ron Kim.",
   "formName": "contact",
-  "fontsHref": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
-  "fontFamily": "'Inter', sans-serif",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap",
+  "fontFamily": "'Hanken Grotesk', sans-serif",
   "langLinks": [
     {
       "code": "ko",
@@ -28,45 +28,121 @@
       "label": "Tiếng Việt"
     }
   ],
+  "scarcity": "Kairos works with a limited number of families each year.<span class=\"dot\">◆</span>A few places remain for the current cycle.",
   "nav": {
+    "why": "Why It Matters",
     "results": "Results",
+    "process": "How It Works",
     "packages": "Packages",
-    "methodology": "Approach",
     "about": "About",
     "faq": "FAQ",
-    "cta": "Book Consultation",
+    "contact": "Contact",
+    "cta": "Book a consultation",
     "menuOpen": "Open menu",
     "menuClose": "Close menu"
   },
   "hero": {
-    "badge": "Elite College Consulting · Worldwide",
-    "h1": "The right student,<br />\r\n        at the <em>right school,</em><br />\r\n        at the right moment.",
-    "sub": "Independent college counseling for ambitious students worldwide — Korea, Singapore, the US, Europe, and beyond. Targeting Harvard, Yale, Stanford, and the world's most selective universities. Built on real results, not templates.",
-    "primaryCta": "View Packages",
-    "secondaryCta": "View Our Results"
+    "badge": "Boutique College Admissions Consulting · Worldwide",
+    "h1": "Your child has one shot at the Ivy League. Give it the <span class=\"gold-foil\">counselor it deserves.</span>",
+    "lead": "Kairos is boutique admissions consulting for families targeting Harvard, Yale, and the world's most selective universities. From the first call to the final essay, your child works directly with Ron Kim — Kairos's founder, a former Crimson consultant whose students earn Ivy League admission. Never a junior associate, never a rotating team. At the big firms, your child is one file among thousands; here, they are the only student in the room.",
+    "authority": "Kairos students have been admitted to",
+    "primaryCta": "Book a free consultation <span class=\"arrow\">→</span>",
+    "secondaryCta": "See the results",
+    "marquee": [
+      "Harvard",
+      "Yale",
+      "Columbia",
+      "Penn",
+      "Dartmouth",
+      "Cornell",
+      "Brown",
+      "Chicago",
+      "Duke"
+    ]
   },
-  "stats": [
-    {
-      "number": "Harvard",
-      "label": "Ivy League admits include<br />Harvard, Yale, Columbia"
-    },
-    {
-      "number": "30+",
-      "label": "Top 40 university<br />placements"
-    },
-    {
-      "number": "8",
-      "label": "Ivy League admits<br />across all cycles"
-    },
-    {
-      "number": "100%",
-      "label": "Student-written essays.<br />No ghostwriting, ever."
-    }
-  ],
+  "worries": {
+    "tag": "Why It Matters",
+    "title": "Does this sound like <span class=\"gold-foil\">your family?</span>",
+    "lead": "Most parents who come to Kairos are carrying one of these worries. Naming it is the first step to fixing it.",
+    "items": [
+      {
+        "title": "Strong grades, but is it enough?",
+        "desc": "Your child has the GPA and the scores. So do thousands of other applicants. Numbers get an application read, not admitted."
+      },
+      {
+        "title": "A long activities list with no through-line.",
+        "desc": "There is plenty on the resume, but nothing that adds up to a single story an admissions officer remembers."
+      },
+      {
+        "title": "The essay feels impossible to start.",
+        "desc": "Your child is talented, but getting that onto the page in their own voice is where almost everyone freezes."
+      },
+      {
+        "title": "A big firm already let you down.",
+        "desc": "You paid for a brand and got handed to a junior associate who gave you information, not a plan."
+      }
+    ],
+    "foot": "We have sat with every one of these. The fix is never more effort. It is the right strategy, built around your child."
+  },
+  "proof": {
+    "eyebrow": "By The Numbers",
+    "title": "A track record, not a promise.",
+    "sub": "Boutique scale, with outcomes families recognize.",
+    "stats": [
+      {
+        "value": "8",
+        "label": "Ivy League admits"
+      },
+      {
+        "value": "30+",
+        "label": "Top 40 placements"
+      },
+      {
+        "value": "1:1",
+        "label": "Directly with Ron, every session"
+      },
+      {
+        "value": "100%",
+        "label": "Student-written, no ghostwriting"
+      }
+    ],
+    "note": "Results vary by student, depending on starting point, timeline, target schools, and the work the student puts in. Past admissions do not guarantee future outcomes."
+  },
   "results": {
     "tag": "Track Record",
-    "title": "Our students get in.",
-    "sub": "Kairos students come from Korea, Singapore, the US, Jordan, Ethiopia, the UK, and beyond. They've been admitted to the world's most selective universities — from Ivy League schools to top programs in engineering, film, science, and the arts.",
+    "title": "Where Kairos students <span class=\"gold-foil\">get in.</span>",
+    "sub": "Kairos students come from Korea, Singapore, the US, the UK, Jordan, Ethiopia, and beyond, and they earn places at the universities parents hope for and rarely say out loud.",
+    "admit": "Admit",
+    "admitShowcase": [
+      {
+        "name": "Minjun",
+        "school": "Yale",
+        "year": "2028",
+        "image": "/assets/img/admit-yale.jpg",
+        "imageAlt": "Kairos student admitted to Yale"
+      },
+      {
+        "name": "Yujin",
+        "school": "Columbia",
+        "year": "2027",
+        "image": "/assets/img/admit-columbia.jpg",
+        "imageAlt": "Kairos student admitted to Columbia"
+      },
+      {
+        "name": "Tanawat",
+        "school": "Penn",
+        "year": "2026",
+        "image": "/assets/img/admit-penn.jpg",
+        "imageAlt": "Kairos student admitted to Penn"
+      },
+      {
+        "name": "Trang",
+        "school": "Cornell",
+        "year": "2028",
+        "image": "/assets/img/admit-cornell.jpg",
+        "imageAlt": "Kairos student admitted to Cornell"
+      }
+    ],
     "tiers": [
       {
         "label": "Ivy League & Top 10",
@@ -320,266 +396,337 @@
         ]
       }
     ],
-    "legend": "● Top 10 &nbsp;&nbsp; ● Top 11–25 &nbsp;&nbsp; ● Top 26–40 &nbsp;&nbsp; · Results from classes of 2023–2027."
+    "legend": "Results from the classes of 2023–2027."
+  },
+  "process": {
+    "tag": "The Process",
+    "title": "How it <span class=\"gold-foil\">works.</span>",
+    "lead": "A clear path from where your child is now to the acceptance letter. Every step is with Ron, in order, with nothing left to the last minute.",
+    "steps": [
+      {
+        "title": "Assessment & positioning",
+        "desc": "Ron starts by understanding your child honestly: their record, their strengths, and what genuinely sets them apart. This becomes the foundation everything else is built on."
+      },
+      {
+        "title": "The strategy roadmap",
+        "desc": "A year-by-year plan across courses, activities, testing, and the application timeline, sequenced so the work is paced and deliberate."
+      },
+      {
+        "title": "Building a standout profile",
+        "desc": "Ron guides the research, leadership, and projects that turn a strong student into a memorable applicant, not just a longer list."
+      },
+      {
+        "title": "School list & application strategy",
+        "desc": "The right schools and the right rounds. Early decision, early action, and regular, chosen around your child's real chances."
+      },
+      {
+        "title": "Essays & interviews",
+        "desc": "Your child writes; Ron coaches and refines until every essay sounds like them at their best, then prepares them to walk into any interview calm."
+      }
+    ]
+  },
+  "testimonials": {
+    "hidden": true,
+    "eyebrow": "Families",
+    "title": "What families <span class=\"gold-foil\">say.</span>",
+    "items": [
+      {
+        "quote": "We came to Ron the summer before senior year, anxious and behind. He treated our son like the only student he had. The essays sounded like our boy, and the acceptance still feels unreal.",
+        "by": "Parent of a 2025 Columbia admit"
+      },
+      {
+        "quote": "We had spoken to a large firm first and felt like a number. With Ron it was personal from the first call. He pushed our daughter to find her own voice, and it showed.",
+        "by": "Parent of a 2024 Yale admit"
+      },
+      {
+        "quote": "Every email, every draft, every late-night question went straight to Ron. That kind of attention is the reason my application stood out. I will never forget it.",
+        "by": "Kairos student, now at Dartmouth"
+      }
+    ],
+    "note": "Placeholder testimonials shown for layout. Replace with real, anonymized quotes before launch."
   },
   "services": {
     "tag": "Services & Pricing",
-    "title": "Choose your <em>package.</em>",
-    "sub": "Every student receives deeply personal, one-on-one attention regardless of where they are in the world. We work across time zones — and we never use templates. We build each application around who you actually are.",
-    "packageCta": "Get Started",
+    "title": "Choose the right level <span class=\"gold-foil\">for your child.</span>",
+    "sub": "Every family works one-on-one with Ron, wherever they are in the world. No templates. Each plan is built around who your child actually is, and the earlier you start, the more there is to work with.",
+    "priceNote": "Transparent pricing, no inquiry required. Most families start with a free consultation to find the right fit.",
+    "packageCta": "Get started",
+    "packageCtaArrow": "Get started <span class=\"arrow\">→</span>",
+    "alacarteHeading": "À la carte",
+    "alacarteSub": "Individual services, no package required. All essays remain student-written; Ron coaches and gives feedback only.",
+    "alacarteNote": "Competition support (John Locke, Physics Bowl, AMC/AIME, NYT Student Essay, KSEF) from $150/hour.",
     "packages": [
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Foundation",
-        "schools": "Essay & Application Sprint | 5–7 months | 10 sessions",
+        "best": "Best for: families whose child is already in senior year and needs the application done right, and done now.",
+        "desc": "The application is the one part of your child's high school years that cannot be redone. Foundation makes sure it shows them at their best.",
+        "meta": "10 sessions · 5–7 months",
         "price": "$4,300",
         "max": "",
         "features": [
-          "Personal Statement development (brainstorming → final draft)",
-          "Up to 4 supplemental essays (strategy + editing)",
-          "College list review & school fit analysis",
-          "Application timeline & checklist",
-          "Activities list refinement",
-          "Email support between sessions"
+          "A personal statement built from who your child really is, developed with Ron from first idea to final draft.",
+          "Up to four supplemental essays shaped so each target school reads like their first choice.",
+          "A college list reviewed for fit, so your child applies where they can both get in and thrive.",
+          "A clear timeline and checklist for the months that decide everything.",
+          "Direct email access to Ron between sessions."
         ]
       },
       {
         "featured": true,
         "badge": "Most Popular",
         "name": "Kairos Scholar",
-        "schools": "Senior Year Comprehensive | 12 months | 22 sessions",
+        "best": "Best for: families starting the summer before senior year who want the whole application handled, end to end.",
+        "desc": "The complete senior-year partnership. Every part of the application, shaped by Ron personally, so your child stands out for the right reasons.",
+        "meta": "22 sessions · 12 months",
         "price": "$7,000",
         "max": "",
         "features": [
-          "Full school list strategy (reach / match / safety)",
-          "Personal Statement + unlimited supplemental essays",
-          "Extracurricular narrative & positioning",
-          "Application portal review (Common App / Coalition)",
-          "Interview preparation (2 mock sessions)",
-          "Financial aid & scholarship guidance",
-          "Waitlist & deferral strategy",
-          "Priority email & KakaoTalk support"
+          "A full school strategy across reach, match, and safety schools.",
+          "The personal statement plus unlimited supplemental essays, revised until each one is right.",
+          "Their activities positioned to tell one coherent story rather than a list.",
+          "A full review of the Common App or Coalition portal before anything is submitted.",
+          "Two mock interviews, so your child walks in prepared and calm.",
+          "Guidance on financial aid and scholarships, plus a plan for any waitlist or deferral.",
+          "Priority access to Ron by email and KakaoTalk."
         ]
       },
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Prestige",
-        "schools": "Two-Year Strategic Partnership | 24 months | 40 sessions",
+        "best": "Best for: families starting in tenth or eleventh grade who want the profile built, not just the application written.",
+        "desc": "Everything in Scholar, plus the two years that let Ron shape the transcript, activities, and testing admissions officers look at first.",
+        "meta": "40 sessions · 24 months",
         "price": "$12,800",
         "max": "",
         "features": [
-          "Everything in Kairos Scholar",
-          "10th–11th grade academic & course planning",
-          "Extracurricular strategy & summer program selection",
-          "Research, competition & leadership positioning",
-          "Standardized test strategy (SAT / ACT / AP)",
-          "Dedicated KakaoTalk channel"
+          "Everything in Kairos Scholar.",
+          "Course and academic planning for tenth and eleventh grade.",
+          "Extracurricular strategy and summer program selection that build a distinctive profile.",
+          "Positioning for the research, competitions, and leadership that carry real weight.",
+          "A standardized testing plan across SAT, ACT, and AP.",
+          "A dedicated KakaoTalk channel with Ron."
         ]
       },
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Legacy",
-        "schools": "Four-Year Transformational Partnership | 36–48 months | Unlimited sessions",
+        "best": "Best for: families who want to start in ninth grade and leave nothing to chance.",
+        "desc": "The full four-year partnership, and the most complete preparation Kairos offers, building the record and intellectual identity the most selective universities reward.",
+        "meta": "Unlimited sessions · 36–48 months",
         "price": "$19,500",
         "max": "",
         "features": [
-          "Everything in Kairos Prestige",
-          "9th grade onboarding & long-term vision setting",
-          "Intellectual identity & passion project design",
-          "Mentor network introductions",
-          "Bi-annual family strategy meetings",
-          "Post-admission support"
+          "Everything in Kairos Prestige.",
+          "Ninth-grade onboarding and a long-term plan built around a real vision.",
+          "An intellectual identity and passion project rooted in what your child actually cares about.",
+          "Introductions to Ron's mentor network.",
+          "Two family strategy meetings a year.",
+          "Support that continues after the acceptance arrives."
         ]
       }
     ],
-    "alacarteHeading": "À La Carte Services",
-    "alacarteSub": "Individual services available without a package commitment.",
-    "alacarteTable": {
-      "service": "Service",
-      "usd": "USD",
-      "krw": "KRW"
-    },
     "alacarte": [
       {
-        "service": "Hourly Consulting Session",
+        "service": "Hourly consulting session",
         "usd": "$150",
         "krw": ""
       },
       {
-        "service": "Single Essay Review & Edit",
+        "service": "Single essay review & edit",
         "usd": "$200",
         "krw": ""
       },
       {
-        "service": "Full Application Review",
+        "service": "Full application review",
         "usd": "$300",
         "krw": ""
       },
       {
-        "service": "Interview Prep (3 sessions)",
+        "service": "Interview prep (3 sessions)",
         "usd": "$350",
         "krw": ""
       },
       {
-        "service": "School List Consultation (1 session)",
+        "service": "School list consultation",
         "usd": "$100",
         "krw": ""
       },
       {
-        "service": "SAT / ACT Tutoring (per hour)",
+        "service": "SAT / ACT tutoring (per hour)",
         "usd": "$120",
         "krw": ""
       },
       {
-        "service": "AP Subject Tutoring (per hour)",
+        "service": "AP subject tutoring (per hour)",
         "usd": "$100",
         "krw": ""
       },
       {
-        "service": "TOEFL / IELTS Tutoring (per hour)",
+        "service": "TOEFL / IELTS tutoring (per hour)",
         "usd": "$100",
         "krw": ""
-      },
-      {
-        "service": "Competition Tutoring (per hour)",
-        "usd": "$150",
-        "krw": ""
-      }
-    ],
-    "alacarteNote": "Competition support includes: John Locke Essay, Physics Bowl, AMC/AIME, NY Times Student Essay Contest, KSEF",
-    "disclaimer": "All essays are student-written — Kairos provides coaching and feedback only."
-  },
-  "methodology": {
-    "tag": "Our Approach",
-    "title": "Kairos means the <em style=\"color: rgba(201,168,76,0.85);\">right moment.</em>",
-    "sub": "Most consultants focus on the application. I focus on the student. The application is just the expression of the work we do together.",
-    "cards": [
-      {
-        "num": "01",
-        "title": "Story First",
-        "desc": "Before we open Common App, we spend sessions excavating who you actually are — your values, your experiences, your thinking patterns. The essay doesn't create the story. The story creates the essay."
-      },
-      {
-        "num": "02",
-        "title": "Strategic Precision",
-        "desc": "ED, ED2, EA, RD — timing is everything. School selection, major choice, application round, essay positioning: every decision is made with your specific profile in mind. No cookie-cutter lists."
-      },
-      {
-        "num": "03",
-        "title": "Voice Preservation",
-        "desc": "I never write a single word of your essay. I coach, challenge, and refine — but every sentence is yours. Admissions officers can detect a ghost-written essay. Authenticity is your greatest competitive advantage."
-      },
-      {
-        "num": "04",
-        "title": "Cultural Fluency",
-        "desc": "I understand international students — whether you're at an IB school in Singapore, a boarding school in the UK, or a private school in Seoul. I've worked with students from Korea, Jordan, Ethiopia, Singapore, the US, and more. I translate your experience into a language elite universities respond to."
       }
     ]
   },
   "about": {
     "name": "Ron Kim",
-    "role": "Founder, Kairos Education",
-    "credentials": [
-      "University of Illinois (Sociology & Criminology)"
-    ],
+    "role": "Founder · Kairos Education",
     "tag": "About",
-    "title": "Built on real results,<br /><em>not brand names.</em>",
-    "blocks": [
-      {
-        "isP": true,
-        "html": "I founded Kairos Education because I saw a gap: students who deserved elite outcomes\r\n          were getting generic strategies. Big consulting firms scale by selling templates.\r\n          I scale by <strong>knowing every student by name.</strong>"
-      },
-      {
-        "isP": true,
-        "html": "I graduated from an IB international school in Korea and went on to study Sociology and Criminology\r\n          at the University of Illinois Urbana-Champaign. I then spent years as a college consultant,\r\n          IB/AP instructor, and international school college counselor — working directly with students\r\n          from Korea, Singapore, Ethiopia, Jordan, the UK, and the US, guiding them to admissions at\r\n          Harvard, Yale, Columbia, UPenn, Dartmouth, Cornell, Duke, Johns Hopkins, and UChicago."
-      },
-      {
-        "isP": true,
-        "html": "\"The students I remember aren't the ones with the highest SAT scores.\r\n          They're the ones who found their real story — and had the courage to tell it.\""
-      },
-      {
-        "isP": true,
-        "html": "At Kairos, I work directly with every student. You will never be handed off to a junior coach.\r\n          The strategy, the essay feedback, the calls — that's me, every time."
-      }
-    ]
+    "title": "The person who will actually <span class=\"gold-foil\">work with your child.</span>",
+    "paragraphs": [
+      "Ron Kim founded Kairos after years inside the admissions industry, including time as a consultant at Crimson Education, one of the largest firms in the world. He learned what the big firms do well. He also saw what they do to families: once you sign, you are often handed to a junior associate, while the person with the real track record stays a name on the website.",
+      "Kairos is built to be the opposite. Every session, every essay, every strategy call is Ron himself. He takes on only a small number of families each year, because that is the only way to know a student well enough to help them stand out.",
+      "Ron grew up in the international school system in Korea and studied at the University of Illinois. Over his career he has guided students into Harvard, Yale, Columbia, Penn, Dartmouth, Cornell, Duke, Johns Hopkins, and the University of Chicago, and has worked on the counseling side of the desk at international schools."
+    ],
+    "quote": {
+      "text": "The students I remember are not the ones with the highest test scores. They are the ones who found their real story and had the courage to tell it.",
+      "by": "Ron Kim · Founder"
+    },
+    "reassure": "At Kairos, your child will never be handed to someone else. The strategy, the feedback, the calls: that is Ron, every time."
   },
   "faq": {
     "tag": "FAQ",
-    "title": "Common Questions",
-    "sub": "Straight answers before you reach out.",
+    "title": "Common <span class=\"gold-foil\">questions.</span>",
     "items": [
       {
-        "q": "How is Kairos different from large consulting firms like Crimson?",
-        "a": "Every session is with Ron Kim directly — no junior associates, no handoffs. Most large firms assign you to a coordinator after onboarding. At Kairos, you get the person with the actual track record, every time."
+        "q": "How is Kairos different from a big firm like Crimson?",
+        "a": "At a large firm, after you sign, your child is usually assigned to a junior associate while the senior names stay in the marketing. At Kairos, every session is with Ron, who spent time inside one of those firms and built Kairos to fix exactly this. You get the person with the track record, every time."
       },
       {
-        "q": "Do you write the essays for students?",
-        "a": "Never. Every word stays the student's. I coach, challenge, and refine — but ghostwritten essays are both detectable and ethically wrong. Our results come from authentic work."
+        "q": "Will Ron write my child's essays?",
+        "a": "No. Every word stays your child's. Ron coaches and refines, but ghostwritten essays are both detectable and a risk to your child. Our results come from authentic work."
       },
       {
-        "q": "What grade should students start consulting?",
-        "a": "Grade 9 for Legacy, Grade 10 for Prestige, Grade 11 for Scholar. Foundation is for Grade 12 students who need focused essay support. Earlier is always better — but it's never too late."
+        "q": "When should my child start?",
+        "a": "Grade 9 for Legacy, Grade 10 for Prestige, Grade 11 for Scholar. Foundation is for seniors who need focused help with the application itself. Earlier gives Ron more to work with, but it is rarely too late."
       },
       {
-        "q": "Do you work with students outside Korea?",
-        "a": "Yes. Current and past clients are from Korea, Thailand, Singapore, Ethiopia, Jordan, and the US. All sessions via Zoom — time zone is never an issue."
+        "q": "Do you work with families outside Korea?",
+        "a": "Yes. Current and past families are in Korea, Thailand, Singapore, Ethiopia, Jordan, and the US. Every session is on Zoom, so time zone is never a problem."
       },
       {
-        "q": "What does a typical session look like?",
-        "a": "60 minutes on Zoom. We work on whatever is most urgent — essay drafts, school list strategy, interview prep, or activity positioning. You come with something to work on; I come prepared."
+        "q": "What does a session look like?",
+        "a": "Sixty minutes on Zoom, focused on whatever matters most that week: an essay draft, the school list, interview prep, or how your child is spending their time. Your child comes with something to work on, and Ron comes prepared."
       }
     ]
   },
+  "videoCta": {
+    "title": "This could be your child.",
+    "sub": "Let's make it happen.",
+    "cta": "Start with a free consultation",
+    "poster": "/assets/img/admit-yale.jpg"
+  },
   "contact": {
     "tag": "Contact",
-    "title": "Start your<br />Kairos journey.",
-    "sub": "The first consultation is free. We'll talk about your goals, your current profile, and whether Kairos is the right fit. No pressure, no pitch — just an honest conversation.",
+    "title": "Start with a <span class=\"gold-foil\">free consultation.</span>",
+    "sub": "The first consultation is free and there is no obligation. Ron will talk through your child's goals, where they stand today, and whether Kairos is the right fit. No pressure and no scripted pitch, just an honest conversation. Bring your child if you would like them on the call.",
     "emailLabel": "Email",
-    "kakaoLabel": "KakaoTalk Channel",
-    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color: var(--gold); text-decoration: none;\" target=\"_blank\">Add Channel →</a>",
     "locationLabel": "Based in",
-    "location": "Seoul, Korea · Working with students across 10+ countries",
+    "location": "Seoul, Korea · working with families across 10+ countries",
+    "formNote": "We reply within 24 hours. Your details stay private and are never shared.",
+    "expect": {
+      "title": "During your consultation, you will:",
+      "steps": [
+        {
+          "title": "Get an honest assessment",
+          "desc": "An honest read on where things stand today, and what genuinely sets the student apart."
+        },
+        {
+          "title": "Talk through your goals",
+          "desc": "The student's strengths, their target schools or programs, and what it will take to get there."
+        },
+        {
+          "title": "See how Kairos works",
+          "desc": "The personalized roadmap we would build together, and exactly how working with Ron unfolds."
+        },
+        {
+          "title": "Leave with a clear plan",
+          "desc": "Clear next steps and the right level of support for your family — and the space to decide in your own time."
+        }
+      ]
+    },
     "form": {
-      "nameLabel": "Student Name",
+      "nameLabel": "Your name",
       "namePlaceholder": "Your name",
-      "gradeLabel": "Current Grade Level",
+      "gradeLabel": "Your child's grade",
       "emailLabel": "Email",
       "emailPlaceholder": "you@email.com",
-      "universitiesLabel": "Target Universities",
-      "universitiesPlaceholder": "e.g. Harvard, Stanford, MIT...",
+      "universitiesLabel": "Target universities",
+      "universitiesPlaceholder": "Harvard, Stanford, …",
       "messageLabel": "Message",
-      "messagePlaceholder": "Where are you in the process? What are you hoping to achieve? What makes your story unique?",
-      "submit": "Send Message →",
+      "messagePlaceholder": "Tell us about your child and your goals",
+      "submit": "Send message <span class=\"arrow\">→</span>",
       "grades": [
         "Grade 9",
         "Grade 10",
         "Grade 11",
         "Grade 12",
-        "Gap Year"
+        "Gap year"
       ]
     }
   },
   "footer": {
-    "tagline": "Elite consulting for students who refuse to be average — in the US, in Korea, and beyond.",
+    "tagline": "Boutique college admissions consulting. One student, one counselor, in the US and in Korea.",
     "col1Heading": "Study in the US",
     "col1": [
-      { "href": "#results", "text": "Admissions Results" },
-      { "href": "#packages", "text": "Packages & Pricing" },
-      { "href": "#methodology", "text": "Our Approach" },
-      { "href": "#about", "text": "About Kairos" },
-      { "href": "#faq", "text": "FAQ" }
+      {
+        "href": "#results",
+        "text": "Admissions Results"
+      },
+      {
+        "href": "#packages",
+        "text": "Packages & Pricing"
+      },
+      {
+        "href": "#us-process",
+        "text": "How It Works"
+      },
+      {
+        "href": "#about",
+        "text": "About Kairos"
+      },
+      {
+        "href": "#faq",
+        "text": "FAQ"
+      }
     ],
     "col2Heading": "Study in Korea",
     "col2": [
-      { "href": "/study-korea.html#pathways", "text": "Three Pathways" },
-      { "href": "/study-korea.html#universities", "text": "Korean Universities" },
-      { "href": "/study-korea.html#packages", "text": "Packages & Pricing" },
-      { "href": "/study-korea.html#faq", "text": "FAQ" }
+      {
+        "href": "/study-korea.html#pathways",
+        "text": "Three Pathways"
+      },
+      {
+        "href": "/study-korea.html#universities",
+        "text": "Korean Universities"
+      },
+      {
+        "href": "/study-korea.html#packages",
+        "text": "Packages & Pricing"
+      },
+      {
+        "href": "/study-korea.html#faq",
+        "text": "FAQ"
+      }
     ],
+    "disc": "Kairos Education is an independent consultancy and is not affiliated with, endorsed by, or sponsored by any university or institution named on this site. Results vary by student and depend on starting point, timeline, target schools, and individual effort. Past admissions outcomes do not guarantee future results.",
     "copyright": "© 2026 Kairos Education. All rights reserved.",
     "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
+  },
+  "sticky": {
+    "msg": "<span class=\"sm-main\">Your child's one shot deserves the right counselor.</span><span class=\"sub\">The first consultation is free, with no obligation.</span>",
+    "getStarted": "Get started",
+    "bookFree": "Book a free consultation",
+    "kakao": "<span>💬</span> KakaoTalk",
+    "whatsapp": "WhatsApp"
+  },
+  "cta": {
+    "kakaoConsult": "<span>💬</span> KakaoTalk 1:1 consultation",
+    "whatsappConsult": "WhatsApp 1:1 consultation",
+    "sendMessage": "Send message <span class=\"arrow\">→</span>"
   }
 }
