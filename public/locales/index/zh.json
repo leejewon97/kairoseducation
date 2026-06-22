@@ -3,23 +3,27 @@
   "title": "Kairos Education | 选择语言",
   "metaDescription": "Kairos Education — 选择语言后，进入赴美留学（大学申请咨询）或赴韩留学（大学与语学院项目）。",
   "ogDescription": "选择语言 — 美国大学申请咨询或韩国留学项目。",
-  "stepLangSubtitle": "选择您的语言",
-  "backAria": "返回语言选择",
-  "langCards": [
-    { "code": "en", "native": "English", "label": "English" },
-    { "code": "ko", "native": "한국어", "label": "Korean" },
-    { "code": "zh", "native": "中文", "label": "Chinese" },
-    { "code": "th", "native": "ภาษาไทย", "label": "Thai" },
-    { "code": "vi", "native": "Tiếng Việt", "label": "Vietnamese" }
-  ],
-  "track": {
-    "pill": "中文",
-    "subtitle": "选择您的方向",
-    "back": "返回",
-    "us": "赴美留学",
-    "usSub": "美国大学申请咨询",
-    "kr": "赴韩留学",
-    "krSub": "韩国大学与语学院项目"
+  "h1": "Kairos <span class=\"gold-foil\">Education</span>",
+  "tagline": "精品大学申请咨询",
+  "langLabel": "选择您的语言",
+  "pathLabel": "选择您的方向",
+  "enter": "进入",
+  "pathUs": {
+    "flag": "🎓",
+    "title": "美国留学",
+    "desc": "面向常春藤盟校及全球最具竞争力大学的本科申请咨询。"
   },
-  "fontsHref": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap"
+  "pathKorea": {
+    "flag": "🇰🇷",
+    "title": "韩国留学",
+    "desc": "面向国际学生的项目：语言课程、学位课程，以及 GKS 奖学金。"
+  },
+  "langChips": [
+    { "code": "en", "flag": "🇬🇧", "label": "English" },
+    { "code": "ko", "flag": "🇰🇷", "label": "한국어" },
+    { "code": "zh", "flag": "🇨🇳", "label": "中文" },
+    { "code": "th", "flag": "🇹🇭", "label": "ภาษาไทย" },
+    { "code": "vi", "flag": "🇻🇳", "label": "Tiếng Việt" }
+  ],
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600&display=swap"
 }

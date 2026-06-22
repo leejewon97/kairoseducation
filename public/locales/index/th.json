@@ -3,23 +3,27 @@
   "title": "Kairos Education | เลือกภาษา",
   "metaDescription": "Kairos Education — เลือกภาษา จากนั้นเลือกเรียนต่อสหรัฐฯ (ที่ปรึกษาเข้ามหาวิทยาลัย) หรือเรียนต่อเกาหลี (มหาวิทยาลัยและภาษาเกาหลี)",
   "ogDescription": "เลือกภาษา — ที่ปรึกษาเข้ามหาวิทยาลัยสหรัฐ หรือโปรแกรมเรียนต่อเกาหลี",
-  "stepLangSubtitle": "เลือกภาษาของคุณ",
-  "backAria": "กลับไปเลือกภาษา",
-  "langCards": [
-    { "code": "en", "native": "English", "label": "English" },
-    { "code": "ko", "native": "한국어", "label": "Korean" },
-    { "code": "zh", "native": "中文", "label": "Chinese" },
-    { "code": "th", "native": "ภาษาไทย", "label": "Thai" },
-    { "code": "vi", "native": "Tiếng Việt", "label": "Vietnamese" }
-  ],
-  "track": {
-    "pill": "ภาษาไทย",
-    "subtitle": "เลือกเส้นทางของคุณ",
-    "back": "กลับ",
-    "us": "เรียนต่อสหรัฐฯ",
-    "usSub": "ที่ปรึกษาเข้ามหาวิทยาลัยสหรัฐ",
-    "kr": "เรียนต่อเกาหลี",
-    "krSub": "มหาวิทยาลัยและภาษาเกาหลี"
+  "h1": "Kairos <span class=\"gold-foil\">Education</span>",
+  "tagline": "ที่ปรึกษาการสมัครเข้ามหาวิทยาลัยระดับบูทีค",
+  "langLabel": "เลือกภาษาของคุณ",
+  "pathLabel": "เลือกเส้นทางของคุณ",
+  "enter": "เข้าสู่เว็บไซต์",
+  "pathUs": {
+    "flag": "🎓",
+    "title": "เรียนต่อสหรัฐฯ",
+    "desc": "ที่ปรึกษาการสมัครเข้ามหาวิทยาลัยในกลุ่ม Ivy League และมหาวิทยาลัยที่คัดเลือกเข้มงวดที่สุดในโลก"
   },
-  "fontsHref": "https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap"
+  "pathKorea": {
+    "flag": "🇰🇷",
+    "title": "เรียนต่อเกาหลี",
+    "desc": "หลักสูตรสำหรับนักเรียนต่างชาติ ทั้งภาษา ปริญญา และทุน GKS"
+  },
+  "langChips": [
+    { "code": "en", "flag": "🇬🇧", "label": "English" },
+    { "code": "ko", "flag": "🇰🇷", "label": "한국어" },
+    { "code": "zh", "flag": "🇨🇳", "label": "中文" },
+    { "code": "th", "flag": "🇹🇭", "label": "ภาษาไทย" },
+    { "code": "vi", "flag": "🇻🇳", "label": "Tiếng Việt" }
+  ],
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&family=Noto+Serif+Thai:wght@400;500;600&display=swap"
 }

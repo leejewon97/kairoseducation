@@ -3,23 +3,27 @@
   "title": "Kairos Education | Select Language",
   "metaDescription": "Kairos Education — choose your language, then Study in US (college consulting) or Study in Korea (university and language programs).",
   "ogDescription": "Choose your language — US college admissions consulting or Study in Korea programs with Ron Kim.",
-  "stepLangSubtitle": "Select Your Language",
-  "backAria": "Back to language selection",
-  "langCards": [
-    { "code": "en", "native": "English", "label": "English" },
-    { "code": "ko", "native": "한국어", "label": "Korean" },
-    { "code": "zh", "native": "中文", "label": "Chinese" },
-    { "code": "th", "native": "ภาษาไทย", "label": "Thai" },
-    { "code": "vi", "native": "Tiếng Việt", "label": "Vietnamese" }
-  ],
-  "track": {
-    "pill": "English",
-    "subtitle": "Choose Your Pathway",
-    "back": "Back",
-    "us": "Study in US",
-    "usSub": "US college admissions consulting",
-    "kr": "Study in KR",
-    "krSub": "Korean universities & language programs"
+  "h1": "Kairos <span class=\"gold-foil\">Education</span>",
+  "tagline": "Boutique College Admissions Consulting",
+  "langLabel": "Select your language",
+  "pathLabel": "Choose your path",
+  "enter": "Enter",
+  "pathUs": {
+    "flag": "🎓",
+    "title": "Study in the US",
+    "desc": "College admissions consulting for the Ivy League and the world's most selective universities."
   },
-  "fontsHref": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap"
+  "pathKorea": {
+    "flag": "🇰🇷",
+    "title": "Study in Korea",
+    "desc": "Programs for international students: language, degree, and the GKS scholarship."
+  },
+  "langChips": [
+    { "code": "en", "flag": "🇬🇧", "label": "English" },
+    { "code": "ko", "flag": "🇰🇷", "label": "한국어" },
+    { "code": "zh", "flag": "🇨🇳", "label": "中文" },
+    { "code": "th", "flag": "🇹🇭", "label": "ภาษาไทย" },
+    { "code": "vi", "flag": "🇻🇳", "label": "Tiếng Việt" }
+  ],
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
 }

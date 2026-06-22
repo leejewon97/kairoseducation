@@ -3,23 +3,27 @@
   "title": "Kairos Education | Chọn Ngôn Ngữ",
   "metaDescription": "Kairos Education — chọn ngôn ngữ, sau đó Du Học Mỹ (tư vấn đại học) hoặc Du Học Hàn Quốc (đại học và chương trình ngôn ngữ).",
   "ogDescription": "Chọn ngôn ngữ — tư vấn tuyển sinh đại học Mỹ hoặc chương trình du học Hàn Quốc.",
-  "stepLangSubtitle": "Chọn Ngôn Ngữ Của Bạn",
-  "backAria": "Quay lại chọn ngôn ngữ",
-  "langCards": [
-    { "code": "en", "native": "English", "label": "English" },
-    { "code": "ko", "native": "한국어", "label": "Korean" },
-    { "code": "zh", "native": "中文", "label": "Chinese" },
-    { "code": "th", "native": "ภาษาไทย", "label": "Thai" },
-    { "code": "vi", "native": "Tiếng Việt", "label": "Vietnamese" }
-  ],
-  "track": {
-    "pill": "Tiếng Việt",
-    "subtitle": "Chọn Lộ Trình Của Bạn",
-    "back": "Quay lại",
-    "us": "Du Học Mỹ",
-    "usSub": "Tư vấn tuyển sinh đại học Mỹ",
-    "kr": "Du Học Hàn Quốc",
-    "krSub": "Đại học & chương trình ngôn ngữ Hàn Quốc"
+  "h1": "Kairos <span class=\"gold-foil\">Education</span>",
+  "tagline": "Tư vấn tuyển sinh đại học cao cấp, theo mô hình boutique",
+  "langLabel": "Chọn ngôn ngữ của bạn",
+  "pathLabel": "Chọn hướng đi của bạn",
+  "enter": "Vào",
+  "pathUs": {
+    "flag": "🎓",
+    "title": "Du học Mỹ",
+    "desc": "Tư vấn tuyển sinh vào Ivy League và những trường đại học chọn lọc nhất thế giới."
   },
-  "fontsHref": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap"
+  "pathKorea": {
+    "flag": "🇰🇷",
+    "title": "Du học Hàn Quốc",
+    "desc": "Các chương trình dành cho sinh viên quốc tế: học tiếng, học vị, và học bổng GKS."
+  },
+  "langChips": [
+    { "code": "en", "flag": "🇬🇧", "label": "English" },
+    { "code": "ko", "flag": "🇰🇷", "label": "한국어" },
+    { "code": "zh", "flag": "🇨🇳", "label": "中文" },
+    { "code": "th", "flag": "🇹🇭", "label": "ภาษาไทย" },
+    { "code": "vi", "flag": "🇻🇳", "label": "Tiếng Việt" }
+  ],
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
 }

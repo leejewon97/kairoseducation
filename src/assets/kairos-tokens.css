@@ -1,0 +1,84 @@
+/* Design tokens — light theme */
+:root {
+  --paper: #FBF9F3;
+  --cream: #F3EEE2;
+  --white: #FFFFFF;
+  --navy: #18345C;
+  --navy-deep: #0E1F38;
+  --navy-700: #21406A;
+  --gold: #B0883A;
+  --gold-bright: #C9A24C;
+  --gold-deep: #876522;
+  --gold-2: #E2C88C;
+  --ink: #16243C;
+  --body: #48535F;
+  --muted: #7E8794;
+  --line: rgba(24, 52, 92, 0.14);
+  --line-soft: rgba(24, 52, 92, 0.08);
+  --line-gold: rgba(201, 162, 76, 0.5);
+  --serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --sans: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
+  --wrap: 1180px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+html[lang="ko"] {
+  --serif: 'Cormorant Garamond', 'Noto Serif KR', Georgia, serif;
+  --sans: 'Hanken Grotesk', 'Noto Sans KR', system-ui, -apple-system, sans-serif;
+}
+
+html[lang="zh"] {
+  --serif: 'Cormorant Garamond', 'Noto Serif SC', Georgia, serif;
+  --sans: 'Hanken Grotesk', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+}
+
+html[lang="th"] {
+  --serif: 'Cormorant Garamond', 'Noto Serif Thai', Georgia, serif;
+  --sans: 'Hanken Grotesk', 'Noto Sans Thai', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--body);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  letter-spacing: 0.004em;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(24, 52, 92, 0.16);
+  color: var(--navy);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--serif);
+  color: var(--ink);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: 0.004em;
+}

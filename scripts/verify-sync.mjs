@@ -10,6 +10,10 @@ const root = path.join(__dirname, '..');
 const LOCALE_DIRS = ['origin', 'study-korea', 'index'];
 
 const ASSET_PAIRS = [
+  'kairos-tokens.css',
+  'kairos-shared.css',
+  'index-site.css',
+  'interactions.js',
   'origin-site.css',
   'origin-i18n.js',
   'origin-locale.js',

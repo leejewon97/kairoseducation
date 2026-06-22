@@ -2,10 +2,26 @@ import { LANGS } from './langs.js';
 
 const STORAGE_KEY = 'kairos-lang';
 
-const stepLang = document.getElementById('step-lang');
-const stepTrack = document.getElementById('step-track');
-let selectedLang = 'en';
 const localeCache = new Map();
+let selectedLang = 'en';
+
+const els = {
+  h1: document.getElementById('landing-h1'),
+  tag: document.getElementById('landing-tag'),
+  langLabel: document.getElementById('lang-label'),
+  pathLabel: document.getElementById('path-label'),
+  enterLabels: document.querySelectorAll('.path-enter'),
+  pathUs: document.getElementById('path-us'),
+  pathKorea: document.getElementById('path-korea'),
+  pathUsFlag: document.getElementById('path-us-flag'),
+  pathUsTitle: document.getElementById('path-us-title'),
+  pathUsDesc: document.getElementById('path-us-desc'),
+  pathKoreaFlag: document.getElementById('path-korea-flag'),
+  pathKoreaTitle: document.getElementById('path-korea-title'),
+  pathKoreaDesc: document.getElementById('path-korea-desc'),
+  langRow: document.getElementById('lang-row'),
+  fontsLink: document.getElementById('fonts-link'),
+};
 
 async function loadLocale(code) {
   if (localeCache.has(code)) return localeCache.get(code);
@@ -29,42 +45,80 @@ function preloadOriginFont(href) {
   link.href = href;
 }
 
-function applyTrackStep(data, lang) {
-  const t = data.track;
-  document.getElementById('lang-pill').textContent = t.pill;
-  document.getElementById('track-subtitle').textContent = t.subtitle;
-  const backBtn = document.getElementById('btn-back');
-  backBtn.textContent = '← ' + t.back;
-  backBtn.setAttribute('aria-label', data.backAria);
-  document.getElementById('label-us').textContent = t.us;
-  document.getElementById('sublabel-us').textContent = t.usSub;
-  document.getElementById('label-kr').textContent = t.kr;
-  document.getElementById('sublabel-kr').textContent = t.krSub;
-  document.getElementById('track-origin').href = `/origin.html?lang=${lang}`;
-  document.getElementById('track-kr').href = `/study-korea.html?lang=${lang}`;
+function syncLangToUrl(code) {
+  if (!window.history.replaceState) return;
+  const url = new URL(window.location.href);
+  url.searchParams.set('lang', code);
+  window.history.replaceState({}, '', url.pathname + url.search + url.hash);
 }
 
-async function showTrackStep(lang) {
-  if (!LANGS.includes(lang)) return;
+function applyLocale(data, lang) {
   selectedLang = lang;
-  sessionStorage.setItem(STORAGE_KEY, selectedLang);
-  const data = await loadLocale(lang);
+  sessionStorage.setItem(STORAGE_KEY, lang);
+  document.documentElement.lang = lang;
+  syncLangToUrl(lang);
+
+  if (data.fontsHref && els.fontsLink) {
+    els.fontsLink.href = data.fontsHref;
+  }
   preloadOriginFont(data.fontsHref);
-  applyTrackStep(data, selectedLang);
-  stepLang.classList.remove('active');
-  stepTrack.classList.add('active');
+
+  if (els.h1) els.h1.innerHTML = data.h1;
+  if (els.tag) els.tag.textContent = data.tagline;
+  if (els.langLabel) els.langLabel.textContent = data.langLabel;
+  if (els.pathLabel) els.pathLabel.textContent = data.pathLabel;
+  els.enterLabels.forEach((el) => {
+    el.textContent = data.enter;
+  });
+
+  if (data.pathUs) {
+    if (els.pathUsFlag) els.pathUsFlag.textContent = data.pathUs.flag;
+    if (els.pathUsTitle) els.pathUsTitle.textContent = data.pathUs.title;
+    if (els.pathUsDesc) els.pathUsDesc.textContent = data.pathUs.desc;
+  }
+  if (data.pathKorea) {
+    if (els.pathKoreaFlag) els.pathKoreaFlag.textContent = data.pathKorea.flag;
+    if (els.pathKoreaTitle) els.pathKoreaTitle.textContent = data.pathKorea.title;
+    if (els.pathKoreaDesc) els.pathKoreaDesc.textContent = data.pathKorea.desc;
+  }
+
+  if (els.pathUs) els.pathUs.href = `/origin.html?lang=${lang}`;
+  if (els.pathKorea) els.pathKorea.href = `/study-korea.html?lang=${lang}`;
+
+  document.querySelectorAll('.lang-chip').forEach((chip) => {
+    const isSel = chip.dataset.lang === lang;
+    chip.classList.toggle('sel', isSel);
+    chip.setAttribute('aria-pressed', isSel ? 'true' : 'false');
+  });
+
+  document.dispatchEvent(new CustomEvent('kairos:langchange', { detail: { lang } }));
 }
 
-document.querySelectorAll('.lang-card').forEach((btn) => {
-  btn.addEventListener('click', () => showTrackStep(btn.dataset.lang));
+async function setLanguage(lang) {
+  if (!LANGS.includes(lang)) return;
+  const data = await loadLocale(lang);
+  applyLocale(data, lang);
+}
+
+els.langRow.addEventListener('click', (e) => {
+  const chip = e.target.closest('[data-lang]');
+  if (!chip) return;
+  setLanguage(chip.dataset.lang).catch(() => {});
 });
 
-document.getElementById('btn-back').addEventListener('click', () => {
-  stepTrack.classList.remove('active');
-  stepLang.classList.add('active');
+els.langRow.addEventListener('keydown', (e) => {
+  if (e.key !== 'Enter' && e.key !== ' ') return;
+  const chip = e.target.closest('[data-lang]');
+  if (!chip) return;
+  e.preventDefault();
+  setLanguage(chip.dataset.lang).catch(() => {});
 });
 
 const langParam = new URLSearchParams(window.location.search).get('lang');
-if (langParam && LANGS.includes(langParam)) {
-  showTrackStep(langParam).catch(() => {});
-}
+const stored = sessionStorage.getItem(STORAGE_KEY);
+const initial =
+  (langParam && LANGS.includes(langParam) && langParam) ||
+  (stored && LANGS.includes(stored) && stored) ||
+  'en';
+
+setLanguage(initial).catch(() => {});
