@@ -34,6 +34,19 @@
     "menuOpen": "Open menu",
     "menuClose": "Close menu"
   },
+  "cta": {
+    "getStarted": "Get Started",
+    "bookFree": "Book a Free Consultation",
+    "kakaoShort": "<span>💬</span> KakaoTalk",
+    "whatsappConsult": "WhatsApp"
+  },
+  "sticky": {
+    "msg": "Not sure where to start? Let’s map your best path to Korea.",
+    "getStarted": "Get Started",
+    "bookFree": "Book Free",
+    "kakao": "<span>💬</span> KakaoTalk",
+    "whatsappConsult": "WhatsApp"
+  },
   "hero": {
     "badge": "Study Korea · International Admissions",
     "h1": "Your path<br />to <em>studying in Korea</em><br />starts here.",

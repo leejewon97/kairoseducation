@@ -34,6 +34,19 @@
     "menuOpen": "Mở menu",
     "menuClose": "Đóng menu"
   },
+  "cta": {
+    "getStarted": "Bắt đầu",
+    "bookFree": "Đặt lịch tư vấn miễn phí",
+    "kakaoShort": "<span>💬</span> KakaoTalk",
+    "whatsappConsult": "WhatsApp"
+  },
+  "sticky": {
+    "msg": "Bạn chưa biết bắt đầu từ đâu? Hãy cùng vạch ra lộ trình phù hợp nhất để du học Hàn Quốc.",
+    "getStarted": "Bắt đầu",
+    "bookFree": "Tư vấn miễn phí",
+    "kakao": "<span>💬</span> KakaoTalk",
+    "whatsappConsult": "WhatsApp"
+  },
   "hero": {
     "badge": "Du Học Hàn Quốc · Tuyển Sinh Quốc Tế",
     "h1": "Con đường<br />đến với <em>Hàn Quốc</em><br />bắt đầu từ đây.",

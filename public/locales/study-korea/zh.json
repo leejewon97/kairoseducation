@@ -34,6 +34,19 @@
     "menuOpen": "打开菜单",
     "menuClose": "关闭菜单"
   },
+  "cta": {
+    "getStarted": "开始",
+    "bookFree": "预约免费咨询",
+    "kakaoShort": "<span>💬</span> KakaoTalk",
+    "whatsappConsult": "WhatsApp"
+  },
+  "sticky": {
+    "msg": "不确定从哪里开始？我们一起规划最适合你的赴韩路径。",
+    "getStarted": "开始",
+    "bookFree": "免费咨询",
+    "kakao": "<span>💬</span> KakaoTalk",
+    "whatsappConsult": "WhatsApp"
+  },
   "hero": {
     "badge": "Study Korea · 国际入学咨询",
     "h1": "赴韩留学之路，<br /><em>从这里开始。</em>",

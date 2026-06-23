@@ -34,6 +34,19 @@
     "menuOpen": "เปิดเมนู",
     "menuClose": "ปิดเมนู"
   },
+  "cta": {
+    "getStarted": "เริ่มต้น",
+    "bookFree": "จองปรึกษาฟรี",
+    "kakaoShort": "<span>💬</span> KakaoTalk",
+    "whatsappConsult": "WhatsApp"
+  },
+  "sticky": {
+    "msg": "ยังไม่แน่ใจว่าจะเริ่มตรงไหน? มาวางเส้นทางไปเกาหลีที่เหมาะกับคุณกัน",
+    "getStarted": "เริ่มต้น",
+    "bookFree": "ปรึกษาฟรี",
+    "kakao": "<span>💬</span> KakaoTalk",
+    "whatsappConsult": "WhatsApp"
+  },
   "hero": {
     "badge": "Study Korea · ศึกษาต่อที่เกาหลีใต้",
     "h1": "เส้นทางสู่<br /><em>เส้นทางการศึกษาต่อที่ประเทศเกาหลีใต้</em><br />เริ่มต้นที่นี่",

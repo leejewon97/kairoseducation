@@ -718,15 +718,15 @@
     "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   },
   "sticky": {
-    "msg": "<span class=\"sm-main\">Your child's one shot deserves the right counselor.</span><span class=\"sub\">The first consultation is free, with no obligation.</span>",
-    "getStarted": "Get started",
-    "bookFree": "Book a free consultation",
+    "msg": "<span class=\"sm-main\">孩子只有一次申请机会，值得正确的顾问。</span><span class=\"sub\">首次咨询免费，无任何义务。</span>",
+    "getStarted": "开始",
+    "bookFree": "预约免费咨询",
     "kakao": "<span>💬</span> KakaoTalk",
     "whatsapp": "WhatsApp"
   },
   "cta": {
-    "kakaoConsult": "<span>💬</span> KakaoTalk 1:1 consultation",
-    "whatsappConsult": "WhatsApp 1:1 consultation",
-    "sendMessage": "Send message <span class=\"arrow\">→</span>"
+    "kakaoConsult": "<span>💬</span> KakaoTalk 1对1咨询",
+    "whatsappConsult": "WhatsApp 1对1咨询",
+    "sendMessage": "发送信息 <span class=\"arrow\">→</span>"
   }
 }

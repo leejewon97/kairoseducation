@@ -34,6 +34,19 @@
     "menuOpen": "메뉴 열기",
     "menuClose": "메뉴 닫기"
   },
+  "cta": {
+    "getStarted": "시작하기",
+    "bookFree": "무료 상담 예약",
+    "kakaoShort": "<span>💬</span> KakaoTalk",
+    "whatsappConsult": "WhatsApp"
+  },
+  "sticky": {
+    "msg": "어디서부터 시작할지 고민되시나요? 한국 유학의 최적 경로를 함께 설계합니다.",
+    "getStarted": "시작하기",
+    "bookFree": "무료 상담",
+    "kakao": "<span>💬</span> KakaoTalk",
+    "whatsappConsult": "WhatsApp"
+  },
   "hero": {
     "badge": "Study Korea · 국제 입학 컨설팅",
     "h1": "한국 유학,<br /><em>여기서 시작됩니다.</em>",

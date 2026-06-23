@@ -1,5 +1,66 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+.view {
+  display: none;
+}
+
+.view.active {
+  display: block;
+}
+
+.view-contact {
+  padding-top: 90px;
+}
+
+.chat-fab[data-hide="true"] {
+  display: none;
+}
+
+.chat-fab {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 120;
+}
+
+.fab-btn {
+  width: 54px;
+  height: 54px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: var(--navy, #0A1628);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.fab-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: var(--gold, #C9A84C);
+}
+
+.fab-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: flex-end;
+}
+
+.fab-link {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #fff;
+  color: #111;
+}
+
 :root {
   --navy:       #0A1628;
   --navy-mid:   #12243F;

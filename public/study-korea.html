@@ -30,10 +30,13 @@
   <link rel="alternate" hreflang="x-default" href="https://kairoseducation.org/study-korea.html?lang=en" />
   <link rel="canonical" href="https://kairoseducation.org/study-korea.html?lang=en" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="/assets/kairos-tokens.css" />
+  <link rel="stylesheet" href="/assets/kairos-shared.css" />
   <link rel="stylesheet" href="/assets/study-korea-site.css" />
-  <style>body { font-family: sans-serif; } body.i18n-loading { visibility: hidden; }</style>
+  <style>body.i18n-loading { visibility: hidden; }</style>
 </head>
-<body>
+<body class="in-page">
 
 <nav>
   <div class="nav-bar">
@@ -43,7 +46,7 @@
     <div class="nav-end">
       <div class="nav-actions nav-actions--mobile">
         <a href="/" class="nav-back" data-nav-back>← Main Site</a>
-        <a href="#contact" class="nav-cta" data-nav-cta>Book Consultation</a>
+        <a href="#contact" class="nav-cta" data-view="contact" data-nav-cta>Book Consultation</a>
       </div>
       <button type="button" class="nav-toggle" aria-controls="nav-mobile-panel" aria-expanded="false" aria-label="Open menu">
         <span class="nav-toggle-icon" aria-hidden="true"></span>
@@ -61,11 +64,13 @@
       <div id="mount-lang-switcher" style="display:flex;align-items:center;gap:8px;"></div>
       <div class="nav-actions nav-actions--desktop">
         <a href="/" class="nav-back" data-nav-back>← Main Site</a>
-        <a href="#contact" class="nav-cta" data-nav-cta>Book Consultation</a>
+        <a href="#contact" class="nav-cta" data-view="contact" data-nav-cta>Book Consultation</a>
       </div>
     </div>
   </div>
 </nav>
+
+<div class="view view-us active" id="view-us">
 
 <section class="hero">
   <div class="hero-content">
@@ -102,51 +107,6 @@
   </div>
   
 </div>
-
-<section class="why-korea" id="why">
-  <div class="section-tag" id="mount-why-tag">Why Korea</div>
-  <h2 class="section-title" id="mount-why-title">Korea isn't just <em>K-pop.</em><br />It's a world-class education destination.</h2>
-  <p class="section-sub" id="mount-why-sub">Korea's universities rank among the top 100 globally. Tuition is a fraction of the US or UK. And for ambitious students who want to be in Asia — Seoul is the most dynamic city in the world right now.</p>
-  <div class="why-grid" id="mount-why-grid">
-    
-    <div class="why-card">
-      <div class="why-icon">🏛️</div>
-      <div class="why-title">World-Ranked Universities</div>
-      <div class="why-desc">SNU, KAIST, POSTECH, Korea University, and Yonsei all rank in the global top 100–200. KAIST ranks top 50 globally in Engineering. These are not fallback schools.</div>
-    </div>
-    
-    <div class="why-card">
-      <div class="why-icon">💰</div>
-      <div class="why-title">Dramatically Lower Cost</div>
-      <div class="why-desc">Korean university tuition runs $3,000–$8,000 USD per year — a fraction of US or UK costs. Combined with the Korean Government's fully-funded GKS scholarship, studying here can be nearly free.</div>
-    </div>
-    
-    <div class="why-card">
-      <div class="why-icon">🌏</div>
-      <div class="why-title">Thriving International Community</div>
-      <div class="why-desc">Over 160,000 international students currently study in Korea. English-taught degree programs have exploded in the last decade. You won't be isolated — you'll be at the center of a global campus.</div>
-    </div>
-    
-    <div class="why-card">
-      <div class="why-icon">🎓</div>
-      <div class="why-title">Korean Language Opens Doors</div>
-      <div class="why-desc">Even a year of language study opens doors to Korean companies like Samsung, Hyundai, LG, and HYBE. A TOPIK certification is a career asset across Asia — and increasingly, globally.</div>
-    </div>
-    
-    <div class="why-card">
-      <div class="why-icon">🛫</div>
-      <div class="why-title">Accessible Visa Process</div>
-      <div class="why-desc">The D-4 language visa and D-2 student visa are well-structured and achievable with the right preparation. Korean consulates operate in over 100 countries across Europe, the Americas, East Asia, Southeast Asia, the Middle East, and Africa.</div>
-    </div>
-    
-    <div class="why-card">
-      <div class="why-icon">⭐</div>
-      <div class="why-title">The Hallyu Advantage</div>
-      <div class="why-desc">Korean culture — music, film, fashion, food — is a global phenomenon. Learning Korean and studying in Korea now puts you ahead of a generational curve. The global interest in Korea is structural, not a trend.</div>
-    </div>
-    
-  </div>
-</section>
 
 <section class="pathways" id="pathways">
   <div class="section-tag" style="color:var(--gold);" id="mount-pathways-tag">Study Pathways</div>
@@ -348,7 +308,7 @@
         <div class="pkg-usd">$800</div>
         <div class="pkg-krw">₩1,080,000</div>
         <div class="pkg-sessions">4 sessions · 60 min each<br />2–3 month engagement</div>
-        <a href="#contact" class="pkg-cta">Get Started</a>
+        <a href="#contact" class="pkg-cta" data-view="contact">Get Started</a>
       </div>
     </div>
     
@@ -392,7 +352,7 @@
         <div class="pkg-usd">$2,000</div>
         <div class="pkg-krw">₩2,700,000</div>
         <div class="pkg-sessions">10 sessions · 60 min each<br />5–6 month engagement</div>
-        <a href="#contact" class="pkg-cta">Get Started</a>
+        <a href="#contact" class="pkg-cta" data-view="contact">Get Started</a>
       </div>
     </div>
     
@@ -436,7 +396,7 @@
         <div class="pkg-usd">$3,500</div>
         <div class="pkg-krw">₩4,725,000</div>
         <div class="pkg-sessions">16 sessions · 60 min each<br />7–8 month engagement</div>
-        <a href="#contact" class="pkg-cta">Get Started</a>
+        <a href="#contact" class="pkg-cta" data-view="contact">Get Started</a>
       </div>
     </div>
     
@@ -555,91 +515,16 @@
   </div>
 </section>
 
-<section class="contact" id="contact">
-  <div class="contact-inner">
-    <div class="contact-info">
-      <div class="section-tag" id="mount-contact-tag">Contact</div>
-      <h2 id="mount-contact-title">Start your<br />Korea journey.</h2>
-      <p id="mount-contact-sub">The first consultation is free. We'll talk about your goals, your Korean level, your timeline, and whether Kairos is the right fit. No pressure. Just an honest conversation with someone who knows Korea from the inside.</p>
-      <div class="contact-details">
-        <div class="contact-item">
-          <div class="contact-icon">📧</div>
-          <div class="contact-text">
-            <strong id="mount-email-label">Email</strong>
-            <span>ronkim@kairos-education.org</span>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">💬</div>
-          <div class="contact-text">
-            <strong id="mount-kakao-label">KakaoTalk Channel</strong>
-            <span id="mount-kakao-html"><a href="http://pf.kakao.com/_uWJKX" style="color:var(--gold);text-decoration:none;" target="_blank">Add Channel →</a></span>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">🌍</div>
-          <div class="contact-text">
-            <strong id="mount-messaging-label">WhatsApp / Telegram</strong>
-            <span id="mount-messaging">Available for international students — ask via email</span>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">📍</div>
-          <div class="contact-text">
-            <strong id="mount-location-label">Based in</strong>
-            <span id="mount-location">Seoul, Korea · Working with students across 15+ countries</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="mount-forms">
-      <form name="study-korea" class="contact-form" data-study-korea-form method="POST" data-netlify="true" netlify-honeypot="bot-field">
-        <input type="hidden" name="form-name" value="study-korea" />
-        <input type="hidden" name="language" value="en" />
-        <input type="hidden" name="bot-field" />
-        <div class="form-row">
-          <div class="form-group">
-            <label>Your Name</label>
-            <input type="text" name="name" placeholder="Your full name" required />
-          </div>
-          <div class="form-group">
-            <label>Country of Residence</label>
-            <input type="text" name="country" placeholder="e.g. Spain, Japan, China, Brazil…" />
-          </div>
-        </div>
-        <div class="form-group">
-          <label>Email</label>
-          <input type="email" name="email" placeholder="you@email.com" required />
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label>Study Goal</label>
-            <select name="goal">
-              <option value="">Select your goal…</option>
-              <option>Language Program (D-4 Visa)</option><option>Undergraduate Degree</option><option>Graduate Degree (MA / PhD)</option><option>GKS Scholarship (Fully Funded)</option><option>Not sure yet — need guidance</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label>Current Korean Level</label>
-            <select name="korean_level">
-              <option value="">Select level…</option>
-              <option>Zero — Complete beginner</option><option>Basic — Know Hangul, some words</option><option>Intermediate — TOPIK 2–3</option><option>Advanced — TOPIK 4–6</option>
-            </select>
-          </div>
-        </div>
-        <div class="form-group">
-          <label>Target Universities or Programs (if known)</label>
-          <input type="text" name="universities" placeholder="e.g. Yonsei KLI, SNU, KAIST…" />
-        </div>
-        <div class="form-group">
-          <label>Tell us about your goals</label>
-          <textarea name="message" placeholder="When do you want to start? What are you hoping to study or achieve in Korea? Any questions about the process?"></textarea>
-        </div>
-        <button type="submit" class="form-submit">Send Message →</button>
-      </form>
-    </div>
+<div class="chat-fab" id="chatFab" aria-label="Chat with Kairos">
+  <button type="button" class="fab-btn" aria-label="Open chat options">
+    <span class="fab-dot"></span>
+  </button>
+  <div class="fab-menu" aria-hidden="true">
+    <a class="fab-link fab-kakao btn-kakao" href="http://pf.kakao.com/_uWJKX" target="_blank" rel="noopener" id="mount-fab-kakao">Kakao</a>
+    <a class="fab-link fab-whatsapp btn-whatsapp" href="https://wa.me/0000000000" target="_blank" rel="noopener" id="mount-fab-whatsapp" aria-label="WhatsApp">WhatsApp</a>
+    <a class="fab-link fab-book btn-light" href="#contact" data-view="contact" id="mount-fab-book">Book</a>
   </div>
-</section>
+</div>
 
 <footer>
   <div class="footer-inner">
@@ -687,6 +572,98 @@
 </footer>
 
 <script src="/assets/nav-mobile.js" defer></script>
+<script type="module" src="/assets/interactions.js"></script>
 <script type="module" src="/assets/study-korea-locale.js"></script>
+
+</div>
+
+<div class="view view-contact" id="view-contact">
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="contact-info">
+        <div class="section-tag" id="mount-contact-tag">Contact</div>
+        <h2 id="mount-contact-title">Start your<br />Korea journey.</h2>
+        <p id="mount-contact-sub">The first consultation is free. We'll talk about your goals, your Korean level, your timeline, and whether Kairos is the right fit. No pressure. Just an honest conversation with someone who knows Korea from the inside.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div class="contact-text">
+              <strong id="mount-email-label">Email</strong>
+              <span>ronkim@kairos-education.org</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💬</div>
+            <div class="contact-text">
+              <strong id="mount-kakao-label">KakaoTalk Channel</strong>
+              <span id="mount-kakao-html"><a href="http://pf.kakao.com/_uWJKX" style="color:var(--gold);text-decoration:none;" target="_blank">Add Channel →</a></span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🌍</div>
+            <div class="contact-text">
+              <strong id="mount-messaging-label">WhatsApp / Telegram</strong>
+              <span id="mount-messaging">Available for international students — ask via email</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-text">
+              <strong id="mount-location-label">Based in</strong>
+              <span id="mount-location">Seoul, Korea · Working with students across 15+ countries</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mount-forms">
+        <form name="study-korea" class="contact-form" data-study-korea-form method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="study-korea" />
+        <input type="hidden" name="language" value="en" />
+        <input type="hidden" name="bot-field" />
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="Your full name" required />
+          </div>
+          <div class="form-group">
+            <label>Country of Residence</label>
+            <input type="text" name="country" placeholder="e.g. Spain, Japan, China, Brazil…" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="you@email.com" required />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Study Goal</label>
+            <select name="goal">
+              <option value="">Select your goal…</option>
+              <option>Language Program (D-4 Visa)</option><option>Undergraduate Degree</option><option>Graduate Degree (MA / PhD)</option><option>GKS Scholarship (Fully Funded)</option><option>Not sure yet — need guidance</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Current Korean Level</label>
+            <select name="korean_level">
+              <option value="">Select level…</option>
+              <option>Zero — Complete beginner</option><option>Basic — Know Hangul, some words</option><option>Intermediate — TOPIK 2–3</option><option>Advanced — TOPIK 4–6</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Target Universities or Programs (if known)</label>
+          <input type="text" name="universities" placeholder="e.g. Yonsei KLI, SNU, KAIST…" />
+        </div>
+        <div class="form-group">
+          <label>Tell us about your goals</label>
+          <textarea name="message" placeholder="When do you want to start? What are you hoping to study or achieve in Korea? Any questions about the process?"></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Message →</button>
+      </form>
+      </div>
+    </div>
+  </section>
+</div>
+
 </body>
 </html>

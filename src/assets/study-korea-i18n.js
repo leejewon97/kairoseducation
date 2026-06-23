@@ -193,6 +193,25 @@ function applyStudyKoreaForm(contact, lang) {
   if (submit) submit.textContent = f.submit;
 }
 
+function applyFabCtas(cta) {
+  const kakao = document.getElementById('mount-fab-kakao');
+  if (kakao) kakao.innerHTML = cta?.kakaoShort || 'KakaoTalk';
+  const whatsapp = document.getElementById('mount-fab-whatsapp');
+  if (whatsapp) whatsapp.textContent = cta?.whatsappConsult || 'WhatsApp';
+  const book = document.getElementById('mount-fab-book');
+  if (book) book.textContent = cta?.bookFree || 'Book';
+}
+
+function applyChatFabVisibility() {
+  const fab = document.getElementById('chatFab');
+  if (!fab) return;
+  if (window.matchMedia && window.matchMedia('(max-width: 720px)').matches) {
+    fab.setAttribute('data-hide', 'true');
+  } else {
+    fab.removeAttribute('data-hide');
+  }
+}
+
 function bindFaqToggle() {
   document.querySelectorAll('.faq-q').forEach((btn) => {
     btn.onclick = () => {
@@ -243,11 +262,6 @@ export function applyLocale(data) {
 
   document.getElementById('mount-stats').innerHTML = renderStats(data.stats);
 
-  setText('#mount-why-tag', data.why.tag);
-  setHtml('#mount-why-title', data.why.title);
-  setText('#mount-why-sub', data.why.sub);
-  document.getElementById('mount-why-grid').innerHTML = renderWhyCards(data.why.cards);
-
   setText('#mount-pathways-tag', data.pathways.tag);
   setHtml('#mount-pathways-title', data.pathways.title);
   setText('#mount-pathways-sub', data.pathways.sub);
@@ -289,6 +303,8 @@ export function applyLocale(data) {
   setText('#mount-location-label', data.contact.locationLabel);
   setText('#mount-location', data.contact.location);
   applyStudyKoreaForm(data.contact, data.lang);
+  applyFabCtas(data.cta);
+  applyChatFabVisibility();
 
   setText('#mount-footer-tagline', data.footer.tagline);
   setText('#mount-footer-col1-heading', data.footer.col1Heading);

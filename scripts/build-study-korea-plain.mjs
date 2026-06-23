@@ -77,7 +77,14 @@ const html = render(tpl, {
 buildPage(root, {
   outputFile: 'study-korea.html',
   localeDir: 'study-korea',
-  assetFiles: ['study-korea-site.css', 'study-korea-i18n.js', 'study-korea-locale.js'],
+  assetFiles: [
+    'kairos-tokens.css',
+    'kairos-shared.css',
+    'study-korea-site.css',
+    'study-korea-i18n.js',
+    'study-korea-locale.js',
+    'interactions.js',
+  ],
   html,
   copyFavicon: false,
 });

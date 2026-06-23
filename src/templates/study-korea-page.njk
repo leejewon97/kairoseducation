@@ -11,10 +11,13 @@
 {{{ ogTwitterTags }}}
 {{{ seoLinks }}}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="/assets/kairos-tokens.css" />
+  <link rel="stylesheet" href="/assets/kairos-shared.css" />
   <link rel="stylesheet" href="/assets/study-korea-site.css" />
-  <style>body { font-family: sans-serif; } body.i18n-loading { visibility: hidden; }</style>
+  <style>body.i18n-loading { visibility: hidden; }</style>
 </head>
-<body>
+<body class="in-page">
 
 <nav>
   <div class="nav-bar">
@@ -24,7 +27,7 @@
     <div class="nav-end">
       <div class="nav-actions nav-actions--mobile">
         <a href="/" class="nav-back" data-nav-back>{{ nav.back }}</a>
-        <a href="#contact" class="nav-cta" data-nav-cta>{{ nav.cta }}</a>
+        <a href="#contact" class="nav-cta" data-view="contact" data-nav-cta>{{ nav.cta }}</a>
       </div>
       <button type="button" class="nav-toggle" aria-controls="nav-mobile-panel" aria-expanded="false" aria-label="{{ nav.menuOpen }}">
         <span class="nav-toggle-icon" aria-hidden="true"></span>
@@ -42,11 +45,13 @@
       <div id="mount-lang-switcher" style="display:flex;align-items:center;gap:8px;"></div>
       <div class="nav-actions nav-actions--desktop">
         <a href="/" class="nav-back" data-nav-back>{{ nav.back }}</a>
-        <a href="#contact" class="nav-cta" data-nav-cta>{{ nav.cta }}</a>
+        <a href="#contact" class="nav-cta" data-view="contact" data-nav-cta>{{ nav.cta }}</a>
       </div>
     </div>
   </div>
 </nav>
+
+<div class="view view-us active" id="view-us">
 
 <section class="hero">
   <div class="hero-content">
@@ -68,21 +73,6 @@
   </div>
   {% endfor %}
 </div>
-
-<section class="why-korea" id="why">
-  <div class="section-tag" id="mount-why-tag">{{ why.tag }}</div>
-  <h2 class="section-title" id="mount-why-title">{{{ why.title }}}</h2>
-  <p class="section-sub" id="mount-why-sub">{{ why.sub }}</p>
-  <div class="why-grid" id="mount-why-grid">
-    {% for card in why.cards %}
-    <div class="why-card">
-      <div class="why-icon">{{ card.icon }}</div>
-      <div class="why-title">{{ card.title }}</div>
-      <div class="why-desc">{{ card.desc }}</div>
-    </div>
-    {% endfor %}
-  </div>
-</section>
 
 <section class="pathways" id="pathways">
   <div class="section-tag" style="color:var(--gold);" id="mount-pathways-tag">{{ pathways.tag }}</div>
@@ -156,7 +146,7 @@
         <div class="pkg-usd">{{ pkg.usd }}</div>
         <div class="pkg-krw">{{ pkg.krw }}</div>
         <div class="pkg-sessions">{{{ pkg.sessions }}}</div>
-        <a href="#contact" class="pkg-cta">{{ pkg.cta }}</a>
+        <a href="#contact" class="pkg-cta" data-view="contact">{{ pkg.cta }}</a>
       </div>
     </div>
     {% endfor %}
@@ -199,48 +189,16 @@
   </div>
 </section>
 
-<section class="contact" id="contact">
-  <div class="contact-inner">
-    <div class="contact-info">
-      <div class="section-tag" id="mount-contact-tag">{{ contact.tag }}</div>
-      <h2 id="mount-contact-title">{{{ contact.title }}}</h2>
-      <p id="mount-contact-sub">{{ contact.sub }}</p>
-      <div class="contact-details">
-        <div class="contact-item">
-          <div class="contact-icon">📧</div>
-          <div class="contact-text">
-            <strong id="mount-email-label">{{ contact.emailLabel }}</strong>
-            <span>ronkim@kairos-education.org</span>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">💬</div>
-          <div class="contact-text">
-            <strong id="mount-kakao-label">{{ contact.kakaoLabel }}</strong>
-            <span id="mount-kakao-html">{{{ contact.kakaoLinkHtml }}}</span>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">🌍</div>
-          <div class="contact-text">
-            <strong id="mount-messaging-label">{{ contact.messagingLabel }}</strong>
-            <span id="mount-messaging">{{ contact.messaging }}</span>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">📍</div>
-          <div class="contact-text">
-            <strong id="mount-location-label">{{ contact.locationLabel }}</strong>
-            <span id="mount-location">{{ contact.location }}</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="mount-forms">
-      {{{ netlifyFormsHtml }}}
-    </div>
+<div class="chat-fab" id="chatFab" aria-label="Chat with Kairos">
+  <button type="button" class="fab-btn" aria-label="Open chat options">
+    <span class="fab-dot"></span>
+  </button>
+  <div class="fab-menu" aria-hidden="true">
+    <a class="fab-link fab-kakao btn-kakao" href="http://pf.kakao.com/_uWJKX" target="_blank" rel="noopener" id="mount-fab-kakao">Kakao</a>
+    <a class="fab-link fab-whatsapp btn-whatsapp" href="https://wa.me/0000000000" target="_blank" rel="noopener" id="mount-fab-whatsapp" aria-label="WhatsApp">WhatsApp</a>
+    <a class="fab-link fab-book btn-light" href="#contact" data-view="contact" id="mount-fab-book">Book</a>
   </div>
-</section>
+</div>
 
 <footer>
   <div class="footer-inner">
@@ -274,6 +232,55 @@
 </footer>
 
 <script src="/assets/nav-mobile.js" defer></script>
+<script type="module" src="/assets/interactions.js"></script>
 <script type="module" src="/assets/study-korea-locale.js"></script>
+
+</div>
+
+<div class="view view-contact" id="view-contact">
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="contact-info">
+        <div class="section-tag" id="mount-contact-tag">{{ contact.tag }}</div>
+        <h2 id="mount-contact-title">{{{ contact.title }}}</h2>
+        <p id="mount-contact-sub">{{ contact.sub }}</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">📧</div>
+            <div class="contact-text">
+              <strong id="mount-email-label">{{ contact.emailLabel }}</strong>
+              <span>ronkim@kairos-education.org</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">💬</div>
+            <div class="contact-text">
+              <strong id="mount-kakao-label">{{ contact.kakaoLabel }}</strong>
+              <span id="mount-kakao-html">{{{ contact.kakaoLinkHtml }}}</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🌍</div>
+            <div class="contact-text">
+              <strong id="mount-messaging-label">{{ contact.messagingLabel }}</strong>
+              <span id="mount-messaging">{{ contact.messaging }}</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-text">
+              <strong id="mount-location-label">{{ contact.locationLabel }}</strong>
+              <span id="mount-location">{{ contact.location }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mount-forms">
+        {{{ netlifyFormsHtml }}}
+      </div>
+    </div>
+  </section>
+</div>
+
 </body>
 </html>
