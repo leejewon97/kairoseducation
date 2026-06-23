@@ -674,16 +674,20 @@
         "text": "Results"
       },
       {
-        "href": "#packages",
-        "text": "Packages"
+        "href": "#us-worries",
+        "text": "Why It Matters"
+      },
+      {
+        "href": "#about",
+        "text": "About"
       },
       {
         "href": "#us-process",
         "text": "How It Works"
       },
       {
-        "href": "#about",
-        "text": "About"
+        "href": "#packages",
+        "text": "Packages"
       },
       {
         "href": "#faq",
@@ -693,12 +697,12 @@
     "col2Heading": "Study in Korea",
     "col2": [
       {
-        "href": "/study-korea.html#pathways",
-        "text": "Pathways"
+        "href": "/study-korea.html#why-korea",
+        "text": "Why Korea"
       },
       {
-        "href": "/study-korea.html#universities",
-        "text": "Universities"
+        "href": "/study-korea.html#pathways",
+        "text": "Pathways"
       },
       {
         "href": "/study-korea.html#packages",

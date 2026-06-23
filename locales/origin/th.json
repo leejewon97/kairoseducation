@@ -674,16 +674,20 @@
         "text": "ผลลัพธ์"
       },
       {
-        "href": "#packages",
-        "text": "แพ็กเกจ"
+        "href": "#us-worries",
+        "text": "ทำไมจึงสำคัญ"
+      },
+      {
+        "href": "#about",
+        "text": "เกี่ยวกับเรา"
       },
       {
         "href": "#us-process",
         "text": "ขั้นตอนการทำงาน"
       },
       {
-        "href": "#about",
-        "text": "เกี่ยวกับเรา"
+        "href": "#packages",
+        "text": "แพ็กเกจ"
       },
       {
         "href": "#faq",
@@ -693,12 +697,12 @@
     "col2Heading": "เรียนต่อเกาหลี",
     "col2": [
       {
-        "href": "/study-korea.html#pathways",
-        "text": "เส้นทางการเรียน"
+        "href": "/study-korea.html#why-korea",
+        "text": "ทำไมต้องเกาหลี"
       },
       {
-        "href": "/study-korea.html#universities",
-        "text": "มหาวิทยาลัย"
+        "href": "/study-korea.html#pathways",
+        "text": "เส้นทางการเรียน"
       },
       {
         "href": "/study-korea.html#packages",

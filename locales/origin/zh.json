@@ -674,16 +674,20 @@
         "text": "录取成果"
       },
       {
-        "href": "#packages",
-        "text": "服务方案"
+        "href": "#us-worries",
+        "text": "为何重要"
+      },
+      {
+        "href": "#about",
+        "text": "关于我们"
       },
       {
         "href": "#us-process",
         "text": "服务流程"
       },
       {
-        "href": "#about",
-        "text": "关于我们"
+        "href": "#packages",
+        "text": "服务方案"
       },
       {
         "href": "#faq",
@@ -693,12 +697,12 @@
     "col2Heading": "韩国留学",
     "col2": [
       {
-        "href": "/study-korea.html#pathways",
-        "text": "留学路径"
+        "href": "/study-korea.html#why-korea",
+        "text": "为何选择韩国"
       },
       {
-        "href": "/study-korea.html#universities",
-        "text": "院校选择"
+        "href": "/study-korea.html#pathways",
+        "text": "留学路径"
       },
       {
         "href": "/study-korea.html#packages",

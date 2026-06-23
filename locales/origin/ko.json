@@ -674,16 +674,20 @@
         "text": "합격 실적"
       },
       {
-        "href": "#packages",
-        "text": "프로그램"
+        "href": "#us-worries",
+        "text": "왜 중요한가"
+      },
+      {
+        "href": "#about",
+        "text": "소개"
       },
       {
         "href": "#us-process",
         "text": "진행 방식"
       },
       {
-        "href": "#about",
-        "text": "소개"
+        "href": "#packages",
+        "text": "프로그램"
       },
       {
         "href": "#faq",
@@ -693,12 +697,12 @@
     "col2Heading": "한국 유학",
     "col2": [
       {
-        "href": "/study-korea.html#pathways",
-        "text": "유학 경로"
+        "href": "/study-korea.html#why-korea",
+        "text": "왜 한국인가"
       },
       {
-        "href": "/study-korea.html#universities",
-        "text": "대학"
+        "href": "/study-korea.html#pathways",
+        "text": "유학 경로"
       },
       {
         "href": "/study-korea.html#packages",

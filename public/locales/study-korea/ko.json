@@ -459,29 +459,6 @@
     "col1Heading": "한국 유학",
     "col1": [
       {
-        "href": "/origin.html#results",
-        "text": "합격 실적"
-      },
-      {
-        "href": "/origin.html#us-process",
-        "text": "진행 방식"
-      },
-      {
-        "href": "/origin.html#packages",
-        "text": "프로그램"
-      },
-      {
-        "href": "/origin.html#about",
-        "text": "소개"
-      },
-      {
-        "href": "/origin.html#faq",
-        "text": "자주 묻는 질문"
-      }
-    ],
-    "col2Heading": "미국 유학",
-    "col2": [
-      {
         "href": "#why-korea",
         "text": "왜 한국인가"
       },
@@ -495,6 +472,33 @@
       },
       {
         "href": "#faq",
+        "text": "자주 묻는 질문"
+      }
+    ],
+    "col2Heading": "미국 유학",
+    "col2": [
+      {
+        "href": "/origin.html#results",
+        "text": "합격 실적"
+      },
+      {
+        "href": "/origin.html#us-worries",
+        "text": "왜 중요한가"
+      },
+      {
+        "href": "/origin.html#about",
+        "text": "소개"
+      },
+      {
+        "href": "/origin.html#us-process",
+        "text": "진행 방식"
+      },
+      {
+        "href": "/origin.html#packages",
+        "text": "프로그램"
+      },
+      {
+        "href": "/origin.html#faq",
         "text": "자주 묻는 질문"
       }
     ],

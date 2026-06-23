@@ -674,16 +674,20 @@
         "text": "Kết quả"
       },
       {
-        "href": "#packages",
-        "text": "Gói dịch vụ"
+        "href": "#us-worries",
+        "text": "Vì sao quan trọng"
+      },
+      {
+        "href": "#about",
+        "text": "Giới thiệu"
       },
       {
         "href": "#us-process",
         "text": "Quy trình"
       },
       {
-        "href": "#about",
-        "text": "Giới thiệu"
+        "href": "#packages",
+        "text": "Gói dịch vụ"
       },
       {
         "href": "#faq",
@@ -693,12 +697,12 @@
     "col2Heading": "Du học Hàn Quốc",
     "col2": [
       {
-        "href": "/study-korea.html#pathways",
-        "text": "Lộ trình"
+        "href": "/study-korea.html#why-korea",
+        "text": "Vì sao chọn Hàn Quốc"
       },
       {
-        "href": "/study-korea.html#universities",
-        "text": "Trường đại học"
+        "href": "/study-korea.html#pathways",
+        "text": "Lộ trình"
       },
       {
         "href": "/study-korea.html#packages",
