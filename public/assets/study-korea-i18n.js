@@ -1,4 +1,5 @@
 import { updateSeoMeta } from './seo-i18n.js';
+import { PATHS } from './langs.js';
 import { buildMobileMenuHtml, studyKoreaSectionLinks } from './mobile-nav.js';
 
 function esc(s) {
@@ -162,7 +163,7 @@ function renderPackages(packages, packageCta, packageCtaArrow) {
         <div class="pkg-price">${esc(pkg.price)}</div>
         ${krw}
         <div class="pkg-meta">${esc(pkg.meta)}</div>
-        <a href="#contact" data-view="contact" class="${btnCls}">${ctaLabel}</a>
+        <a href="${PATHS.studyKorea.contact}" class="${btnCls}">${ctaLabel}</a>
       </div>
     </div>`;
     })
@@ -250,7 +251,7 @@ function renderLangSwitcher(links) {
 }
 
 function renderHeroCta(primaryCta, secondaryCta) {
-  return `<a href="#contact" data-view="contact" class="btn btn-navy">${primaryCta}</a>
+  return `<a href="${PATHS.studyKorea.contact}" class="btn btn-navy">${primaryCta}</a>
     <a href="#pathways" class="btn btn-ghost">${esc(secondaryCta)}</a>`;
 }
 
@@ -322,7 +323,7 @@ function syncLangUi(code) {
 export function applyLocale(data) {
   document.documentElement.lang = data.lang;
   document.title = data.title;
-  updateSeoMeta(data, '/study-korea.html');
+  updateSeoMeta(data, PATHS.studyKorea.landing);
   if (data.fontFamily) {
     document.body.style.fontFamily = data.fontFamily;
   }
@@ -421,6 +422,47 @@ export function applyLocale(data) {
     }
   }
 
+  if (data.sticky) {
+    setHtml('#mount-sticky-msg', data.sticky.msg);
+    setText('#mount-sticky-get-started', data.sticky.getStarted);
+    setText('#mount-sticky-book', data.sticky.bookFree);
+    setHtml('#mount-sticky-kakao', data.sticky.kakao);
+    setHtml('#mount-sticky-whatsapp', renderStickyWhatsApp(data.sticky.whatsapp));
+  }
+
+  setText('#mount-footer-tagline', data.footer.tagline);
+  setText('#mount-footer-col1-heading', data.footer.col1Heading);
+  setHtml('#mount-footer-col1', renderFooterLinks(data.footer.col1));
+  setText('#mount-footer-col2-heading', data.footer.col2Heading);
+  setHtml('#mount-footer-col2', renderFooterLinks(data.footer.col2));
+  setText('#mount-footer-copyright', data.footer.copyright);
+  setHtml('#mount-footer-meta', data.footer.meta);
+  setText('#mount-footer-disc', data.footer.disc);
+
+  syncLangUi(data.lang);
+}
+
+export function applyContactLocale(data) {
+  document.documentElement.lang = data.lang;
+  document.title = data.title;
+  updateSeoMeta(data, PATHS.studyKorea.contact);
+  if (data.fontFamily) {
+    document.body.style.fontFamily = data.fontFamily;
+  }
+
+  const langSwitcher = document.getElementById('mount-lang-switcher');
+  if (langSwitcher) langSwitcher.innerHTML = renderLangSwitcher(data.langLinks);
+
+  const mobileLinks = document.getElementById('mount-mobile-links');
+  if (mobileLinks && data.mobileMenu) {
+    mobileLinks.innerHTML = buildMobileMenuHtml({
+      page: 'study-korea',
+      mobileMenu: data.mobileMenu,
+      sectionLinks: studyKoreaSectionLinks(data.nav, PATHS.studyKorea.landing),
+      hideBookCta: true,
+    });
+  }
+
   setText('#mount-contact-tag', data.contact.tag);
   setHtml('#mount-contact-title', data.contact.title);
   setText('#mount-contact-sub', data.contact.sub);
@@ -434,14 +476,6 @@ export function applyLocale(data) {
   if (chatEl && data.cta) chatEl.innerHTML = renderContactChat(data.cta);
 
   applyStudyKoreaForm(data.contact, data.lang);
-
-  if (data.sticky) {
-    setHtml('#mount-sticky-msg', data.sticky.msg);
-    setText('#mount-sticky-get-started', data.sticky.getStarted);
-    setText('#mount-sticky-book', data.sticky.bookFree);
-    setHtml('#mount-sticky-kakao', data.sticky.kakao);
-    setHtml('#mount-sticky-whatsapp', renderStickyWhatsApp(data.sticky.whatsapp));
-  }
 
   setText('#mount-footer-tagline', data.footer.tagline);
   setText('#mount-footer-col1-heading', data.footer.col1Heading);

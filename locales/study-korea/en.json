@@ -459,46 +459,46 @@
     "col1Heading": "Study in Korea",
     "col1": [
       {
-        "href": "#why-korea",
+        "href": "/study-korea/#why-korea",
         "text": "Why Korea"
       },
       {
-        "href": "#pathways",
+        "href": "/study-korea/#pathways",
         "text": "Pathways"
       },
       {
-        "href": "#packages",
+        "href": "/study-korea/#packages",
         "text": "Packages"
       },
       {
-        "href": "#faq",
+        "href": "/study-korea/#faq",
         "text": "FAQ"
       }
     ],
     "col2Heading": "Study in the US",
     "col2": [
       {
-        "href": "/origin.html#results",
+        "href": "/origin/#results",
         "text": "Results"
       },
       {
-        "href": "/origin.html#us-worries",
+        "href": "/origin/#us-worries",
         "text": "Why It Matters"
       },
       {
-        "href": "/origin.html#about",
+        "href": "/origin/#about",
         "text": "About"
       },
       {
-        "href": "/origin.html#us-process",
+        "href": "/origin/#us-process",
         "text": "How It Works"
       },
       {
-        "href": "/origin.html#packages",
+        "href": "/origin/#packages",
         "text": "Packages"
       },
       {
-        "href": "/origin.html#faq",
+        "href": "/origin/#faq",
         "text": "FAQ"
       }
     ],

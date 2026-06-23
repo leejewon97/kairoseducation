@@ -82,8 +82,8 @@ function applyLocale(data, lang) {
     if (els.pathKoreaDesc) els.pathKoreaDesc.textContent = data.pathKorea.desc;
   }
 
-  if (els.pathUs) els.pathUs.href = `/origin.html?lang=${lang}`;
-  if (els.pathKorea) els.pathKorea.href = `/study-korea.html?lang=${lang}`;
+  if (els.pathUs) els.pathUs.href = `/origin/?lang=${lang}`;
+  if (els.pathKorea) els.pathKorea.href = `/study-korea/?lang=${lang}`;
 
   document.querySelectorAll('.lang-chip').forEach((chip) => {
     const isSel = chip.dataset.lang === lang;

@@ -5,41 +5,38 @@ import { PATHS } from '../config/paths.mjs';
 import { render } from './lib/mini-template.mjs';
 import { buildSeoLinks, buildOgTwitterTags } from './lib/seo-head.mjs';
 import { buildPage } from './lib/build-page.mjs';
+import { renderStudyKoreaContactForm } from './lib/netlify-forms.mjs';
+import { renderContactChatHtml } from './lib/contact-chat.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
-const PAGE_PATH = PATHS.studyKorea.landing;
+const PAGE_PATH = PATHS.studyKorea.contact;
 
-const tpl = fs.readFileSync(path.join(root, 'src', 'templates', 'study-korea-page.njk'), 'utf8');
+const tpl = fs.readFileSync(path.join(root, 'src', 'templates', 'study-korea-contact-page.njk'), 'utf8');
+const contactBodyTpl = fs.readFileSync(
+  path.join(root, 'src', 'templates', 'includes', 'contact-body.njk'),
+  'utf8'
+);
 
-const PKG_ROMANS = ['I', 'II', 'III', 'IV'];
 const en = JSON.parse(fs.readFileSync(path.join(root, 'locales', 'study-korea', 'en.json'), 'utf8'));
-const enBuilt = {
-  ...en,
-  packages: {
-    ...en.packages,
-    items: en.packages.items.map((p, i) => ({
-      ...p,
-      roman: PKG_ROMANS[i] ?? '',
-      btnClass: p.featured ? 'btn btn-light' : 'btn btn-ghost',
-      btnHtml: p.featured ? en.packages.packageCtaArrow : en.packages.packageCta,
-    })),
-  },
-};
+const formsHtml = renderStudyKoreaContactForm(en);
+const contactChatHtml = renderContactChatHtml(en.cta);
+const contactBodyHtml = render(contactBodyTpl, { ...en, netlifyFormsHtml: formsHtml, contactChatHtml });
 
 const html = render(tpl, {
-  ...enBuilt,
+  ...en,
+  contactBodyHtml,
   seoLinks: buildSeoLinks(PAGE_PATH),
   ogTwitterTags: buildOgTwitterTags({
-    title: enBuilt.title,
-    metaDescription: enBuilt.metaDescription,
+    title: en.title,
+    metaDescription: en.metaDescription,
     pagePath: PAGE_PATH,
     lang: 'en',
   }),
 });
 
 buildPage(root, {
-  outputFile: 'study-korea/index.html',
+  outputFile: 'study-korea/contact.html',
   localeDir: 'study-korea',
   assetFiles: [
     'kairos-tokens.css',
@@ -48,10 +45,9 @@ buildPage(root, {
     'study-korea-site.css',
     'study-korea-i18n.js',
     'study-korea-locale.js',
-    'interactions.js',
   ],
   html,
   copyFavicon: false,
 });
 
-console.log('Built public/study-korea/index.html (English HTML + locales in public/locales/study-korea/)');
+console.log('Built public/study-korea/contact.html');

@@ -1,15 +1,13 @@
 /* Study Korea — KR-specific sections (shell uses origin-site.css) */
 
-.view {
-  display: none;
-}
-
-.view.active {
-  display: block;
-}
-
-.view-contact {
+.contact-page .contact-main.sec {
   padding-top: 90px;
+}
+
+@media (max-width: 720px) {
+  .contact-page .contact-main.sec {
+    padding-top: 72px;
+  }
 }
 
 /* Universities — card grid (restore pre-style-off look) */
@@ -76,10 +74,4 @@
   color: var(--text-muted, #6b7280);
   margin-top: 8px;
   line-height: 1.6;
-}
-
-@media (max-width: 720px) {
-  .view-contact {
-    padding-top: 72px;
-  }
 }

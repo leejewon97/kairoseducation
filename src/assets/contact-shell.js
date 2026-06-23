@@ -1,10 +1,6 @@
-const MARQUEE_SPEED = 80; // px/s
-const ADMIT_INTERVAL_MS = 4000;
 const HEADER_SCROLL_THRESHOLD = 20;
-const STICKY_SCROLL_THRESHOLD = 620;
 
 let revealObserver;
-let admitIntervalId = null;
 
 function prefersReducedMotion() {
   return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -55,67 +51,12 @@ function runReveal() {
   });
 }
 
-function tuneMarquees() {
-  document.querySelectorAll('.marquee-track').forEach((track) => {
-    const setWidth = track.scrollWidth / 2;
-    if (setWidth > 0) {
-      track.style.animationDuration = (setWidth / MARQUEE_SPEED).toFixed(1) + 's';
-    }
-  });
-}
-
-function stopAdmitShowcase() {
-  if (admitIntervalId != null) {
-    clearInterval(admitIntervalId);
-    admitIntervalId = null;
-  }
-}
-
-function startAdmitShowcase() {
-  stopAdmitShowcase();
-
-  const showcase = document.getElementById('admitShowcase');
-  if (!showcase) return;
-
-  const slides = showcase.querySelectorAll('.admit');
-  if (!slides.length) return;
-
-  slides.forEach((slide, index) => {
-    slide.classList.toggle('is-active', index === 0);
-  });
-
-  if (prefersReducedMotion() || slides.length < 2) return;
-
-  let index = 0;
-  admitIntervalId = setInterval(() => {
-    slides[index].classList.remove('is-active');
-    index = (index + 1) % slides.length;
-    slides[index].classList.add('is-active');
-  }, ADMIT_INTERVAL_MS);
-}
-
 function initHeaderScroll() {
   const header = document.getElementById('header');
   if (!header) return;
 
   function update() {
     header.classList.toggle('scrolled', window.scrollY > HEADER_SCROLL_THRESHOLD);
-  }
-
-  update();
-  window.addEventListener('scroll', update, { passive: true });
-}
-
-function initSticky() {
-  const sticky = document.getElementById('sticky');
-  if (!sticky) return;
-
-  const chatFab = document.getElementById('chatFab');
-
-  function update() {
-    const show = window.scrollY > STICKY_SCROLL_THRESHOLD;
-    sticky.classList.toggle('show', show);
-    if (chatFab) chatFab.classList.toggle('lifted', show);
   }
 
   update();
@@ -162,38 +103,33 @@ function initMobileMenu() {
     if (section) {
       e.preventDefault();
       e.stopPropagation();
-      const id = section.getAttribute('href').slice(1);
+      const href = section.getAttribute('href');
+      if (href.startsWith('/')) {
+        closeMobileMenu();
+        window.location.href = href;
+        return;
+      }
+      const id = href.slice(1);
       closeMobileMenu();
       scrollToSection(id);
       return;
     }
 
-    if (e.target.closest('[data-mm-book]') || e.target.closest('[data-mm-kakao]') || e.target.closest('.mm-route')) {
+    if (e.target.closest('[data-mm-kakao]') || e.target.closest('.mm-route')) {
       closeMobileMenu();
     }
   });
 }
 
 function onLangChange() {
-  requestAnimationFrame(() => {
-    tuneMarquees();
-    runReveal();
-    startAdmitShowcase();
-  });
+  requestAnimationFrame(() => runReveal());
 }
 
 function initPage() {
   runReveal();
-  requestAnimationFrame(tuneMarquees);
-  startAdmitShowcase();
   initHeaderScroll();
-  initSticky();
   initLangDropdown();
   initMobileMenu();
-
-  if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(tuneMarquees);
-  }
 }
 
 window.addEventListener('kairos:langchange', onLangChange);

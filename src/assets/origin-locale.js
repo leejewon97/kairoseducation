@@ -1,4 +1,4 @@
-import { applyLocale } from './origin-i18n.js';
+import { applyLocale, applyContactLocale } from './origin-i18n.js';
 import { initHashScrollRestoration, scrollToHashAfterLocale } from './hash-scroll.js';
 import { LANGS } from './langs.js';
 
@@ -47,6 +47,10 @@ function loadFontStylesheet(href) {
 
 let langLoadSeq = 0;
 
+function isContactPage() {
+  return document.body.classList.contains('contact-page');
+}
+
 async function setLang(code) {
   const seq = ++langLoadSeq;
   document.body.classList.add('i18n-loading');
@@ -56,9 +60,13 @@ async function setLang(code) {
     await loadFontStylesheet(data.fontsHref);
     if (seq !== langLoadSeq) return;
     sessionStorage.setItem(STORAGE_KEY, code);
-    applyLocale(data);
+    if (isContactPage()) {
+      applyContactLocale(data);
+    } else {
+      applyLocale(data);
+    }
     syncLangToUrl(code);
-    scrollToHashAfterLocale();
+    if (!isContactPage()) scrollToHashAfterLocale();
     window.dispatchEvent(new CustomEvent('kairos:langchange', { detail: { lang: code } }));
   } finally {
     if (seq === langLoadSeq) document.body.classList.remove('i18n-loading');

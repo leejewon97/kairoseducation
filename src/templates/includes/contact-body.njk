@@ -1,0 +1,45 @@
+<section class="sec contact-main" id="contact">
+  <div class="wrap">
+    <div class="sec-head center reveal" id="mount-contact-head" style="margin:0 auto 56px">
+      <span class="eyebrow center" id="mount-contact-tag">{{ contact.tag }}</span>
+      <h2 id="mount-contact-title">{{{ contact.title }}}</h2>
+      <p class="lead" style="margin:0 auto" id="mount-contact-sub">{{ contact.sub }}</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-expect reveal">
+        <h3 class="expect-title" id="mount-expect-title">{{ contact.expect.title }}</h3>
+        <div class="expect-steps" id="mount-expect-steps">
+          {% for step in contact.expect.steps %}
+          <div class="expect-step">
+            <span class="expect-n"></span>
+            <div>
+              <h4>{{ step.title }}</h4>
+              <p>{{ step.desc }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="contact-methods">
+          <div class="contact-detail">
+            <div class="ic">✉</div>
+            <div>
+              <div class="lb" id="mount-email-label">{{ contact.emailLabel }}</div>
+              <div class="vl">ronkim@kairos-education.org</div>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="ic">📍</div>
+            <div>
+              <div class="lb" id="mount-location-label">{{ contact.locationLabel }}</div>
+              <div class="vl" id="mount-location">{{ contact.location }}</div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-chat" id="mount-contact-chat">{{{ contactChatHtml }}}</div>
+      </div>
+      <div id="mount-forms">
+        {{{ netlifyFormsHtml }}}
+      </div>
+    </div>
+  </div>
+</section>

@@ -46,7 +46,7 @@
           </button>
           <div class="lang-menu" role="menu" id="mount-lang-switcher"></div>
         </div>
-        <a class="btn btn-navy" href="#contact" data-view="contact" data-nav-cta>{{ nav.cta }}</a>
+        <a class="btn btn-navy" href="/origin/contact.html" data-nav-cta>{{ nav.cta }}</a>
         <button type="button" class="burger" id="burger" aria-label="{{ nav.menuOpen }}">
           <span></span><span></span><span></span>
         </button>
@@ -58,8 +58,6 @@
     <button type="button" class="mm-close" aria-label="{{ nav.menuClose }}">&times;</button>
     <div id="mount-mobile-links"></div>
   </div>
-
-  <div class="view view-us active" id="view-us">
 
   <div class="hero">
     <svg class="hero-arc" viewBox="0 0 600 600" aria-hidden="true">
@@ -74,7 +72,7 @@
       <h1 class="reveal" id="mount-hero-h1" style="transition-delay:.1s">{{{ hero.h1 }}}</h1>
       <p class="lead reveal" id="mount-hero-lead" style="transition-delay:.2s">{{ hero.lead }}</p>
       <div class="hero-cta reveal" id="mount-hero-cta" style="transition-delay:.3s">
-        <a class="btn btn-navy" href="#contact" data-view="contact" id="mount-hero-primary">{{{ hero.primaryCta }}}</a>
+        <a class="btn btn-navy" href="/origin/contact.html" id="mount-hero-primary">{{{ hero.primaryCta }}}</a>
         <a class="btn btn-ghost" href="#results" id="mount-hero-secondary">{{ hero.secondaryCta }}</a>
       </div>
       <div class="authority reveal" style="transition-delay:.4s">
@@ -248,7 +246,7 @@
             <div class="pkg-price">{{ pkg.price }}</div>
             {% if pkg.max %}<div class="pkg-krw">{{ pkg.max }}</div>{% endif %}
             <div class="pkg-meta">{{ pkg.meta }}</div>
-            <a class="{{ pkg.btnClass }}" href="#contact" data-view="contact">{{{ pkg.btnHtml }}}</a>
+            <a class="{{ pkg.btnClass }}" href="/origin/contact.html">{{{ pkg.btnHtml }}}</a>
           </div>
         </div>
         {% endfor %}
@@ -297,59 +295,9 @@
     <div class="video-cta-inner reveal">
       <h2 id="mount-video-cta-title">{{ videoCta.title }}</h2>
       <p class="video-cta-sub" id="mount-video-cta-sub">{{ videoCta.sub }}</p>
-      <a class="btn btn-light" href="#contact" data-view="contact" id="mount-video-cta-btn">{{ videoCta.cta }}</a>
+      <a class="btn btn-light" href="/origin/contact.html" id="mount-video-cta-btn">{{ videoCta.cta }}</a>
     </div>
   </section>
-
-  </div>
-
-  <div class="view view-contact" id="view-contact">
-  <section class="sec" id="contact">
-    <div class="wrap">
-      <div class="sec-head center reveal" id="mount-contact-head" style="margin:0 auto 56px">
-        <span class="eyebrow center" id="mount-contact-tag">{{ contact.tag }}</span>
-        <h2 id="mount-contact-title">{{{ contact.title }}}</h2>
-        <p class="lead" style="margin:0 auto" id="mount-contact-sub">{{ contact.sub }}</p>
-      </div>
-      <div class="contact-grid">
-        <div class="contact-expect reveal">
-          <h3 class="expect-title" id="mount-expect-title">{{ contact.expect.title }}</h3>
-          <div class="expect-steps" id="mount-expect-steps">
-            {% for step in contact.expect.steps %}
-            <div class="expect-step">
-              <span class="expect-n"></span>
-              <div>
-                <h4>{{ step.title }}</h4>
-                <p>{{ step.desc }}</p>
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-          <div class="contact-methods">
-            <div class="contact-detail">
-              <div class="ic">✉</div>
-              <div>
-                <div class="lb" id="mount-email-label">{{ contact.emailLabel }}</div>
-                <div class="vl">ronkim@kairos-education.org</div>
-              </div>
-            </div>
-            <div class="contact-detail">
-              <div class="ic">📍</div>
-              <div>
-                <div class="lb" id="mount-location-label">{{ contact.locationLabel }}</div>
-                <div class="vl" id="mount-location">{{ contact.location }}</div>
-              </div>
-            </div>
-          </div>
-          <div class="contact-chat" id="mount-contact-chat"></div>
-        </div>
-        <div id="mount-forms">
-          {{{ netlifyFormsHtml }}}
-        </div>
-      </div>
-    </div>
-  </section>
-  </div>
 
   <footer class="footer" id="footer">
     <div class="wrap">
@@ -400,8 +348,8 @@
     <div class="sticky-in">
       <div class="sticky-msg" id="mount-sticky-msg"></div>
       <div class="sticky-btns">
-        <a class="btn btn-light sticky-cta-m" href="#contact" data-view="contact" id="mount-sticky-get-started">{{ sticky.getStarted }}</a>
-        <a class="btn btn-light sticky-book" href="#contact" data-view="contact" id="mount-sticky-book">{{ sticky.bookFree }}</a>
+        <a class="btn btn-light sticky-cta-m" href="/origin/contact.html" id="mount-sticky-get-started">{{ sticky.getStarted }}</a>
+        <a class="btn btn-light sticky-book" href="/origin/contact.html" id="mount-sticky-book">{{ sticky.bookFree }}</a>
         <a class="btn btn-kakao sticky-book" href="http://pf.kakao.com/_uWJKX" target="_blank" rel="noopener" id="mount-sticky-kakao">{{{ sticky.kakao }}}</a>
         <a class="btn btn-whatsapp" href="https://wa.me/0000000000" target="_blank" rel="noopener" id="mount-sticky-whatsapp" aria-label="WhatsApp"><svg class="btn-ic" viewBox="0 0 32 32" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M16.04 4C9.96 4 5 8.94 5 15.02c0 2.13.6 4.1 1.64 5.8L5 28l7.36-1.6c1.13.62 2.4.95 3.68.95h.01C22.12 27.35 27 22.4 27 16.33 27 10.25 22.12 4 16.04 4zm0 21.35h-.01c-1.16 0-2.3-.31-3.3-.9l-.24-.14-3.9.85.83-3.8-.16-.25a8.2 8.2 0 0 1-1.26-4.36c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.16 8.16 0 0 1 2.42 5.83c0 4.54-3.7 8.24-8.25 8.24zm4.52-6.17c-.25-.12-1.47-.72-1.69-.8-.23-.08-.39-.12-.56.13-.16.25-.64.8-.79.97-.14.16-.29.18-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.48-1.38-1.73-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.16.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.16 1.75 2.67 4.25 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28z"/></svg> {{ sticky.whatsapp }}</a>
       </div>

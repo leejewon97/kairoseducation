@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title }}</title>
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" href="/assets/favicon-48x48.png" type="image/png" sizes="48x48" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <meta name="description" content="{{ metaDescription }}" />
+{{{ ogTwitterTags }}}
+{{{ seoLinks }}}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="/assets/kairos-tokens.css" />
+  <link rel="stylesheet" href="/assets/kairos-shared.css" />
+  <link rel="stylesheet" href="/assets/origin-site.css" />
+  <link rel="stylesheet" href="/assets/study-korea-site.css" />
+  <style>body.i18n-loading { visibility: hidden; }</style>
+</head>
+<body class="in-page contact-page">
+
+  <header class="header" id="header">
+    <div class="nav nav--slim">
+      <a href="/" class="brand" aria-label="Kairos">
+        <img src="/assets/img/logo.png" alt="Kairos Education" width="38" height="38" />
+        <span class="wm">KAIROS</span>
+      </a>
+      <div class="nav-right">
+        <div class="lang" id="lang">
+          <button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Select language">
+            <span class="flag" aria-hidden="true">🇺🇸</span>
+            <span id="langCur">English</span>
+            <span class="car" aria-hidden="true"></span>
+          </button>
+          <div class="lang-menu" role="menu" id="mount-lang-switcher"></div>
+        </div>
+        <button type="button" class="burger" id="burger" aria-label="{{ nav.menuOpen }}">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button type="button" class="mm-close" aria-label="{{ nav.menuClose }}">&times;</button>
+    <div id="mount-mobile-links"></div>
+  </div>
+
+  <main>
+{{{ contactBodyHtml }}}
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="fwm"><span class="star">✦</span> KAIROS EDUCATION</div>
+          <div class="ft-tag" id="mount-footer-tagline">{{ footer.tagline }}</div>
+        </div>
+        <div class="footer-col">
+          <h4 id="mount-footer-col1-heading">{{ footer.col1Heading }}</h4>
+          <div id="mount-footer-col1">
+            {% for item in footer.col1 %}
+            <a href="{{ item.href }}">{{ item.text }}</a>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 id="mount-footer-col2-heading">{{ footer.col2Heading }}</h4>
+          <div id="mount-footer-col2">
+            {% for item in footer.col2 %}
+            <a href="{{ item.href }}">{{ item.text }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="footer-disc" id="mount-footer-disc">{{ footer.disc }}</div>
+      <div class="footer-bot">
+        <div id="mount-footer-copyright">{{ footer.copyright }}</div>
+        <div id="mount-footer-meta">{{{ footer.meta }}}</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/contact-shell.js"></script>
+  <script type="module" src="/assets/study-korea-locale.js"></script>
+</body>
+</html>

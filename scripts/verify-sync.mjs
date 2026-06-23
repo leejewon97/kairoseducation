@@ -25,6 +25,7 @@ const ASSET_PAIRS = [
   'langs.js',
   'mobile-nav.js',
   'index-locale.js',
+  'contact-shell.js',
 ];
 
 function hashFile(filePath) {

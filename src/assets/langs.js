@@ -4,3 +4,4 @@ export const LANGS = ["en","ko","zh","th","vi"];
 export const HREFLANG = {"en":"en","ko":"ko","zh":"zh-Hans","th":"th","vi":"vi"};
 export const OG_LOCALE = {"en":"en_US","ko":"ko_KR","zh":"zh_CN","th":"th_TH","vi":"vi_VN"};
 export const OG_IMAGE = "https://kairoseducation.org/assets/og-image.png";
+export const PATHS = {"origin":{"landing":"/origin/","contact":"/origin/contact.html"},"studyKorea":{"landing":"/study-korea/","contact":"/study-korea/contact.html"}};

@@ -157,9 +157,9 @@ function syncResultsFromEn(all) {
   }
 }
 
-const originHtmlPath = path.join(root, 'public', 'origin.html');
+const originHtmlPath = path.join(root, 'public', 'origin', 'index.html');
 if (!fs.existsSync(originHtmlPath)) {
-  console.error('Missing public/origin.html — run: node scripts/build-origin-plain.mjs');
+  console.error('Missing public/origin/index.html — run: node scripts/build-origin-plain.mjs');
   process.exit(1);
 }
 const originHtml = fs.readFileSync(originHtmlPath, 'utf8');

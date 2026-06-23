@@ -670,46 +670,46 @@
     "col1Heading": "美国留学",
     "col1": [
       {
-        "href": "#results",
+        "href": "/origin/#results",
         "text": "录取成果"
       },
       {
-        "href": "#us-worries",
+        "href": "/origin/#us-worries",
         "text": "为何重要"
       },
       {
-        "href": "#about",
+        "href": "/origin/#about",
         "text": "关于我们"
       },
       {
-        "href": "#us-process",
+        "href": "/origin/#us-process",
         "text": "服务流程"
       },
       {
-        "href": "#packages",
+        "href": "/origin/#packages",
         "text": "服务方案"
       },
       {
-        "href": "#faq",
+        "href": "/origin/#faq",
         "text": "常见问题"
       }
     ],
     "col2Heading": "韩国留学",
     "col2": [
       {
-        "href": "/study-korea.html#why-korea",
+        "href": "/study-korea/#why-korea",
         "text": "为何选择韩国"
       },
       {
-        "href": "/study-korea.html#pathways",
+        "href": "/study-korea/#pathways",
         "text": "留学路径"
       },
       {
-        "href": "/study-korea.html#packages",
+        "href": "/study-korea/#packages",
         "text": "服务方案"
       },
       {
-        "href": "/study-korea.html#faq",
+        "href": "/study-korea/#faq",
         "text": "常见问题"
       }
     ],

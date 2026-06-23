@@ -670,46 +670,46 @@
     "col1Heading": "เรียนต่อสหรัฐฯ",
     "col1": [
       {
-        "href": "#results",
+        "href": "/origin/#results",
         "text": "ผลลัพธ์"
       },
       {
-        "href": "#us-worries",
+        "href": "/origin/#us-worries",
         "text": "ทำไมจึงสำคัญ"
       },
       {
-        "href": "#about",
+        "href": "/origin/#about",
         "text": "เกี่ยวกับเรา"
       },
       {
-        "href": "#us-process",
+        "href": "/origin/#us-process",
         "text": "ขั้นตอนการทำงาน"
       },
       {
-        "href": "#packages",
+        "href": "/origin/#packages",
         "text": "แพ็กเกจ"
       },
       {
-        "href": "#faq",
+        "href": "/origin/#faq",
         "text": "คำถามที่พบบ่อย"
       }
     ],
     "col2Heading": "เรียนต่อเกาหลี",
     "col2": [
       {
-        "href": "/study-korea.html#why-korea",
+        "href": "/study-korea/#why-korea",
         "text": "ทำไมต้องเกาหลี"
       },
       {
-        "href": "/study-korea.html#pathways",
+        "href": "/study-korea/#pathways",
         "text": "เส้นทางการเรียน"
       },
       {
-        "href": "/study-korea.html#packages",
+        "href": "/study-korea/#packages",
         "text": "แพ็กเกจ"
       },
       {
-        "href": "/study-korea.html#faq",
+        "href": "/study-korea/#faq",
         "text": "คำถามที่พบบ่อย"
       }
     ],

@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { SITE, LANGS, HREFLANG, OG_LOCALE, OG_IMAGE } from '../../config/langs.mjs';
+import { PATHS } from '../../config/paths.mjs';
 
 export function writeLangsJs(root) {
   const out = path.join(root, 'src', 'assets', 'langs.js');
@@ -10,6 +11,7 @@ export const LANGS = ${JSON.stringify(LANGS)};
 export const HREFLANG = ${JSON.stringify(HREFLANG)};
 export const OG_LOCALE = ${JSON.stringify(OG_LOCALE)};
 export const OG_IMAGE = ${JSON.stringify(OG_IMAGE)};
+export const PATHS = ${JSON.stringify(PATHS)};
 `;
   fs.writeFileSync(out, content);
 }

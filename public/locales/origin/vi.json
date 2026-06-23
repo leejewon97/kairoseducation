@@ -670,46 +670,46 @@
     "col1Heading": "Du học Mỹ",
     "col1": [
       {
-        "href": "#results",
+        "href": "/origin/#results",
         "text": "Kết quả"
       },
       {
-        "href": "#us-worries",
+        "href": "/origin/#us-worries",
         "text": "Vì sao quan trọng"
       },
       {
-        "href": "#about",
+        "href": "/origin/#about",
         "text": "Giới thiệu"
       },
       {
-        "href": "#us-process",
+        "href": "/origin/#us-process",
         "text": "Quy trình"
       },
       {
-        "href": "#packages",
+        "href": "/origin/#packages",
         "text": "Gói dịch vụ"
       },
       {
-        "href": "#faq",
+        "href": "/origin/#faq",
         "text": "Câu hỏi thường gặp"
       }
     ],
     "col2Heading": "Du học Hàn Quốc",
     "col2": [
       {
-        "href": "/study-korea.html#why-korea",
+        "href": "/study-korea/#why-korea",
         "text": "Vì sao chọn Hàn Quốc"
       },
       {
-        "href": "/study-korea.html#pathways",
+        "href": "/study-korea/#pathways",
         "text": "Lộ trình"
       },
       {
-        "href": "/study-korea.html#packages",
+        "href": "/study-korea/#packages",
         "text": "Gói dịch vụ"
       },
       {
-        "href": "/study-korea.html#faq",
+        "href": "/study-korea/#faq",
         "text": "Câu hỏi thường gặp"
       }
     ],

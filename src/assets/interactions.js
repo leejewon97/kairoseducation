@@ -5,18 +5,6 @@ const STICKY_SCROLL_THRESHOLD = 620;
 
 let revealObserver;
 let admitIntervalId = null;
-let currentView = 'us';
-
-function hasSpaViews() {
-  return Boolean(document.querySelector('.view'));
-}
-
-function getRevealNodes() {
-  if (hasSpaViews()) {
-    return document.querySelectorAll('.view.active .reveal');
-  }
-  return document.querySelectorAll('.reveal');
-}
 
 function prefersReducedMotion() {
   return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -35,80 +23,8 @@ function scrollToSection(id) {
   window.scrollTo({ top, behavior: 'smooth' });
 }
 
-export function showView(name) {
-  if (!document.getElementById(`view-${name}`)) return;
-  currentView = name;
-  document.querySelectorAll('.view').forEach((v) => v.classList.remove('active'));
-  document.getElementById(`view-${name}`).classList.add('active');
-  document.body.classList.toggle('view-contact-active', name === 'contact');
-
-  if (window.history.replaceState) {
-    const url = new URL(window.location.href);
-    if (name === 'contact') url.hash = 'contact';
-    else url.hash = '';
-    window.history.replaceState({}, '', url.pathname + url.search + url.hash);
-  }
-
-  window.scrollTo(0, 0);
-  closeMobileMenu();
-
-  const sticky = document.getElementById('sticky');
-  const chatFab = document.getElementById('chatFab');
-  if (sticky) sticky.classList.remove('show');
-  if (chatFab) chatFab.classList.remove('lifted');
-
-  requestAnimationFrame(() => {
-    document.querySelectorAll(`#view-${name} .hero .reveal`).forEach((el) => el.classList.add('is-in'));
-    runReveal();
-    if (name === 'us') {
-      tuneMarquees();
-      startAdmitShowcase();
-    } else {
-      stopAdmitShowcase();
-    }
-  });
-}
-
-function initViewRouting() {
-  if (!hasSpaViews()) return;
-
-  document.addEventListener('click', (e) => {
-    const viewEl = e.target.closest('[data-view]');
-    if (viewEl) {
-      e.preventDefault();
-      showView(viewEl.getAttribute('data-view'));
-      return;
-    }
-
-    const contactLink = e.target.closest('a[href="#contact"]');
-    if (contactLink) {
-      e.preventDefault();
-      showView('contact');
-      return;
-    }
-
-    const sectionLink = e.target.closest('a[href^="#"]');
-    if (!sectionLink) return;
-    const id = sectionLink.getAttribute('href').slice(1);
-    if (!id || id === 'contact') return;
-    if (currentView !== 'us') {
-      e.preventDefault();
-      showView('us');
-      setTimeout(() => scrollToSection(id), 120);
-    }
-  });
-
-  const syncFromHash = () => {
-    if (window.location.hash === '#contact') showView('contact');
-    else if (currentView === 'contact') showView('us');
-  };
-
-  syncFromHash();
-  window.addEventListener('hashchange', syncFromHash);
-}
-
 function runReveal() {
-  const nodes = getRevealNodes();
+  const nodes = document.querySelectorAll('.reveal');
   if (!nodes.length) return;
 
   if (revealObserver) {
@@ -140,7 +56,7 @@ function runReveal() {
 }
 
 function tuneMarquees() {
-  document.querySelectorAll('.view.active .marquee-track').forEach((track) => {
+  document.querySelectorAll('.marquee-track').forEach((track) => {
     const setWidth = track.scrollWidth / 2;
     if (setWidth > 0) {
       track.style.animationDuration = (setWidth / MARQUEE_SPEED).toFixed(1) + 's';
@@ -156,7 +72,6 @@ function stopAdmitShowcase() {
 }
 
 function startAdmitShowcase() {
-  if (currentView !== 'us') return;
   stopAdmitShowcase();
 
   const showcase = document.getElementById('admitShowcase');
@@ -198,12 +113,6 @@ function initSticky() {
   const chatFab = document.getElementById('chatFab');
 
   function update() {
-    if (currentView === 'contact') {
-      sticky.classList.remove('show');
-      if (chatFab) chatFab.classList.remove('lifted');
-      return;
-    }
-
     const show = window.scrollY > STICKY_SCROLL_THRESHOLD;
     sticky.classList.toggle('show', show);
     if (chatFab) chatFab.classList.toggle('lifted', show);
@@ -255,24 +164,11 @@ function initMobileMenu() {
       e.stopPropagation();
       const id = section.getAttribute('href').slice(1);
       closeMobileMenu();
-      if (hasSpaViews() && currentView === 'contact') {
-        showView('us');
-        setTimeout(() => scrollToSection(id), 120);
-      } else {
-        scrollToSection(id);
-      }
+      scrollToSection(id);
       return;
     }
 
-    const book = e.target.closest('[data-mm-book]');
-    if (book) {
-      e.preventDefault();
-      e.stopPropagation();
-      showView('contact');
-      return;
-    }
-
-    if (e.target.closest('[data-mm-kakao]') || e.target.closest('.mm-route')) {
+    if (e.target.closest('[data-mm-book]') || e.target.closest('[data-mm-kakao]') || e.target.closest('.mm-route')) {
       closeMobileMenu();
     }
   });
@@ -283,12 +179,10 @@ function onLangChange() {
     tuneMarquees();
     runReveal();
     startAdmitShowcase();
-    if (window.location.hash === '#contact') showView('contact');
   });
 }
 
 function initPage() {
-  initViewRouting();
   runReveal();
   requestAnimationFrame(tuneMarquees);
   startAdmitShowcase();

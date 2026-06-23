@@ -459,46 +459,46 @@
     "col1Heading": "한국 유학",
     "col1": [
       {
-        "href": "#why-korea",
+        "href": "/study-korea/#why-korea",
         "text": "왜 한국인가"
       },
       {
-        "href": "#pathways",
+        "href": "/study-korea/#pathways",
         "text": "유학 경로"
       },
       {
-        "href": "#packages",
+        "href": "/study-korea/#packages",
         "text": "프로그램"
       },
       {
-        "href": "#faq",
+        "href": "/study-korea/#faq",
         "text": "자주 묻는 질문"
       }
     ],
     "col2Heading": "미국 유학",
     "col2": [
       {
-        "href": "/origin.html#results",
+        "href": "/origin/#results",
         "text": "합격 실적"
       },
       {
-        "href": "/origin.html#us-worries",
+        "href": "/origin/#us-worries",
         "text": "왜 중요한가"
       },
       {
-        "href": "/origin.html#about",
+        "href": "/origin/#about",
         "text": "소개"
       },
       {
-        "href": "/origin.html#us-process",
+        "href": "/origin/#us-process",
         "text": "진행 방식"
       },
       {
-        "href": "/origin.html#packages",
+        "href": "/origin/#packages",
         "text": "프로그램"
       },
       {
-        "href": "/origin.html#faq",
+        "href": "/origin/#faq",
         "text": "자주 묻는 질문"
       }
     ],

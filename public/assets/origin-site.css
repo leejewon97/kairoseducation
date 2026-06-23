@@ -668,19 +668,19 @@ body.i18n-loading {
   visibility: hidden;
 }
 
-/* ============ SPA VIEWS (main vs contact) ============ */
-.view {
-  display: none;
-}
-
-.view.active {
-  display: block;
-}
-
-.view-contact #contact.sec {
+/* ============ CONTACT PAGE ============ */
+.contact-page .contact-main.sec {
   padding-top: clamp(48px, 8vh, 88px);
   padding-bottom: clamp(64px, 10vh, 120px);
   min-height: calc(100dvh - 72px);
+}
+
+.nav--slim .nav-center {
+  display: none;
+}
+
+.nav--slim .nav-right .btn-navy {
+  display: none;
 }
 
 /* ============ RESULTS + ADMIT SHOWCASE ============ */

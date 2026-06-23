@@ -3,7 +3,7 @@ import path from 'path';
 import { LANGS } from '../../config/langs.mjs';
 import { copyFavicons } from './copy-favicons.mjs';
 
-const SHARED_ASSETS = ['hash-scroll.js', 'seo-i18n.js', 'langs.js', 'mobile-nav.js'];
+const SHARED_ASSETS = ['hash-scroll.js', 'seo-i18n.js', 'langs.js', 'mobile-nav.js', 'contact-shell.js'];
 
 export function copyAssets(root, assetFiles, copyFavicon = true) {
   const publicAssets = path.join(root, 'public', 'assets');
@@ -29,7 +29,9 @@ export function copyLocales(root, localeDir) {
 }
 
 export function writeHtml(root, outputFile, html) {
-  fs.writeFileSync(path.join(root, 'public', outputFile), html);
+  const dest = path.join(root, 'public', outputFile);
+  fs.mkdirSync(path.dirname(dest), { recursive: true });
+  fs.writeFileSync(dest, html);
 }
 
 export function buildPage(root, { outputFile, localeDir, assetFiles, html, copyFavicon = true }) {
