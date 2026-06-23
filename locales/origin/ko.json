@@ -3,28 +3,24 @@
   "lang": "ko",
   "title": "카이로스 에듀케이션 | 엘리트 대입 컨설팅",
   "metaDescription": "전 세계 유학생을 위한 독립형 대입 컨설팅. 하버드·예일·스탠퍼드 등 최상위 대학. 템플릿이 아닌 실제 합격 실적 — Ron Kim과 1:1 상담.",
-  "formName": "contact-kr",
+  "formName": "contact",
   "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@400;500;600&display=swap",
   "fontFamily": "'Noto Sans KR', sans-serif",
   "langLinks": [
     {
       "code": "en",
-      "href": "/en/",
       "label": "English"
     },
     {
       "code": "zh",
-      "href": "/zh/",
       "label": "中文"
     },
     {
       "code": "th",
-      "href": "/th/",
       "label": "ภาษาไทย"
     },
     {
       "code": "vi",
-      "href": "/vi/",
       "label": "Tiếng Việt"
     }
   ],
@@ -64,6 +60,7 @@
     "tag": "왜 중요한가",
     "title": "<span class=\"gold-foil\">우리 가정</span> 이야기 같으신가요?",
     "lead": "Kairos를 찾는 대부분의 학부모님은 이런 고민 중 하나를 안고 계십니다. 그 고민을 짚어내는 것이 해결의 첫걸음입니다.",
+    "foot": "저희는 이 모든 고민을 마주해 왔습니다. 해답은 결코 더 많은 노력이 아닙니다. 자녀에게 꼭 맞게 설계된 올바른 전략입니다.",
     "items": [
       {
         "title": "성적은 우수한데, 이것으로 충분할까요?",
@@ -81,13 +78,13 @@
         "title": "이미 대형 회사에 실망하셨습니다.",
         "desc": "브랜드를 믿고 비용을 지불했지만, 정작 배정된 사람은 신입 어소시에이트였고, 전략이 아닌 정보만 받으셨습니다."
       }
-    ],
-    "foot": "저희는 이 모든 고민을 마주해 왔습니다. 해답은 결코 더 많은 노력이 아닙니다. 자녀에게 꼭 맞게 설계된 올바른 전략입니다."
+    ]
   },
   "proof": {
     "eyebrow": "숫자로 보는 Kairos",
     "title": "약속이 아닌, 검증된 실적.",
     "sub": "부티크 규모, 그러나 가정이 알아보는 결과.",
+    "note": "결과는 출발점, 일정, 목표 대학, 그리고 학생이 들이는 노력에 따라 학생마다 다릅니다. 과거의 합격 실적이 미래의 결과를 보장하지는 않습니다.",
     "stats": [
       {
         "value": "8",
@@ -105,8 +102,7 @@
         "value": "100%",
         "label": "학생이 직접 쓴 에세이, 대필 없음"
       }
-    ],
-    "note": "결과는 출발점, 일정, 목표 대학, 그리고 학생이 들이는 노력에 따라 학생마다 다릅니다. 과거의 합격 실적이 미래의 결과를 보장하지는 않습니다."
+    ]
   },
   "results": {
     "tag": "합격 실적",
@@ -429,6 +425,7 @@
     "hidden": true,
     "eyebrow": "함께한 가정",
     "title": "가정이 전하는 <span class=\"gold-foil\">이야기.</span>",
+    "note": "레이아웃을 위한 예시 후기입니다. 출시 전 익명 처리된 실제 후기로 교체하세요.",
     "items": [
       {
         "quote": "12학년 직전 여름, 불안하고 뒤처진 채로 Ron을 찾았습니다. 그는 우리 아들을 마치 자신의 유일한 학생처럼 대해 주었습니다. 에세이는 우리 아이의 목소리 그대로였고, 그 합격은 지금도 믿기지 않습니다.",
@@ -442,8 +439,7 @@
         "quote": "모든 이메일, 모든 초안, 한밤중의 모든 질문이 곧장 Ron에게 닿았습니다. 그런 세심한 관심이 제 지원서를 돋보이게 한 이유였습니다. 결코 잊지 못할 것입니다.",
         "by": "Kairos 학생, 현재 다트머스 재학"
       }
-    ],
-    "note": "레이아웃을 위한 예시 후기입니다. 출시 전 익명 처리된 실제 후기로 교체하세요."
+    ]
   },
   "services": {
     "tag": "서비스 & 비용 안내",
@@ -464,7 +460,7 @@
         "desc": "지원서는 자녀의 고등학교 시절에서 다시 할 수 없는 단 하나의 과정입니다. Foundation은 그 지원서가 자녀의 가장 좋은 모습을 보여주도록 만듭니다.",
         "meta": "10회 세션 · 5–7개월",
         "price": "$4,300",
-        "max": "₩5,805,000",
+        "max": "",
         "features": [
           "자녀가 진정 어떤 사람인지에서 출발한 자기소개서를, Ron과 함께 첫 아이디어부터 최종 원고까지 완성합니다.",
           "각 목표 대학이 자녀의 1지망처럼 읽히도록 다듬은 최대 4편의 보충 에세이.",
@@ -481,7 +477,7 @@
         "desc": "완성형 12학년 파트너십. 지원서의 모든 부분을 Ron이 직접 다듬어, 자녀가 올바른 이유로 돋보이게 합니다.",
         "meta": "22회 세션 · 12개월",
         "price": "$7,000",
-        "max": "₩9,450,000",
+        "max": "",
         "features": [
           "도전 대학, 적정 대학, 안정 대학에 걸친 전체 지원 전략.",
           "자기소개서와 더불어, 각 편이 완성될 때까지 거듭 다듬는 무제한 보충 에세이.",
@@ -500,7 +496,7 @@
         "desc": "Scholar의 모든 것에, 입학사정관이 가장 먼저 보는 성적표, 활동, 시험을 Ron이 직접 다듬을 수 있는 2년이 더해집니다.",
         "meta": "40회 세션 · 24개월",
         "price": "$12,800",
-        "max": "₩17,280,000",
+        "max": "",
         "features": [
           "Kairos Scholar의 모든 것.",
           "10학년과 11학년을 위한 수강 과목 및 학업 계획.",
@@ -518,7 +514,7 @@
         "desc": "4년 전 과정에 걸친 파트너십이자 Kairos가 제공하는 가장 완성된 준비로, 최고 명문 대학이 높이 평가하는 학업 기록과 지적 정체성을 함께 만들어 갑니다.",
         "meta": "무제한 세션 · 36–48개월",
         "price": "$19,500",
-        "max": "₩26,325,000",
+        "max": "",
         "features": [
           "Kairos Prestige의 모든 것.",
           "9학년 온보딩과 진정한 비전을 중심으로 세운 장기 계획.",
@@ -533,42 +529,42 @@
       {
         "service": "시간제 컨설팅 세션",
         "usd": "$150",
-        "krw": "₩202,500"
+        "krw": ""
       },
       {
         "service": "에세이 1편 검토 & 수정",
         "usd": "$200",
-        "krw": "₩270,000"
+        "krw": ""
       },
       {
         "service": "지원서 전체 검토",
         "usd": "$300",
-        "krw": "₩405,000"
+        "krw": ""
       },
       {
         "service": "인터뷰 준비 (3회 세션)",
         "usd": "$350",
-        "krw": "₩472,500"
+        "krw": ""
       },
       {
         "service": "지원 대학 목록 상담",
         "usd": "$100",
-        "krw": "₩135,000"
+        "krw": ""
       },
       {
         "service": "SAT / ACT 과외 (시간당)",
         "usd": "$120",
-        "krw": "₩162,000"
+        "krw": ""
       },
       {
         "service": "AP 과목 과외 (시간당)",
         "usd": "$100",
-        "krw": "₩135,000"
+        "krw": ""
       },
       {
         "service": "TOEFL / IELTS 과외 (시간당)",
         "usd": "$100",
-        "krw": "₩135,000"
+        "krw": ""
       }
     ]
   },
@@ -594,7 +590,7 @@
     "items": [
       {
         "q": "Kairos는 Crimson 같은 대형 회사와 어떻게 다른가요?",
-        "a": "대형 회사에서는 계약 후 자녀가 보통 신입 어소시에이트에게 배정되고, 시니어들의 이름은 마케팅에만 남습니다. Kairos에서는 모든 세션이 Ron과 함께합니다. 그는 그런 회사 내부에서 시간을 보냈고, 바로 이 문제를 바로잡기 위해 Kairos를 만들었습니다. 실적을 갖춘 그 사람을, 언제나 만나게 됩니다."
+        "a": "대형 회사에서는 계약 후 자녀가 보통 신입 어소시에이트에게 배정되고, 시니어들의 이름은 마케팅에만 남습니다. Kairos에서는 모든 세션이 Ron과 함께입니다. 그는 그런 회사 내부에서 시간을 보냈고, 바로 이 문제를 바로잡기 위해 Kairos를 만들었습니다. 실적을 갖춘 그 사람을, 언제나 만나게 됩니다."
       },
       {
         "q": "Ron이 자녀의 에세이를 대신 써 주나요?",
@@ -654,7 +650,7 @@
       "namePlaceholder": "성함",
       "gradeLabel": "자녀의 학년",
       "emailLabel": "이메일",
-      "emailPlaceholder": "you@email.com",
+      "emailPlaceholder": "이메일 주소",
       "universitiesLabel": "목표 대학",
       "universitiesPlaceholder": "하버드, 스탠퍼드, …",
       "messageLabel": "메시지",
@@ -679,7 +675,7 @@
       },
       {
         "href": "#packages",
-        "text": "패키지 & 요금"
+        "text": "프로그램"
       },
       {
         "href": "#us-process",
@@ -687,35 +683,35 @@
       },
       {
         "href": "#about",
-        "text": "카이로스 소개"
+        "text": "소개"
       },
       {
         "href": "#faq",
-        "text": "FAQ"
+        "text": "자주 묻는 질문"
       }
     ],
     "col2Heading": "한국 유학",
     "col2": [
       {
         "href": "/study-korea.html#pathways",
-        "text": "세 가지 유학 경로"
+        "text": "유학 경로"
       },
       {
         "href": "/study-korea.html#universities",
-        "text": "한국 대학"
+        "text": "대학"
       },
       {
         "href": "/study-korea.html#packages",
-        "text": "패키지 & 요금"
+        "text": "프로그램"
       },
       {
         "href": "/study-korea.html#faq",
-        "text": "FAQ"
+        "text": "자주 묻는 질문"
       }
     ],
     "disc": "Kairos Education은 독립 컨설팅 업체이며, 본 사이트에 언급된 어떤 대학이나 기관과도 제휴, 보증, 후원 관계에 있지 않습니다. 결과는 학생마다 다르며 출발점, 일정, 목표 대학, 그리고 개인의 노력에 따라 달라집니다. 과거의 합격 결과가 미래의 결과를 보장하지는 않습니다.",
     "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
+    "meta": "대한민국 서울 · 전 세계 · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   },
   "sticky": {
     "msg": "<span class=\"sm-main\">자녀의 단 한 번의 기회에는 알맞은 컨설턴트가 필요합니다.</span><span class=\"sub\">첫 상담은 무료이며, 아무런 의무도 없습니다.</span>",
@@ -728,5 +724,11 @@
     "kakaoConsult": "<span>💬</span> KakaoTalk 1:1 상담",
     "whatsappConsult": "WhatsApp 1:1 상담",
     "sendMessage": "메시지 보내기 <span class=\"arrow\">→</span>"
+  },
+  "mobileMenu": {
+    "studyUs": "미국 유학",
+    "studyKorea": "한국 유학",
+    "bookCta": "무료 상담 예약하기",
+    "kakaoCta": "KakaoTalk"
   }
 }

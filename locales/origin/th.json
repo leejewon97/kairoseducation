@@ -8,46 +8,42 @@
   "fontFamily": "'Hanken Grotesk', sans-serif",
   "langLinks": [
     {
+      "code": "en",
+      "label": "English"
+    },
+    {
       "code": "ko",
-      "href": "/ko/",
       "label": "한국어"
     },
     {
       "code": "zh",
-      "href": "/zh/",
       "label": "中文"
     },
     {
-      "code": "th",
-      "href": "/th/",
-      "label": "ภาษาไทย"
-    },
-    {
       "code": "vi",
-      "href": "/vi/",
       "label": "Tiếng Việt"
     }
   ],
-  "scarcity": "Kairos works with a limited number of families each year.<span class=\"dot\">◆</span>A few places remain for the current cycle.",
+  "scarcity": "Kairos รับดูแลครอบครัวจำนวนจำกัดในแต่ละปี<span class=\"dot\">◆</span>ยังเหลือที่ว่างไม่กี่ที่สำหรับรอบนี้",
   "nav": {
-    "why": "Why It Matters",
-    "results": "Results",
-    "process": "How It Works",
-    "packages": "Packages",
-    "about": "About",
-    "faq": "FAQ",
-    "contact": "Contact",
-    "cta": "Book a consultation",
-    "menuOpen": "Open menu",
-    "menuClose": "Close menu"
+    "why": "ทำไมจึงสำคัญ",
+    "results": "ผลลัพธ์",
+    "process": "ขั้นตอนการทำงาน",
+    "packages": "แพ็กเกจ",
+    "about": "เกี่ยวกับเรา",
+    "faq": "คำถามที่พบบ่อย",
+    "contact": "ติดต่อเรา",
+    "cta": "จองการปรึกษา",
+    "menuOpen": "เปิดเมนู",
+    "menuClose": "ปิดเมนู"
   },
   "hero": {
-    "badge": "Boutique College Admissions Consulting · Worldwide",
-    "h1": "Your child has one shot at the Ivy League. Give it the <span class=\"gold-foil\">counselor it deserves.</span>",
-    "lead": "Kairos is boutique admissions consulting for families targeting Harvard, Yale, and the world's most selective universities. From the first call to the final essay, your child works directly with Ron Kim — Kairos's founder, a former Crimson consultant whose students earn Ivy League admission. Never a junior associate, never a rotating team. At the big firms, your child is one file among thousands; here, they are the only student in the room.",
-    "authority": "Kairos students have been admitted to",
-    "primaryCta": "Book a free consultation <span class=\"arrow\">→</span>",
-    "secondaryCta": "See the results",
+    "badge": "ที่ปรึกษาการสมัครเข้ามหาวิทยาลัยระดับบูทีค · ทั่วโลก",
+    "h1": "ลูกของคุณมีโอกาสเพียงครั้งเดียวกับ Ivy League จงมอบ<span class=\"gold-foil\">ที่ปรึกษาที่คู่ควรให้กับเขา</span>",
+    "lead": "Kairos คือที่ปรึกษาการสมัครเข้ามหาวิทยาลัยระดับบูทีคสำหรับครอบครัวที่มุ่งสู่ Harvard, Yale และมหาวิทยาลัยที่คัดเลือกเข้มงวดที่สุดในโลก ตั้งแต่การพูดคุยครั้งแรกจนถึงเรียงความฉบับสุดท้าย ลูกของคุณจะทำงานโดยตรงกับ Ron Kim ผู้ก่อตั้ง Kairos อดีตที่ปรึกษาจาก Crimson ผู้ซึ่งนักเรียนของเขาคว้าโอกาสเข้าศึกษาใน Ivy League ไม่ใช่ผู้ช่วยรุ่นน้อง ไม่ใช่ทีมที่หมุนเวียนสลับกันไป ที่บริษัทใหญ่ ลูกของคุณเป็นเพียงหนึ่งในแฟ้มใบสมัครนับพัน แต่ที่นี่ เขาคือนักเรียนเพียงคนเดียวในห้อง",
+    "authority": "นักเรียนของ Kairos ได้รับการตอบรับเข้าศึกษาที่",
+    "primaryCta": "จองปรึกษาฟรี <span class=\"arrow\">→</span>",
+    "secondaryCta": "ดูผลลัพธ์",
     "marquee": [
       "Harvard",
       "Yale",
@@ -61,58 +57,58 @@
     ]
   },
   "worries": {
-    "tag": "Why It Matters",
-    "title": "Does this sound like <span class=\"gold-foil\">your family?</span>",
-    "lead": "Most parents who come to Kairos are carrying one of these worries. Naming it is the first step to fixing it.",
+    "tag": "ทำไมจึงสำคัญ",
+    "title": "เรื่องเหล่านี้ฟังดูเหมือน<span class=\"gold-foil\">ครอบครัวของคุณหรือไม่</span>",
+    "lead": "ผู้ปกครองส่วนใหญ่ที่มาหา Kairos ต่างแบกรับความกังวลข้อใดข้อหนึ่งเหล่านี้ การเอ่ยออกมาคือก้าวแรกของการแก้ไข",
+    "foot": "เราเคยนั่งรับฟังทุกความกังวลเหล่านี้มาแล้ว ทางออกไม่เคยอยู่ที่การพยายามให้มากขึ้น แต่อยู่ที่กลยุทธ์ที่ถูกต้องซึ่งสร้างขึ้นรอบตัวลูกของคุณ",
     "items": [
       {
-        "title": "Strong grades, but is it enough?",
-        "desc": "Your child has the GPA and the scores. So do thousands of other applicants. Numbers get an application read, not admitted."
+        "title": "ผลการเรียนดี แต่จะพอหรือไม่",
+        "desc": "ลูกของคุณมีทั้ง GPA และคะแนนที่ดี แต่ผู้สมัครอีกนับพันก็เช่นกัน ตัวเลขทำให้ใบสมัครได้รับการอ่าน แต่ไม่ได้ทำให้ได้รับการตอบรับ"
       },
       {
-        "title": "A long activities list with no through-line.",
-        "desc": "There is plenty on the resume, but nothing that adds up to a single story an admissions officer remembers."
+        "title": "รายการกิจกรรมยาวเหยียด แต่ไร้เรื่องราวที่ร้อยเรียงเป็นหนึ่งเดียว",
+        "desc": "ในเรซูเม่มีอะไรมากมาย แต่ไม่มีสิ่งใดที่ประกอบกันเป็นเรื่องราวเดียวที่เจ้าหน้าที่รับสมัครจะจดจำได้"
       },
       {
-        "title": "The essay feels impossible to start.",
-        "desc": "Your child is talented, but getting that onto the page in their own voice is where almost everyone freezes."
+        "title": "เรียงความที่รู้สึกว่าเริ่มต้นไม่ได้เลย",
+        "desc": "ลูกของคุณมีความสามารถ แต่การถ่ายทอดสิ่งนั้นลงบนหน้ากระดาษด้วยน้ำเสียงของตัวเองคือจุดที่เกือบทุกคนติดขัด"
       },
       {
-        "title": "A big firm already let you down.",
-        "desc": "You paid for a brand and got handed to a junior associate who gave you information, not a plan."
+        "title": "บริษัทใหญ่เคยทำให้คุณผิดหวังมาแล้ว",
+        "desc": "คุณจ่ายเงินให้กับแบรนด์ แต่กลับถูกส่งต่อให้ผู้ช่วยรุ่นใหม่ ที่ให้เพียงข้อมูล ไม่ใช่แผนการ"
       }
-    ],
-    "foot": "We have sat with every one of these. The fix is never more effort. It is the right strategy, built around your child."
+    ]
   },
   "proof": {
-    "eyebrow": "By The Numbers",
-    "title": "A track record, not a promise.",
-    "sub": "Boutique scale, with outcomes families recognize.",
+    "eyebrow": "ในเชิงตัวเลข",
+    "title": "ประวัติผลงานจริง ไม่ใช่เพียงคำสัญญา",
+    "sub": "ขนาดแบบบูทีค พร้อมผลลัพธ์ที่ครอบครัวคุ้นเคย",
+    "note": "ผลลัพธ์แตกต่างกันไปในแต่ละนักเรียน ขึ้นอยู่กับจุดเริ่มต้น ระยะเวลา มหาวิทยาลัยเป้าหมาย และความทุ่มเทของนักเรียน ผลการรับเข้าในอดีตไม่ได้รับประกันผลลัพธ์ในอนาคต",
     "stats": [
       {
         "value": "8",
-        "label": "Ivy League admits"
+        "label": "ตอบรับเข้า Ivy League"
       },
       {
         "value": "30+",
-        "label": "Top 40 placements"
+        "label": "เข้ามหาวิทยาลัย Top 40"
       },
       {
         "value": "1:1",
-        "label": "Directly with Ron, every session"
+        "label": "ทำงานกับ Ron โดยตรงทุกครั้ง"
       },
       {
         "value": "100%",
-        "label": "Student-written, no ghostwriting"
+        "label": "นักเรียนเขียนเอง ไม่มีการเขียนแทน"
       }
-    ],
-    "note": "Results vary by student, depending on starting point, timeline, target schools, and the work the student puts in. Past admissions do not guarantee future outcomes."
+    ]
   },
   "results": {
-    "tag": "Track Record",
-    "title": "Where Kairos students <span class=\"gold-foil\">get in.</span>",
-    "sub": "Kairos students come from Korea, Singapore, the US, the UK, Jordan, Ethiopia, and beyond, and they earn places at the universities parents hope for and rarely say out loud.",
-    "admit": "Admit",
+    "tag": "ประวัติผลงาน",
+    "title": "มหาวิทยาลัยที่นักเรียน Kairos <span class=\"gold-foil\">ได้เข้าศึกษา</span>",
+    "sub": "นักเรียนของ Kairos มาจากเกาหลี สิงคโปร์ สหรัฐฯ สหราชอาณาจักร จอร์แดน เอธิโอเปีย และอีกหลายแห่ง พวกเขาคว้าที่นั่งในมหาวิทยาลัยที่ผู้ปกครองใฝ่ฝัน แต่แทบไม่กล้าเอ่ยออกมา",
+    "admit": "ตอบรับ",
     "admitShowcase": [
       {
         "name": "Minjun",
@@ -145,7 +141,7 @@
     ],
     "tiers": [
       {
-        "label": "Ivy League & Top 10",
+        "label": "Ivy League และ Top 10",
         "tier": 1,
         "universities": [
           {
@@ -276,7 +272,7 @@
         ]
       },
       {
-        "label": "Top 26–40 & Specialty",
+        "label": "Top 26–40 และสาขาเฉพาะทาง",
         "tier": 3,
         "universities": [
           {
@@ -365,7 +361,7 @@
         ]
       },
       {
-        "label": "International",
+        "label": "นานาชาติ",
         "tier": 0,
         "universities": [
           {
@@ -396,177 +392,177 @@
         ]
       }
     ],
-    "legend": "Results from the classes of 2023–2027."
+    "legend": "ผลลัพธ์จากรุ่นปี 2023–2027"
   },
   "process": {
-    "tag": "The Process",
-    "title": "How it <span class=\"gold-foil\">works.</span>",
-    "lead": "A clear path from where your child is now to the acceptance letter. Every step is with Ron, in order, with nothing left to the last minute.",
+    "tag": "กระบวนการ",
+    "title": "ขั้นตอน<span class=\"gold-foil\">การทำงาน</span>",
+    "lead": "เส้นทางที่ชัดเจนจากจุดที่ลูกของคุณอยู่ในวันนี้ ไปสู่จดหมายตอบรับ ทุกขั้นตอนทำงานกับ Ron อย่างเป็นลำดับ โดยไม่มีอะไรถูกปล่อยไว้จนนาทีสุดท้าย",
     "steps": [
       {
-        "title": "Assessment & positioning",
-        "desc": "Ron starts by understanding your child honestly: their record, their strengths, and what genuinely sets them apart. This becomes the foundation everything else is built on."
+        "title": "ประเมินและวางจุดยืน",
+        "desc": "Ron เริ่มต้นด้วยการทำความเข้าใจลูกของคุณอย่างตรงไปตรงมา ทั้งประวัติ จุดแข็ง และสิ่งที่ทำให้เขาแตกต่างอย่างแท้จริง สิ่งนี้กลายเป็นรากฐานที่ทุกอย่างต่อยอดขึ้นมา"
       },
       {
-        "title": "The strategy roadmap",
-        "desc": "A year-by-year plan across courses, activities, testing, and the application timeline, sequenced so the work is paced and deliberate."
+        "title": "แผนกลยุทธ์",
+        "desc": "แผนรายปีครอบคลุมทั้งวิชาเรียน กิจกรรม การสอบ และกำหนดเวลาการสมัคร จัดเรียงอย่างเป็นจังหวะและรอบคอบ"
       },
       {
-        "title": "Building a standout profile",
-        "desc": "Ron guides the research, leadership, and projects that turn a strong student into a memorable applicant, not just a longer list."
+        "title": "สร้างโปรไฟล์ที่โดดเด่น",
+        "desc": "Ron ชี้แนะงานวิจัย ภาวะผู้นำ และโครงการต่าง ๆ ที่เปลี่ยนนักเรียนที่ดีให้กลายเป็นผู้สมัครที่น่าจดจำ ไม่ใช่เพียงเพิ่มรายการให้ยาวขึ้น"
       },
       {
-        "title": "School list & application strategy",
-        "desc": "The right schools and the right rounds. Early decision, early action, and regular, chosen around your child's real chances."
+        "title": "รายชื่อมหาวิทยาลัยและกลยุทธ์การสมัคร",
+        "desc": "เลือกมหาวิทยาลัยที่ใช่และรอบสมัครที่เหมาะสม ทั้ง early decision, early action และ regular โดยเลือกตามโอกาสที่แท้จริงของลูกคุณ"
       },
       {
-        "title": "Essays & interviews",
-        "desc": "Your child writes; Ron coaches and refines until every essay sounds like them at their best, then prepares them to walk into any interview calm."
+        "title": "เรียงความและการสัมภาษณ์",
+        "desc": "ลูกของคุณเป็นคนเขียน Ron คอยให้คำแนะนำและขัดเกลาจนทุกเรียงความสะท้อนตัวตนของเขาในแบบที่ดีที่สุด แล้วเตรียมความพร้อมให้เขาก้าวเข้าสู่ทุกการสัมภาษณ์ด้วยความสงบมั่นใจ"
       }
     ]
   },
   "testimonials": {
     "hidden": true,
-    "eyebrow": "Families",
-    "title": "What families <span class=\"gold-foil\">say.</span>",
+    "eyebrow": "เสียงจากครอบครัว",
+    "title": "สิ่งที่ครอบครัว<span class=\"gold-foil\">พูดถึงเรา</span>",
+    "note": "คำรับรองตัวอย่างที่แสดงไว้เพื่อจัดวางเลย์เอาต์ กรุณาแทนที่ด้วยคำรับรองจริงที่ปกปิดตัวตนก่อนเปิดตัว",
     "items": [
       {
-        "quote": "We came to Ron the summer before senior year, anxious and behind. He treated our son like the only student he had. The essays sounded like our boy, and the acceptance still feels unreal.",
-        "by": "Parent of a 2025 Columbia admit"
+        "quote": "เรามาหา Ron ในช่วงปิดเทอมฤดูร้อนก่อนขึ้นปีสุดท้าย ด้วยความกังวลและรู้สึกว่าตามหลังอยู่ เขาดูแลลูกชายของเราราวกับเป็นนักเรียนเพียงคนเดียวที่เขามี เรียงความฟังดูเหมือนเสียงของลูกเราจริง ๆ และการตอบรับนั้นยังรู้สึกเหมือนความฝัน",
+        "by": "ผู้ปกครองของนักเรียนที่ได้เข้า Columbia ปี 2025"
       },
       {
-        "quote": "We had spoken to a large firm first and felt like a number. With Ron it was personal from the first call. He pushed our daughter to find her own voice, and it showed.",
-        "by": "Parent of a 2024 Yale admit"
+        "quote": "เราเคยคุยกับบริษัทใหญ่มาก่อนและรู้สึกเหมือนเป็นเพียงตัวเลข แต่กับ Ron มันเป็นเรื่องส่วนตัวตั้งแต่การโทรครั้งแรก เขาผลักดันให้ลูกสาวของเราค้นพบน้ำเสียงของตัวเอง และมันก็เห็นผลจริง",
+        "by": "ผู้ปกครองของนักเรียนที่ได้เข้า Yale ปี 2024"
       },
       {
-        "quote": "Every email, every draft, every late-night question went straight to Ron. That kind of attention is the reason my application stood out. I will never forget it.",
-        "by": "Kairos student, now at Dartmouth"
+        "quote": "ทุกอีเมล ทุกร่าง ทุกคำถามยามดึก ส่งตรงถึง Ron ความใส่ใจระดับนั้นคือเหตุผลที่ใบสมัครของผมโดดเด่น ผมจะไม่มีวันลืมเลย",
+        "by": "นักเรียน Kairos ปัจจุบันศึกษาอยู่ที่ Dartmouth"
       }
-    ],
-    "note": "Placeholder testimonials shown for layout. Replace with real, anonymized quotes before launch."
+    ]
   },
   "services": {
-    "tag": "Services & Pricing",
-    "title": "Choose the right level <span class=\"gold-foil\">for your child.</span>",
-    "sub": "Every family works one-on-one with Ron, wherever they are in the world. No templates. Each plan is built around who your child actually is, and the earlier you start, the more there is to work with.",
-    "priceNote": "Transparent pricing, no inquiry required. Most families start with a free consultation to find the right fit.",
-    "packageCta": "Get started",
-    "packageCtaArrow": "Get started <span class=\"arrow\">→</span>",
-    "alacarteHeading": "À la carte",
-    "alacarteSub": "Individual services, no package required. All essays remain student-written; Ron coaches and gives feedback only.",
-    "alacarteNote": "Competition support (John Locke, Physics Bowl, AMC/AIME, NYT Student Essay, KSEF) from $150/hour.",
+    "tag": "บริการและค่าใช้จ่าย",
+    "title": "เลือกระดับที่เหมาะสม<span class=\"gold-foil\">สำหรับลูกของคุณ</span>",
+    "sub": "ทุกครอบครัวทำงานตัวต่อตัวกับ Ron ไม่ว่าจะอยู่ที่ใดในโลก ไม่มีแม่แบบสำเร็จรูป แต่ละแผนถูกสร้างขึ้นรอบตัวตนที่แท้จริงของลูกคุณ และยิ่งเริ่มเร็วเท่าไหร่ ก็ยิ่งมีสิ่งที่ทำงานร่วมกันได้มากเท่านั้น",
+    "priceNote": "ราคาโปร่งใส ไม่ต้องสอบถาม ครอบครัวส่วนใหญ่เริ่มต้นด้วยการปรึกษาฟรีเพื่อหาแผนที่เหมาะสม",
+    "packageCta": "เริ่มต้นเลย",
+    "packageCtaArrow": "เริ่มต้นเลย <span class=\"arrow\">→</span>",
+    "alacarteHeading": "เลือกบริการรายตัว",
+    "alacarteSub": "บริการแยกเดี่ยว ไม่จำเป็นต้องซื้อแพ็กเกจ เรียงความทั้งหมดยังคงเขียนโดยนักเรียน Ron เพียงให้คำแนะนำและข้อเสนอแนะเท่านั้น",
+    "alacarteNote": "การสนับสนุนการแข่งขัน (John Locke, Physics Bowl, AMC/AIME, NYT Student Essay, KSEF) เริ่มต้นที่ $150/ชั่วโมง",
     "packages": [
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Foundation",
-        "best": "Best for: families whose child is already in senior year and needs the application done right, and done now.",
-        "desc": "The application is the one part of your child's high school years that cannot be redone. Foundation makes sure it shows them at their best.",
-        "meta": "10 sessions · 5–7 months",
+        "best": "เหมาะสำหรับ: ครอบครัวที่ลูกอยู่ในชั้นปีสุดท้ายแล้ว และต้องการให้ใบสมัครออกมาถูกต้องและทันเวลา",
+        "desc": "ใบสมัครคือส่วนเดียวในช่วงชีวิตมัธยมปลายของลูกคุณที่ทำใหม่ไม่ได้ Foundation จึงทำให้แน่ใจว่ามันสะท้อนตัวตนของเขาในแบบที่ดีที่สุด",
+        "meta": "10 เซสชัน · 5–7 เดือน",
         "price": "$4,300",
         "max": "",
         "features": [
-          "A personal statement built from who your child really is, developed with Ron from first idea to final draft.",
-          "Up to four supplemental essays shaped so each target school reads like their first choice.",
-          "A college list reviewed for fit, so your child applies where they can both get in and thrive.",
-          "A clear timeline and checklist for the months that decide everything.",
-          "Direct email access to Ron between sessions."
+          "เรียงความส่วนตัวที่สร้างจากตัวตนที่แท้จริงของลูกคุณ พัฒนาร่วมกับ Ron ตั้งแต่ไอเดียแรกจนถึงร่างสุดท้าย",
+          "เรียงความเสริมสูงสุดสี่ฉบับ ปรับให้แต่ละมหาวิทยาลัยเป้าหมายอ่านแล้วรู้สึกว่าเป็นตัวเลือกอันดับหนึ่ง",
+          "ทบทวนรายชื่อมหาวิทยาลัยให้เหมาะสม เพื่อให้ลูกของคุณสมัครในที่ที่ทั้งเข้าได้และเติบโตได้",
+          "กำหนดเวลาและรายการตรวจสอบที่ชัดเจนสำหรับเดือนที่ตัดสินทุกอย่าง",
+          "ติดต่อ Ron ทางอีเมลได้โดยตรงระหว่างเซสชัน"
         ]
       },
       {
         "featured": true,
-        "badge": "Most Popular",
+        "badge": "ได้รับความนิยมสูงสุด",
         "name": "Kairos Scholar",
-        "best": "Best for: families starting the summer before senior year who want the whole application handled, end to end.",
-        "desc": "The complete senior-year partnership. Every part of the application, shaped by Ron personally, so your child stands out for the right reasons.",
-        "meta": "22 sessions · 12 months",
+        "best": "เหมาะสำหรับ: ครอบครัวที่เริ่มในช่วงปิดเทอมฤดูร้อนก่อนขึ้นชั้นปีสุดท้าย และต้องการให้ดูแลใบสมัครทั้งหมดตั้งแต่ต้นจนจบ",
+        "desc": "การร่วมงานอย่างครบถ้วนตลอดชั้นปีสุดท้าย ทุกส่วนของใบสมัครถูกขัดเกลาโดย Ron ด้วยตัวเอง เพื่อให้ลูกของคุณโดดเด่นด้วยเหตุผลที่ถูกต้อง",
+        "meta": "22 เซสชัน · 12 เดือน",
         "price": "$7,000",
         "max": "",
         "features": [
-          "A full school strategy across reach, match, and safety schools.",
-          "The personal statement plus unlimited supplemental essays, revised until each one is right.",
-          "Their activities positioned to tell one coherent story rather than a list.",
-          "A full review of the Common App or Coalition portal before anything is submitted.",
-          "Two mock interviews, so your child walks in prepared and calm.",
-          "Guidance on financial aid and scholarships, plus a plan for any waitlist or deferral.",
-          "Priority access to Ron by email and KakaoTalk."
+          "กลยุทธ์มหาวิทยาลัยอย่างครบถ้วน ทั้ง reach, match และ safety",
+          "เรียงความส่วนตัวพร้อมเรียงความเสริมไม่จำกัด แก้ไขจนแต่ละฉบับลงตัว",
+          "จัดวางกิจกรรมให้เล่าเรื่องราวเดียวที่ร้อยเรียงกัน ไม่ใช่เพียงรายการ",
+          "ตรวจสอบพอร์ทัล Common App หรือ Coalition อย่างละเอียดก่อนส่งใด ๆ",
+          "สัมภาษณ์จำลองสองครั้ง เพื่อให้ลูกของคุณเข้าห้องสัมภาษณ์อย่างพร้อมและสงบ",
+          "คำแนะนำเรื่องทุนการศึกษาและความช่วยเหลือทางการเงิน พร้อมแผนรับมือ waitlist หรือการเลื่อนพิจารณา",
+          "ติดต่อ Ron ได้ก่อนใครทางอีเมลและ KakaoTalk"
         ]
       },
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Prestige",
-        "best": "Best for: families starting in tenth or eleventh grade who want the profile built, not just the application written.",
-        "desc": "Everything in Scholar, plus the two years that let Ron shape the transcript, activities, and testing admissions officers look at first.",
-        "meta": "40 sessions · 24 months",
+        "best": "เหมาะสำหรับ: ครอบครัวที่เริ่มตั้งแต่ชั้นปีที่ 10 หรือ 11 และต้องการสร้างโปรไฟล์ ไม่ใช่เพียงเขียนใบสมัคร",
+        "desc": "ทุกอย่างใน Scholar พร้อมเวลาสองปีที่ให้ Ron ได้ปั้นทรานสคริปต์ กิจกรรม และการสอบที่เจ้าหน้าที่รับสมัครมองเป็นอันดับแรก",
+        "meta": "40 เซสชัน · 24 เดือน",
         "price": "$12,800",
         "max": "",
         "features": [
-          "Everything in Kairos Scholar.",
-          "Course and academic planning for tenth and eleventh grade.",
-          "Extracurricular strategy and summer program selection that build a distinctive profile.",
-          "Positioning for the research, competitions, and leadership that carry real weight.",
-          "A standardized testing plan across SAT, ACT, and AP.",
-          "A dedicated KakaoTalk channel with Ron."
+          "ทุกอย่างใน Kairos Scholar",
+          "วางแผนวิชาเรียนและการเรียนสำหรับชั้นปีที่ 10 และ 11",
+          "กลยุทธ์กิจกรรมนอกหลักสูตรและการเลือกโครงการช่วงปิดเทอมที่สร้างโปรไฟล์อันโดดเด่น",
+          "จัดวางงานวิจัย การแข่งขัน และภาวะผู้นำที่มีน้ำหนักอย่างแท้จริง",
+          "แผนการสอบมาตรฐานทั้ง SAT, ACT และ AP",
+          "ช่องทาง KakaoTalk เฉพาะกับ Ron"
         ]
       },
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Legacy",
-        "best": "Best for: families who want to start in ninth grade and leave nothing to chance.",
-        "desc": "The full four-year partnership, and the most complete preparation Kairos offers, building the record and intellectual identity the most selective universities reward.",
-        "meta": "Unlimited sessions · 36–48 months",
+        "best": "เหมาะสำหรับ: ครอบครัวที่ต้องการเริ่มตั้งแต่ชั้นปีที่ 9 และไม่ปล่อยให้อะไรเป็นเรื่องของโชค",
+        "desc": "การร่วมงานเต็มรูปแบบตลอดสี่ปี และการเตรียมตัวที่สมบูรณ์ที่สุดที่ Kairos มอบให้ สร้างทั้งประวัติและตัวตนทางปัญญาที่มหาวิทยาลัยซึ่งคัดเลือกเข้มงวดที่สุดให้ค่า",
+        "meta": "เซสชันไม่จำกัด · 36–48 เดือน",
         "price": "$19,500",
         "max": "",
         "features": [
-          "Everything in Kairos Prestige.",
-          "Ninth-grade onboarding and a long-term plan built around a real vision.",
-          "An intellectual identity and passion project rooted in what your child actually cares about.",
-          "Introductions to Ron's mentor network.",
-          "Two family strategy meetings a year.",
-          "Support that continues after the acceptance arrives."
+          "ทุกอย่างใน Kairos Prestige",
+          "การเริ่มต้นในชั้นปีที่ 9 และแผนระยะยาวที่สร้างขึ้นรอบวิสัยทัศน์ที่แท้จริง",
+          "ตัวตนทางปัญญาและโครงการที่หลงใหล ซึ่งหยั่งรากจากสิ่งที่ลูกคุณใส่ใจอย่างแท้จริง",
+          "แนะนำให้รู้จักเครือข่ายเมนเทอร์ของ Ron",
+          "การประชุมวางกลยุทธ์ร่วมกับครอบครัวปีละสองครั้ง",
+          "การสนับสนุนที่ดำเนินต่อแม้หลังจากได้รับการตอบรับแล้ว"
         ]
       }
     ],
     "alacarte": [
       {
-        "service": "Hourly consulting session",
+        "service": "เซสชันปรึกษารายชั่วโมง",
         "usd": "$150",
         "krw": ""
       },
       {
-        "service": "Single essay review & edit",
+        "service": "ตรวจและแก้ไขเรียงความเดี่ยว",
         "usd": "$200",
         "krw": ""
       },
       {
-        "service": "Full application review",
+        "service": "ตรวจสอบใบสมัครฉบับเต็ม",
         "usd": "$300",
         "krw": ""
       },
       {
-        "service": "Interview prep (3 sessions)",
+        "service": "เตรียมสัมภาษณ์ (3 เซสชัน)",
         "usd": "$350",
         "krw": ""
       },
       {
-        "service": "School list consultation",
+        "service": "ปรึกษารายชื่อมหาวิทยาลัย",
         "usd": "$100",
         "krw": ""
       },
       {
-        "service": "SAT / ACT tutoring (per hour)",
+        "service": "ติว SAT / ACT (ต่อชั่วโมง)",
         "usd": "$120",
         "krw": ""
       },
       {
-        "service": "AP subject tutoring (per hour)",
+        "service": "ติววิชา AP (ต่อชั่วโมง)",
         "usd": "$100",
         "krw": ""
       },
       {
-        "service": "TOEFL / IELTS tutoring (per hour)",
+        "service": "ติว TOEFL / IELTS (ต่อชั่วโมง)",
         "usd": "$100",
         "krw": ""
       }
@@ -574,159 +570,165 @@
   },
   "about": {
     "name": "Ron Kim",
-    "role": "Founder · Kairos Education",
-    "tag": "About",
-    "title": "The person who will actually <span class=\"gold-foil\">work with your child.</span>",
+    "role": "ผู้ก่อตั้ง · Kairos Education",
+    "tag": "เกี่ยวกับเรา",
+    "title": "บุคคลที่จะ<span class=\"gold-foil\">ทำงานร่วมกับลูกของคุณจริง ๆ</span>",
     "paragraphs": [
-      "Ron Kim founded Kairos after years inside the admissions industry, including time as a consultant at Crimson Education, one of the largest firms in the world. He learned what the big firms do well. He also saw what they do to families: once you sign, you are often handed to a junior associate, while the person with the real track record stays a name on the website.",
-      "Kairos is built to be the opposite. Every session, every essay, every strategy call is Ron himself. He takes on only a small number of families each year, because that is the only way to know a student well enough to help them stand out.",
-      "Ron grew up in the international school system in Korea and studied at the University of Illinois. Over his career he has guided students into Harvard, Yale, Columbia, Penn, Dartmouth, Cornell, Duke, Johns Hopkins, and the University of Chicago, and has worked on the counseling side of the desk at international schools."
+      "Ron Kim ก่อตั้ง Kairos หลังจากคลุกคลีในวงการรับสมัครมาหลายปี รวมถึงช่วงเวลาที่เป็นที่ปรึกษาให้ Crimson Education หนึ่งในบริษัทที่ใหญ่ที่สุดในโลก เขาได้เรียนรู้ว่าบริษัทใหญ่ทำอะไรได้ดี และยังได้เห็นว่าพวกเขาทำอะไรกับครอบครัว เมื่อคุณเซ็นสัญญาแล้ว คุณมักถูกส่งต่อให้ผู้ช่วยรุ่นใหม่ ในขณะที่ผู้ที่มีประวัติผลงานจริงยังคงเป็นเพียงชื่อบนเว็บไซต์",
+      "Kairos ถูกสร้างขึ้นเพื่อเป็นสิ่งที่ตรงกันข้าม ทุกเซสชัน ทุกเรียงความ ทุกการปรึกษากลยุทธ์คือ Ron ด้วยตัวเอง เขารับดูแลครอบครัวเพียงจำนวนน้อยในแต่ละปี เพราะนั่นเป็นวิธีเดียวที่จะรู้จักนักเรียนดีพอที่จะช่วยให้เขาโดดเด่น",
+      "Ron เติบโตในระบบโรงเรียนนานาชาติในเกาหลี และศึกษาที่ University of Illinois ตลอดเส้นทางอาชีพ เขาได้ชี้แนะนักเรียนเข้าสู่ Harvard, Yale, Columbia, Penn, Dartmouth, Cornell, Duke, Johns Hopkins และ University of Chicago อีกทั้งยังเคยทำงานในฝั่งการให้คำปรึกษาที่โรงเรียนนานาชาติ"
     ],
     "quote": {
-      "text": "The students I remember are not the ones with the highest test scores. They are the ones who found their real story and had the courage to tell it.",
-      "by": "Ron Kim · Founder"
+      "text": "นักเรียนที่ผมจดจำได้ ไม่ใช่คนที่มีคะแนนสอบสูงที่สุด แต่เป็นคนที่ค้นพบเรื่องราวที่แท้จริงของตัวเอง และมีความกล้าที่จะบอกเล่ามันออกมา",
+      "by": "Ron Kim · ผู้ก่อตั้ง"
     },
-    "reassure": "At Kairos, your child will never be handed to someone else. The strategy, the feedback, the calls: that is Ron, every time."
+    "reassure": "ที่ Kairos ลูกของคุณจะไม่มีวันถูกส่งต่อให้คนอื่น ทั้งกลยุทธ์ ข้อเสนอแนะ และการพูดคุย ทั้งหมดนั้นคือ Ron ทุกครั้ง"
   },
   "faq": {
-    "tag": "FAQ",
-    "title": "Common <span class=\"gold-foil\">questions.</span>",
+    "tag": "คำถามที่พบบ่อย",
+    "title": "คำถาม<span class=\"gold-foil\">ที่พบบ่อย</span>",
     "items": [
       {
-        "q": "How is Kairos different from a big firm like Crimson?",
-        "a": "At a large firm, after you sign, your child is usually assigned to a junior associate while the senior names stay in the marketing. At Kairos, every session is with Ron, who spent time inside one of those firms and built Kairos to fix exactly this. You get the person with the track record, every time."
+        "q": "Kairos แตกต่างจากบริษัทใหญ่อย่าง Crimson อย่างไร",
+        "a": "ที่บริษัทใหญ่ หลังจากคุณเซ็นสัญญา ลูกของคุณมักถูกมอบหมายให้ผู้ช่วยรุ่นใหม่ ในขณะที่ชื่อของผู้เชี่ยวชาญอาวุโสยังคงอยู่ในสื่อการตลาด ที่ Kairos ทุกเซสชันคือ Ron ผู้ซึ่งเคยทำงานในบริษัทเหล่านั้น และสร้าง Kairos ขึ้นเพื่อแก้ปัญหานี้โดยตรง คุณจะได้บุคคลที่มีประวัติผลงานจริงทุกครั้ง"
       },
       {
-        "q": "Will Ron write my child's essays?",
-        "a": "No. Every word stays your child's. Ron coaches and refines, but ghostwritten essays are both detectable and a risk to your child. Our results come from authentic work."
+        "q": "Ron จะเขียนเรียงความให้ลูกของฉันหรือไม่",
+        "a": "ไม่ ทุกถ้อยคำยังคงเป็นของลูกคุณ Ron ให้คำแนะนำและขัดเกลา แต่เรียงความที่เขียนแทนนั้นทั้งตรวจจับได้และเป็นความเสี่ยงต่อลูกของคุณ ผลลัพธ์ของเรามาจากงานที่แท้จริง"
       },
       {
-        "q": "When should my child start?",
-        "a": "Grade 9 for Legacy, Grade 10 for Prestige, Grade 11 for Scholar. Foundation is for seniors who need focused help with the application itself. Earlier gives Ron more to work with, but it is rarely too late."
+        "q": "ลูกของฉันควรเริ่มเมื่อใด",
+        "a": "ชั้นปีที่ 9 สำหรับ Legacy, ชั้นปีที่ 10 สำหรับ Prestige, ชั้นปีที่ 11 สำหรับ Scholar ส่วน Foundation เหมาะสำหรับนักเรียนชั้นปีสุดท้ายที่ต้องการความช่วยเหลืออย่างมุ่งเน้นกับตัวใบสมัครเอง ยิ่งเริ่มเร็วยิ่งให้ Ron มีสิ่งที่ทำงานร่วมกันได้มากขึ้น แต่ก็แทบไม่เคยสายเกินไป"
       },
       {
-        "q": "Do you work with families outside Korea?",
-        "a": "Yes. Current and past families are in Korea, Thailand, Singapore, Ethiopia, Jordan, and the US. Every session is on Zoom, so time zone is never a problem."
+        "q": "คุณรับดูแลครอบครัวนอกประเทศเกาหลีหรือไม่",
+        "a": "รับ ครอบครัวทั้งปัจจุบันและในอดีตอยู่ที่เกาหลี ไทย สิงคโปร์ เอธิโอเปีย จอร์แดน และสหรัฐฯ ทุกเซสชันจัดผ่าน Zoom ดังนั้นเขตเวลาจึงไม่เคยเป็นปัญหา"
       },
       {
-        "q": "What does a session look like?",
-        "a": "Sixty minutes on Zoom, focused on whatever matters most that week: an essay draft, the school list, interview prep, or how your child is spending their time. Your child comes with something to work on, and Ron comes prepared."
+        "q": "เซสชันหนึ่งเป็นอย่างไร",
+        "a": "หกสิบนาทีผ่าน Zoom มุ่งเน้นไปที่สิ่งที่สำคัญที่สุดในสัปดาห์นั้น ไม่ว่าจะเป็นร่างเรียงความ รายชื่อมหาวิทยาลัย การเตรียมสัมภาษณ์ หรือการใช้เวลาของลูกคุณ ลูกของคุณมาพร้อมสิ่งที่จะทำงาน และ Ron มาอย่างเตรียมพร้อม"
       }
     ]
   },
   "videoCta": {
-    "title": "This could be your child.",
-    "sub": "Let's make it happen.",
-    "cta": "Start with a free consultation",
+    "title": "นี่อาจเป็นลูกของคุณ",
+    "sub": "มาทำให้มันเป็นจริงกัน",
+    "cta": "เริ่มต้นด้วยการปรึกษาฟรี",
     "poster": "/assets/img/admit-yale.jpg"
   },
   "contact": {
-    "tag": "Contact",
-    "title": "Start with a <span class=\"gold-foil\">free consultation.</span>",
-    "sub": "The first consultation is free and there is no obligation. Ron will talk through your child's goals, where they stand today, and whether Kairos is the right fit. No pressure and no scripted pitch, just an honest conversation. Bring your child if you would like them on the call.",
-    "emailLabel": "Email",
-    "locationLabel": "Based in",
-    "location": "Seoul, Korea · working with families across 10+ countries",
-    "formNote": "We reply within 24 hours. Your details stay private and are never shared.",
+    "tag": "ติดต่อเรา",
+    "title": "เริ่มต้นด้วย<span class=\"gold-foil\">การปรึกษาฟรี</span>",
+    "sub": "การปรึกษาครั้งแรกฟรีและไม่มีข้อผูกมัด Ron จะพูดคุยถึงเป้าหมายของลูกคุณ จุดที่เขายืนอยู่ในวันนี้ และว่า Kairos เหมาะสมหรือไม่ ไม่มีการกดดันและไม่มีบทพูดสำเร็จรูป มีเพียงการสนทนาอย่างจริงใจ พาลูกของคุณมาร่วมการพูดคุยด้วยได้หากต้องการ",
+    "emailLabel": "อีเมล",
+    "locationLabel": "ที่ตั้ง",
+    "location": "โซล ประเทศเกาหลี · ทำงานกับครอบครัวในกว่า 10 ประเทศ",
+    "formNote": "เราตอบกลับภายใน 24 ชั่วโมง ข้อมูลของคุณจะถูกเก็บเป็นความลับและจะไม่ถูกเปิดเผยแก่ผู้ใด",
     "expect": {
-      "title": "During your consultation, you will:",
+      "title": "ในการปรึกษาของคุณ คุณจะได้:",
       "steps": [
         {
-          "title": "Get an honest assessment",
-          "desc": "An honest read on where things stand today, and what genuinely sets the student apart."
+          "title": "รับการประเมินอย่างตรงไปตรงมา",
+          "desc": "มุมมองที่ตรงไปตรงมาว่าสถานะปัจจุบันเป็นอย่างไร และอะไรที่ทำให้นักเรียนโดดเด่นแตกต่างอย่างแท้จริง"
         },
         {
-          "title": "Talk through your goals",
-          "desc": "The student's strengths, their target schools or programs, and what it will take to get there."
+          "title": "พูดคุยถึงเป้าหมายของคุณ",
+          "desc": "จุดแข็งของนักเรียน มหาวิทยาลัยหรือหลักสูตรเป้าหมาย และสิ่งที่ต้องทำเพื่อไปให้ถึง"
         },
         {
-          "title": "See how Kairos works",
-          "desc": "The personalized roadmap we would build together, and exactly how working with Ron unfolds."
+          "title": "เห็นว่า Kairos ทำงานอย่างไร",
+          "desc": "แผนการเฉพาะตัวที่เราจะสร้างขึ้นร่วมกัน และการร่วมงานกับ Ron จะเป็นอย่างไรในทุกขั้นตอน"
         },
         {
-          "title": "Leave with a clear plan",
-          "desc": "Clear next steps and the right level of support for your family — and the space to decide in your own time."
+          "title": "กลับไปพร้อมแผนที่ชัดเจน",
+          "desc": "ขั้นตอนต่อไปที่ชัดเจนและระดับการสนับสนุนที่เหมาะกับครอบครัวของคุณ พร้อมพื้นที่ให้ตัดสินใจในเวลาของคุณเอง"
         }
       ]
     },
     "form": {
-      "nameLabel": "Your name",
-      "namePlaceholder": "Your name",
-      "gradeLabel": "Your child's grade",
-      "emailLabel": "Email",
-      "emailPlaceholder": "you@email.com",
-      "universitiesLabel": "Target universities",
-      "universitiesPlaceholder": "Harvard, Stanford, …",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Tell us about your child and your goals",
-      "submit": "Send message <span class=\"arrow\">→</span>",
+      "nameLabel": "ชื่อของคุณ",
+      "namePlaceholder": "ชื่อของคุณ",
+      "gradeLabel": "ชั้นเรียนของลูกคุณ",
+      "emailLabel": "อีเมล",
+      "emailPlaceholder": "อีเมลของคุณ",
+      "universitiesLabel": "มหาวิทยาลัยเป้าหมาย",
+      "universitiesPlaceholder": "เช่น Harvard, Stanford, MIT...",
+      "messageLabel": "ข้อความ",
+      "messagePlaceholder": "เล่าให้เราฟังเกี่ยวกับลูกของคุณและเป้าหมายของคุณ",
+      "submit": "ส่งข้อความ <span class=\"arrow\">→</span>",
       "grades": [
-        "Grade 9",
-        "Grade 10",
-        "Grade 11",
-        "Grade 12",
+        "ชั้นปีที่ 9",
+        "ชั้นปีที่ 10",
+        "ชั้นปีที่ 11",
+        "ชั้นปีที่ 12",
         "Gap year"
       ]
     }
   },
   "footer": {
-    "tagline": "Boutique college admissions consulting. One student, one counselor, in the US and in Korea.",
-    "col1Heading": "Study in the US",
+    "tagline": "ที่ปรึกษาการสมัครเข้ามหาวิทยาลัยระดับบูทีค หนึ่งนักเรียน หนึ่งที่ปรึกษา ทั้งในสหรัฐฯ และในเกาหลี",
+    "col1Heading": "เรียนต่อสหรัฐฯ",
     "col1": [
       {
         "href": "#results",
-        "text": "Admissions Results"
+        "text": "ผลลัพธ์"
       },
       {
         "href": "#packages",
-        "text": "Packages & Pricing"
+        "text": "แพ็กเกจ"
       },
       {
         "href": "#us-process",
-        "text": "How It Works"
+        "text": "ขั้นตอนการทำงาน"
       },
       {
         "href": "#about",
-        "text": "About Kairos"
+        "text": "เกี่ยวกับเรา"
       },
       {
         "href": "#faq",
-        "text": "FAQ"
+        "text": "คำถามที่พบบ่อย"
       }
     ],
-    "col2Heading": "Study in Korea",
+    "col2Heading": "เรียนต่อเกาหลี",
     "col2": [
       {
         "href": "/study-korea.html#pathways",
-        "text": "Three Pathways"
+        "text": "เส้นทางการเรียน"
       },
       {
         "href": "/study-korea.html#universities",
-        "text": "Korean Universities"
+        "text": "มหาวิทยาลัย"
       },
       {
         "href": "/study-korea.html#packages",
-        "text": "Packages & Pricing"
+        "text": "แพ็กเกจ"
       },
       {
         "href": "/study-korea.html#faq",
-        "text": "FAQ"
+        "text": "คำถามที่พบบ่อย"
       }
     ],
-    "disc": "Kairos Education is an independent consultancy and is not affiliated with, endorsed by, or sponsored by any university or institution named on this site. Results vary by student and depend on starting point, timeline, target schools, and individual effort. Past admissions outcomes do not guarantee future results.",
-    "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
+    "disc": "Kairos Education เป็นบริษัทที่ปรึกษาอิสระ และไม่ได้มีความเกี่ยวข้อง ไม่ได้รับการรับรอง หรือได้รับการสนับสนุนจากมหาวิทยาลัยหรือสถาบันใดที่ปรากฏชื่อบนเว็บไซต์นี้ ผลลัพธ์แตกต่างกันไปในแต่ละนักเรียน และขึ้นอยู่กับจุดเริ่มต้น ระยะเวลา มหาวิทยาลัยเป้าหมาย และความพยายามของแต่ละบุคคล ผลการรับเข้าในอดีตไม่ได้รับประกันผลลัพธ์ในอนาคต",
+    "copyright": "© 2026 Kairos Education สงวนลิขสิทธิ์",
+    "meta": "โซล ประเทศเกาหลี · ทั่วโลก · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   },
   "sticky": {
-    "msg": "<span class=\"sm-main\">โอกาสครั้งเดียวของลูกคุณควรมีที่ปรึกษาที่ใช่</span><span class=\"sub\">ปรึกษาครั้งแรกฟรี ไม่มีข้อผูกมัด</span>",
-    "getStarted": "เริ่มต้น",
+    "msg": "<span class=\"sm-main\">โอกาสเพียงครั้งเดียวของลูกคุณคู่ควรกับที่ปรึกษาที่ใช่</span><span class=\"sub\">การปรึกษาครั้งแรกฟรี ไม่มีข้อผูกมัด</span>",
+    "getStarted": "เริ่มต้นเลย",
     "bookFree": "จองปรึกษาฟรี",
     "kakao": "<span>💬</span> KakaoTalk",
     "whatsapp": "WhatsApp"
   },
   "cta": {
-    "kakaoConsult": "<span>💬</span> ปรึกษา 1:1 ผ่าน KakaoTalk",
-    "whatsappConsult": "ปรึกษา 1:1 ผ่าน WhatsApp",
+    "kakaoConsult": "<span>💬</span> ปรึกษาตัวต่อตัวผ่าน KakaoTalk",
+    "whatsappConsult": "ปรึกษาตัวต่อตัวผ่าน WhatsApp",
     "sendMessage": "ส่งข้อความ <span class=\"arrow\">→</span>"
+  },
+  "mobileMenu": {
+    "studyUs": "เรียนต่อสหรัฐฯ",
+    "studyKorea": "เรียนต่อเกาหลี",
+    "bookCta": "จองปรึกษาฟรี",
+    "kakaoCta": "KakaoTalk"
   }
 }

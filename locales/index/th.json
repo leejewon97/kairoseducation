@@ -19,11 +19,31 @@
     "desc": "หลักสูตรสำหรับนักเรียนต่างชาติ ทั้งภาษา ปริญญา และทุน GKS"
   },
   "langChips": [
-    { "code": "en", "flag": "🇬🇧", "label": "English" },
-    { "code": "ko", "flag": "🇰🇷", "label": "한국어" },
-    { "code": "zh", "flag": "🇨🇳", "label": "中文" },
-    { "code": "th", "flag": "🇹🇭", "label": "ภาษาไทย" },
-    { "code": "vi", "flag": "🇻🇳", "label": "Tiếng Việt" }
+    {
+      "code": "en",
+      "flag": "🇬🇧",
+      "label": "English"
+    },
+    {
+      "code": "ko",
+      "flag": "🇰🇷",
+      "label": "한국어"
+    },
+    {
+      "code": "zh",
+      "flag": "🇨🇳",
+      "label": "中文"
+    },
+    {
+      "code": "th",
+      "flag": "🇹🇭",
+      "label": "ภาษาไทย"
+    },
+    {
+      "code": "vi",
+      "flag": "🇻🇳",
+      "label": "Tiếng Việt"
+    }
   ],
   "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&family=Noto+Sans+Thai:wght@400;500;600;700&family=Noto+Serif+Thai:wght@400;500;600&display=swap"
 }

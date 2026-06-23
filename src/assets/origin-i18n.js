@@ -1,4 +1,5 @@
 import { updateSeoMeta } from './seo-i18n.js';
+import { buildMobileMenuHtml, originSectionLinks } from './mobile-nav.js';
 
 function esc(s) {
   if (s == null) return '';
@@ -302,19 +303,6 @@ function renderLangSwitcher(links) {
     .join('');
 }
 
-function renderMobileNavLinks(nav) {
-  const links = [
-    { href: '#results', label: nav.results },
-    { href: '#us-worries', label: nav.why },
-    { href: '#about', label: nav.about },
-    { href: '#us-process', label: nav.process },
-    { href: '#packages', label: nav.packages },
-    { href: '#faq', label: nav.faq },
-    { href: '#contact', label: nav.contact, view: 'contact' },
-  ];
-  return links.map((l) => `<a href="${esc(l.href)}" class="mm-link"${l.view ? ` data-view="${esc(l.view)}"` : ''}>${esc(l.label)}</a>`).join('');
-}
-
 function renderHeroCta(primaryCta, secondaryCta) {
   return `<a href="#contact" data-view="contact" class="btn btn-navy">${primaryCta}</a>
     <a href="#results" class="btn btn-ghost">${esc(secondaryCta)}</a>`;
@@ -399,7 +387,13 @@ export function applyLocale(data) {
   if (langSwitcher) langSwitcher.innerHTML = renderLangSwitcher(data.langLinks);
 
   const mobileLinks = document.getElementById('mount-mobile-links');
-  if (mobileLinks) mobileLinks.innerHTML = renderMobileNavLinks(data.nav);
+  if (mobileLinks && data.mobileMenu) {
+    mobileLinks.innerHTML = buildMobileMenuHtml({
+      page: 'origin',
+      mobileMenu: data.mobileMenu,
+      sectionLinks: originSectionLinks(data.nav),
+    });
+  }
 
   setText('#mount-hero-badge', data.hero.badge);
   setHtml('#mount-hero-h1', data.hero.h1);

@@ -247,6 +247,35 @@ function initMobileMenu() {
     document.body.classList.add('no-scroll');
   });
   if (closeBtn) closeBtn.addEventListener('click', closeMobileMenu);
+
+  menu.addEventListener('click', (e) => {
+    const section = e.target.closest('[data-mm-section]');
+    if (section) {
+      e.preventDefault();
+      e.stopPropagation();
+      const id = section.getAttribute('href').slice(1);
+      closeMobileMenu();
+      if (hasSpaViews() && currentView === 'contact') {
+        showView('us');
+        setTimeout(() => scrollToSection(id), 120);
+      } else {
+        scrollToSection(id);
+      }
+      return;
+    }
+
+    const book = e.target.closest('[data-mm-book]');
+    if (book) {
+      e.preventDefault();
+      e.stopPropagation();
+      showView('contact');
+      return;
+    }
+
+    if (e.target.closest('[data-mm-kakao]') || e.target.closest('.mm-route')) {
+      closeMobileMenu();
+    }
+  });
 }
 
 function onLangChange() {

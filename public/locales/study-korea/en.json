@@ -8,10 +8,22 @@
   "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap",
   "fontFamily": "'Hanken Grotesk', sans-serif",
   "langLinks": [
-    { "code": "ko", "label": "한국어" },
-    { "code": "zh", "label": "中文" },
-    { "code": "th", "label": "ภาษาไทย" },
-    { "code": "vi", "label": "Tiếng Việt" }
+    {
+      "code": "ko",
+      "label": "한국어"
+    },
+    {
+      "code": "zh",
+      "label": "中文"
+    },
+    {
+      "code": "th",
+      "label": "ภาษาไทย"
+    },
+    {
+      "code": "vi",
+      "label": "Tiếng Việt"
+    }
   ],
   "nav": {
     "whyKorea": "Why Korea",
@@ -40,12 +52,20 @@
     "authority": "Kairos guides students into",
     "primaryCta": "Book a free consultation <span class=\"arrow\">→</span>",
     "secondaryCta": "See your pathways",
-    "marquee": ["SNU", "Korea University", "Yonsei", "KAIST", "POSTECH", "Ewha"]
+    "marquee": [
+      "SNU",
+      "Korea University",
+      "Yonsei",
+      "KAIST",
+      "POSTECH",
+      "Ewha"
+    ]
   },
   "worries": {
     "tag": "Why It Matters",
     "title": "Sound <span class=\"gold-foil\">familiar?</span>",
     "lead": "Most people who come to Kairos for Korea are stuck on one of these. Each one is solvable with the right plan.",
+    "foot": "Ron lives in Seoul and knows these programs from the inside. The path exists. He helps you find it and walk it.",
     "items": [
       {
         "title": "You don't know where to start.",
@@ -63,12 +83,11 @@
         "title": "The GKS scholarship feels out of reach.",
         "desc": "It is competitive, but it is winnable with the right strategy, which is exactly where Ron adds the most value."
       }
-    ],
-    "foot": "Ron lives in Seoul and knows these programs from the inside. The path exists. He helps you find it and walk it."
+    ]
   },
   "why": {
     "tag": "Why Korea",
-    "title": "One of the best education decisions <span class=\"gold-foil\">you can make.</span>",
+    "title": "One of the best education <span class=\"gold-foil\">decisions you can make.</span>",
     "sub": "Korea's universities rank among the top 100 in the world, tuition costs a fraction of the US or UK, and Seoul is one of the most exciting cities anywhere to spend your twenties.",
     "cards": [
       {
@@ -107,13 +126,25 @@
     "eyebrow": "The Kairos Difference",
     "title": "Seoul-based. One on one.",
     "sub": "Specialized in Korea, not everything at once.",
+    "note": "Visa rules and scholarship terms vary by country and year. Kairos guides preparation but does not control admissions or visa decisions.",
     "stats": [
-      { "value": "3", "label": "Language, degree & scholarship pathways" },
-      { "value": "SKY", "label": "SNU, Korea U, Yonsei & all majors" },
-      { "value": "1:1", "label": "With Ron, never a junior agent" },
-      { "value": "15+", "label": "Countries served" }
-    ],
-    "note": "Visa rules and scholarship terms vary by country and year. Kairos guides preparation but does not control admissions or visa decisions."
+      {
+        "value": "3",
+        "label": "Language, degree & scholarship pathways"
+      },
+      {
+        "value": "SKY",
+        "label": "SNU, Korea U, Yonsei & all majors"
+      },
+      {
+        "value": "1:1",
+        "label": "With Ron, never a junior agent"
+      },
+      {
+        "value": "15+",
+        "label": "Countries served"
+      }
+    ]
   },
   "pathways": {
     "tag": "Study Pathways",
@@ -166,7 +197,7 @@
   },
   "universities": {
     "tag": "Institutions",
-    "title": "Where Kairos can <span class=\"gold-foil\">take you.</span>",
+    "title": "Where Kairos <span class=\"gold-foil\">can take you.</span>",
     "sub": "Ron has the Seoul-insider knowledge to match you with the right institution, whether that is a SKY university, a world-ranked science school, or the best language center for your goals.",
     "groups": [
       {
@@ -244,7 +275,7 @@
   },
   "packages": {
     "tag": "Services & Pricing",
-    "title": "Choose your <span class=\"gold-foil\">package.</span>",
+    "title": "Choose <span class=\"gold-foil\">your package.</span>",
     "sub": "Three packages, one goal: getting you to Korea with the right program, the right visa, and a plan that holds up. Every session is one-on-one with Ron.",
     "priceNote": "Transparent pricing, no inquiry required. Most students start with a free consultation to find the right pathway.",
     "packageCta": "Get started",
@@ -369,22 +400,22 @@
     "sub": "The first consultation is free and there is no obligation. Ron will talk through your goals, your Korean level, your timeline, and whether Kairos is the right fit. No pressure, just an honest conversation with someone who knows Korea from the inside.",
     "emailLabel": "Email",
     "locationLabel": "Based in",
-    "location": "Seoul, Korea · working with students in 15+ countries",
+    "location": "Seoul, Korea · working with students across 15+ countries",
     "formNote": "We reply within 24 hours. Your details stay private and are never shared.",
     "expect": {
       "title": "During your consultation, you will:",
       "steps": [
         {
           "title": "Get an honest assessment",
-          "desc": "An honest read on where you stand today as an applicant, and what genuinely sets you apart."
+          "desc": "An honest read on where things stand today, and what genuinely sets the student apart."
         },
         {
           "title": "Talk through your goals",
-          "desc": "Your strengths, your target schools or programs, and what it will take to get there."
+          "desc": "The student's strengths, their target schools or programs, and what it will take to get there."
         },
         {
           "title": "See how Kairos works",
-          "desc": "The personalized roadmap we would build with you, and exactly how working with Ron unfolds."
+          "desc": "The personalized roadmap we would build together, and exactly how working with Ron unfolds."
         },
         {
           "title": "Leave with a clear plan",
@@ -394,54 +425,87 @@
     },
     "form": {
       "nameLabel": "Your name",
-      "namePlaceholder": "Your full name",
+      "namePlaceholder": "Full name",
       "countryLabel": "Country of residence",
-      "countryPlaceholder": "e.g. Spain, Japan, China, Brazil…",
+      "countryPlaceholder": "Country",
       "emailLabel": "Email",
       "emailPlaceholder": "you@email.com",
       "goalLabel": "Study goal",
       "goalPlaceholder": "Select your goal…",
       "goals": [
-        "Language Program (D-4 Visa)",
-        "Undergraduate Degree",
-        "Graduate Degree (MA / PhD)",
-        "GKS Scholarship (Fully Funded)",
-        "Not sure yet — need guidance"
+        "Language Program (D-4 visa)",
+        "Undergraduate degree",
+        "Graduate degree (MA / PhD)",
+        "GKS scholarship",
+        "Not sure yet"
       ],
       "koreanLevelLabel": "Current Korean level",
       "koreanLevelPlaceholder": "Select level…",
       "koreanLevels": [
-        "Zero — Complete beginner",
-        "Basic — Know Hangul, some words",
-        "Intermediate — TOPIK 2–3",
-        "Advanced — TOPIK 4–6"
+        "Zero, complete beginner",
+        "Basic, know Hangul and some words",
+        "Intermediate, TOPIK 2–3",
+        "Advanced, TOPIK 4–6"
       ],
       "universitiesLabel": "Target universities or programs (if known)",
       "universitiesPlaceholder": "e.g. Yonsei KLI, SNU, KAIST…",
       "messageLabel": "Tell us about your goals",
-      "messagePlaceholder": "When do you want to start? What are you hoping to study or achieve in Korea?",
+      "messagePlaceholder": "Target universities, timeline, questions",
       "submit": "Send message <span class=\"arrow\">→</span>"
     }
   },
   "footer": {
     "tagline": "Boutique college admissions consulting. One student, one counselor, in the US and in Korea.",
-    "col1Heading": "Study in the US",
+    "col1Heading": "Study in Korea",
     "col1": [
-      { "href": "/origin.html#results", "text": "Results" },
-      { "href": "/origin.html#us-process", "text": "How it works" },
-      { "href": "/origin.html#packages", "text": "Packages" },
-      { "href": "/origin.html#about", "text": "About" },
-      { "href": "/origin.html#faq", "text": "FAQ" }
+      {
+        "href": "/origin.html#results",
+        "text": "Results"
+      },
+      {
+        "href": "/origin.html#us-process",
+        "text": "How It Works"
+      },
+      {
+        "href": "/origin.html#packages",
+        "text": "Packages"
+      },
+      {
+        "href": "/origin.html#about",
+        "text": "About"
+      },
+      {
+        "href": "/origin.html#faq",
+        "text": "FAQ"
+      }
     ],
-    "col2Heading": "Study in Korea",
+    "col2Heading": "Study in the US",
     "col2": [
-      { "href": "#why-korea", "text": "Why Korea" },
-      { "href": "#pathways", "text": "Pathways" },
-      { "href": "#packages", "text": "Packages" },
-      { "href": "#faq", "text": "FAQ" }
+      {
+        "href": "#why-korea",
+        "text": "Why Korea"
+      },
+      {
+        "href": "#pathways",
+        "text": "Pathways"
+      },
+      {
+        "href": "#packages",
+        "text": "Packages"
+      },
+      {
+        "href": "#faq",
+        "text": "FAQ"
+      }
     ],
     "disc": "Kairos Education is an independent consultancy and is not affiliated with, endorsed by, or sponsored by any university or institution named on this site. Results vary by student and depend on starting point, timeline, target schools, and individual effort. Past admissions outcomes do not guarantee future results.",
     "copyright": "© 2026 Kairos Education. All rights reserved.",
     "meta": "Seoul, Korea · Worldwide"
+  },
+  "mobileMenu": {
+    "studyUs": "Study in the US",
+    "studyKorea": "Study in Korea",
+    "bookCta": "Book a free consultation",
+    "kakaoCta": "KakaoTalk"
   }
 }

@@ -8,46 +8,42 @@
   "fontFamily": "'Hanken Grotesk', sans-serif",
   "langLinks": [
     {
+      "code": "en",
+      "label": "English"
+    },
+    {
       "code": "ko",
-      "href": "/ko/",
       "label": "한국어"
     },
     {
       "code": "zh",
-      "href": "/zh/",
       "label": "中文"
     },
     {
       "code": "th",
-      "href": "/th/",
       "label": "ภาษาไทย"
-    },
-    {
-      "code": "vi",
-      "href": "/vi/",
-      "label": "Tiếng Việt"
     }
   ],
-  "scarcity": "Kairos works with a limited number of families each year.<span class=\"dot\">◆</span>A few places remain for the current cycle.",
+  "scarcity": "Mỗi năm Kairos chỉ đồng hành cùng một số lượng gia đình giới hạn.<span class=\"dot\">◆</span>Vẫn còn một vài suất cho kỳ tuyển sinh hiện tại.",
   "nav": {
-    "why": "Why It Matters",
-    "results": "Results",
-    "process": "How It Works",
-    "packages": "Packages",
-    "about": "About",
-    "faq": "FAQ",
-    "contact": "Contact",
-    "cta": "Book a consultation",
-    "menuOpen": "Open menu",
-    "menuClose": "Close menu"
+    "why": "Vì sao quan trọng",
+    "results": "Kết quả",
+    "process": "Quy trình",
+    "packages": "Gói dịch vụ",
+    "about": "Giới thiệu",
+    "faq": "Câu hỏi thường gặp",
+    "contact": "Liên hệ",
+    "cta": "Đặt lịch tư vấn",
+    "menuOpen": "Mở menu",
+    "menuClose": "Đóng menu"
   },
   "hero": {
-    "badge": "Boutique College Admissions Consulting · Worldwide",
-    "h1": "Your child has one shot at the Ivy League. Give it the <span class=\"gold-foil\">counselor it deserves.</span>",
-    "lead": "Kairos is boutique admissions consulting for families targeting Harvard, Yale, and the world's most selective universities. From the first call to the final essay, your child works directly with Ron Kim — Kairos's founder, a former Crimson consultant whose students earn Ivy League admission. Never a junior associate, never a rotating team. At the big firms, your child is one file among thousands; here, they are the only student in the room.",
-    "authority": "Kairos students have been admitted to",
-    "primaryCta": "Book a free consultation <span class=\"arrow\">→</span>",
-    "secondaryCta": "See the results",
+    "badge": "Tư vấn tuyển sinh đại học cao cấp theo mô hình boutique · Toàn cầu",
+    "h1": "Con bạn chỉ có một cơ hội duy nhất với Ivy League. Hãy trao cho con <span class=\"gold-foil\">người cố vấn xứng đáng.</span>",
+    "lead": "Kairos là dịch vụ tư vấn tuyển sinh cao cấp theo mô hình boutique, dành cho những gia đình hướng tới Harvard, Yale và các trường đại học chọn lọc nhất thế giới. Từ cuộc gọi đầu tiên đến bài luận cuối cùng, con bạn làm việc trực tiếp với Ron Kim, nhà sáng lập Kairos, một cựu chuyên gia tư vấn của Crimson với những học sinh trúng tuyển Ivy League. Không bao giờ là một trợ lý non trẻ, không bao giờ là một đội ngũ thay người luân phiên. Tại các công ty lớn, con bạn chỉ là một hồ sơ giữa hàng nghìn hồ sơ; còn tại đây, con là học sinh duy nhất trong phòng.",
+    "authority": "Học sinh của Kairos đã trúng tuyển vào",
+    "primaryCta": "Đặt lịch tư vấn miễn phí <span class=\"arrow\">→</span>",
+    "secondaryCta": "Xem kết quả",
     "marquee": [
       "Harvard",
       "Yale",
@@ -61,58 +57,58 @@
     ]
   },
   "worries": {
-    "tag": "Why It Matters",
-    "title": "Does this sound like <span class=\"gold-foil\">your family?</span>",
-    "lead": "Most parents who come to Kairos are carrying one of these worries. Naming it is the first step to fixing it.",
+    "tag": "Vì sao quan trọng",
+    "title": "Điều này có giống <span class=\"gold-foil\">gia đình bạn không?</span>",
+    "lead": "Hầu hết các bậc phụ huynh tìm đến Kairos đều mang theo một trong những nỗi lo này. Gọi tên được nó chính là bước đầu tiên để giải quyết.",
+    "foot": "Chúng tôi đã đồng hành qua từng nỗi lo này. Giải pháp không bao giờ là cố gắng nhiều hơn. Đó là chiến lược đúng đắn, xây dựng riêng cho con bạn.",
     "items": [
       {
-        "title": "Strong grades, but is it enough?",
-        "desc": "Your child has the GPA and the scores. So do thousands of other applicants. Numbers get an application read, not admitted."
+        "title": "Điểm số tốt, nhưng liệu đã đủ chưa?",
+        "desc": "Con bạn có GPA và điểm thi tốt. Nhưng hàng nghìn thí sinh khác cũng vậy. Những con số giúp hồ sơ được đọc, chứ không giúp trúng tuyển."
       },
       {
-        "title": "A long activities list with no through-line.",
-        "desc": "There is plenty on the resume, but nothing that adds up to a single story an admissions officer remembers."
+        "title": "Một danh sách hoạt động dài nhưng thiếu mạch xuyên suốt.",
+        "desc": "Hồ sơ có rất nhiều thứ, nhưng không có gì kết nối thành một câu chuyện duy nhất khiến ban tuyển sinh nhớ đến."
       },
       {
-        "title": "The essay feels impossible to start.",
-        "desc": "Your child is talented, but getting that onto the page in their own voice is where almost everyone freezes."
+        "title": "Bài luận dường như không biết bắt đầu từ đâu.",
+        "desc": "Con bạn rất tài năng, nhưng đưa được điều đó lên trang giấy bằng chính giọng văn của mình là chỗ gần như ai cũng chững lại."
       },
       {
-        "title": "A big firm already let you down.",
-        "desc": "You paid for a brand and got handed to a junior associate who gave you information, not a plan."
+        "title": "Một công ty lớn đã từng khiến bạn thất vọng.",
+        "desc": "Bạn trả tiền cho một thương hiệu nhưng lại được giao cho một nhân viên non kinh nghiệm, người chỉ đưa thông tin chứ không phải một chiến lược."
       }
-    ],
-    "foot": "We have sat with every one of these. The fix is never more effort. It is the right strategy, built around your child."
+    ]
   },
   "proof": {
-    "eyebrow": "By The Numbers",
-    "title": "A track record, not a promise.",
-    "sub": "Boutique scale, with outcomes families recognize.",
+    "eyebrow": "Qua những con số",
+    "title": "Một bề dày thành tích, không phải một lời hứa.",
+    "sub": "Quy mô boutique, với những kết quả mà các gia đình đều nhận ra.",
+    "note": "Kết quả khác nhau tùy từng học sinh, phụ thuộc vào điểm xuất phát, lộ trình thời gian, trường mục tiêu và nỗ lực của chính học sinh. Kết quả tuyển sinh trong quá khứ không đảm bảo kết quả trong tương lai.",
     "stats": [
       {
         "value": "8",
-        "label": "Ivy League admits"
+        "label": "Lượt trúng tuyển Ivy League"
       },
       {
         "value": "30+",
-        "label": "Top 40 placements"
+        "label": "Lượt vào Top 40"
       },
       {
         "value": "1:1",
-        "label": "Directly with Ron, every session"
+        "label": "Trực tiếp với Ron, trong từng buổi học"
       },
       {
         "value": "100%",
-        "label": "Student-written, no ghostwriting"
+        "label": "Học sinh tự viết, không có người viết hộ"
       }
-    ],
-    "note": "Results vary by student, depending on starting point, timeline, target schools, and the work the student puts in. Past admissions do not guarantee future outcomes."
+    ]
   },
   "results": {
-    "tag": "Track Record",
-    "title": "Where Kairos students <span class=\"gold-foil\">get in.</span>",
-    "sub": "Kairos students come from Korea, Singapore, the US, the UK, Jordan, Ethiopia, and beyond, and they earn places at the universities parents hope for and rarely say out loud.",
-    "admit": "Admit",
+    "tag": "Bề dày thành tích",
+    "title": "Nơi học sinh Kairos <span class=\"gold-foil\">trúng tuyển.</span>",
+    "sub": "Học sinh của Kairos đến từ Hàn Quốc, Singapore, Mỹ, Anh, Jordan, Ethiopia và nhiều nơi khác, và các em giành được suất vào những trường đại học mà cha mẹ vẫn hằng mong nhưng hiếm khi nói thành lời.",
+    "admit": "Trúng tuyển",
     "admitShowcase": [
       {
         "name": "Minjun",
@@ -276,7 +272,7 @@
         ]
       },
       {
-        "label": "Top 26–40 & Specialty",
+        "label": "Top 26–40 & Trường chuyên ngành",
         "tier": 3,
         "universities": [
           {
@@ -365,7 +361,7 @@
         ]
       },
       {
-        "label": "International",
+        "label": "Quốc tế",
         "tier": 0,
         "universities": [
           {
@@ -396,177 +392,177 @@
         ]
       }
     ],
-    "legend": "Results from the classes of 2023–2027."
+    "legend": "Kết quả từ các khóa 2023–2027."
   },
   "process": {
-    "tag": "The Process",
-    "title": "How it <span class=\"gold-foil\">works.</span>",
-    "lead": "A clear path from where your child is now to the acceptance letter. Every step is with Ron, in order, with nothing left to the last minute.",
+    "tag": "Quy trình",
+    "title": "Cách <span class=\"gold-foil\">vận hành.</span>",
+    "lead": "Một con đường rõ ràng từ vị trí hiện tại của con bạn đến lá thư trúng tuyển. Mỗi bước đều có Ron, theo đúng trình tự, không để gì đến phút chót.",
     "steps": [
       {
-        "title": "Assessment & positioning",
-        "desc": "Ron starts by understanding your child honestly: their record, their strengths, and what genuinely sets them apart. This becomes the foundation everything else is built on."
+        "title": "Đánh giá & định vị",
+        "desc": "Ron bắt đầu bằng việc thấu hiểu con bạn một cách chân thực: học bạ, thế mạnh, và điều thực sự khiến con khác biệt. Đây trở thành nền tảng cho mọi thứ về sau."
       },
       {
-        "title": "The strategy roadmap",
-        "desc": "A year-by-year plan across courses, activities, testing, and the application timeline, sequenced so the work is paced and deliberate."
+        "title": "Lộ trình chiến lược",
+        "desc": "Một kế hoạch theo từng năm trải dài qua các môn học, hoạt động, kỳ thi và lịch trình nộp hồ sơ, được sắp xếp sao cho công việc diễn ra có nhịp độ và chủ đích."
       },
       {
-        "title": "Building a standout profile",
-        "desc": "Ron guides the research, leadership, and projects that turn a strong student into a memorable applicant, not just a longer list."
+        "title": "Xây dựng một hồ sơ nổi bật",
+        "desc": "Ron dẫn dắt các dự án nghiên cứu, vai trò lãnh đạo và những dự án biến một học sinh giỏi thành một thí sinh đáng nhớ, chứ không chỉ là một danh sách dài hơn."
       },
       {
-        "title": "School list & application strategy",
-        "desc": "The right schools and the right rounds. Early decision, early action, and regular, chosen around your child's real chances."
+        "title": "Danh sách trường & chiến lược nộp hồ sơ",
+        "desc": "Đúng trường và đúng đợt nộp. Early decision, early action và regular, được lựa chọn dựa trên cơ hội thực sự của con bạn."
       },
       {
-        "title": "Essays & interviews",
-        "desc": "Your child writes; Ron coaches and refines until every essay sounds like them at their best, then prepares them to walk into any interview calm."
+        "title": "Bài luận & phỏng vấn",
+        "desc": "Con bạn viết; Ron hướng dẫn và tinh chỉnh cho đến khi mỗi bài luận đều vang lên đúng giọng văn của con ở phiên bản tốt nhất, rồi chuẩn bị để con bước vào mọi buổi phỏng vấn một cách bình tĩnh."
       }
     ]
   },
   "testimonials": {
     "hidden": true,
-    "eyebrow": "Families",
-    "title": "What families <span class=\"gold-foil\">say.</span>",
+    "eyebrow": "Các gia đình",
+    "title": "Các gia đình <span class=\"gold-foil\">nói gì.</span>",
+    "note": "Các lời chứng thực mẫu hiển thị cho mục đích bố cục. Hãy thay bằng những trích dẫn thật, đã ẩn danh, trước khi ra mắt.",
     "items": [
       {
-        "quote": "We came to Ron the summer before senior year, anxious and behind. He treated our son like the only student he had. The essays sounded like our boy, and the acceptance still feels unreal.",
-        "by": "Parent of a 2025 Columbia admit"
+        "quote": "Chúng tôi tìm đến Ron vào mùa hè trước năm cuối cấp, đầy lo lắng và đã trễ tiến độ. Ông đối xử với con trai chúng tôi như học sinh duy nhất ông có. Các bài luận vang lên đúng giọng văn của con, và việc trúng tuyển đến giờ vẫn cảm thấy như không có thật.",
+        "by": "Phụ huynh của một học sinh trúng tuyển Columbia 2025"
       },
       {
-        "quote": "We had spoken to a large firm first and felt like a number. With Ron it was personal from the first call. He pushed our daughter to find her own voice, and it showed.",
-        "by": "Parent of a 2024 Yale admit"
+        "quote": "Trước đó chúng tôi đã trao đổi với một công ty lớn và cảm thấy mình chỉ là một con số. Với Ron, mọi thứ mang tính cá nhân ngay từ cuộc gọi đầu tiên. Ông thúc đẩy con gái chúng tôi tìm ra giọng nói của riêng mình, và điều đó hiện rõ.",
+        "by": "Phụ huynh của một học sinh trúng tuyển Yale 2024"
       },
       {
-        "quote": "Every email, every draft, every late-night question went straight to Ron. That kind of attention is the reason my application stood out. I will never forget it.",
-        "by": "Kairos student, now at Dartmouth"
+        "quote": "Mỗi email, mỗi bản nháp, mỗi câu hỏi giữa đêm khuya đều đến thẳng với Ron. Chính sự tận tâm đó là lý do hồ sơ của tôi nổi bật. Tôi sẽ không bao giờ quên điều ấy.",
+        "by": "Học sinh Kairos, hiện đang học tại Dartmouth"
       }
-    ],
-    "note": "Placeholder testimonials shown for layout. Replace with real, anonymized quotes before launch."
+    ]
   },
   "services": {
-    "tag": "Services & Pricing",
-    "title": "Choose the right level <span class=\"gold-foil\">for your child.</span>",
-    "sub": "Every family works one-on-one with Ron, wherever they are in the world. No templates. Each plan is built around who your child actually is, and the earlier you start, the more there is to work with.",
-    "priceNote": "Transparent pricing, no inquiry required. Most families start with a free consultation to find the right fit.",
-    "packageCta": "Get started",
-    "packageCtaArrow": "Get started <span class=\"arrow\">→</span>",
-    "alacarteHeading": "À la carte",
-    "alacarteSub": "Individual services, no package required. All essays remain student-written; Ron coaches and gives feedback only.",
-    "alacarteNote": "Competition support (John Locke, Physics Bowl, AMC/AIME, NYT Student Essay, KSEF) from $150/hour.",
+    "tag": "Dịch vụ & Học phí",
+    "title": "Chọn mức độ phù hợp <span class=\"gold-foil\">cho con bạn.</span>",
+    "sub": "Mọi gia đình đều làm việc trực tiếp một-một với Ron, dù đang ở bất cứ đâu trên thế giới. Không có khuôn mẫu. Mỗi kế hoạch được xây dựng quanh con người thật của con bạn, và bắt đầu càng sớm thì càng có nhiều điều để vun đắp.",
+    "priceNote": "Học phí minh bạch, không cần liên hệ hỏi giá. Hầu hết các gia đình bắt đầu bằng một buổi tư vấn miễn phí để tìm gói phù hợp.",
+    "packageCta": "Bắt đầu",
+    "packageCtaArrow": "Bắt đầu <span class=\"arrow\">→</span>",
+    "alacarteHeading": "Dịch vụ lẻ",
+    "alacarteSub": "Các dịch vụ riêng lẻ, không bắt buộc theo gói. Mọi bài luận vẫn do học sinh tự viết; Ron chỉ hướng dẫn và góp ý.",
+    "alacarteNote": "Hỗ trợ thi học thuật (John Locke, Physics Bowl, AMC/AIME, NYT Student Essay, KSEF) từ $150/giờ.",
     "packages": [
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Foundation",
-        "best": "Best for: families whose child is already in senior year and needs the application done right, and done now.",
-        "desc": "The application is the one part of your child's high school years that cannot be redone. Foundation makes sure it shows them at their best.",
-        "meta": "10 sessions · 5–7 months",
+        "best": "Phù hợp nhất với: những gia đình có con đã vào năm cuối cấp và cần hoàn thiện bộ hồ sơ một cách chỉn chu, ngay lúc này.",
+        "desc": "Bộ hồ sơ là phần duy nhất trong những năm trung học của con bạn không thể làm lại. Foundation đảm bảo nó thể hiện con ở phiên bản tốt nhất.",
+        "meta": "10 buổi · 5–7 tháng",
         "price": "$4,300",
         "max": "",
         "features": [
-          "A personal statement built from who your child really is, developed with Ron from first idea to final draft.",
-          "Up to four supplemental essays shaped so each target school reads like their first choice.",
-          "A college list reviewed for fit, so your child applies where they can both get in and thrive.",
-          "A clear timeline and checklist for the months that decide everything.",
-          "Direct email access to Ron between sessions."
+          "Một bài luận cá nhân được xây dựng từ chính con người thật của con bạn, phát triển cùng Ron từ ý tưởng đầu tiên đến bản hoàn chỉnh.",
+          "Tối đa bốn bài luận phụ được trau chuốt sao cho mỗi trường mục tiêu đọc lên đều như lựa chọn số một.",
+          "Một danh sách trường được rà soát về độ phù hợp, để con bạn nộp đúng nơi vừa có cơ hội trúng tuyển vừa có thể phát triển.",
+          "Một lịch trình và danh sách việc cần làm rõ ràng cho những tháng quyết định tất cả.",
+          "Liên lạc trực tiếp với Ron qua email giữa các buổi học."
         ]
       },
       {
         "featured": true,
-        "badge": "Most Popular",
+        "badge": "Được chọn nhiều nhất",
         "name": "Kairos Scholar",
-        "best": "Best for: families starting the summer before senior year who want the whole application handled, end to end.",
-        "desc": "The complete senior-year partnership. Every part of the application, shaped by Ron personally, so your child stands out for the right reasons.",
-        "meta": "22 sessions · 12 months",
+        "best": "Phù hợp nhất với: những gia đình bắt đầu vào mùa hè trước năm cuối cấp, muốn toàn bộ hồ sơ được lo trọn vẹn từ đầu đến cuối.",
+        "desc": "Sự đồng hành trọn vẹn cho năm cuối cấp. Mọi phần của bộ hồ sơ đều được Ron đích thân định hình, để con bạn nổi bật vì những lý do đúng đắn.",
+        "meta": "22 buổi · 12 tháng",
         "price": "$7,000",
         "max": "",
         "features": [
-          "A full school strategy across reach, match, and safety schools.",
-          "The personal statement plus unlimited supplemental essays, revised until each one is right.",
-          "Their activities positioned to tell one coherent story rather than a list.",
-          "A full review of the Common App or Coalition portal before anything is submitted.",
-          "Two mock interviews, so your child walks in prepared and calm.",
-          "Guidance on financial aid and scholarships, plus a plan for any waitlist or deferral.",
-          "Priority access to Ron by email and KakaoTalk."
+          "Một chiến lược trường học đầy đủ trải qua các nhóm trường reach, match và safety.",
+          "Bài luận cá nhân cùng số lượng bài luận phụ không giới hạn, được chỉnh sửa cho đến khi mỗi bài đều hoàn hảo.",
+          "Các hoạt động của con được sắp đặt để kể nên một câu chuyện mạch lạc thay vì chỉ là một danh sách.",
+          "Rà soát toàn bộ cổng Common App hoặc Coalition trước khi nộp bất cứ thứ gì.",
+          "Hai buổi phỏng vấn thử, để con bạn bước vào với tâm thế sẵn sàng và bình tĩnh.",
+          "Hướng dẫn về hỗ trợ tài chính và học bổng, cùng kế hoạch cho mọi tình huống waitlist hay deferral.",
+          "Ưu tiên liên lạc với Ron qua email và KakaoTalk."
         ]
       },
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Prestige",
-        "best": "Best for: families starting in tenth or eleventh grade who want the profile built, not just the application written.",
-        "desc": "Everything in Scholar, plus the two years that let Ron shape the transcript, activities, and testing admissions officers look at first.",
-        "meta": "40 sessions · 24 months",
+        "best": "Phù hợp nhất với: những gia đình bắt đầu từ lớp 10 hoặc lớp 11, muốn xây dựng cả hồ sơ chứ không chỉ viết đơn nộp.",
+        "desc": "Tất cả những gì có trong Scholar, cộng thêm hai năm để Ron định hình bảng điểm, hoạt động và các kỳ thi mà ban tuyển sinh nhìn vào đầu tiên.",
+        "meta": "40 buổi · 24 tháng",
         "price": "$12,800",
         "max": "",
         "features": [
-          "Everything in Kairos Scholar.",
-          "Course and academic planning for tenth and eleventh grade.",
-          "Extracurricular strategy and summer program selection that build a distinctive profile.",
-          "Positioning for the research, competitions, and leadership that carry real weight.",
-          "A standardized testing plan across SAT, ACT, and AP.",
-          "A dedicated KakaoTalk channel with Ron."
+          "Tất cả những gì có trong Kairos Scholar.",
+          "Lập kế hoạch môn học và học thuật cho lớp 10 và lớp 11.",
+          "Chiến lược hoạt động ngoại khóa và lựa chọn chương trình hè nhằm xây dựng một hồ sơ khác biệt.",
+          "Định vị cho các dự án nghiên cứu, cuộc thi và vai trò lãnh đạo thực sự có sức nặng.",
+          "Một kế hoạch thi chuẩn hóa trải qua SAT, ACT và AP.",
+          "Một kênh KakaoTalk riêng với Ron."
         ]
       },
       {
         "featured": false,
         "badge": "",
         "name": "Kairos Legacy",
-        "best": "Best for: families who want to start in ninth grade and leave nothing to chance.",
-        "desc": "The full four-year partnership, and the most complete preparation Kairos offers, building the record and intellectual identity the most selective universities reward.",
-        "meta": "Unlimited sessions · 36–48 months",
+        "best": "Phù hợp nhất với: những gia đình muốn bắt đầu từ lớp 9 và không để điều gì cho may rủi.",
+        "desc": "Sự đồng hành trọn vẹn suốt bốn năm, và là sự chuẩn bị đầy đủ nhất mà Kairos mang lại, xây dựng nên hồ sơ và bản sắc trí tuệ mà những trường đại học chọn lọc nhất tưởng thưởng.",
+        "meta": "Số buổi không giới hạn · 36–48 tháng",
         "price": "$19,500",
         "max": "",
         "features": [
-          "Everything in Kairos Prestige.",
-          "Ninth-grade onboarding and a long-term plan built around a real vision.",
-          "An intellectual identity and passion project rooted in what your child actually cares about.",
-          "Introductions to Ron's mentor network.",
-          "Two family strategy meetings a year.",
-          "Support that continues after the acceptance arrives."
+          "Tất cả những gì có trong Kairos Prestige.",
+          "Khởi động từ lớp 9 và một kế hoạch dài hạn xây dựng quanh một tầm nhìn thực sự.",
+          "Một bản sắc trí tuệ và dự án đam mê bắt nguồn từ điều con bạn thực sự quan tâm.",
+          "Kết nối với mạng lưới cố vấn của Ron.",
+          "Hai buổi gặp chiến lược gia đình mỗi năm.",
+          "Sự hỗ trợ vẫn tiếp tục sau khi thư trúng tuyển đến."
         ]
       }
     ],
     "alacarte": [
       {
-        "service": "Hourly consulting session",
+        "service": "Buổi tư vấn tính theo giờ",
         "usd": "$150",
         "krw": ""
       },
       {
-        "service": "Single essay review & edit",
+        "service": "Rà soát & biên tập một bài luận",
         "usd": "$200",
         "krw": ""
       },
       {
-        "service": "Full application review",
+        "service": "Rà soát toàn bộ hồ sơ",
         "usd": "$300",
         "krw": ""
       },
       {
-        "service": "Interview prep (3 sessions)",
+        "service": "Luyện phỏng vấn (3 buổi)",
         "usd": "$350",
         "krw": ""
       },
       {
-        "service": "School list consultation",
+        "service": "Tư vấn danh sách trường",
         "usd": "$100",
         "krw": ""
       },
       {
-        "service": "SAT / ACT tutoring (per hour)",
+        "service": "Luyện thi SAT / ACT (theo giờ)",
         "usd": "$120",
         "krw": ""
       },
       {
-        "service": "AP subject tutoring (per hour)",
+        "service": "Phụ đạo môn AP (theo giờ)",
         "usd": "$100",
         "krw": ""
       },
       {
-        "service": "TOEFL / IELTS tutoring (per hour)",
+        "service": "Luyện thi TOEFL / IELTS (theo giờ)",
         "usd": "$100",
         "krw": ""
       }
@@ -574,159 +570,165 @@
   },
   "about": {
     "name": "Ron Kim",
-    "role": "Founder · Kairos Education",
-    "tag": "About",
-    "title": "The person who will actually <span class=\"gold-foil\">work with your child.</span>",
+    "role": "Nhà sáng lập · Kairos Education",
+    "tag": "Giới thiệu",
+    "title": "Người sẽ trực tiếp <span class=\"gold-foil\">làm việc với con bạn.</span>",
     "paragraphs": [
-      "Ron Kim founded Kairos after years inside the admissions industry, including time as a consultant at Crimson Education, one of the largest firms in the world. He learned what the big firms do well. He also saw what they do to families: once you sign, you are often handed to a junior associate, while the person with the real track record stays a name on the website.",
-      "Kairos is built to be the opposite. Every session, every essay, every strategy call is Ron himself. He takes on only a small number of families each year, because that is the only way to know a student well enough to help them stand out.",
-      "Ron grew up in the international school system in Korea and studied at the University of Illinois. Over his career he has guided students into Harvard, Yale, Columbia, Penn, Dartmouth, Cornell, Duke, Johns Hopkins, and the University of Chicago, and has worked on the counseling side of the desk at international schools."
+      "Ron Kim sáng lập Kairos sau nhiều năm làm việc trong ngành tư vấn tuyển sinh, bao gồm thời gian làm chuyên gia tư vấn tại Crimson Education, một trong những công ty lớn nhất thế giới. Ông học được những gì các công ty lớn làm tốt. Ông cũng chứng kiến điều họ gây ra cho các gia đình: một khi ký hợp đồng, bạn thường bị giao cho một nhân viên non kinh nghiệm, trong khi người thực sự có bề dày thành tích chỉ còn là một cái tên trên website.",
+      "Kairos được xây dựng để làm điều ngược lại. Mỗi buổi học, mỗi bài luận, mỗi cuộc gọi chiến lược đều là chính Ron. Mỗi năm ông chỉ nhận một số ít gia đình, bởi đó là cách duy nhất để hiểu một học sinh đủ sâu để giúp em nổi bật.",
+      "Ron lớn lên trong hệ thống trường quốc tế tại Hàn Quốc và học tại University of Illinois. Trong suốt sự nghiệp, ông đã dẫn dắt học sinh vào Harvard, Yale, Columbia, Penn, Dartmouth, Cornell, Duke, Johns Hopkins và University of Chicago, đồng thời từng làm công tác tư vấn ở phía nhà trường tại các trường quốc tế."
     ],
     "quote": {
-      "text": "The students I remember are not the ones with the highest test scores. They are the ones who found their real story and had the courage to tell it.",
-      "by": "Ron Kim · Founder"
+      "text": "Những học sinh tôi nhớ không phải là những em có điểm thi cao nhất. Đó là những em tìm thấy câu chuyện thật của mình và có đủ can đảm để kể nó.",
+      "by": "Ron Kim · Nhà sáng lập"
     },
-    "reassure": "At Kairos, your child will never be handed to someone else. The strategy, the feedback, the calls: that is Ron, every time."
+    "reassure": "Tại Kairos, con bạn sẽ không bao giờ bị giao cho người khác. Chiến lược, góp ý, các cuộc gọi: đó luôn là Ron, mỗi lần như vậy."
   },
   "faq": {
-    "tag": "FAQ",
-    "title": "Common <span class=\"gold-foil\">questions.</span>",
+    "tag": "Câu hỏi thường gặp",
+    "title": "Những <span class=\"gold-foil\">câu hỏi thường gặp.</span>",
     "items": [
       {
-        "q": "How is Kairos different from a big firm like Crimson?",
-        "a": "At a large firm, after you sign, your child is usually assigned to a junior associate while the senior names stay in the marketing. At Kairos, every session is with Ron, who spent time inside one of those firms and built Kairos to fix exactly this. You get the person with the track record, every time."
+        "q": "Kairos khác gì so với một công ty lớn như Crimson?",
+        "a": "Tại một công ty lớn, sau khi bạn ký hợp đồng, con bạn thường được giao cho một nhân viên non kinh nghiệm trong khi những cái tên kỳ cựu chỉ còn nằm trong phần quảng cáo. Tại Kairos, mỗi buổi học đều là với Ron, người đã từng làm việc bên trong một trong những công ty như vậy và xây dựng Kairos để khắc phục đúng điều này. Bạn luôn nhận được người có bề dày thành tích, trong mọi lần."
       },
       {
-        "q": "Will Ron write my child's essays?",
-        "a": "No. Every word stays your child's. Ron coaches and refines, but ghostwritten essays are both detectable and a risk to your child. Our results come from authentic work."
+        "q": "Ron có viết bài luận hộ con tôi không?",
+        "a": "Không. Từng chữ vẫn là của con bạn. Ron hướng dẫn và tinh chỉnh, nhưng bài luận viết hộ vừa có thể bị phát hiện vừa là một rủi ro cho con bạn. Kết quả của chúng tôi đến từ những nỗ lực chân thật."
       },
       {
-        "q": "When should my child start?",
-        "a": "Grade 9 for Legacy, Grade 10 for Prestige, Grade 11 for Scholar. Foundation is for seniors who need focused help with the application itself. Earlier gives Ron more to work with, but it is rarely too late."
+        "q": "Con tôi nên bắt đầu khi nào?",
+        "a": "Lớp 9 cho Legacy, lớp 10 cho Prestige, lớp 11 cho Scholar. Foundation dành cho học sinh năm cuối cần sự hỗ trợ tập trung cho chính bộ hồ sơ. Bắt đầu sớm cho Ron nhiều điều để vun đắp hơn, nhưng hiếm khi là quá muộn."
       },
       {
-        "q": "Do you work with families outside Korea?",
-        "a": "Yes. Current and past families are in Korea, Thailand, Singapore, Ethiopia, Jordan, and the US. Every session is on Zoom, so time zone is never a problem."
+        "q": "Anh có làm việc với các gia đình ngoài Hàn Quốc không?",
+        "a": "Có. Các gia đình hiện tại và trước đây ở Hàn Quốc, Thái Lan, Singapore, Ethiopia, Jordan và Mỹ. Mọi buổi học đều qua Zoom, nên múi giờ không bao giờ là vấn đề."
       },
       {
-        "q": "What does a session look like?",
-        "a": "Sixty minutes on Zoom, focused on whatever matters most that week: an essay draft, the school list, interview prep, or how your child is spending their time. Your child comes with something to work on, and Ron comes prepared."
+        "q": "Một buổi học diễn ra như thế nào?",
+        "a": "Sáu mươi phút trên Zoom, tập trung vào điều quan trọng nhất trong tuần đó: một bản nháp bài luận, danh sách trường, luyện phỏng vấn, hay cách con bạn đang sử dụng thời gian của mình. Con bạn mang đến một điều để cùng làm, còn Ron đến với sự chuẩn bị sẵn sàng."
       }
     ]
   },
   "videoCta": {
-    "title": "This could be your child.",
-    "sub": "Let's make it happen.",
-    "cta": "Start with a free consultation",
+    "title": "Đây có thể là con bạn.",
+    "sub": "Hãy cùng biến điều đó thành hiện thực.",
+    "cta": "Bắt đầu với buổi tư vấn miễn phí",
     "poster": "/assets/img/admit-yale.jpg"
   },
   "contact": {
-    "tag": "Contact",
-    "title": "Start with a <span class=\"gold-foil\">free consultation.</span>",
-    "sub": "The first consultation is free and there is no obligation. Ron will talk through your child's goals, where they stand today, and whether Kairos is the right fit. No pressure and no scripted pitch, just an honest conversation. Bring your child if you would like them on the call.",
+    "tag": "Liên hệ",
+    "title": "Bắt đầu với một <span class=\"gold-foil\">buổi tư vấn miễn phí.</span>",
+    "sub": "Buổi tư vấn đầu tiên là miễn phí và không ràng buộc. Ron sẽ cùng trao đổi về mục tiêu của con bạn, con đang ở đâu hiện tại, và liệu Kairos có phải là lựa chọn phù hợp hay không. Không áp lực, không bài quảng cáo theo kịch bản, chỉ là một cuộc trò chuyện chân thành. Hãy đưa con bạn cùng tham gia cuộc gọi nếu bạn muốn.",
     "emailLabel": "Email",
-    "locationLabel": "Based in",
-    "location": "Seoul, Korea · working with families across 10+ countries",
-    "formNote": "We reply within 24 hours. Your details stay private and are never shared.",
+    "locationLabel": "Trụ sở tại",
+    "location": "Seoul, Hàn Quốc · làm việc với các gia đình tại hơn 10 quốc gia",
+    "formNote": "Chúng tôi phản hồi trong vòng 24 giờ. Thông tin của bạn được giữ riêng tư và không bao giờ chia sẻ.",
     "expect": {
-      "title": "During your consultation, you will:",
+      "title": "Trong buổi tư vấn, bạn sẽ:",
       "steps": [
         {
-          "title": "Get an honest assessment",
-          "desc": "An honest read on where things stand today, and what genuinely sets the student apart."
+          "title": "Nhận đánh giá chân thực",
+          "desc": "Một cái nhìn thẳng thắn về tình hình hiện tại, và điều gì thực sự khiến em học sinh nổi bật."
         },
         {
-          "title": "Talk through your goals",
-          "desc": "The student's strengths, their target schools or programs, and what it will take to get there."
+          "title": "Cùng trao đổi về mục tiêu",
+          "desc": "Thế mạnh của em học sinh, những trường hay chương trình em nhắm tới, và những gì cần có để đạt được điều đó."
         },
         {
-          "title": "See how Kairos works",
-          "desc": "The personalized roadmap we would build together, and exactly how working with Ron unfolds."
+          "title": "Hiểu cách Kairos vận hành",
+          "desc": "Lộ trình cá nhân hóa mà chúng ta sẽ cùng nhau xây dựng, và chính xác hành trình đồng hành với Ron diễn ra như thế nào."
         },
         {
-          "title": "Leave with a clear plan",
-          "desc": "Clear next steps and the right level of support for your family — and the space to decide in your own time."
+          "title": "Ra về với một kế hoạch rõ ràng",
+          "desc": "Những bước tiếp theo rõ ràng và mức độ hỗ trợ phù hợp cho gia đình bạn — cùng khoảng thời gian để bạn tự mình cân nhắc."
         }
       ]
     },
     "form": {
-      "nameLabel": "Your name",
-      "namePlaceholder": "Your name",
-      "gradeLabel": "Your child's grade",
+      "nameLabel": "Tên của bạn",
+      "namePlaceholder": "Tên của bạn",
+      "gradeLabel": "Lớp của con bạn",
       "emailLabel": "Email",
-      "emailPlaceholder": "you@email.com",
-      "universitiesLabel": "Target universities",
-      "universitiesPlaceholder": "Harvard, Stanford, …",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Tell us about your child and your goals",
-      "submit": "Send message <span class=\"arrow\">→</span>",
+      "emailPlaceholder": "ban@email.com",
+      "universitiesLabel": "Trường đại học mục tiêu",
+      "universitiesPlaceholder": "VD: Harvard, Stanford, MIT...",
+      "messageLabel": "Lời nhắn",
+      "messagePlaceholder": "Hãy cho chúng tôi biết về con bạn và mục tiêu của bạn",
+      "submit": "Gửi tin nhắn <span class=\"arrow\">→</span>",
       "grades": [
-        "Grade 9",
-        "Grade 10",
-        "Grade 11",
-        "Grade 12",
-        "Gap year"
+        "Lớp 9",
+        "Lớp 10",
+        "Lớp 11",
+        "Lớp 12",
+        "Năm gap year"
       ]
     }
   },
   "footer": {
-    "tagline": "Boutique college admissions consulting. One student, one counselor, in the US and in Korea.",
-    "col1Heading": "Study in the US",
+    "tagline": "Tư vấn tuyển sinh đại học cao cấp theo mô hình boutique. Một học sinh, một cố vấn, tại Mỹ và tại Hàn Quốc.",
+    "col1Heading": "Du học Mỹ",
     "col1": [
       {
         "href": "#results",
-        "text": "Admissions Results"
+        "text": "Kết quả"
       },
       {
         "href": "#packages",
-        "text": "Packages & Pricing"
+        "text": "Gói dịch vụ"
       },
       {
         "href": "#us-process",
-        "text": "How It Works"
+        "text": "Quy trình"
       },
       {
         "href": "#about",
-        "text": "About Kairos"
+        "text": "Giới thiệu"
       },
       {
         "href": "#faq",
-        "text": "FAQ"
+        "text": "Câu hỏi thường gặp"
       }
     ],
-    "col2Heading": "Study in Korea",
+    "col2Heading": "Du học Hàn Quốc",
     "col2": [
       {
         "href": "/study-korea.html#pathways",
-        "text": "Three Pathways"
+        "text": "Lộ trình"
       },
       {
         "href": "/study-korea.html#universities",
-        "text": "Korean Universities"
+        "text": "Trường đại học"
       },
       {
         "href": "/study-korea.html#packages",
-        "text": "Packages & Pricing"
+        "text": "Gói dịch vụ"
       },
       {
         "href": "/study-korea.html#faq",
-        "text": "FAQ"
+        "text": "Câu hỏi thường gặp"
       }
     ],
-    "disc": "Kairos Education is an independent consultancy and is not affiliated with, endorsed by, or sponsored by any university or institution named on this site. Results vary by student and depend on starting point, timeline, target schools, and individual effort. Past admissions outcomes do not guarantee future results.",
-    "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
+    "disc": "Kairos Education là một đơn vị tư vấn độc lập và không liên kết, không được chứng thực hay tài trợ bởi bất kỳ trường đại học hoặc cơ sở nào được nêu tên trên trang web này. Kết quả khác nhau tùy từng học sinh và phụ thuộc vào điểm xuất phát, lộ trình thời gian, trường mục tiêu và nỗ lực cá nhân. Kết quả tuyển sinh trong quá khứ không đảm bảo kết quả trong tương lai.",
+    "copyright": "© 2026 Kairos Education. Bảo lưu mọi quyền.",
+    "meta": "Seoul, Hàn Quốc · Toàn cầu · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
   },
   "sticky": {
-    "msg": "<span class=\"sm-main\">Cơ hội duy nhất của con bạn xứng đáng có cố vấn phù hợp.</span><span class=\"sub\">Buổi tư vấn đầu tiên miễn phí, không ràng buộc.</span>",
+    "msg": "<span class=\"sm-main\">Cơ hội duy nhất của con bạn xứng đáng có được người cố vấn phù hợp.</span><span class=\"sub\">Buổi tư vấn đầu tiên là miễn phí, không ràng buộc.</span>",
     "getStarted": "Bắt đầu",
     "bookFree": "Đặt lịch tư vấn miễn phí",
     "kakao": "<span>💬</span> KakaoTalk",
     "whatsapp": "WhatsApp"
   },
   "cta": {
-    "kakaoConsult": "<span>💬</span> Tư vấn 1:1 qua KakaoTalk",
-    "whatsappConsult": "Tư vấn 1:1 qua WhatsApp",
+    "kakaoConsult": "<span>💬</span> Tư vấn riêng 1:1 qua KakaoTalk",
+    "whatsappConsult": "Tư vấn riêng 1:1 qua WhatsApp",
     "sendMessage": "Gửi tin nhắn <span class=\"arrow\">→</span>"
+  },
+  "mobileMenu": {
+    "studyUs": "Du học Mỹ",
+    "studyKorea": "Du học Hàn Quốc",
+    "bookCta": "Đặt lịch tư vấn miễn phí",
+    "kakaoCta": "KakaoTalk"
   }
 }

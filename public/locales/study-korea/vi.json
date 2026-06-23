@@ -4,7 +4,7 @@
   "title": "Study Korea — Kairos Education | Korea University & Language Consulting",
   "metaDescription": "Expert consulting for foreigners who want to study in Korea. Language programs, degree admissions, and GKS scholarship support. 1-on-1 with Ron Kim — Seoul insider.",
   "formName": "study-korea",
-  "scarcity": "Kairos works with a limited number of families each year.<span class=\"dot\">◆</span>A few places remain for the current cycle.",
+  "scarcity": "Mỗi năm Kairos chỉ đồng hành cùng một số lượng gia đình giới hạn.<span class=\"dot\">◆</span>Vẫn còn một vài suất cho kỳ tuyển sinh hiện tại.",
   "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap",
   "fontFamily": "'Hanken Grotesk', sans-serif",
   "langLinks": [
@@ -26,32 +26,32 @@
     }
   ],
   "nav": {
-    "whyKorea": "Why Korea",
-    "pathways": "Pathways",
-    "packages": "Packages",
-    "faq": "FAQ",
-    "cta": "Book a consultation",
-    "menuOpen": "Open menu",
-    "menuClose": "Close menu"
+    "whyKorea": "Vì sao chọn Hàn Quốc",
+    "pathways": "Lộ trình",
+    "packages": "Gói dịch vụ",
+    "faq": "Câu hỏi thường gặp",
+    "cta": "Đặt lịch tư vấn",
+    "menuOpen": "Mở menu",
+    "menuClose": "Đóng menu"
   },
   "cta": {
-    "kakaoConsult": "<span>💬</span> KakaoTalk 1:1 consultation",
-    "whatsappConsult": "WhatsApp 1:1 consultation"
+    "kakaoConsult": "<span>💬</span> Tư vấn riêng 1:1 qua KakaoTalk",
+    "whatsappConsult": "Tư vấn riêng 1:1 qua WhatsApp"
   },
   "sticky": {
-    "msg": "<span class=\"sm-main\">Your child's one shot deserves the right counselor.</span><span class=\"sub\">The first consultation is free, with no obligation.</span>",
-    "getStarted": "Get started",
-    "bookFree": "Book a free consultation",
+    "msg": "<span class=\"sm-main\">Cơ hội duy nhất của con bạn xứng đáng có được người cố vấn phù hợp.</span><span class=\"sub\">Buổi tư vấn đầu tiên là miễn phí, không ràng buộc.</span>",
+    "getStarted": "Bắt đầu",
+    "bookFree": "Đặt lịch tư vấn miễn phí",
     "kakao": "<span>💬</span> KakaoTalk",
     "whatsapp": "WhatsApp"
   },
   "hero": {
-    "badge": "Study in Korea · International Admissions",
-    "h1": "You want to study in Korea. <span class=\"gold-foil\">Here's your way in.</span>",
-    "lead": "Kairos is one-on-one consulting for international students applying to Korean language programs, degree programs, and the fully funded Korean Government Scholarship. You work directly with Ron Kim, who knows these universities from the inside and walks you through every step, from choosing the right program to the visa in your passport.",
-    "authority": "Kairos guides students into",
-    "primaryCta": "Book a free consultation <span class=\"arrow\">→</span>",
-    "secondaryCta": "See your pathways",
+    "badge": "Du học Hàn Quốc · Tuyển sinh quốc tế",
+    "h1": "Bạn muốn du học Hàn Quốc. <span class=\"gold-foil\">Đây là con đường của bạn.</span>",
+    "lead": "Kairos là dịch vụ tư vấn một-một cho sinh viên quốc tế nộp hồ sơ vào các chương trình tiếng Hàn, chương trình cấp bằng và Học bổng Chính phủ Hàn Quốc được tài trợ toàn phần. Bạn làm việc trực tiếp với Ron Kim, người am hiểu các trường đại học này từ bên trong và đồng hành cùng bạn qua từng bước, từ chọn đúng chương trình đến tấm visa trong hộ chiếu của bạn.",
+    "authority": "Kairos đưa sinh viên vào",
+    "primaryCta": "Đặt lịch tư vấn miễn phí <span class=\"arrow\">→</span>",
+    "secondaryCta": "Xem các lộ trình",
     "marquee": [
       "SNU",
       "Korea University",
@@ -62,146 +62,146 @@
     ]
   },
   "worries": {
-    "tag": "Why It Matters",
-    "title": "Sound <span class=\"gold-foil\">familiar?</span>",
-    "lead": "Most people who come to Kairos for Korea are stuck on one of these. Each one is solvable with the right plan.",
+    "tag": "Vì sao quan trọng",
+    "title": "Nghe có <span class=\"gold-foil\">quen không?</span>",
+    "lead": "Hầu hết những người tìm đến Kairos để du học Hàn Quốc đều đang mắc kẹt ở một trong những điều này. Mỗi điều đều có thể giải quyết với một kế hoạch đúng đắn.",
+    "foot": "Ron sống tại Seoul và am hiểu những chương trình này từ bên trong. Con đường có tồn tại. Ông giúp bạn tìm ra và bước đi trên đó.",
     "items": [
       {
-        "title": "You don't know where to start.",
-        "desc": "Language program, degree, or scholarship: the options are confusing and the rules change by country."
+        "title": "Bạn không biết bắt đầu từ đâu.",
+        "desc": "Chương trình tiếng, học vị hay học bổng: các lựa chọn rối rắm và quy định lại thay đổi tùy theo từng quốc gia."
       },
       {
-        "title": "You're unsure if your Korean is enough.",
-        "desc": "For language programs you need zero Korean. For degrees and scholarships there is a clear target, and a plan to reach it."
+        "title": "Bạn không chắc tiếng Hàn của mình đã đủ chưa.",
+        "desc": "Với chương trình tiếng, bạn không cần biết tiếng Hàn. Với học vị và học bổng, có một mục tiêu rõ ràng, và một kế hoạch để đạt tới."
       },
       {
-        "title": "The visa process looks overwhelming.",
-        "desc": "D-4, D-2, proof of funds, embassy steps. With the right preparation it is a checklist, not a maze."
+        "title": "Quy trình xin visa trông thật choáng ngợp.",
+        "desc": "D-4, D-2, chứng minh tài chính, các bước tại đại sứ quán. Với sự chuẩn bị đúng đắn, đó là một danh sách việc cần làm, không phải một mê cung."
       },
       {
-        "title": "The GKS scholarship feels out of reach.",
-        "desc": "It is competitive, but it is winnable with the right strategy, which is exactly where Ron adds the most value."
+        "title": "Học bổng GKS dường như ngoài tầm với.",
+        "desc": "Nó cạnh tranh, nhưng hoàn toàn có thể giành được với chiến lược đúng đắn, và đây chính là nơi Ron tạo ra giá trị lớn nhất."
       }
-    ],
-    "foot": "Ron lives in Seoul and knows these programs from the inside. The path exists. He helps you find it and walk it."
+    ]
   },
   "why": {
-    "tag": "Why Korea",
-    "title": "One of the best education decisions <span class=\"gold-foil\">you can make.</span>",
-    "sub": "Korea's universities rank among the top 100 in the world, tuition costs a fraction of the US or UK, and Seoul is one of the most exciting cities anywhere to spend your twenties.",
+    "tag": "Vì sao chọn Hàn Quốc",
+    "title": "Một trong những quyết định giáo dục <span class=\"gold-foil\">đúng đắn nhất bạn có thể đưa ra.</span>",
+    "sub": "Các trường đại học Hàn Quốc nằm trong top 100 thế giới, học phí chỉ bằng một phần nhỏ so với Mỹ hay Anh, và Seoul là một trong những thành phố sôi động nhất để bạn sống trọn tuổi đôi mươi.",
     "cards": [
       {
         "icon": "🏛",
-        "title": "World-ranked universities.",
-        "desc": "SNU, KAIST, POSTECH, Korea University, and Yonsei all rank in the global top 100 to 200, and KAIST is top 50 in the world for engineering. These are destination schools, not backups."
+        "title": "Đại học xếp hạng thế giới.",
+        "desc": "SNU, KAIST, POSTECH, Korea University và Yonsei đều xếp trong top 100 đến 200 toàn cầu, và KAIST nằm trong top 50 thế giới về kỹ thuật. Đây là những trường đích đến, không phải phương án dự phòng."
       },
       {
         "icon": "₩",
-        "title": "Far lower cost.",
-        "desc": "Tuition runs about $3,000 to $8,000 a year, a fraction of US or UK prices. With the fully funded GKS scholarship, studying here can cost you almost nothing."
+        "title": "Chi phí thấp hơn nhiều.",
+        "desc": "Học phí rơi vào khoảng $3.000 đến $8.000 một năm, chỉ bằng một phần nhỏ so với giá ở Mỹ hay Anh. Với học bổng GKS được tài trợ toàn phần, việc học ở đây gần như không tốn kém gì."
       },
       {
         "icon": "🌏",
-        "title": "A real international community.",
-        "desc": "More than 160,000 international students are in Korea right now, and English-taught degrees have grown fast. You will land on a genuinely global campus."
+        "title": "Một cộng đồng quốc tế thực thụ.",
+        "desc": "Hiện có hơn 160.000 sinh viên quốc tế tại Hàn Quốc, và các chương trình cấp bằng giảng dạy bằng tiếng Anh đã tăng nhanh chóng. Bạn sẽ đặt chân đến một khuôn viên thực sự mang tính toàn cầu."
       },
       {
         "icon": "🎓",
-        "title": "Korean opens doors.",
-        "desc": "Even a year of language study puts Samsung, Hyundai, LG, and HYBE within reach, and a TOPIK certificate is a career asset across Asia."
+        "title": "Tiếng Hàn mở ra nhiều cánh cửa.",
+        "desc": "Chỉ một năm học tiếng cũng đưa Samsung, Hyundai, LG và HYBE vào tầm với, và một chứng chỉ TOPIK là một tài sản nghề nghiệp trên khắp châu Á."
       },
       {
         "icon": "🛫",
-        "title": "A visa process you can navigate.",
-        "desc": "The D-4 language visa and D-2 student visa are well structured and achievable with the right preparation. Korean consulates operate in over 100 countries."
+        "title": "Một quy trình visa bạn có thể vượt qua.",
+        "desc": "Visa học tiếng D-4 và visa du học D-2 được tổ chức chặt chẽ và hoàn toàn khả thi với sự chuẩn bị đúng đắn. Các lãnh sự quán Hàn Quốc hoạt động tại hơn 100 quốc gia."
       },
       {
         "icon": "★",
-        "title": "The timing is on your side.",
-        "desc": "Korean music, film, food, and fashion are everywhere, and global interest keeps growing. Studying here now puts you ahead of the curve."
+        "title": "Thời điểm đang ủng hộ bạn.",
+        "desc": "Âm nhạc, điện ảnh, ẩm thực và thời trang Hàn Quốc có mặt ở khắp nơi, và sự quan tâm toàn cầu không ngừng tăng lên. Du học ở đây ngay lúc này đưa bạn đi trước xu thế."
       }
     ]
   },
   "proof": {
-    "eyebrow": "The Kairos Difference",
-    "title": "Seoul-based. One on one.",
-    "sub": "Specialized in Korea, not everything at once.",
+    "eyebrow": "Sự khác biệt của Kairos",
+    "title": "Đặt tại Seoul. Một-một.",
+    "sub": "Chuyên sâu về Hàn Quốc, không ôm đồm mọi thứ cùng lúc.",
+    "note": "Quy định visa và điều khoản học bổng thay đổi tùy theo quốc gia và năm. Kairos hướng dẫn việc chuẩn bị nhưng không kiểm soát các quyết định tuyển sinh hay cấp visa.",
     "stats": [
       {
         "value": "3",
-        "label": "Language, degree & scholarship pathways"
+        "label": "Lộ trình học tiếng, học vị & học bổng"
       },
       {
         "value": "SKY",
-        "label": "SNU, Korea U, Yonsei & all majors"
+        "label": "SNU, Korea U, Yonsei & mọi ngành học"
       },
       {
         "value": "1:1",
-        "label": "With Ron, never a junior agent"
+        "label": "Với Ron, không bao giờ là một nhân viên non kinh nghiệm"
       },
       {
         "value": "15+",
-        "label": "Countries served"
+        "label": "Quốc gia đã phục vụ"
       }
-    ],
-    "note": "Visa rules and scholarship terms vary by country and year. Kairos guides preparation but does not control admissions or visa decisions."
+    ]
   },
   "pathways": {
-    "tag": "Study Pathways",
-    "title": "Three ways <span class=\"gold-foil\">into Korea.</span>",
-    "sub": "Whether you are starting from zero Korean or aiming for a full scholarship, there is a clear route. Ron helps you find the one that fits, then walks you through it.",
+    "tag": "Lộ trình du học",
+    "title": "Ba con đường <span class=\"gold-foil\">đến Hàn Quốc.</span>",
+    "sub": "Dù bạn bắt đầu từ con số không về tiếng Hàn hay nhắm tới một suất học bổng toàn phần, đều có một lộ trình rõ ràng. Ron giúp bạn tìm ra con đường phù hợp, rồi đồng hành cùng bạn đi qua nó.",
     "items": [
       {
         "num": "A",
-        "name": "Language Program",
-        "best": "D-4-1 visa · Study at a Korean language center",
-        "desc": "Three months to two years of immersive Korean, starting from the alphabet. The most accessible way in.",
+        "name": "Chương trình tiếng",
+        "best": "Visa D-4-1 · Học tại một trung tâm tiếng Hàn",
+        "desc": "Từ ba tháng đến hai năm học tiếng Hàn đắm chìm, bắt đầu từ bảng chữ cái. Con đường dễ tiếp cận nhất.",
         "featured": false,
         "details": [
           "Yonsei KLI, Korea U KLC, SNU LEI, Sogang, Ewha",
-          "Four intakes a year: March, June, September, December",
-          "About $1,200 to $1,800 per term",
-          "Roughly $10,000 in proof of funds required",
-          "Applied for at your home country's Korean embassy"
+          "Bốn kỳ nhập học mỗi năm: tháng Ba, tháng Sáu, tháng Chín, tháng Mười Hai",
+          "Khoảng $1.200 đến $1.800 mỗi học kỳ",
+          "Cần chứng minh tài chính khoảng $10.000",
+          "Nộp tại đại sứ quán Hàn Quốc ở nước sở tại của bạn"
         ]
       },
       {
         "num": "B",
-        "name": "Degree Program",
-        "best": "D-2 visa · Undergraduate or graduate degree",
-        "desc": "A full bachelor's, master's, or PhD. Many programs are taught in English with no TOPIK required.",
+        "name": "Chương trình cấp bằng",
+        "best": "Visa D-2 · Bằng đại học hoặc sau đại học",
+        "desc": "Một tấm bằng cử nhân, thạc sĩ hoặc tiến sĩ đầy đủ. Nhiều chương trình giảng dạy bằng tiếng Anh và không yêu cầu TOPIK.",
         "featured": true,
         "details": [
           "SNU, Korea University, Yonsei, KAIST, POSTECH, Ewha",
-          "4-year BA · 2-year MA · 3-year PhD",
-          "TOPIK 3 to 4 for Korean-taught programs",
-          "Statement of purpose, transcripts, recommendations",
-          "Intakes in spring (March) and fall (September)"
+          "Cử nhân 4 năm · Thạc sĩ 2 năm · Tiến sĩ 3 năm",
+          "TOPIK 3 đến 4 cho các chương trình giảng dạy bằng tiếng Hàn",
+          "Bài luận mục đích học tập, bảng điểm, thư giới thiệu",
+          "Nhập học vào mùa xuân (tháng Ba) và mùa thu (tháng Chín)"
         ]
       },
       {
         "num": "C",
-        "name": "GKS Scholarship",
-        "best": "Fully funded by the Korean government",
-        "desc": "Full tuition, a monthly stipend of about $900, airfare, and insurance. Highly competitive, where Ron adds the most value.",
+        "name": "Học bổng GKS",
+        "best": "Được chính phủ Hàn Quốc tài trợ toàn phần",
+        "desc": "Toàn bộ học phí, trợ cấp hàng tháng khoảng $900, vé máy bay và bảo hiểm. Tính cạnh tranh rất cao, nơi Ron tạo ra giá trị lớn nhất.",
         "featured": false,
         "details": [
-          "Covers tuition, stipend, airfare, and insurance",
-          "Undergrad: 1 year Korean plus a 4-year degree",
-          "Grad: 1 year Korean plus a 2 to 3 year MA or PhD",
-          "Apply through the embassy or university track",
-          "2,000+ grad and 280+ undergrad places in 2026"
+          "Bao gồm học phí, trợ cấp, vé máy bay và bảo hiểm",
+          "Bậc đại học: 1 năm tiếng Hàn cộng bằng cử nhân 4 năm",
+          "Bậc sau đại học: 1 năm tiếng Hàn cộng bằng thạc sĩ hoặc tiến sĩ 2 đến 3 năm",
+          "Nộp theo diện đại sứ quán hoặc diện trường đại học",
+          "Hơn 2.000 suất sau đại học và hơn 280 suất đại học trong năm 2026"
         ]
       }
     ]
   },
   "universities": {
-    "tag": "Institutions",
-    "title": "Where Kairos can <span class=\"gold-foil\">take you.</span>",
-    "sub": "Ron has the Seoul-insider knowledge to match you with the right institution, whether that is a SKY university, a world-ranked science school, or the best language center for your goals.",
+    "tag": "Các cơ sở đào tạo",
+    "title": "Nơi Kairos <span class=\"gold-foil\">có thể đưa bạn đến.</span>",
+    "sub": "Ron có sự am hiểu của người trong cuộc tại Seoul để kết nối bạn với đúng cơ sở đào tạo, dù đó là một trường SKY, một trường khoa học xếp hạng thế giới, hay trung tâm tiếng tốt nhất cho mục tiêu của bạn.",
     "groups": [
       {
-        "label": "SKY · Korea's Ivy League",
+        "label": "SKY · Ivy League của Hàn Quốc",
         "universities": [
           {
             "flag": "🏛️",
@@ -236,7 +236,7 @@
         ]
       },
       {
-        "label": "Science & Engineering",
+        "label": "Khoa học & Kỹ thuật",
         "universities": [
           {
             "flag": "⚗️",
@@ -271,235 +271,241 @@
         ]
       }
     ],
-    "footnote": "Ron advises on every Korean university and language program. The right fit depends on your goals, budget, major, and language level."
+    "footnote": "Ron tư vấn về mọi trường đại học và chương trình tiếng Hàn. Lựa chọn phù hợp phụ thuộc vào mục tiêu, ngân sách, ngành học và trình độ tiếng của bạn."
   },
   "packages": {
-    "tag": "Services & Pricing",
-    "title": "Choose your <span class=\"gold-foil\">package.</span>",
-    "sub": "Three packages, one goal: getting you to Korea with the right program, the right visa, and a plan that holds up. Every session is one-on-one with Ron.",
-    "priceNote": "Transparent pricing, no inquiry required. Most students start with a free consultation to find the right pathway.",
-    "packageCta": "Get started",
-    "packageCtaArrow": "Get started <span class=\"arrow\">→</span>",
+    "tag": "Dịch vụ & Học phí",
+    "title": "Chọn <span class=\"gold-foil\">gói của bạn.</span>",
+    "sub": "Ba gói, một mục tiêu: đưa bạn đến Hàn Quốc với đúng chương trình, đúng visa, và một kế hoạch vững vàng. Mỗi buổi học đều là một-một với Ron.",
+    "priceNote": "Học phí minh bạch, không cần liên hệ hỏi giá. Hầu hết sinh viên bắt đầu bằng một buổi tư vấn miễn phí để tìm lộ trình phù hợp.",
+    "packageCta": "Bắt đầu",
+    "packageCtaArrow": "Bắt đầu <span class=\"arrow\">→</span>",
     "items": [
       {
         "featured": false,
         "badge": "",
         "name": "Gateway",
-        "best": "Best for: you are ready to enroll in a Korean language center.",
-        "desc": "Everything you need to land in Korea on the right visa, at the right school, without missing a step.",
+        "best": "Phù hợp nhất với: bạn đã sẵn sàng nhập học một trung tâm tiếng Hàn.",
+        "desc": "Mọi thứ bạn cần để đặt chân đến Hàn Quốc với đúng visa, đúng trường, mà không bỏ lỡ bước nào.",
         "price": "$800",
-        "max": "₩1,080,000 · 4 sessions · 2–3 months",
+        "max": "₩1,080,000 · 4 buổi · 2–3 tháng",
         "meta": "",
         "features": [
-          "Language center selection (Yonsei, Korea U, SNU, Sogang, Ewha)",
-          "Application prep and a complete document checklist",
-          "D-4-1 visa guidance, requirement by requirement",
-          "A strategy for your financial documents",
-          "Pre-departure orientation and 30 days of arrival support"
+          "Lựa chọn trung tâm tiếng (Yonsei, Korea U, SNU, Sogang, Ewha)",
+          "Chuẩn bị hồ sơ và một danh sách giấy tờ đầy đủ",
+          "Hướng dẫn visa D-4-1, theo từng yêu cầu một",
+          "Một chiến lược cho giấy tờ tài chính của bạn",
+          "Định hướng trước khi lên đường và 30 ngày hỗ trợ khi mới đến"
         ]
       },
       {
         "featured": true,
-        "badge": "Most Popular",
+        "badge": "Được chọn nhiều nhất",
         "name": "Passage",
-        "best": "Best for: you are applying to a Korean undergraduate or graduate program.",
-        "desc": "Your full degree application, built with Ron from the school list to the visa in your passport.",
+        "best": "Phù hợp nhất với: bạn đang nộp hồ sơ vào một chương trình đại học hoặc sau đại học tại Hàn Quốc.",
+        "desc": "Toàn bộ hồ sơ xin học vị của bạn, được xây dựng cùng Ron từ danh sách trường đến tấm visa trong hộ chiếu của bạn.",
         "price": "$2,000",
-        "max": "₩2,700,000 · 10 sessions · 5–6 months",
+        "max": "₩2,700,000 · 10 buổi · 5–6 tháng",
         "meta": "",
         "features": [
-          "A university shortlist matched to your major and goals",
-          "Full statement-of-purpose coaching, idea to final draft",
-          "Transcript review and a plan to strengthen your profile",
-          "TOPIK target setting and a recommendation strategy",
-          "D-2 visa guidance, one mock interview, portal review",
-          "Pre-departure orientation and priority support"
+          "Một danh sách trường rút gọn phù hợp với ngành học và mục tiêu của bạn",
+          "Hướng dẫn toàn diện bài luận mục đích học tập, từ ý tưởng đến bản hoàn chỉnh",
+          "Rà soát bảng điểm và một kế hoạch nâng cao hồ sơ của bạn",
+          "Đặt mục tiêu TOPIK và một chiến lược thư giới thiệu",
+          "Hướng dẫn visa D-2, một buổi phỏng vấn thử, rà soát cổng nộp hồ sơ",
+          "Định hướng trước khi lên đường và hỗ trợ ưu tiên"
         ]
       },
       {
         "featured": false,
         "badge": "",
         "name": "Summit",
-        "best": "Best for: you are going after the fully funded GKS scholarship.",
-        "desc": "The most competitive route, with the most hands-on support Kairos offers. Everything in Passage, plus the scholarship campaign.",
+        "best": "Phù hợp nhất với: bạn đang theo đuổi học bổng GKS được tài trợ toàn phần.",
+        "desc": "Lộ trình cạnh tranh nhất, với sự hỗ trợ sát sao nhất mà Kairos mang lại. Tất cả những gì có trong Passage, cộng thêm chiến dịch chinh phục học bổng.",
         "price": "$3,500",
-        "max": "₩4,725,000 · 16 sessions · 7–8 months",
+        "max": "₩4,725,000 · 16 buổi · 7–8 tháng",
         "meta": "",
         "features": [
-          "Everything in Passage",
-          "A GKS eligibility check and the right pathway for you",
-          "University selection for the embassy or university track",
-          "Full scholarship writing and document prep",
-          "Two mock GKS interviews with written feedback",
-          "Embassy coordination and post-acceptance planning"
+          "Tất cả những gì có trong Passage",
+          "Kiểm tra điều kiện GKS và lộ trình phù hợp cho bạn",
+          "Lựa chọn trường theo diện đại sứ quán hoặc diện trường đại học",
+          "Hướng dẫn viết hồ sơ học bổng đầy đủ và chuẩn bị giấy tờ",
+          "Hai buổi phỏng vấn GKS thử kèm góp ý bằng văn bản",
+          "Phối hợp với đại sứ quán và lập kế hoạch sau khi trúng tuyển"
         ]
       }
     ],
     "terms": {
       "payment": {
-        "title": "Payment & terms",
+        "title": "Thanh toán & điều khoản",
         "items": [
-          "30% non-refundable deposit to reserve your package",
-          "Remaining 70% due within 30 days of signing",
-          "Unused sessions carry over up to 60 days",
-          "International clients invoiced in USD via Wise",
-          "Korean clients receive a 세금계산서 via Hometax"
+          "Đặt cọc 30% không hoàn lại để giữ gói của bạn",
+          "70% còn lại thanh toán trong vòng 30 ngày kể từ khi ký",
+          "Các buổi chưa dùng được bảo lưu tối đa 60 ngày",
+          "Khách hàng quốc tế được xuất hóa đơn bằng USD qua Wise",
+          "Khách hàng Hàn Quốc nhận 세금계산서 qua Hometax"
         ]
       },
       "promise": {
-        "title": "Our promise",
+        "title": "Cam kết của chúng tôi",
         "items": [
-          "Every session is with Ron directly, never a junior agent",
-          "You prepare your documents; Ron coaches, never writes them",
-          "One-on-one only: no group classes, no templates",
-          "Messages answered within 24 hours for active clients",
-          "Available on KakaoTalk, WhatsApp, and WeChat"
+          "Mỗi buổi học đều trực tiếp với Ron, không bao giờ là nhân viên non kinh nghiệm",
+          "Bạn chuẩn bị giấy tờ của mình; Ron hướng dẫn, không bao giờ viết hộ",
+          "Chỉ một-một: không lớp nhóm, không khuôn mẫu",
+          "Tin nhắn được trả lời trong vòng 24 giờ đối với khách hàng đang hoạt động",
+          "Sẵn sàng trên KakaoTalk, WhatsApp và WeChat"
         ]
       }
     }
   },
   "faq": {
-    "tag": "FAQ",
-    "title": "Common <span class=\"gold-foil\">questions.</span>",
+    "tag": "Câu hỏi thường gặp",
+    "title": "Những <span class=\"gold-foil\">câu hỏi thường gặp.</span>",
     "items": [
       {
-        "q": "Do I need to know Korean before a language program?",
-        "a": "No. Language center programs (D-4-1 visa) are built for complete beginners, starting from the alphabet. Yonsei KLI, Korea University KLC, SNU LEI, and Sogang all offer Level 1 courses that assume no prior knowledge. If you have already studied, you will test into a higher level."
+        "q": "Tôi có cần biết tiếng Hàn trước khi vào chương trình tiếng không?",
+        "a": "Không. Các chương trình của trung tâm tiếng (visa D-4-1) được xây dựng cho người mới hoàn toàn, bắt đầu từ bảng chữ cái. Yonsei KLI, Korea University KLC, SNU LEI và Sogang đều có các khóa Cấp 1 không đòi hỏi kiến thức trước đó. Nếu bạn đã từng học, bạn sẽ được kiểm tra để xếp vào trình độ cao hơn."
       },
       {
-        "q": "What is the GKS scholarship, and how competitive is it?",
-        "a": "The Global Korea Scholarship (GKS, also called KGSP) is a fully funded government scholarship run by NIIED. It covers tuition, a monthly stipend of about $900, airfare, and health insurance. In 2026 there were roughly 2,000 graduate and 280 undergraduate places worldwide. It is competitive, but with the right strategy, strong candidates from over 100 countries have a real shot. This is exactly what the Summit package is built for."
+        "q": "Học bổng GKS là gì, và mức độ cạnh tranh ra sao?",
+        "a": "Global Korea Scholarship (GKS, còn gọi là KGSP) là một học bổng chính phủ được tài trợ toàn phần do NIIED điều hành. Nó bao gồm học phí, trợ cấp hàng tháng khoảng $900, vé máy bay và bảo hiểm y tế. Năm 2026 có khoảng 2.000 suất sau đại học và 280 suất đại học trên toàn thế giới. Nó cạnh tranh, nhưng với chiến lược đúng đắn, những ứng viên xuất sắc từ hơn 100 quốc gia có cơ hội thực sự. Đây chính là điều mà gói Summit được xây dựng để hướng tới."
       },
       {
-        "q": "Can I apply from any country?",
-        "a": "Korea welcomes students from over 100 countries for both the D-4 language visa and the D-2 student visa, and Korean consulates operate worldwide. Visa processing usually takes one to three weeks depending on where you are. Ron helps you find the right consulate, prepare your documents, and handle any country-specific steps."
+        "q": "Tôi có thể nộp hồ sơ từ bất kỳ quốc gia nào không?",
+        "a": "Hàn Quốc chào đón sinh viên từ hơn 100 quốc gia cho cả visa học tiếng D-4 và visa du học D-2, và các lãnh sự quán Hàn Quốc hoạt động trên toàn thế giới. Thời gian xử lý visa thường mất từ một đến ba tuần tùy nơi bạn ở. Ron giúp bạn tìm đúng lãnh sự quán, chuẩn bị giấy tờ và xử lý mọi bước riêng theo từng quốc gia."
       },
       {
-        "q": "What is TOPIK, and do I need it?",
-        "a": "TOPIK is the official Korean proficiency test, levels 1 to 6. For language center programs you do not need it. For degree programs taught in Korean, most universities want TOPIK Level 3 or 4. For English-taught programs it is not required, though it strengthens your application. GKS does not require TOPIK at the application stage; you complete a year of Korean after acceptance."
+        "q": "TOPIK là gì, và tôi có cần nó không?",
+        "a": "TOPIK là kỳ thi năng lực tiếng Hàn chính thức, từ cấp 1 đến cấp 6. Với các chương trình của trung tâm tiếng, bạn không cần nó. Với các chương trình cấp bằng giảng dạy bằng tiếng Hàn, hầu hết các trường yêu cầu TOPIK Cấp 3 hoặc 4. Với các chương trình giảng dạy bằng tiếng Anh, nó không bắt buộc, dù nó làm hồ sơ của bạn mạnh hơn. GKS không yêu cầu TOPIK ở giai đoạn nộp hồ sơ; bạn hoàn thành một năm tiếng Hàn sau khi trúng tuyển."
       },
       {
-        "q": "How much does it cost to study in Korea?",
-        "a": "Language programs run about $1,200 to $1,800 per term, plus living costs of roughly $700 to $1,200 a month in Seoul. Degree tuition is about $3,000 to $8,000 a year, well below US or UK equivalents. With the GKS scholarship, tuition and a monthly stipend are fully covered."
+        "q": "Du học Hàn Quốc tốn bao nhiêu?",
+        "a": "Các chương trình tiếng rơi vào khoảng $1.200 đến $1.800 mỗi học kỳ, cộng chi phí sinh hoạt khoảng $700 đến $1.200 một tháng ở Seoul. Học phí cấp bằng khoảng $3.000 đến $8.000 một năm, thấp hơn nhiều so với mức tương đương ở Mỹ hay Anh. Với học bổng GKS, học phí và trợ cấp hàng tháng được chi trả toàn phần."
       },
       {
-        "q": "How is Kairos different from other study-abroad agencies?",
-        "a": "Most agencies cover dozens of countries and hand you to junior staff. Kairos is different: every session is with Ron, a Seoul resident with real inside knowledge of these universities, who specializes in Korea and brings the same standards that produced Harvard, Yale, and Columbia admits to your Korea application."
+        "q": "Kairos khác gì so với các công ty tư vấn du học khác?",
+        "a": "Hầu hết các công ty bao phủ hàng chục quốc gia và giao bạn cho nhân viên non kinh nghiệm. Kairos thì khác: mỗi buổi học đều là với Ron, một cư dân Seoul với hiểu biết thực sự từ bên trong về các trường đại học này, người chuyên sâu về Hàn Quốc và mang cùng những chuẩn mực đã tạo nên các suất trúng tuyển Harvard, Yale và Columbia vào hồ sơ du học Hàn Quốc của bạn."
       }
     ]
   },
   "videoCta": {
-    "title": "This could be you.",
-    "sub": "Let's make it happen.",
-    "cta": "Start with a free consultation",
+    "title": "Đây có thể là bạn.",
+    "sub": "Hãy cùng biến điều đó thành hiện thực.",
+    "cta": "Bắt đầu với buổi tư vấn miễn phí",
     "poster": "/assets/img/admit-yale.jpg"
   },
   "contact": {
-    "tag": "Contact",
-    "title": "Start with a <span class=\"gold-foil\">free consultation.</span>",
-    "sub": "The first consultation is free and there is no obligation. Ron will talk through your goals, your Korean level, your timeline, and whether Kairos is the right fit. No pressure, just an honest conversation with someone who knows Korea from the inside.",
+    "tag": "Liên hệ",
+    "title": "Bắt đầu với một <span class=\"gold-foil\">buổi tư vấn miễn phí.</span>",
+    "sub": "Buổi tư vấn đầu tiên là miễn phí và không ràng buộc. Ron sẽ cùng trao đổi về mục tiêu của bạn, trình độ tiếng Hàn của bạn, lộ trình thời gian của bạn, và liệu Kairos có phải là lựa chọn phù hợp hay không. Không áp lực, chỉ là một cuộc trò chuyện chân thành với một người am hiểu Hàn Quốc từ bên trong.",
     "emailLabel": "Email",
-    "locationLabel": "Based in",
-    "location": "Seoul, Korea · working with students in 15+ countries",
-    "formNote": "We reply within 24 hours. Your details stay private and are never shared.",
+    "locationLabel": "Trụ sở tại",
+    "location": "Seoul, Hàn Quốc · làm việc với sinh viên tại hơn 15 quốc gia",
+    "formNote": "Chúng tôi phản hồi trong vòng 24 giờ. Thông tin của bạn được giữ riêng tư và không bao giờ chia sẻ.",
     "expect": {
-      "title": "During your consultation, you will:",
+      "title": "Trong buổi tư vấn, bạn sẽ:",
       "steps": [
         {
-          "title": "Get an honest assessment",
-          "desc": "An honest read on where you stand today as an applicant, and what genuinely sets you apart."
+          "title": "Nhận đánh giá chân thực",
+          "desc": "Một cái nhìn thẳng thắn về tình hình hiện tại, và điều gì thực sự khiến em học sinh nổi bật."
         },
         {
-          "title": "Talk through your goals",
-          "desc": "Your strengths, your target schools or programs, and what it will take to get there."
+          "title": "Cùng trao đổi về mục tiêu",
+          "desc": "Thế mạnh của em học sinh, những trường hay chương trình em nhắm tới, và những gì cần có để đạt được điều đó."
         },
         {
-          "title": "See how Kairos works",
-          "desc": "The personalized roadmap we would build with you, and exactly how working with Ron unfolds."
+          "title": "Hiểu cách Kairos vận hành",
+          "desc": "Lộ trình cá nhân hóa mà chúng ta sẽ cùng nhau xây dựng, và chính xác hành trình đồng hành với Ron diễn ra như thế nào."
         },
         {
-          "title": "Leave with a clear plan",
-          "desc": "Clear next steps and the right level of support for your family — and the space to decide in your own time."
+          "title": "Ra về với một kế hoạch rõ ràng",
+          "desc": "Những bước tiếp theo rõ ràng và mức độ hỗ trợ phù hợp cho gia đình bạn — cùng khoảng thời gian để bạn tự mình cân nhắc."
         }
       ]
     },
     "form": {
-      "nameLabel": "Your name",
-      "namePlaceholder": "Your full name",
-      "countryLabel": "Country of residence",
-      "countryPlaceholder": "e.g. Spain, Japan, China, Brazil…",
+      "nameLabel": "Tên của bạn",
+      "namePlaceholder": "Họ và tên",
+      "countryLabel": "Quốc gia cư trú",
+      "countryPlaceholder": "Quốc gia",
       "emailLabel": "Email",
-      "emailPlaceholder": "you@email.com",
-      "goalLabel": "Study goal",
-      "goalPlaceholder": "Select your goal…",
+      "emailPlaceholder": "ban@email.com",
+      "goalLabel": "Mục tiêu du học",
+      "goalPlaceholder": "Chọn mục tiêu…",
       "goals": [
-        "Language Program (D-4 Visa)",
-        "Undergraduate Degree",
-        "Graduate Degree (MA / PhD)",
-        "GKS Scholarship (Fully Funded)",
-        "Not sure yet — need guidance"
+        "Chương trình tiếng (visa D-4)",
+        "Bằng đại học",
+        "Bằng sau đại học (Thạc sĩ / Tiến sĩ)",
+        "Học bổng GKS",
+        "Chưa chắc chắn"
       ],
-      "koreanLevelLabel": "Current Korean level",
-      "koreanLevelPlaceholder": "Select level…",
+      "koreanLevelLabel": "Trình độ tiếng Hàn hiện tại",
+      "koreanLevelPlaceholder": "Chọn trình độ…",
       "koreanLevels": [
-        "Zero — Complete beginner",
-        "Basic — Know Hangul, some words",
-        "Intermediate — TOPIK 2–3",
-        "Advanced — TOPIK 4–6"
+        "Bằng không, người mới hoàn toàn",
+        "Cơ bản, biết Hangul và một số từ",
+        "Trung cấp, TOPIK 2–3",
+        "Nâng cao, TOPIK 4–6"
       ],
-      "universitiesLabel": "Target universities or programs (if known)",
-      "universitiesPlaceholder": "e.g. Yonsei KLI, SNU, KAIST…",
-      "messageLabel": "Tell us about your goals",
-      "messagePlaceholder": "When do you want to start? What are you hoping to study or achieve in Korea?",
-      "submit": "Send message <span class=\"arrow\">→</span>"
+      "universitiesLabel": "Trường hoặc Chương Trình Mục Tiêu (nếu đã biết)",
+      "universitiesPlaceholder": "VD: Yonsei KLI, SNU, KAIST…",
+      "messageLabel": "Hãy cho chúng tôi biết về mục tiêu của bạn",
+      "messagePlaceholder": "Trường đại học mục tiêu, lộ trình thời gian, câu hỏi",
+      "submit": "Gửi tin nhắn <span class=\"arrow\">→</span>"
     }
   },
   "footer": {
-    "tagline": "Boutique college admissions consulting. One student, one counselor, in the US and in Korea.",
-    "col1Heading": "Study in the US",
+    "tagline": "Tư vấn tuyển sinh đại học cao cấp theo mô hình boutique. Một học sinh, một cố vấn, tại Mỹ và tại Hàn Quốc.",
+    "col1Heading": "Du học Hàn Quốc",
     "col1": [
       {
         "href": "/origin.html#results",
-        "text": "Results"
+        "text": "Kết quả"
       },
       {
         "href": "/origin.html#us-process",
-        "text": "How it works"
+        "text": "Quy trình"
       },
       {
         "href": "/origin.html#packages",
-        "text": "Packages"
+        "text": "Gói dịch vụ"
       },
       {
         "href": "/origin.html#about",
-        "text": "About"
+        "text": "Giới thiệu"
       },
       {
         "href": "/origin.html#faq",
-        "text": "FAQ"
+        "text": "Câu hỏi thường gặp"
       }
     ],
-    "col2Heading": "Study in Korea",
+    "col2Heading": "Du học Mỹ",
     "col2": [
       {
         "href": "#why-korea",
-        "text": "Why Korea"
+        "text": "Vì sao chọn Hàn Quốc"
       },
       {
         "href": "#pathways",
-        "text": "Pathways"
+        "text": "Lộ trình"
       },
       {
         "href": "#packages",
-        "text": "Packages"
+        "text": "Gói dịch vụ"
       },
       {
         "href": "#faq",
-        "text": "FAQ"
+        "text": "Câu hỏi thường gặp"
       }
     ],
-    "disc": "Kairos Education is an independent consultancy and is not affiliated with, endorsed by, or sponsored by any university or institution named on this site. Results vary by student and depend on starting point, timeline, target schools, and individual effort. Past admissions outcomes do not guarantee future results.",
-    "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "Seoul, Korea · Worldwide"
+    "disc": "Kairos Education là một đơn vị tư vấn độc lập và không liên kết, không được chứng thực hay tài trợ bởi bất kỳ trường đại học hoặc cơ sở nào được nêu tên trên trang web này. Kết quả khác nhau tùy từng học sinh và phụ thuộc vào điểm xuất phát, lộ trình thời gian, trường mục tiêu và nỗ lực cá nhân. Kết quả tuyển sinh trong quá khứ không đảm bảo kết quả trong tương lai.",
+    "copyright": "© 2026 Kairos Education. Bảo lưu mọi quyền.",
+    "meta": "Seoul, Hàn Quốc · Toàn cầu"
+  },
+  "mobileMenu": {
+    "studyUs": "Du học Mỹ",
+    "studyKorea": "Du học Hàn Quốc",
+    "bookCta": "Đặt lịch tư vấn miễn phí",
+    "kakaoCta": "KakaoTalk"
   }
 }

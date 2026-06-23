@@ -21,9 +21,9 @@ const ASSET_PAIRS = [
   'study-korea-i18n.js',
   'study-korea-locale.js',
   'hash-scroll.js',
-  'nav-mobile.js',
   'seo-i18n.js',
   'langs.js',
+  'mobile-nav.js',
   'index-locale.js',
 ];
 
