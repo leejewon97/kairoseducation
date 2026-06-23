@@ -4,6 +4,8 @@
 
 **라이브:** https://kairoseducation.org
 
+**디자인 이식·배포 QA·미완 항목:** [`docs/design-migration-followups.md`](docs/design-migration-followups.md)
+
 ---
 
 ## 협업 워크플로
@@ -165,8 +167,9 @@ public/
   assets/origin-locale.js
   assets/origin-i18n.js
   assets/index-locale.js
-  assets/hash-scroll.js       # 교차 페이지 # 앵커 재스크롤 (locale 후)
-  assets/nav-mobile.js        # 모바일 nav 햄버거 토글 + focus trap
+  assets/hash-scroll.js       # 교차 페이지 # 앵커 재스크롤 (*-locale.js에서 import)
+  assets/interactions.js      # origin/study-korea header·burger·sticky·contact SPA
+  assets/nav-mobile.js        # (legacy, 템플릿 미사용) build 복사만
   assets/langs.js             # 언어 상수 (빌드 시 config/langs.mjs에서 생성)
   assets/study-korea-site.css
   assets/study-korea-locale.js
@@ -240,11 +243,16 @@ origin·study-korea **동일 구조**: 브랜드(tagline) + 섹션 링크 2열 +
 - nav 섹션을 바꾸면 양쪽 `footer`와 템플릿·`*-i18n.js`도 함께 맞출 것.
 - footer 2열(반대 페이지 `#…` 링크)은 [`src/assets/hash-scroll.js`](src/assets/hash-scroll.js)가 locale·폰트 적용 후 고정 nav 높이를 고려해 재스크롤.
 
-### 모바일 nav
+### 네비·모바일 (origin / study-korea)
 
-- **반응형 전환:** 고정 900px 기준이 아님. [`src/assets/nav-mobile.js`](src/assets/nav-mobile.js)가 **현재 UI 언어**(`sessionStorage` `kairos-lang`)와 `window.innerWidth`로 `body.nav-mobile`을 토글한다. 해당 너비 이하에서 2줄(햄버거) 모드, +1px부터 1줄(가로 nav). 언어별 상한(px, 4px 그리드 올림): vi 1072, en 1044, th 1020, zh 924, ko 900. 언어를 바꾸면(`kairos:langchange`) breakpoint도 함께 갱신된다.
-- **모바일 모드 (`body.nav-mobile`):** 상단 `.nav-bar`는 로고 + CTA(origin) 또는 back·CTA(study-korea) + `.nav-toggle`. 열면 `.nav-panel`에 섹션 링크·언어 스위처.
-- **데스크톱 모드:** 가로 nav — 섹션 링크·언어 스위처·CTA가 한 줄에 표시. 상한을 넘기면 열린 메뉴는 자동으로 닫힌다.
-- **구조:** `.nav-bar`(70px 고정) + `.nav-panel` + `.nav-end`
-- **JS:** locale `nav.menuOpen`/`menuClose` aria-label, focus trap, ESC·바깥 클릭·링크 클릭 시 닫기, `body.nav-open` 스크롤 잠금, 리사이즈·언어 전환 시 모드 재판정.
-- **빌드:** `build-all.mjs`가 `nav-mobile.js`·`hash-scroll.js`·`langs.js`를 `public/assets/`로 복사.
+origin·study-korea는 동일한 **origin 셸**: `.header` + `.nav` + lang 드롭다운 + `#burger` / `#mobileMenu`. 동작은 [`src/assets/interactions.js`](src/assets/interactions.js) (sticky, contact SPA `view-us`/`view-contact`, 앵커 스크롤).
+
+- **CSS:** `origin-site.css` (+ study-korea는 `study-korea-site.css` 오버라이드)
+- **Contact 진입:** `data-view="contact"` — `#contact`로 페이지 맨 아래만 스크롤하지 않음
+- **교차 페이지 `#` 앵커:** `*-locale.js`가 [`hash-scroll.js`](src/assets/hash-scroll.js)로 locale·폰트 적용 후 nav 높이 보정 재스크롤
+
+`/`(index)는 섹션 nav 없음; `interactions.js`의 `hasSpaViews()`로 `.reveal` fallback.
+
+**참고:** [`nav-mobile.js`](src/assets/nav-mobile.js)는 `public/assets/`에 복사되지만 **현재 템플릿에서 로드하지 않음** (구형 `.nav-bar`/`.nav-panel` 잔재). 신규 작업은 `interactions.js` 기준.
+
+디자인 이식 상태·배포 QA·미완 항목: [`docs/design-migration-followups.md`](docs/design-migration-followups.md)
