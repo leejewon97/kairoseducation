@@ -4,167 +4,173 @@
   "title": "Study Korea — Kairos Education | Korea University & Language Consulting",
   "metaDescription": "Expert consulting for foreigners who want to study in Korea. Language programs, degree admissions, and GKS scholarship support. 1-on-1 with Ron Kim — Seoul insider.",
   "formName": "study-korea",
-  "fontsHref": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,500&display=swap",
-  "fontFamily": "'Inter', sans-serif",
+  "scarcity": "Kairos works with a limited number of families each year.<span class=\"dot\">◆</span>A few places remain for the current cycle.",
+  "fontsHref": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap",
+  "fontFamily": "'Hanken Grotesk', sans-serif",
   "langLinks": [
-    {
-      "code": "ko",
-      "label": "한국어"
-    },
-    {
-      "code": "zh",
-      "label": "中文"
-    },
-    {
-      "code": "th",
-      "label": "ภาษาไทย"
-    },
-    {
-      "code": "vi",
-      "label": "Tiếng Việt"
-    }
+    { "code": "ko", "label": "한국어" },
+    { "code": "zh", "label": "中文" },
+    { "code": "th", "label": "ภาษาไทย" },
+    { "code": "vi", "label": "Tiếng Việt" }
   ],
   "nav": {
+    "whyKorea": "Why Korea",
     "pathways": "Pathways",
-    "universities": "Universities",
     "packages": "Packages",
     "faq": "FAQ",
-    "back": "← Main Site",
-    "cta": "Book Consultation",
+    "cta": "Book a consultation",
     "menuOpen": "Open menu",
     "menuClose": "Close menu"
   },
   "cta": {
-    "getStarted": "Get Started",
-    "bookFree": "Book a Free Consultation",
-    "kakaoShort": "<span>💬</span> KakaoTalk",
-    "whatsappConsult": "WhatsApp"
+    "kakaoConsult": "<span>💬</span> KakaoTalk 1:1 consultation",
+    "whatsappConsult": "WhatsApp 1:1 consultation"
   },
   "sticky": {
-    "msg": "Not sure where to start? Let’s map your best path to Korea.",
-    "getStarted": "Get Started",
-    "bookFree": "Book Free",
+    "msg": "<span class=\"sm-main\">Your child's one shot deserves the right counselor.</span><span class=\"sub\">The first consultation is free, with no obligation.</span>",
+    "getStarted": "Get started",
+    "bookFree": "Book a free consultation",
     "kakao": "<span>💬</span> KakaoTalk",
-    "whatsappConsult": "WhatsApp"
+    "whatsapp": "WhatsApp"
   },
   "hero": {
-    "badge": "Study Korea · International Admissions",
-    "h1": "Your path<br />to <em>studying in Korea</em><br />starts here.",
-    "sub": "Expert, 1-on-1 consulting for foreigners applying to Korean language programs, university degree programs, and the fully-funded Korean Government Scholarship. Seoul insider. Zero templates.",
-    "primaryCta": "View Packages",
-    "secondaryCta": "See Your Options"
+    "badge": "Study in Korea · International Admissions",
+    "h1": "You want to study in Korea. <span class=\"gold-foil\">Here's your way in.</span>",
+    "lead": "Kairos is one-on-one consulting for international students applying to Korean language programs, degree programs, and the fully funded Korean Government Scholarship. You work directly with Ron Kim, who knows these universities from the inside and walks you through every step, from choosing the right program to the visa in your passport.",
+    "authority": "Kairos guides students into",
+    "primaryCta": "Book a free consultation <span class=\"arrow\">→</span>",
+    "secondaryCta": "See your pathways",
+    "marquee": ["SNU", "Korea University", "Yonsei", "KAIST", "POSTECH", "Ewha"]
   },
-  "stats": [
-    {
-      "number": "Seoul",
-      "label": "Based in Korea —<br />insider knowledge, real access"
-    },
-    {
-      "number": "3",
-      "label": "Study pathways<br />Language · Degree · Scholarship"
-    },
-    {
-      "number": "SKY",
-      "label": "SNU · Korea U · Yonsei<br />and all major programs"
-    },
-    {
-      "number": "100%",
-      "label": "1-on-1 with Ron Kim.<br />No junior associates. Ever."
-    }
-  ],
-  "why": {
-    "tag": "Why Korea",
-    "title": "Korea isn't just <em>K-pop.</em><br />It's a world-class education destination.",
-    "sub": "Korea's universities rank among the top 100 globally. Tuition is a fraction of the US or UK. And for ambitious students who want to be in Asia — Seoul is the most dynamic city in the world right now.",
-    "cards": [
+  "worries": {
+    "tag": "Why It Matters",
+    "title": "Sound <span class=\"gold-foil\">familiar?</span>",
+    "lead": "Most people who come to Kairos for Korea are stuck on one of these. Each one is solvable with the right plan.",
+    "items": [
       {
-        "icon": "🏛️",
-        "title": "World-Ranked Universities",
-        "desc": "SNU, KAIST, POSTECH, Korea University, and Yonsei all rank in the global top 100–200. KAIST ranks top 50 globally in Engineering. These are not fallback schools."
+        "title": "You don't know where to start.",
+        "desc": "Language program, degree, or scholarship: the options are confusing and the rules change by country."
       },
       {
-        "icon": "💰",
-        "title": "Dramatically Lower Cost",
-        "desc": "Korean university tuition runs $3,000–$8,000 USD per year — a fraction of US or UK costs. Combined with the Korean Government's fully-funded GKS scholarship, studying here can be nearly free."
+        "title": "You're unsure if your Korean is enough.",
+        "desc": "For language programs you need zero Korean. For degrees and scholarships there is a clear target, and a plan to reach it."
+      },
+      {
+        "title": "The visa process looks overwhelming.",
+        "desc": "D-4, D-2, proof of funds, embassy steps. With the right preparation it is a checklist, not a maze."
+      },
+      {
+        "title": "The GKS scholarship feels out of reach.",
+        "desc": "It is competitive, but it is winnable with the right strategy, which is exactly where Ron adds the most value."
+      }
+    ],
+    "foot": "Ron lives in Seoul and knows these programs from the inside. The path exists. He helps you find it and walk it."
+  },
+  "why": {
+    "tag": "Why Korea",
+    "title": "One of the best education decisions <span class=\"gold-foil\">you can make.</span>",
+    "sub": "Korea's universities rank among the top 100 in the world, tuition costs a fraction of the US or UK, and Seoul is one of the most exciting cities anywhere to spend your twenties.",
+    "cards": [
+      {
+        "icon": "🏛",
+        "title": "World-ranked universities.",
+        "desc": "SNU, KAIST, POSTECH, Korea University, and Yonsei all rank in the global top 100 to 200, and KAIST is top 50 in the world for engineering. These are destination schools, not backups."
+      },
+      {
+        "icon": "₩",
+        "title": "Far lower cost.",
+        "desc": "Tuition runs about $3,000 to $8,000 a year, a fraction of US or UK prices. With the fully funded GKS scholarship, studying here can cost you almost nothing."
       },
       {
         "icon": "🌏",
-        "title": "Thriving International Community",
-        "desc": "Over 160,000 international students currently study in Korea. English-taught degree programs have exploded in the last decade. You won't be isolated — you'll be at the center of a global campus."
+        "title": "A real international community.",
+        "desc": "More than 160,000 international students are in Korea right now, and English-taught degrees have grown fast. You will land on a genuinely global campus."
       },
       {
         "icon": "🎓",
-        "title": "Korean Language Opens Doors",
-        "desc": "Even a year of language study opens doors to Korean companies like Samsung, Hyundai, LG, and HYBE. A TOPIK certification is a career asset across Asia — and increasingly, globally."
+        "title": "Korean opens doors.",
+        "desc": "Even a year of language study puts Samsung, Hyundai, LG, and HYBE within reach, and a TOPIK certificate is a career asset across Asia."
       },
       {
         "icon": "🛫",
-        "title": "Accessible Visa Process",
-        "desc": "The D-4 language visa and D-2 student visa are well-structured and achievable with the right preparation. Korean consulates operate in over 100 countries across Europe, the Americas, East Asia, Southeast Asia, the Middle East, and Africa."
+        "title": "A visa process you can navigate.",
+        "desc": "The D-4 language visa and D-2 student visa are well structured and achievable with the right preparation. Korean consulates operate in over 100 countries."
       },
       {
-        "icon": "⭐",
-        "title": "The Hallyu Advantage",
-        "desc": "Korean culture — music, film, fashion, food — is a global phenomenon. Learning Korean and studying in Korea now puts you ahead of a generational curve. The global interest in Korea is structural, not a trend."
+        "icon": "★",
+        "title": "The timing is on your side.",
+        "desc": "Korean music, film, food, and fashion are everywhere, and global interest keeps growing. Studying here now puts you ahead of the curve."
       }
     ]
   },
+  "proof": {
+    "eyebrow": "The Kairos Difference",
+    "title": "Seoul-based. One on one.",
+    "sub": "Specialized in Korea, not everything at once.",
+    "stats": [
+      { "value": "3", "label": "Language, degree & scholarship pathways" },
+      { "value": "SKY", "label": "SNU, Korea U, Yonsei & all majors" },
+      { "value": "1:1", "label": "With Ron, never a junior agent" },
+      { "value": "15+", "label": "Countries served" }
+    ],
+    "note": "Visa rules and scholarship terms vary by country and year. Kairos guides preparation but does not control admissions or visa decisions."
+  },
   "pathways": {
     "tag": "Study Pathways",
-    "title": "Three ways to <em>get to Korea.</em>",
-    "sub": "Whether you're starting from zero Korean or aiming for a full scholarship, there's a clear path. Kairos helps you identify which one fits — and executes it.",
+    "title": "Three ways <span class=\"gold-foil\">into Korea.</span>",
+    "sub": "Whether you are starting from zero Korean or aiming for a full scholarship, there is a clear route. Ron helps you find the one that fits, then walks you through it.",
     "items": [
       {
         "num": "A",
-        "letter": "Language Program",
-        "title": "Study at a Korean Language Center",
-        "visa": "D-4-1 Visa · Language Training",
-        "desc": "Enroll in a university language center for 3 months to 2 years of immersive Korean. No prior Korean required. The most accessible entry point — and the natural next step for anyone who's been learning Korean online.",
+        "name": "Language Program",
+        "best": "D-4-1 visa · Study at a Korean language center",
+        "desc": "Three months to two years of immersive Korean, starting from the alphabet. The most accessible way in.",
+        "featured": false,
         "details": [
-          "Yonsei KLI · Korea U KLC · SNU LEI · Sogang · Ewha",
-          "4 intakes per year: March · June · September · December",
-          "~$1,200–1,800 USD per term (3 months)",
-          "Requires ~$10,000 USD proof of funds + Certificate of Admission",
-          "Embassy application in your home country (15 business days)"
+          "Yonsei KLI, Korea U KLC, SNU LEI, Sogang, Ewha",
+          "Four intakes a year: March, June, September, December",
+          "About $1,200 to $1,800 per term",
+          "Roughly $10,000 in proof of funds required",
+          "Applied for at your home country's Korean embassy"
         ]
       },
       {
         "num": "B",
-        "letter": "Degree Program",
-        "title": "Undergraduate or Graduate Degree",
-        "visa": "D-2 Visa · Student Visa",
-        "desc": "Earn a full BA, MA, or PhD from a Korean university. Many programs are available in English (no TOPIK required). Korean-taught programs require TOPIK 3–4. Korea's SKY universities are globally recognized.",
+        "name": "Degree Program",
+        "best": "D-2 visa · Undergraduate or graduate degree",
+        "desc": "A full bachelor's, master's, or PhD. Many programs are taught in English with no TOPIK required.",
+        "featured": true,
         "details": [
-          "SNU · Korea University · Yonsei · KAIST · POSTECH · Ewha",
+          "SNU, Korea University, Yonsei, KAIST, POSTECH, Ewha",
           "4-year BA · 2-year MA · 3-year PhD",
-          "TOPIK 3–4 for Korean-taught · English programs available",
-          "SOP · transcripts · recommendation letters required",
-          "Intakes: Spring (March) and Fall (September)"
+          "TOPIK 3 to 4 for Korean-taught programs",
+          "Statement of purpose, transcripts, recommendations",
+          "Intakes in spring (March) and fall (September)"
         ]
       },
       {
         "num": "C",
-        "letter": "GKS Scholarship",
-        "title": "Fully Funded by the Korean Government",
-        "visa": "GKS / KGSP · NIIED Program",
-        "desc": "The Global Korea Scholarship covers full tuition + ~$900/month stipend + airfare + health insurance. One of the most generous government scholarships in the world. Highly competitive — this is where Kairos adds the most value.",
+        "name": "GKS Scholarship",
+        "best": "Fully funded by the Korean government",
+        "desc": "Full tuition, a monthly stipend of about $900, airfare, and insurance. Highly competitive, where Ron adds the most value.",
+        "featured": false,
         "details": [
-          "Covers: Tuition · Monthly stipend · Airfare · Insurance",
-          "Undergrad: 1yr Korean + 4yr degree · Grad: 1yr Korean + 2–3yr MA/PhD",
-          "Embassy Track (via Korean Embassy) or University Track",
-          "2,000+ graduate slots · 280 undergraduate slots globally in 2026",
-          "100+ eligible countries — Europe, Americas, East Asia, SE Asia, Middle East, Africa"
+          "Covers tuition, stipend, airfare, and insurance",
+          "Undergrad: 1 year Korean plus a 4-year degree",
+          "Grad: 1 year Korean plus a 2 to 3 year MA or PhD",
+          "Apply through the embassy or university track",
+          "2,000+ grad and 280+ undergrad places in 2026"
         ]
       }
     ]
   },
   "universities": {
     "tag": "Institutions",
-    "title": "Where Kairos students <em>can go.</em>",
-    "sub": "Kairos has the Seoul-insider knowledge to match you with the right institution — whether that's a prestigious SKY university, a world-ranked science institution, or the best language center for your specific goals.",
+    "title": "Where Kairos can <span class=\"gold-foil\">take you.</span>",
+    "sub": "Ron has the Seoul-insider knowledge to match you with the right institution, whether that is a SKY university, a world-ranked science school, or the best language center for your goals.",
     "groups": [
       {
-        "label": "SKY Universities (Korea's Ivy League)",
+        "label": "SKY · Korea's Ivy League",
         "universities": [
           {
             "flag": "🏛️",
@@ -199,7 +205,7 @@
         ]
       },
       {
-        "label": "Science & Engineering (World-Ranked)",
+        "label": "Science & Engineering",
         "universities": [
           {
             "flag": "⚗️",
@@ -229,225 +235,171 @@
             "flag": "🎨",
             "rank": "Top Arts & Design",
             "name": "Hongik University",
-            "detail": "Art · Design · Architecture (홍대)"
+            "detail": "Art · Design · Architecture (Hongdae)"
           }
         ]
       }
     ],
-    "footnote": "Kairos advises on all Korean universities and language programs. Institution selection is tailored to your goals, budget, major, and language level."
+    "footnote": "Ron advises on every Korean university and language program. The right fit depends on your goals, budget, major, and language level."
   },
   "packages": {
     "tag": "Services & Pricing",
-    "title": "Choose your <em>package.</em>",
-    "sub": "Three packages. One goal: getting you to Korea with the right program, the right visa, and a plan that actually works. All consulting delivered 1-on-1 by Ron Kim — no junior associates, no handoffs.",
+    "title": "Choose your <span class=\"gold-foil\">package.</span>",
+    "sub": "Three packages, one goal: getting you to Korea with the right program, the right visa, and a plan that holds up. Every session is one-on-one with Ron.",
+    "priceNote": "Transparent pricing, no inquiry required. Most students start with a free consultation to find the right pathway.",
+    "packageCta": "Get started",
+    "packageCtaArrow": "Get started <span class=\"arrow\">→</span>",
     "items": [
       {
-        "roman": "I",
+        "featured": false,
+        "badge": "",
         "name": "Gateway",
-        "subtitle": "Language Program Sprint",
-        "duration": "2–3 months · 4 sessions",
-        "tagline": "Best for: Students ready to enroll in a Korean language center",
+        "best": "Best for: you are ready to enroll in a Korean language center.",
+        "desc": "Everything you need to land in Korea on the right visa, at the right school, without missing a step.",
+        "price": "$800",
+        "max": "₩1,080,000 · 4 sessions · 2–3 months",
+        "meta": "",
         "features": [
-          {
-            "text": "Language center selection (Yonsei, Korea U, SNU, Sogang, Ewha)"
-          },
-          {
-            "text": "Application prep & document checklist"
-          },
-          {
-            "text": "D-4-1 visa guidance & requirements walkthrough"
-          },
-          {
-            "text": "Bank statement & financial documentation strategy"
-          },
-          {
-            "text": "Pre-departure orientation (housing, transport, registration)"
-          },
-          {
-            "text": "30-day post-arrival messaging support"
-          }
-        ],
-        "usd": "$800",
-        "krw": "₩1,080,000",
-        "sessions": "4 sessions · 60 min each<br />2–3 month engagement",
-        "cta": "Get Started"
+          "Language center selection (Yonsei, Korea U, SNU, Sogang, Ewha)",
+          "Application prep and a complete document checklist",
+          "D-4-1 visa guidance, requirement by requirement",
+          "A strategy for your financial documents",
+          "Pre-departure orientation and 30 days of arrival support"
+        ]
       },
       {
-        "roman": "II",
-        "name": "Passage",
-        "subtitle": "Degree Program Comprehensive",
-        "badge": "Most Popular",
         "featured": true,
-        "duration": "5–6 months · 10 sessions",
-        "tagline": "Best for: Students applying to Korean undergraduate or graduate programs",
+        "badge": "Most Popular",
+        "name": "Passage",
+        "best": "Best for: you are applying to a Korean undergraduate or graduate program.",
+        "desc": "Your full degree application, built with Ron from the school list to the visa in your passport.",
+        "price": "$2,000",
+        "max": "₩2,700,000 · 10 sessions · 5–6 months",
+        "meta": "",
         "features": [
-          {
-            "text": "University shortlisting (major, language, budget, prestige)",
-            "highlight": true
-          },
-          {
-            "text": "Full SOP coaching — brainstorm to final draft",
-            "highlight": true
-          },
-          {
-            "text": "Transcript review & academic profile strategy"
-          },
-          {
-            "text": "Recommendation letter strategy & timeline"
-          },
-          {
-            "text": "TOPIK score targeting & exam strategy"
-          },
-          {
-            "text": "D-2 student visa guidance & document prep"
-          },
-          {
-            "text": "Interview preparation (1 mock session with feedback)"
-          },
-          {
-            "text": "Application portal review & submission checklist"
-          },
-          {
-            "text": "Pre-departure orientation included"
-          },
-          {
-            "text": "Priority messaging support throughout"
-          }
-        ],
-        "usd": "$2,000",
-        "krw": "₩2,700,000",
-        "sessions": "10 sessions · 60 min each<br />5–6 month engagement",
-        "cta": "Get Started"
+          "A university shortlist matched to your major and goals",
+          "Full statement-of-purpose coaching, idea to final draft",
+          "Transcript review and a plan to strengthen your profile",
+          "TOPIK target setting and a recommendation strategy",
+          "D-2 visa guidance, one mock interview, portal review",
+          "Pre-departure orientation and priority support"
+        ]
       },
       {
-        "roman": "III",
+        "featured": false,
+        "badge": "",
         "name": "Summit",
-        "subtitle": "GKS Scholarship + Degree",
-        "duration": "7–8 months · 16 sessions",
-        "tagline": "Best for: Students pursuing the fully-funded Korean Government Scholarship",
+        "best": "Best for: you are going after the fully funded GKS scholarship.",
+        "desc": "The most competitive route, with the most hands-on support Kairos offers. Everything in Passage, plus the scholarship campaign.",
+        "price": "$3,500",
+        "max": "₩4,725,000 · 16 sessions · 7–8 months",
+        "meta": "",
         "features": [
-          {
-            "text": "Everything in Passage",
-            "highlight": true
-          },
-          {
-            "text": "GKS eligibility assessment & pathway selection",
-            "highlight": true
-          },
-          {
-            "text": "University selection for Embassy or University Track"
-          },
-          {
-            "text": "Full scholarship application writing & document prep"
-          },
-          {
-            "text": "GKS personal statement & research plan coaching"
-          },
-          {
-            "text": "GKS interview prep — 2 mock sessions with written feedback"
-          },
-          {
-            "text": "Embassy application coordination & timeline management"
-          },
-          {
-            "text": "Financial planning for program start"
-          },
-          {
-            "text": "Dedicated KakaoTalk channel for real-time support"
-          },
-          {
-            "text": "Post-acceptance orientation & arrival planning"
-          }
-        ],
-        "usd": "$3,500",
-        "krw": "₩4,725,000",
-        "sessions": "16 sessions · 60 min each<br />7–8 month engagement",
-        "cta": "Get Started"
+          "Everything in Passage",
+          "A GKS eligibility check and the right pathway for you",
+          "University selection for the embassy or university track",
+          "Full scholarship writing and document prep",
+          "Two mock GKS interviews with written feedback",
+          "Embassy coordination and post-acceptance planning"
+        ]
       }
     ],
     "terms": {
       "payment": {
-        "title": "Payment & Terms",
+        "title": "Payment & terms",
         "items": [
-          "30% non-refundable deposit to secure your package",
+          "30% non-refundable deposit to reserve your package",
           "Remaining 70% due within 30 days of signing",
-          "Unused sessions may carry over up to 60 days",
-          "Packages are non-transferable between students",
-          "International clients: USD invoice via Wise",
-          "Korean clients: 세금계산서 issued via Hometax"
+          "Unused sessions carry over up to 60 days",
+          "International clients invoiced in USD via Wise",
+          "Korean clients receive a 세금계산서 via Hometax"
         ]
       },
       "promise": {
-        "title": "Our Promise",
+        "title": "Our promise",
         "items": [
-          "All consulting delivered by Ron Kim directly — no junior associates",
-          "All documents student-prepared; Kairos coaches, never writes",
-          "1-on-1 sessions only — no group classes, no templates",
-          "Sessions via Zoom — accommodating all time zones",
-          "Messaging response within 24 hours for active clients",
-          "KakaoTalk · WhatsApp · WeChat available"
+          "Every session is with Ron directly, never a junior agent",
+          "You prepare your documents; Ron coaches, never writes them",
+          "One-on-one only: no group classes, no templates",
+          "Messages answered within 24 hours for active clients",
+          "Available on KakaoTalk, WhatsApp, and WeChat"
         ]
       }
     }
   },
   "faq": {
     "tag": "FAQ",
-    "title": "Common <em>questions.</em>",
-    "sub": "Everything you need to know before you start.",
+    "title": "Common <span class=\"gold-foil\">questions.</span>",
     "items": [
       {
-        "q": "Do I need to know Korean before applying to a language program?",
-        "a": "No. Language center programs (D-4-1 visa) are designed for complete beginners. You start from the alphabet. Yonsei KLI, Korea University KLC, SNU LEI, and Sogang all offer Level 1 courses that assume zero prior knowledge. If you've already been studying Korean, you'll test into a higher level."
+        "q": "Do I need to know Korean before a language program?",
+        "a": "No. Language center programs (D-4-1 visa) are built for complete beginners, starting from the alphabet. Yonsei KLI, Korea University KLC, SNU LEI, and Sogang all offer Level 1 courses that assume no prior knowledge. If you have already studied, you will test into a higher level."
       },
       {
-        "q": "What is the GKS scholarship and how competitive is it?",
-        "a": "The Global Korea Scholarship (GKS), also called KGSP, is a fully-funded Korean government scholarship administered by NIIED. It covers tuition, a monthly stipend (~$900 USD), airfare, and health insurance. In 2026, approximately 2,000 graduate slots and 280 undergraduate slots were available globally. It's competitive — but with the right application strategy, strong candidates from over 100 eligible countries across Europe, Latin America, Asia, Africa, and beyond have a real shot. This is exactly where the Kairos Summit package is designed to help."
+        "q": "What is the GKS scholarship, and how competitive is it?",
+        "a": "The Global Korea Scholarship (GKS, also called KGSP) is a fully funded government scholarship run by NIIED. It covers tuition, a monthly stipend of about $900, airfare, and health insurance. In 2026 there were roughly 2,000 graduate and 280 undergraduate places worldwide. It is competitive, but with the right strategy, strong candidates from over 100 countries have a real shot. This is exactly what the Summit package is built for."
       },
       {
-        "q": "Can I apply from any country? Are there restrictions?",
-        "a": "Korea welcomes students from over 100 countries for both the D-4 language visa and D-2 student visa. Korean consulates and embassies operate worldwide — across Europe, Latin America, East Asia, Southeast Asia, the Middle East, Africa, and North America. The GKS scholarship is similarly open to students from a wide range of countries globally. Visa processing typically takes 1–3 weeks depending on your country. Kairos helps you identify the right consulate, prepare your documents, and navigate any country-specific logistics."
+        "q": "Can I apply from any country?",
+        "a": "Korea welcomes students from over 100 countries for both the D-4 language visa and the D-2 student visa, and Korean consulates operate worldwide. Visa processing usually takes one to three weeks depending on where you are. Ron helps you find the right consulate, prepare your documents, and handle any country-specific steps."
       },
       {
-        "q": "What is the TOPIK and do I need it?",
-        "a": "TOPIK (Test of Proficiency in Korean) is the official Korean language proficiency test, with levels 1–6. For language center programs (D-4 visa), you do not need TOPIK. For degree programs taught in Korean, most universities require TOPIK Level 3 or 4. For English-taught programs, TOPIK is not required, but having it strengthens your application. The GKS scholarship does not require TOPIK at application — you complete one year of Korean language training after acceptance."
+        "q": "What is TOPIK, and do I need it?",
+        "a": "TOPIK is the official Korean proficiency test, levels 1 to 6. For language center programs you do not need it. For degree programs taught in Korean, most universities want TOPIK Level 3 or 4. For English-taught programs it is not required, though it strengthens your application. GKS does not require TOPIK at the application stage; you complete a year of Korean after acceptance."
       },
       {
         "q": "How much does it cost to study in Korea?",
-        "a": "Language center programs cost approximately $1,200–$1,800 USD per term (3 months), plus living expenses (~$700–1,200/month in Seoul depending on housing). Degree program tuition ranges from $3,000–$8,000 USD per year at most Korean universities — significantly cheaper than US or UK equivalents. If you receive the GKS scholarship, tuition and a monthly stipend (~$900 USD) are fully covered by the Korean government."
-      },
-      {
-        "q": "What's included in the free consultation?",
-        "a": "The initial consultation (30–45 minutes via Zoom) is free and no-obligation. We'll discuss your background, your Korean level if any, your goals (language program vs. degree vs. scholarship), your timeline, and which package or pathway makes the most sense for you. There's no sales pressure — if Kairos isn't the right fit, I'll tell you."
-      },
-      {
-        "q": "Do I need to speak English to use Kairos's Korea consulting?",
-        "a": "Sessions are conducted in English. Kairos works with students from all over the world — Spain, Japan, China, France, Mexico, Brazil, Thailand, Indonesia, and more. Application documents are prepared in English and Korean as required by each institution. If your primary language is not English, the free consultation is a great way to assess fit before committing to a package."
+        "a": "Language programs run about $1,200 to $1,800 per term, plus living costs of roughly $700 to $1,200 a month in Seoul. Degree tuition is about $3,000 to $8,000 a year, well below US or UK equivalents. With the GKS scholarship, tuition and a monthly stipend are fully covered."
       },
       {
         "q": "How is Kairos different from other study-abroad agencies?",
-        "a": "Most study-abroad agencies handle dozens of countries and hand students off to junior staff. Kairos is different in three ways: (1) Every session is 1-on-1 with Ron Kim, a Seoul resident with real inside knowledge of Korean universities — not a remote agent reading a brochure. (2) We specialize rather than generalize. (3) We apply the same elite consulting standards that produced Harvard, Yale, and Columbia admits to the Korea study pathway. Your application gets treated like it matters — because it does."
+        "a": "Most agencies cover dozens of countries and hand you to junior staff. Kairos is different: every session is with Ron, a Seoul resident with real inside knowledge of these universities, who specializes in Korea and brings the same standards that produced Harvard, Yale, and Columbia admits to your Korea application."
       }
     ]
   },
+  "videoCta": {
+    "title": "This could be you.",
+    "sub": "Let's make it happen.",
+    "cta": "Start with a free consultation",
+    "poster": "/assets/img/admit-yale.jpg"
+  },
   "contact": {
     "tag": "Contact",
-    "title": "Start your<br />Korea journey.",
-    "sub": "The first consultation is free. We'll talk about your goals, your Korean level, your timeline, and whether Kairos is the right fit. No pressure. Just an honest conversation with someone who knows Korea from the inside.",
+    "title": "Start with a <span class=\"gold-foil\">free consultation.</span>",
+    "sub": "The first consultation is free and there is no obligation. Ron will talk through your goals, your Korean level, your timeline, and whether Kairos is the right fit. No pressure, just an honest conversation with someone who knows Korea from the inside.",
     "emailLabel": "Email",
-    "kakaoLabel": "KakaoTalk Channel",
-    "kakaoLinkHtml": "<a href=\"http://pf.kakao.com/_uWJKX\" style=\"color:var(--gold);text-decoration:none;\" target=\"_blank\">Add Channel →</a>",
-    "messagingLabel": "WhatsApp / Telegram",
-    "messaging": "Available for international students — ask via email",
     "locationLabel": "Based in",
-    "location": "Seoul, Korea · Working with students across 15+ countries",
+    "location": "Seoul, Korea · working with students in 15+ countries",
+    "formNote": "We reply within 24 hours. Your details stay private and are never shared.",
+    "expect": {
+      "title": "During your consultation, you will:",
+      "steps": [
+        {
+          "title": "Get an honest assessment",
+          "desc": "An honest read on where you stand today as an applicant, and what genuinely sets you apart."
+        },
+        {
+          "title": "Talk through your goals",
+          "desc": "Your strengths, your target schools or programs, and what it will take to get there."
+        },
+        {
+          "title": "See how Kairos works",
+          "desc": "The personalized roadmap we would build with you, and exactly how working with Ron unfolds."
+        },
+        {
+          "title": "Leave with a clear plan",
+          "desc": "Clear next steps and the right level of support for your family — and the space to decide in your own time."
+        }
+      ]
+    },
     "form": {
-      "nameLabel": "Your Name",
+      "nameLabel": "Your name",
       "namePlaceholder": "Your full name",
-      "countryLabel": "Country of Residence",
+      "countryLabel": "Country of residence",
       "countryPlaceholder": "e.g. Spain, Japan, China, Brazil…",
       "emailLabel": "Email",
       "emailPlaceholder": "you@email.com",
-      "goalLabel": "Study Goal",
+      "goalLabel": "Study goal",
       "goalPlaceholder": "Select your goal…",
       "goals": [
         "Language Program (D-4 Visa)",
@@ -456,7 +408,7 @@
         "GKS Scholarship (Fully Funded)",
         "Not sure yet — need guidance"
       ],
-      "koreanLevelLabel": "Current Korean Level",
+      "koreanLevelLabel": "Current Korean level",
       "koreanLevelPlaceholder": "Select level…",
       "koreanLevels": [
         "Zero — Complete beginner",
@@ -464,31 +416,32 @@
         "Intermediate — TOPIK 2–3",
         "Advanced — TOPIK 4–6"
       ],
-      "universitiesLabel": "Target Universities or Programs (if known)",
+      "universitiesLabel": "Target universities or programs (if known)",
       "universitiesPlaceholder": "e.g. Yonsei KLI, SNU, KAIST…",
       "messageLabel": "Tell us about your goals",
-      "messagePlaceholder": "When do you want to start? What are you hoping to study or achieve in Korea? Any questions about the process?",
-      "submit": "Send Message →"
+      "messagePlaceholder": "When do you want to start? What are you hoping to study or achieve in Korea?",
+      "submit": "Send message <span class=\"arrow\">→</span>"
     }
   },
   "footer": {
-    "tagline": "Elite consulting for students who refuse to be average — in the US, in Korea, and beyond.",
-    "col1Heading": "Study in Korea",
+    "tagline": "Boutique college admissions consulting. One student, one counselor, in the US and in Korea.",
+    "col1Heading": "Study in the US",
     "col1": [
-      { "href": "#pathways", "text": "Three Pathways" },
-      { "href": "#universities", "text": "Korean Universities" },
-      { "href": "#packages", "text": "Packages & Pricing" },
-      { "href": "#faq", "text": "FAQ" }
-    ],
-    "col2Heading": "Study in the US",
-    "col2": [
-      { "href": "/origin.html#results", "text": "Admissions Results" },
-      { "href": "/origin.html#packages", "text": "Packages & Pricing" },
-      { "href": "/origin.html#methodology", "text": "Our Approach" },
-      { "href": "/origin.html#about", "text": "About Kairos" },
+      { "href": "/origin.html#results", "text": "Results" },
+      { "href": "/origin.html#us-process", "text": "How it works" },
+      { "href": "/origin.html#packages", "text": "Packages" },
+      { "href": "/origin.html#about", "text": "About" },
       { "href": "/origin.html#faq", "text": "FAQ" }
     ],
+    "col2Heading": "Study in Korea",
+    "col2": [
+      { "href": "#why-korea", "text": "Why Korea" },
+      { "href": "#pathways", "text": "Pathways" },
+      { "href": "#packages", "text": "Packages" },
+      { "href": "#faq", "text": "FAQ" }
+    ],
+    "disc": "Kairos Education is an independent consultancy and is not affiliated with, endorsed by, or sponsored by any university or institution named on this site. Results vary by student and depend on starting point, timeline, target schools, and individual effort. Past admissions outcomes do not guarantee future results.",
     "copyright": "© 2026 Kairos Education. All rights reserved.",
-    "meta": "Seoul, Korea · Worldwide · <a href=\"mailto:ronkim@kairos-education.org\" style=\"color:rgba(255,255,255,0.4);text-decoration:none;\">ronkim@kairos-education.org</a>"
+    "meta": "Seoul, Korea · Worldwide"
   }
 }
