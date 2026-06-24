@@ -3,31 +3,15 @@ import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
 import { LANGS } from '../config/langs.mjs';
+import { SYNC_ASSETS } from '../config/assets.mjs';
+import { verifyTemplates } from './lib/verify-templates.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
 
 const LOCALE_DIRS = ['origin', 'study-korea', 'index'];
 
-const ASSET_PAIRS = [
-  'kairos-tokens.css',
-  'kairos-shared.css',
-  'index-site.css',
-  'interactions.js',
-  'origin-site.css',
-  'origin-i18n.js',
-  'origin-locale.js',
-  'study-korea-site.css',
-  'study-korea-i18n.js',
-  'study-korea-locale.js',
-  'hash-scroll.js',
-  'seo-i18n.js',
-  'langs.js',
-  'mobile-nav.js',
-  'index-locale.js',
-  'contact-shell.js',
-  'kairos-i18n-utils.js',
-];
+const ASSET_PAIRS = SYNC_ASSETS;
 
 function hashFile(filePath) {
   return crypto.createHash('sha256').update(fs.readFileSync(filePath)).digest('hex');
@@ -80,3 +64,13 @@ if (errors.length) {
 }
 
 console.log('verify-sync: all locales and assets are in sync.');
+
+const templateErrors = verifyTemplates(root);
+if (templateErrors.length) {
+  console.error('verify-templates: unsupported syntax in src/templates/*.njk:\n');
+  for (const e of templateErrors) console.error(`  - ${e}`);
+  console.error('\nTemplates use mini-template (not full Nunjucks). See scripts/lib/mini-template.mjs');
+  process.exit(1);
+}
+
+console.log('verify-templates: all templates OK.');

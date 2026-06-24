@@ -3,6 +3,7 @@ import path from 'path';
 import { SITE, LANGS, HREFLANG, OG_LOCALE, OG_IMAGE } from '../../config/langs.mjs';
 import { PATHS } from '../../config/paths.mjs';
 import { CONTACTS } from '../../config/contacts.mjs';
+import { PKG_ROMANS } from '../../config/pkg.mjs';
 
 export function writeLangsJs(root) {
   const out = path.join(root, 'src', 'assets', 'langs.js');
@@ -14,6 +15,7 @@ export const OG_LOCALE = ${JSON.stringify(OG_LOCALE)};
 export const OG_IMAGE = ${JSON.stringify(OG_IMAGE)};
 export const PATHS = ${JSON.stringify(PATHS)};
 export const CONTACTS = ${JSON.stringify(CONTACTS)};
+export const PKG_ROMANS = ${JSON.stringify(PKG_ROMANS)};
 `;
   fs.writeFileSync(out, content);
 }

@@ -39,8 +39,7 @@
   },
   "hero": {
     "badge": "Boutique College Admissions Consulting · Worldwide",
-    "h1": "Your child has one shot at the Ivy League. Give it the <span class=\"gold-foil\">counselor it deserves.</span>",
-    "lead": "Kairos is boutique admissions consulting for families targeting Harvard, Yale, and the world's most selective universities. From the first call to the final essay, your child works directly with Ron Kim — Kairos's founder, a former Crimson consultant whose students earn Ivy League admission. Never a junior associate, never a rotating team. At the big firms, your child is one file among thousands; here, they are the only student in the room.",
+    "h1": "Your child has one shot at competitive colleges. Give it the <span class=\"gold-foil\">counselor it deserves.</span>",
     "authority": "Kairos students have been admitted to",
     "primaryCta": "Book a free consultation <span class=\"arrow\">→</span>",
     "secondaryCta": "See the results",
@@ -422,22 +421,27 @@
     ]
   },
   "testimonials": {
-    "hidden": true,
-    "eyebrow": "Families",
-    "title": "What families <span class=\"gold-foil\">say.</span>",
-    "note": "Placeholder testimonials shown for layout. Replace with real, anonymized quotes before launch.",
+    "hidden": false,
+    "eyebrow": "Students",
+    "title": "What students <span class=\"gold-foil\">say.</span>",
     "items": [
       {
-        "quote": "We came to Ron the summer before senior year, anxious and behind. He treated our son like the only student he had. The essays sounded like our boy, and the acceptance still feels unreal.",
-        "by": "Parent of a 2025 Columbia admit"
+        "school": "UPenn Wharton",
+        "by": "J**** Park",
+        "initial": "J",
+        "quote": "Before working with Ron, I had the grades, the SAT score, the activities. What I didn't have was a story. My first draft was basically a resume disguised as an essay — and Ron told me exactly that. He didn't sugarcoat it, which I actually appreciated.\n\nWhat changed everything was when he asked me a simple question: 'What do you actually think about, when no one's watching?' That question led to an essay I never would have written on my own. It was about my obsession with behavioral economics and a street vendor I'd watched for years outside my school in Mapo. Sounds random. It got me into Wharton.\n\nRon doesn't write your essays for you. He pulls out what's already there. Wharton ED. I still can't believe it."
       },
       {
-        "quote": "We had spoken to a large firm first and felt like a number. With Ron it was personal from the first call. He pushed our daughter to find her own voice, and it showed.",
-        "by": "Parent of a 2024 Yale admit"
+        "school": "Dartmouth",
+        "by": "C***** Park",
+        "initial": "C",
+        "quote": "I came to Ron in October of my senior year, which is honestly too late, but he didn't panic and he didn't let me panic either. I was trying to write about my time in student council — it was fine. Totally fine. Forgettable.\n\nHe pushed back. Asked what I actually cared about. We ended up uncovering this thing I'd never thought was 'essay-worthy' — the fact that I'd been translating for my grandmother at hospitals since I was eleven. Medical vocabulary I never learned in school. The quiet weight of being the person a family trusts. Ron helped me see that was my whole story.\n\nDartmouth ED. I cried for about an hour after I found out. Genuinely could not have done this without him."
       },
       {
-        "quote": "Every email, every draft, every late-night question went straight to Ron. That kind of attention is the reason my application stood out. I will never forget it.",
-        "by": "Kairos student, now at Dartmouth"
+        "school": "WashU",
+        "by": "Y**** Park",
+        "initial": "Y",
+        "quote": "Honest review: I came in skeptical. I'd heard a lot of consultants just rewrite your essays until they sound like them, not you. Ron is the opposite.\n\nHe spent the first session just asking me questions. Not about my activities or grades — about how I think, what I argue about with my friends, what I read when I'm bored. By the end I realized he was building a profile of me that I couldn't have articulated myself.\n\nMy supplement for WashU took four sessions and six drafts. Every round, Ron would say 'this is good, but it still sounds like you're trying to impress someone.' The final version didn't impress anyone — it just sounded like me. That's what got in, I think.\n\nWashU full merit scholarship."
       }
     ]
   },
@@ -574,9 +578,9 @@
     "tag": "About",
     "title": "The person who will actually <span class=\"gold-foil\">work with your child.</span>",
     "paragraphs": [
-      "Ron Kim founded Kairos after years inside the admissions industry, including time as a consultant at Crimson Education, one of the largest firms in the world. He learned what the big firms do well. He also saw what they do to families: once you sign, you are often handed to a junior associate, while the person with the real track record stays a name on the website.",
-      "Kairos is built to be the opposite. Every session, every essay, every strategy call is Ron himself. He takes on only a small number of families each year, because that is the only way to know a student well enough to help them stand out.",
-      "Ron grew up in the international school system in Korea and studied at the University of Illinois. Over his career he has guided students into Harvard, Yale, Columbia, Penn, Dartmouth, Cornell, Duke, Johns Hopkins, and the University of Chicago, and has worked on the counseling side of the desk at international schools."
+      "Hello, I'm Ron Kim, founder of Kairos and your admissions consultant.\nI founded Kairos after working at Crimson Education, one of the largest admissions consulting firms in the world. I learned a great deal at a big firm. I also saw things I wish I hadn't.\nOnce you sign a contract, the student is often handed off to a junior associate. The person with the real track record stays nothing more than a name on the website. I didn't think that was right.",
+      "So I built Kairos differently from the start. Every session, every essay, every strategy call is with me directly. I take on only a small number of families each year, because that's the only way to know a student deeply enough to help them truly stand out.",
+      "I grew up in Korea's international school system and studied at the University of Illinois in the United States. I've helped students gain admission to Harvard, Yale, Columbia, Penn, Dartmouth, Cornell, Duke, Johns Hopkins, and the University of Chicago, and I've also worked directly in college counseling at international schools."
     ],
     "quote": {
       "text": "The students I remember are not the ones with the highest test scores. They are the ones who found their real story and had the courage to tell it.",

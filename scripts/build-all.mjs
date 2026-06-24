@@ -2,29 +2,22 @@ import { spawnSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { PAGE_BUILDS } from '../config/pages.mjs';
 import { writeLangsJs } from './lib/write-langs-js.mjs';
 import { writeSeoFiles } from './lib/write-seo-files.mjs';
+import { copyAllAssets } from './lib/build-page.mjs';
+import { buildSitePage } from './lib/build-site-page.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
 
 writeLangsJs(root);
 writeSeoFiles(root);
+copyAllAssets(root);
 
-const scripts = [
-  'build-origin-plain.mjs',
-  'build-origin-contact-plain.mjs',
-  'build-study-korea-plain.mjs',
-  'build-study-korea-contact-plain.mjs',
-  'build-index-plain.mjs',
-];
-
-for (const script of scripts) {
-  const result = spawnSync(process.execPath, [path.join(__dirname, script)], {
-    cwd: root,
-    stdio: 'inherit',
-  });
-  if (result.status !== 0) process.exit(result.status ?? 1);
+for (const page of PAGE_BUILDS) {
+  const output = buildSitePage(root, page, { copyAssets: false });
+  console.log(`Built public/${output}`);
 }
 
 for (const legacy of ['origin.html', 'study-korea.html']) {

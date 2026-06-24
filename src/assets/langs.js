@@ -6,3 +6,4 @@ export const OG_LOCALE = {"en":"en_US","ko":"ko_KR","zh":"zh_CN","th":"th_TH","v
 export const OG_IMAGE = "https://kairoseducation.org/assets/og-image.png";
 export const PATHS = {"origin":{"landing":"/origin/","contact":"/origin/contact.html"},"studyKorea":{"landing":"/study-korea/","contact":"/study-korea/contact.html"}};
 export const CONTACTS = {"email":"ronkim@kairos-education.org","kakao":"http://pf.kakao.com/_uWJKX","whatsapp":"https://wa.me/0000000000"};
+export const PKG_ROMANS = ["I","II","III","IV"];

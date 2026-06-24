@@ -121,11 +121,16 @@ function renderProcessSteps(steps) {
     .join('');
 }
 
-function renderTestimonials(testimonials) {
-  const cards = testimonials.items
+function renderTestimonialCards(items) {
+  return (items || [])
     .map((t) => {
-      const initial = (t.by || '?').trim().charAt(0).toUpperCase();
-      return `<div class="testi">
+      const initial = (t.initial || (t.by || '?').trim().charAt(0)).toUpperCase();
+      const school = esc(t.school || '');
+      const schoolRow = school
+        ? `<div class="testi-top"><span class="testi-school">${school}</span><span class="stars-row" aria-label="5 stars">★★★★★</span></div>`
+        : `<div class="stars-row" aria-label="5 stars">★★★★★</div>`;
+      return `<div class="testi reveal">
+      ${schoolRow}
       <div class="qt">${esc(t.quote)}</div>
       <div class="who">
         <div class="av">${esc(initial)}</div>
@@ -134,13 +139,6 @@ function renderTestimonials(testimonials) {
     </div>`;
     })
     .join('');
-  const note = testimonials.note ? `<p class="testi-note">${esc(testimonials.note)}</p>` : '';
-  return `<div class="sec-head center">
-    <div class="eyebrow">${esc(testimonials.eyebrow)}</div>
-    <h2>${testimonials.title ?? ''}</h2>
-  </div>
-  <div class="testi-grid">${cards}</div>
-  ${note}`;
 }
 
 function renderAbout(about) {
@@ -215,7 +213,6 @@ export function applyLocale(data) {
 
   setText('#mount-hero-badge', data.hero.badge);
   setHtml('#mount-hero-h1', data.hero.h1);
-  setText('#mount-hero-lead', data.hero.lead);
   setHtml(
     '#mount-hero-cta',
     renderHeroCta(PATHS.origin.contact, '#results', data.hero.primaryCta, data.hero.secondaryCta)
@@ -254,8 +251,21 @@ export function applyLocale(data) {
   setHtml('#mount-process-steps', renderProcessSteps(data.process.steps));
 
   const testiSection = document.getElementById('us-testimonials');
-  if (testiSection && data.testimonials?.hidden) {
-    testiSection.style.display = 'none';
+  if (testiSection) {
+    if (data.testimonials?.hidden) {
+      testiSection.style.display = 'none';
+    } else {
+      testiSection.style.display = '';
+      setText('#mount-testimonials-eyebrow', data.testimonials.eyebrow);
+      setHtml('#mount-testimonials-title', data.testimonials.title);
+      setHtml('#mount-testimonials', renderTestimonialCards(data.testimonials.items));
+      const testiNote = document.getElementById('mount-testimonials-note');
+      if (testiNote) {
+        const note = data.testimonials.note || '';
+        testiNote.textContent = note;
+        testiNote.style.display = note ? '' : 'none';
+      }
+    }
   }
 
   setText('#mount-packages-tag', data.services.tag);

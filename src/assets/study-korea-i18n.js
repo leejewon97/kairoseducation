@@ -182,7 +182,6 @@ export function applyLocale(data) {
 
   setText('#mount-hero-badge', data.hero.badge);
   setHtml('#mount-hero-h1', data.hero.h1);
-  setText('#mount-hero-lead', data.hero.lead);
   setHtml(
     '#mount-hero-cta',
     renderHeroCta(

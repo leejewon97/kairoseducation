@@ -39,8 +39,7 @@
   },
   "hero": {
     "badge": "Tư vấn tuyển sinh đại học cao cấp theo mô hình boutique · Toàn cầu",
-    "h1": "Con bạn chỉ có một cơ hội duy nhất với Ivy League. Hãy trao cho con <span class=\"gold-foil\">người cố vấn xứng đáng.</span>",
-    "lead": "Kairos là dịch vụ tư vấn tuyển sinh cao cấp theo mô hình boutique, dành cho những gia đình hướng tới Harvard, Yale và các trường đại học chọn lọc nhất thế giới. Từ cuộc gọi đầu tiên đến bài luận cuối cùng, con bạn làm việc trực tiếp với Ron Kim, nhà sáng lập Kairos, một cựu chuyên gia tư vấn của Crimson với những học sinh trúng tuyển Ivy League. Không bao giờ là một trợ lý non trẻ, không bao giờ là một đội ngũ thay người luân phiên. Tại các công ty lớn, con bạn chỉ là một hồ sơ giữa hàng nghìn hồ sơ; còn tại đây, con là học sinh duy nhất trong phòng.",
+    "h1": "Con bạn chỉ có một cơ hội duy nhất với các trường đại học có năng lực cạnh tranh. Hãy trao cho con <span class=\"gold-foil\">người cố vấn xứng đáng.</span>",
     "authority": "Học sinh của Kairos đã trúng tuyển vào",
     "primaryCta": "Đặt lịch tư vấn miễn phí <span class=\"arrow\">→</span>",
     "secondaryCta": "Xem kết quả",
@@ -422,22 +421,27 @@
     ]
   },
   "testimonials": {
-    "hidden": true,
-    "eyebrow": "Các gia đình",
-    "title": "Các gia đình <span class=\"gold-foil\">nói gì.</span>",
-    "note": "Các lời chứng thực mẫu hiển thị cho mục đích bố cục. Hãy thay bằng những trích dẫn thật, đã ẩn danh, trước khi ra mắt.",
+    "hidden": false,
+    "eyebrow": "Học sinh chia sẻ",
+    "title": "Học sinh <span class=\"gold-foil\">nói gì.</span>",
     "items": [
       {
-        "quote": "Chúng tôi tìm đến Ron vào mùa hè trước năm cuối cấp, đầy lo lắng và đã trễ tiến độ. Ông đối xử với con trai chúng tôi như học sinh duy nhất ông có. Các bài luận vang lên đúng giọng văn của con, và việc trúng tuyển đến giờ vẫn cảm thấy như không có thật.",
-        "by": "Phụ huynh của một học sinh trúng tuyển Columbia 2025"
+        "school": "UPenn Wharton",
+        "by": "J**** Park",
+        "initial": "J",
+        "quote": "Trước khi làm việc với Ron, tôi đã có điểm số, điểm SAT và hoạt động ngoại khóa. Điều tôi thiếu là một câu chuyện. Bản nháp đầu tiên của tôi về cơ bản là CV ngụy trang thành bài luận — và Ron nói thẳng như vậy. Ông không nói vòng vo, điều mà tôi thực sự trân trọng.\n\nĐiều thay đổi tất cả là một câu hỏi đơn giản: \"Khi không ai nhìn, bạn thực sự nghĩ về điều gì?\" Câu hỏi đó dẫn tôi đến một bài luận mà tôi không bao giờ tự viết được. Đó là về niềm ám ảnh kinh tế hành vi và một người bán hàng rong mà tôi quan sát nhiều năm bên ngoài trường ở Mapo. Nghe có vẻ ngẫu nhiên. Nhưng nó đưa tôi vào Wharton.\n\nRon không viết bài thay bạn. Ông kéo ra những gì đã có sẵn trong bạn. Wharton ED. Tôi vẫn chưa tin được."
       },
       {
-        "quote": "Trước đó chúng tôi đã trao đổi với một công ty lớn và cảm thấy mình chỉ là một con số. Với Ron, mọi thứ mang tính cá nhân ngay từ cuộc gọi đầu tiên. Ông thúc đẩy con gái chúng tôi tìm ra giọng nói của riêng mình, và điều đó hiện rõ.",
-        "by": "Phụ huynh của một học sinh trúng tuyển Yale 2024"
+        "school": "Dartmouth",
+        "by": "C***** Park",
+        "initial": "C",
+        "quote": "Tôi đến với Ron vào tháng Mười năm cuối cấp — thật ra là quá muộn — nhưng ông không hoảng và cũng không để tôi hoảng. Tôi đang cố viết về thời gian ở hội học sinh — ổn thôi. Hoàn toàn ổn. Dễ quên.\n\nÔng phản biện lại. Hỏi tôi thực sự quan tâm điều gì. Cuối cùng chúng tôi tìm ra điều tôi chưa từng nghĩ là \"đáng viết\" — việc phiên dịch cho bà ở bệnh viện từ khi tôi mười một tuổi. Từ vựng y khoa không học ở trường. Gánh nặng thầm lặng của việc là người gia đình tin cậy. Ron giúp tôi thấy đó là toàn bộ câu chuyện của mình.\n\nDartmouth ED. Tôi khóc khoảng một tiếng sau khi biết tin. Thật sự không thể làm được nếu không có ông."
       },
       {
-        "quote": "Mỗi email, mỗi bản nháp, mỗi câu hỏi giữa đêm khuya đều đến thẳng với Ron. Chính sự tận tâm đó là lý do hồ sơ của tôi nổi bật. Tôi sẽ không bao giờ quên điều ấy.",
-        "by": "Học sinh Kairos, hiện đang học tại Dartmouth"
+        "school": "WashU",
+        "by": "Y**** Park",
+        "initial": "Y",
+        "quote": "Đánh giá thật lòng: ban đầu tôi nghi ngờ. Tôi nghe nhiều consultant chỉnh bài đến mức nghe như họ viết, không phải bạn. Ron thì ngược lại.\n\nBuổi đầu ông chỉ hỏi câu hỏi. Không hỏi hoạt động hay điểm — hỏi tôi nghĩ thế nào, tranh luận với bạn về gì, đọc gì khi chán. Đến cuối tôi nhận ra ông đang dựng hồ sơ về tôi mà chính tôi không diễn đạt được.\n\nBài bổ sung WashU mất bốn buổi và sáu bản nháp. Mỗi vòng Ron nói: \"ổn rồi, nhưng vẫn nghe như bạn đang cố gây ấn tượng với ai đó.\" Bản cuối không gây ấn tượng với ai — chỉ nghe như tôi. Có lẽ đó là lý do tôi trúng tuyển.\n\nHọc bổng toàn phần merit của WashU."
       }
     ]
   },
@@ -574,9 +578,9 @@
     "tag": "Giới thiệu",
     "title": "Người sẽ trực tiếp <span class=\"gold-foil\">làm việc với con bạn.</span>",
     "paragraphs": [
-      "Ron Kim sáng lập Kairos sau nhiều năm làm việc trong ngành tư vấn tuyển sinh, bao gồm thời gian làm chuyên gia tư vấn tại Crimson Education, một trong những công ty lớn nhất thế giới. Ông học được những gì các công ty lớn làm tốt. Ông cũng chứng kiến điều họ gây ra cho các gia đình: một khi ký hợp đồng, bạn thường bị giao cho một nhân viên non kinh nghiệm, trong khi người thực sự có bề dày thành tích chỉ còn là một cái tên trên website.",
-      "Kairos được xây dựng để làm điều ngược lại. Mỗi buổi học, mỗi bài luận, mỗi cuộc gọi chiến lược đều là chính Ron. Mỗi năm ông chỉ nhận một số ít gia đình, bởi đó là cách duy nhất để hiểu một học sinh đủ sâu để giúp em nổi bật.",
-      "Ron lớn lên trong hệ thống trường quốc tế tại Hàn Quốc và học tại University of Illinois. Trong suốt sự nghiệp, ông đã dẫn dắt học sinh vào Harvard, Yale, Columbia, Penn, Dartmouth, Cornell, Duke, Johns Hopkins và University of Chicago, đồng thời từng làm công tác tư vấn ở phía nhà trường tại các trường quốc tế."
+      "Xin chào, tôi là Ron Kim, nhà sáng lập Kairos và cố vấn tuyển sinh của bạn.\nTôi thành lập Kairos sau khi làm việc tại Crimson Education, một trong những công ty tư vấn tuyển sinh lớn nhất thế giới. Tôi học được rất nhiều ở một công ty lớn. Đồng thời, tôi cũng chứng kiến những điều mà tôi không muốn thấy.\nSau khi ký hợp đồng, học sinh thường bị chuyển cho một trợ lý non kinh nghiệm. Người thực sự có thành tích chỉ còn là một cái tên trên website. Tôi không nghĩ cách đó là đúng.",
+      "Vì vậy tôi xây dựng Kairos khác biệt ngay từ đầu. Mỗi buổi học, mỗi bài luận, mỗi cuộc gọi chiến lược đều do tôi trực tiếp đảm nhiệm. Tôi chỉ nhận một số ít gia đình mỗi năm, vì đó là cách duy nhất để hiểu một học sinh đủ sâu và giúp em thực sự nổi bật.",
+      "Tôi lớn lên trong hệ thống trường quốc tế tại Hàn Quốc và học tại University of Illinois ở Hoa Kỳ. Tôi đã giúp học sinh trúng tuyển vào Harvard, Yale, Columbia, Penn, Dartmouth, Cornell, Duke, Johns Hopkins và University of Chicago, đồng thời từng trực tiếp phụ trách tư vấn tuyển sinh tại các trường quốc tế."
     ],
     "quote": {
       "text": "Những học sinh tôi nhớ không phải là những em có điểm thi cao nhất. Đó là những em tìm thấy câu chuyện thật của mình và có đủ can đảm để kể nó.",
