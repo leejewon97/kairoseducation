@@ -1,0 +1,31 @@
+  <footer class="footer" id="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="fwm"><span class="star">✦</span> KAIROS EDUCATION</div>
+          <div class="ft-tag" id="mount-footer-tagline">{{ footer.tagline }}</div>
+        </div>
+        <div class="footer-col">
+          <h4 id="mount-footer-col1-heading">{{ footer.col1Heading }}</h4>
+          <div id="mount-footer-col1">
+            {% for item in footer.col1 %}
+            <a href="{{ item.href }}">{{ item.text }}</a>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 id="mount-footer-col2-heading">{{ footer.col2Heading }}</h4>
+          <div id="mount-footer-col2">
+            {% for item in footer.col2 %}
+            <a href="{{ item.href }}">{{ item.text }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="footer-disc" id="mount-footer-disc">{{ footer.disc }}</div>
+      <div class="footer-bot">
+        <div id="mount-footer-copyright">{{ footer.copyright }}</div>
+        <div id="mount-footer-meta">{{{ footer.meta }}}</div>
+      </div>
+    </div>
+  </footer>

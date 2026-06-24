@@ -1,6 +1,4 @@
-import { PATHS } from './langs.js';
-
-const KAKAO_URL = 'http://pf.kakao.com/_uWJKX';
+import { PATHS, CONTACTS } from './langs.js';
 
 function esc(s) {
   if (s == null) return '';
@@ -67,7 +65,7 @@ export function buildMobileMenuHtml({ page, mobileMenu, sectionLinks, hideBookCt
     html += `<a class="btn btn-navy" href="${contactUrl}" data-mm-book>${esc(mobileMenu.bookCta)}</a>`;
   }
   html +=
-    `<a class="btn btn-kakao" href="${KAKAO_URL}" target="_blank" rel="noopener" data-mm-kakao>💬 ${esc(mobileMenu.kakaoCta)}</a>` +
+    `<a class="btn btn-kakao" href="${CONTACTS.kakao}" target="_blank" rel="noopener" data-mm-kakao>💬 ${esc(mobileMenu.kakaoCta)}</a>` +
     `</div>`;
 
   return html;

@@ -5,12 +5,11 @@ import { PATHS } from '../config/paths.mjs';
 import { render } from './lib/mini-template.mjs';
 import { buildSeoLinks, buildOgTwitterTags } from './lib/seo-head.mjs';
 import { buildPage } from './lib/build-page.mjs';
+import { renderPageTemplate } from './lib/render-built.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
 const PAGE_PATH = PATHS.origin.landing;
-
-const tpl = fs.readFileSync(path.join(root, 'src', 'templates', 'origin-page.njk'), 'utf8');
 
 const PKG_ROMANS = ['I', 'II', 'III', 'IV'];
 const en = JSON.parse(fs.readFileSync(path.join(root, 'locales', 'origin', 'en.json'), 'utf8'));
@@ -27,8 +26,10 @@ const enBuilt = {
   },
 };
 
-const html = render(tpl, {
+const html = renderPageTemplate(root, 'origin-page.njk', {
   ...enBuilt,
+  pageStylesheet: 'origin-site.css',
+  contactPath: PATHS.origin.contact,
   seoLinks: buildSeoLinks(PAGE_PATH),
   ogTwitterTags: buildOgTwitterTags({
     title: enBuilt.title,

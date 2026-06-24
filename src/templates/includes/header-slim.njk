@@ -1,0 +1,26 @@
+  <header class="header" id="header">
+    <div class="nav nav--slim">
+      <a href="/" class="brand" aria-label="Kairos">
+        <img src="/assets/img/logo.png" alt="Kairos Education" width="38" height="38" />
+        <span class="wm">KAIROS</span>
+      </a>
+      <div class="nav-right">
+        <div class="lang" id="lang">
+          <button type="button" class="lang-btn" aria-haspopup="true" aria-expanded="false" aria-label="Select language">
+            <span class="flag" aria-hidden="true">🇺🇸</span>
+            <span id="langCur">English</span>
+            <span class="car" aria-hidden="true"></span>
+          </button>
+          <div class="lang-menu" role="menu" id="mount-lang-switcher"></div>
+        </div>
+        <button type="button" class="burger" id="burger" aria-label="{{ nav.menuOpen }}">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button type="button" class="mm-close" aria-label="{{ nav.menuClose }}">&times;</button>
+    <div id="mount-mobile-links"></div>
+  </div>

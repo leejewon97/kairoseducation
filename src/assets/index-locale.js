@@ -1,4 +1,5 @@
 import { LANGS } from './langs.js';
+import { updateSeoMeta } from './seo-i18n.js';
 
 const STORAGE_KEY = 'kairos-lang';
 
@@ -90,6 +91,9 @@ function applyLocale(data, lang) {
     chip.classList.toggle('sel', isSel);
     chip.setAttribute('aria-pressed', isSel ? 'true' : 'false');
   });
+
+  document.title = data.title;
+  updateSeoMeta(data, '/');
 
   document.dispatchEvent(new CustomEvent('kairos:langchange', { detail: { lang } }));
 }

@@ -4,8 +4,6 @@
 
 **라이브:** https://kairoseducation.org
 
-**디자인 이식·배포 QA·미완 항목:** [`docs/design-migration-followups.md`](docs/design-migration-followups.md)
-
 ---
 
 ## 협업 워크플로
@@ -41,7 +39,7 @@ node scripts/build-all.mjs
 cd public && npx --yes serve .
 ```
 
-브라우저에서 표시된 URL로 `/`, `/origin.html`, `/study-korea.html` 등을 확인합니다. **폼 제출**은 배포 URL에서만 Netlify로 전달됩니다.
+브라우저에서 표시된 URL로 `/`, `/origin/`, `/study-korea/`, `/origin/contact.html` 등을 확인합니다. **폼 제출**은 배포 URL에서만 Netlify로 전달됩니다.
 
 ### npm 스크립트 (선택)
 
@@ -83,7 +81,7 @@ Netlify Deploys에 **`public/` 폴더**를 드래그앤드롭.
 
 1. [Netlify](https://app.netlify.com) → 해당 사이트 → **Deploys**
 2. `public/` 폴더를 드래그앤드롭 (폴더 안 파일만 펼쳐 올리지 말 것 — `public` 폴더 자체를 끌어다 놓기).
-3. **Published** 확인 후 https://kairoseducation.org 에서 `/`, `/origin.html` 등 열기
+3. **Published** 확인 후 https://kairoseducation.org 에서 `/`, `/origin/`, `/study-korea/` 등 열기
 
 ### 배포 전 체크리스트
 
@@ -96,7 +94,7 @@ Netlify Deploys에 **`public/` 폴더**를 드래그앤드롭.
 | | 원본 (수정 대상) | 산출물 (빌드 결과, 직접 수정 X) |
 |--|------------------|--------------------------------|
 | **번역** | `locales/{origin,study-korea,index}/` | `public/locales/{origin,study-korea,index}/` |
-| **HTML** | `src/templates/*.njk` | `public/{index,origin,study-korea}.html` |
+| **HTML** | `src/templates/*.njk` | `public/index.html`, `public/origin/`, `public/study-korea/` |
 | **CSS/JS** | `src/assets/` | `public/assets/` |
 | **언어 상수** | `config/langs.mjs` | `src/assets/langs.js` (빌드 시 자동 생성) |
 
@@ -117,12 +115,14 @@ npx --yes serve .
 
 | 폼 name | 페이지 |
 |---------|--------|
-| `contact` | `/origin.html` (5언어 공통, hidden `language`: en/ko/zh/th/vi) |
-| `study-korea` | `/study-korea.html` (5언어 공통, hidden `language`: en/ko/zh/th/vi) |
+| `contact` | `/origin/contact.html` (5언어 공통, hidden `language`: en/ko/zh/th/vi) |
+| `study-korea` | `/study-korea/contact.html` (5언어 공통, hidden `language`: en/ko/zh/th/vi) |
+
+연락 폼은 **상담 전용 페이지**에만 있으며, 랜딩에는 `#contact` 섹션이 없습니다.
 
 연락 폼은 `data-netlify="true"`로 제출되며, 대시보드 **Forms**에도 쌓입니다.
 
-**이메일 알림:** 설정됨. 제출 시 `formresponses@netlify.com` → `ronkim@kairos-education.org` 으로 발송 (2026-05 테스트: `/origin.html` `contact` 폼). 본문 필드: `name`, `grade`, `email`, `universities`, `message`.
+**이메일 알림:** 설정됨. 제출 시 `formresponses@netlify.com` → `ronkim@kairos-education.org` 으로 발송 (2026-05 테스트: origin `contact` 폼). 본문 필드: `name`, `grade`, `email`, `universities`, `message`.
 
 사이트에 `/.netlify/functions/emails` Function이 배포되어 있을 수 있으나, 현재 HTML 폼은 Function이 아니라 **Netlify Forms** 경로를 사용합니다.
 
@@ -146,10 +146,9 @@ npx --yes serve .
 - nav·footer·가격·폼 라벨 등 **공통 구조** 변경 시: 템플릿 + 필요 시 5개 locale JSON.
 - **대학명 `name`:** 영문 고유명사 유지. **`detail`:** 해당 locale 언어로.
 
-### 공통 연락처 (5개 locale UI 동일, 템플릿 하드코딩)
+### 공통 연락처
 
-- 이메일: `ronkim@kairos-education.org`
-- 카카오: `http://pf.kakao.com/_uWJKX`
+[`config/contacts.mjs`](config/contacts.mjs) — email·kakao·whatsapp 단일 소스. 빌드 시 `langs.js`·템플릿에 주입. 번호·이메일 변경 시 이 파일만 수정.
 
 ---
 
@@ -157,73 +156,89 @@ npx --yes serve .
 
 ```
 public/
-  index.html              # / — 언어·진로 선택 (빌드 산출, 직접 수정 X)
-  origin.html             # 영문 HTML만 (빌드 결과, 직접 수정 X)
-  study-korea.html        # Study in KR (영문 HTML만, 빌드 산출)
-  locales/origin/*.json   # 빌드 복사본 (원본: locales/origin/)
+  index.html                    # / — 언어·진로 선택 (빌드 산출, 직접 수정 X)
+  origin/
+    index.html                  # /origin/ — US 랜딩 (영문 HTML만)
+    contact.html                # /origin/contact.html — US 상담·폼
+  study-korea/
+    index.html                  # /study-korea/ — KR 랜딩
+    contact.html                # /study-korea/contact.html — KR 상담·폼
+  locales/origin/*.json         # 빌드 복사본 (원본: locales/origin/)
   locales/study-korea/*.json
   locales/index/*.json
   assets/origin-site.css
   assets/origin-locale.js
   assets/origin-i18n.js
+  assets/contact-shell.js       # contact 페이지 전용 (reveal·lang·burger)
   assets/index-locale.js
-  assets/hash-scroll.js       # 교차 페이지 # 앵커 재스크롤 (*-locale.js에서 import)
-  assets/interactions.js      # origin/study-korea header·burger·sticky·contact SPA
-  assets/nav-mobile.js        # (legacy, 템플릿 미사용) build 복사만
-  assets/langs.js             # 언어 상수 (빌드 시 config/langs.mjs에서 생성)
+  assets/hash-scroll.js         # 교차 페이지 # 앵커 재스크롤 (*-locale.js에서 import)
+  assets/interactions.js        # 랜딩: header·burger·sticky·reveal
+  assets/mobile-nav.js          # 햄버거 메뉴 (US/KR 탭·섹션·하단 CTA)
+  assets/langs.js               # 언어·PATHS 상수 (빌드 시 config에서 생성)
   assets/study-korea-site.css
   assets/study-korea-locale.js
   assets/study-korea-i18n.js
   assets/seo-i18n.js
-  assets/kairos_logo-web.png  # 페이지 로고 (512px, 생성)
-  assets/og-image.png         # OG/Twitter (1200×630, 생성)
-  assets/favicon-48x48.png    # Google 검색 favicon (48px)
-  assets/apple-touch-icon.png # iOS 홈 화면
-  favicon.ico                 # public/ 루트 (16·32·48 multi-size)
+  assets/kairos_logo-web.png
+  assets/og-image.png
+  assets/favicon-48x48.png
+  assets/apple-touch-icon.png
+  favicon.ico
+  robots.txt
+  sitemap.xml
 
-src/assets/kairos_logo.png    # 마스터 (배포 X, generate-favicons.py 입력)
+src/assets/kairos_logo.png        # 마스터 (배포 X, generate-favicons.py 입력)
 
-config/langs.mjs              # SITE, LANGS, HREFLANG, OG_LOCALE (단일 소스)
+config/langs.mjs                # SITE, LANGS, HREFLANG, OG_LOCALE
+config/paths.mjs                # landing·contact URL 상수
+config/contacts.mjs             # email·kakao·whatsapp 단일 소스
 locales/origin/{en,ko,zh,th,vi}.json
 locales/study-korea/{en,ko,zh,th,vi}.json
 locales/index/{en,ko,zh,th,vi}.json
 src/templates/origin-page.njk
+src/templates/origin-contact-page.njk
 src/templates/study-korea-page.njk
+src/templates/study-korea-contact-page.njk
+src/templates/includes/contact-body.njk
+src/templates/includes/         # site-head, site-footer, chat-fab, …
 src/templates/index-page.njk
+src/assets/kairos-i18n-utils.js
 scripts/build-all.mjs
 scripts/build-origin-plain.mjs
+scripts/build-origin-contact-plain.mjs
 scripts/build-study-korea-plain.mjs
+scripts/build-study-korea-contact-plain.mjs
 scripts/build-index-plain.mjs
 scripts/verify-sync.mjs
 ```
 
-예전 `/en/`, `/ko/`, `/vi/`, `/us.html` … → [`public/_redirects`](public/_redirects) 리다이렉트.
+예전 `/origin.html`, `/study-korea.html` → [`public/_redirects`](public/_redirects)에서 `/origin/`, `/study-korea/`로 301. 예전 `/en/`, `/ko/`, `/us.html` … 동일 파일.
 
 **이미지:** 마스터 `src/assets/kairos_logo.png` → `python scripts/generate-favicons.py`로 favicon·`kairos_logo-web.png`(512px)·`og-image.png`(1200×630) 생성 후 `public/`에 복사(빌드 스크립트의 `copyFavicons`). 화면 `<img>`는 `/assets/kairos_logo-web.png`, OG/Twitter는 `/assets/og-image.png`.
 
-**SEO·hreflang:** 콘텐츠 페이지는 `origin.html?lang=ko`, `study-korea.html?lang=zh` 형식. `<head>`에 hreflang·canonical·OG(`og-image.png`)는 빌드 시 주입(`scripts/lib/seo-head.mjs`). locale JSON의 `title`·`metaDescription`은 JS로 언어 전환 시 갱신. 본문은 JS i18n(크롤러는 메타·hreflang 위주).
+**SEO·hreflang:** `/origin/?lang=ko`, `/study-korea/?lang=zh`, `/origin/contact.html?lang=ko` 등. `<head>`에 hreflang·canonical·OG는 빌드 시 주입(`scripts/lib/seo-head.mjs`). locale JSON의 `title`·`metaDescription`은 JS로 언어 전환 시 갱신.
 
-**언어 선택:** `/` 만. `/origin.html`·`/study-korea.html`은 영문 HTML + `fetch('/locales/{page}/{lang}.json')`로 동일 DOM 번역 (`kairos-lang` sessionStorage 공유).
+**언어 선택:** `/` 만. 랜딩·상담 페이지는 영문 HTML + `fetch('/locales/{page}/{lang}.json')`로 동일 DOM 번역 (`kairos-lang` sessionStorage 공유).
 
 ### 5언어(영문 기준) — origin 수정 절차
 
 1. **번역 문구** → [`locales/origin/ko.json`](locales/origin/ko.json) 등 (HTML 밖)
 2. **레이아웃·영문 기본** → [`src/templates/origin-page.njk`](src/templates/origin-page.njk)
 3. **스타일** → [`src/assets/origin-site.css`](src/assets/origin-site.css)
-4. `node scripts/build-all.mjs` (또는 `node scripts/build-origin-plain.mjs`만) → `origin.html` + `public/locales/origin/*.json` 갱신
+4. `node scripts/build-all.mjs` (또는 `node scripts/build-origin-plain.mjs`만) → `public/origin/index.html` + `public/origin/contact.html` + `public/locales/origin/*.json` 갱신
 5. PR에 빌드 산출물(`public/`) 포함 — merge 후 관리자가 Netlify 배포
 
-`origin.html`·`study-korea.html`에는 **영문만** 들어 있습니다. `/`에서 고른 언어는 각각 `origin-locale.js` / `study-korea-locale.js`가 JSON을 불러와 **같은 DOM**에 채웁니다.
+`public/origin/`·`study-korea/` HTML을 직접 고치지 말 것. 랜딩·상담은 각각 `origin-page.njk`, `origin-contact-page.njk`에서 빌드됩니다.
 
 ### Study in KR 5언어 수정 절차
 
 1. **번역 문구** → `locales/study-korea/{lang}.json`
-2. **레이아웃·영문 기본** → `src/templates/study-korea-page.njk`
+2. **레이아웃·영문 기본** → `study-korea-page.njk` (랜딩), `study-korea-contact-page.njk` (상담)
 3. **스타일** → `src/assets/study-korea-site.css`
-4. `node scripts/build-all.mjs` (또는 `node scripts/build-study-korea-plain.mjs`만) → `public/study-korea.html` 갱신
+4. `node scripts/build-all.mjs` (또는 `node scripts/build-study-korea-plain.mjs` + contact 빌드) → `public/study-korea/index.html`·`contact.html` 갱신
 5. PR에 빌드 산출물 포함 — merge 후 관리자가 Netlify 배포
 
-`public/study-korea.html`을 직접 고치지 말 것.
+`public/study-korea/` HTML을 직접 고치지 말 것.
 
 ### `/` (언어·진로 선택) 수정 절차
 
@@ -238,21 +253,19 @@ scripts/verify-sync.mjs
 
 origin·study-korea **동일 구조**: 브랜드(tagline) + 섹션 링크 2열 + 하단 copyright·meta.
 
-- locale `footer`: `col1` = 현재 페이지 nav와 **href 동일**, `col2` = 반대 페이지 (`/origin.html#…` ↔ `/study-korea.html#…`). 열 제목은 `col1Heading` / `col2Heading`.
-- 상담 CTA는 nav `#contact`만. 이메일·카카오는 footer 링크 열이 아니라 `footer.meta`·`contact` 섹션.
+- locale `footer`: `col1` = 현재 페이지 nav와 **동일 순서**, `col2` = 반대 페이지. href는 `/origin/#…`, `/study-korea/#…` 절대 경로 (contact 페이지에서도 동작).
+- 상담 CTA는 nav·sticky·패키지 → `/origin/contact.html` 또는 `/study-korea/contact.html`. 이메일·카카오는 `footer.meta`·contact 본문.
 - nav 섹션을 바꾸면 양쪽 `footer`와 템플릿·`*-i18n.js`도 함께 맞출 것.
 - footer 2열(반대 페이지 `#…` 링크)은 [`src/assets/hash-scroll.js`](src/assets/hash-scroll.js)가 locale·폰트 적용 후 고정 nav 높이를 고려해 재스크롤.
 
-### 네비·모바일 (origin / study-korea)
+### 네비·모바일·상담 (origin / study-korea)
 
-origin·study-korea는 동일한 **origin 셸**: `.header` + `.nav` + lang 드롭다운 + `#burger` / `#mobileMenu`. 동작은 [`src/assets/interactions.js`](src/assets/interactions.js) (sticky, contact SPA `view-us`/`view-contact`, 앵커 스크롤).
+**랜딩** (`origin-page.njk`, `study-korea-page.njk`): `.header` + 섹션 nav + lang + CTA(상담 URL) + sticky + chat-fab. [`interactions.js`](src/assets/interactions.js).
 
-- **CSS:** `origin-site.css` (+ study-korea는 `study-korea-site.css` 오버라이드)
-- **Contact 진입:** `data-view="contact"` — `#contact`로 페이지 맨 아래만 스크롤하지 않음
-- **교차 페이지 `#` 앵커:** `*-locale.js`가 [`hash-scroll.js`](src/assets/hash-scroll.js)로 locale·폰트 적용 후 nav 높이 보정 재스크롤
+**상담** (`origin-contact-page.njk`, `study-korea-contact-page.njk`): 슬림 헤더(로고→`/`, lang, burger만) + contact 본문 + footer. sticky·chat-fab 없음. [`contact-shell.js`](src/assets/contact-shell.js) + `applyContactLocale` in `*-i18n.js`. `body.contact-page`로 contact i18n 분기.
 
-`/`(index)는 섹션 nav 없음; `interactions.js`의 `hasSpaViews()`로 `.reveal` fallback.
+- **로고:** 모든 페이지 브랜드 → `/` (언어는 `sessionStorage` 유지)
+- **햄버거:** [`mobile-nav.js`](src/assets/mobile-nav.js) — US/KR 탭(`/origin/`, `/study-korea/`), 섹션 링크, 하단 상담·카카오 CTA (contact 페이지에서는 상담 CTA 숨김)
+- **교차 페이지 `#` 앵커:** `*-locale.js` + [`hash-scroll.js`](src/assets/hash-scroll.js)
 
-**참고:** [`nav-mobile.js`](src/assets/nav-mobile.js)는 `public/assets/`에 복사되지만 **현재 템플릿에서 로드하지 않음** (구형 `.nav-bar`/`.nav-panel` 잔재). 신규 작업은 `interactions.js` 기준.
-
-디자인 이식 상태·배포 QA·미완 항목: [`docs/design-migration-followups.md`](docs/design-migration-followups.md)
+`/`(index)는 섹션 nav 없음; `interactions.js`가 `.reveal`만 처리.

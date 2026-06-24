@@ -1,3 +1,5 @@
+import { CONTACTS } from '../../config/contacts.mjs';
+
 function escapeAttr(s) {
   return String(s)
     .replace(/&/g, '&amp;')
@@ -18,6 +20,6 @@ const WA_ICON_PATH =
 export function renderContactChatHtml(cta) {
   if (!cta) return '';
   const waIcon = `<svg class="btn-ic" viewBox="0 0 32 32" width="17" height="17" fill="currentColor" aria-hidden="true"><path d="${WA_ICON_PATH}"/></svg>`;
-  return `<a class="btn btn-kakao" href="http://pf.kakao.com/_uWJKX" target="_blank" rel="noopener">${cta.kakaoConsult}</a>
-    <a class="btn btn-whatsapp" href="https://wa.me/0000000000" target="_blank" rel="noopener" aria-label="${escapeAttr(cta.whatsappConsult)}">${waIcon} <span>${escapeText(cta.whatsappConsult)}</span></a>`;
+  return `<a class="btn btn-kakao" href="${CONTACTS.kakao}" target="_blank" rel="noopener">${cta.kakaoConsult}</a>
+    <a class="btn btn-whatsapp" href="${CONTACTS.whatsapp}" target="_blank" rel="noopener" aria-label="${escapeAttr(cta.whatsappConsult)}">${waIcon} <span>${escapeText(cta.whatsappConsult)}</span></a>`;
 }

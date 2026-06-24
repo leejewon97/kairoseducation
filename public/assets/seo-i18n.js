@@ -39,13 +39,15 @@ function setCanonical(href) {
 export function updateSeoMeta(data, pagePath) {
   const lang = data.code || 'en';
   const url = pageUrl(pagePath, lang);
+  const desc = data.ogDescription || data.metaDescription;
+  const title = data.seoTitle || data.title;
 
-  if (data.metaDescription) {
-    setMetaName('description', data.metaDescription);
+  if (desc) {
+    setMetaName('description', desc);
   }
 
-  setMetaProperty('og:title', data.title);
-  if (data.metaDescription) setMetaProperty('og:description', data.metaDescription);
+  setMetaProperty('og:title', title);
+  if (desc) setMetaProperty('og:description', desc);
   setMetaProperty('og:image', OG_IMAGE);
   setMetaProperty('og:url', url);
   setMetaProperty('og:type', 'website');
@@ -60,9 +62,22 @@ export function updateSeoMeta(data, pagePath) {
   });
 
   setMetaName('twitter:card', 'summary');
-  setMetaName('twitter:title', data.title);
-  if (data.metaDescription) setMetaName('twitter:description', data.metaDescription);
+  setMetaName('twitter:title', title);
+  if (desc) setMetaName('twitter:description', desc);
   setMetaName('twitter:image', OG_IMAGE);
 
   setCanonical(url);
+}
+
+const CONTACT_TITLE_PREFIX = {
+  en: 'Contact',
+  ko: '상담',
+  zh: '咨询',
+  th: 'ติดต่อ',
+  vi: 'Liên hệ',
+};
+
+export function contactSeoTitle(data) {
+  const prefix = CONTACT_TITLE_PREFIX[data.code || data.lang] || CONTACT_TITLE_PREFIX.en;
+  return `${prefix} | ${data.title}`;
 }

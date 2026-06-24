@@ -7,24 +7,28 @@ import { buildSeoLinks, buildOgTwitterTags } from './lib/seo-head.mjs';
 import { buildPage } from './lib/build-page.mjs';
 import { renderStudyKoreaContactForm } from './lib/netlify-forms.mjs';
 import { renderContactChatHtml } from './lib/contact-chat.mjs';
+import { loadTemplate } from './lib/expand-includes.mjs';
+import { withContacts } from './lib/contacts.mjs';
+import { renderPageTemplate } from './lib/render-built.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
 const PAGE_PATH = PATHS.studyKorea.contact;
 
-const tpl = fs.readFileSync(path.join(root, 'src', 'templates', 'study-korea-contact-page.njk'), 'utf8');
-const contactBodyTpl = fs.readFileSync(
-  path.join(root, 'src', 'templates', 'includes', 'contact-body.njk'),
-  'utf8'
-);
+const contactBodyTpl = loadTemplate(root, 'includes/contact-body.njk');
 
 const en = JSON.parse(fs.readFileSync(path.join(root, 'locales', 'study-korea', 'en.json'), 'utf8'));
 const formsHtml = renderStudyKoreaContactForm(en);
 const contactChatHtml = renderContactChatHtml(en.cta);
-const contactBodyHtml = render(contactBodyTpl, { ...en, netlifyFormsHtml: formsHtml, contactChatHtml });
+const contactBodyHtml = render(
+  contactBodyTpl,
+  withContacts({ ...en, netlifyFormsHtml: formsHtml, contactChatHtml })
+);
 
-const html = render(tpl, {
+const html = renderPageTemplate(root, 'study-korea-contact-page.njk', {
   ...en,
+  pageStylesheet: 'origin-site.css',
+  extraStylesheet: 'study-korea-site.css',
   contactBodyHtml,
   seoLinks: buildSeoLinks(PAGE_PATH),
   ogTwitterTags: buildOgTwitterTags({

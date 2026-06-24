@@ -2,10 +2,12 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { render } from './lib/mini-template.mjs';
+import { buildSeoLinks, buildOgTwitterTags } from './lib/seo-head.mjs';
 import { buildPage } from './lib/build-page.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
+const PAGE_PATH = '/';
 
 const INDEX_ASSETS = [
   'kairos-tokens.css',
@@ -13,6 +15,8 @@ const INDEX_ASSETS = [
   'index-site.css',
   'index-locale.js',
   'interactions.js',
+  'langs.js',
+  'seo-i18n.js',
 ];
 
 function copyIndexImages(rootDir) {
@@ -27,7 +31,16 @@ function copyIndexImages(rootDir) {
 
 const tpl = fs.readFileSync(path.join(root, 'src', 'templates', 'index-page.njk'), 'utf8');
 const en = JSON.parse(fs.readFileSync(path.join(root, 'locales', 'index', 'en.json'), 'utf8'));
-const html = render(tpl, en);
+const html = render(tpl, {
+  ...en,
+  seoLinks: buildSeoLinks(PAGE_PATH),
+  ogTwitterTags: buildOgTwitterTags({
+    title: en.title,
+    metaDescription: en.ogDescription || en.metaDescription,
+    pagePath: PAGE_PATH,
+    lang: 'en',
+  }),
+});
 
 buildPage(root, {
   outputFile: 'index.html',

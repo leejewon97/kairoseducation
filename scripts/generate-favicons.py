@@ -1,12 +1,15 @@
 """Generate favicon, web logo, and OG image from src/assets/kairos_logo.png (master)."""
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "src" / "assets"
 MASTER = SRC / "kairos_logo.png"
-NAVY = (10, 22, 40)  # #0A1628 — site background
+# Match src/assets/kairos-tokens.css — light theme site background
+PAPER = (251, 249, 243)  # --paper #FBF9F3
+NAVY = (24, 52, 92)  # --navy #18345C (tagline on paper)
+OG_TAGLINE = "Boutique College Admissions Consulting"
 
 FAVICON_PNG_SIZE = 48
 APPLE_TOUCH_SIZE = 180
@@ -58,16 +61,49 @@ def write_web_logo(img: Image.Image) -> None:
     print(f"wrote {out.name} ({out.stat().st_size} bytes, 512x512)")
 
 
+def _og_font(size: int):
+    candidates = [
+        Path("C:/Windows/Fonts/arial.ttf"),
+        Path("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"),
+        Path("/System/Library/Fonts/Supplemental/Arial.ttf"),
+    ]
+    for path in candidates:
+        if path.is_file():
+            return ImageFont.truetype(str(path), size)
+    return ImageFont.load_default()
+
+
 def write_og_image(img: Image.Image) -> None:
     og_w, og_h = 1200, 630
-    canvas = Image.new("RGB", (og_w, og_h), NAVY)
-    max_h = int(og_h * 0.72)
+    canvas = Image.new("RGB", (og_w, og_h), PAPER)
+    draw = ImageDraw.Draw(canvas)
+
+    # Soft top highlight — index landing radial-gradient feel
+    for y in range(int(og_h * 0.45)):
+        t = 1 - y / (og_h * 0.45)
+        blend = int(255 * t * 0.35)
+        row_color = (
+            min(255, PAPER[0] + blend),
+            min(255, PAPER[1] + blend),
+            min(255, PAPER[2] + blend),
+        )
+        draw.line([(0, y), (og_w, y)], fill=row_color)
+
+    max_h = int(og_h * 0.52)
     scale = max_h / img.height
     size = (int(img.width * scale), int(img.height * scale))
     logo = img.resize(size, Image.LANCZOS)
-    x = (og_w - size[0]) // 2
-    y = (og_h - size[1]) // 2
-    canvas.paste(logo, (x, y), logo if logo.mode == "RGBA" else None)
+    logo_x = (og_w - size[0]) // 2
+    logo_y = int(og_h * 0.14)
+    canvas.paste(logo, (logo_x, logo_y), logo if logo.mode == "RGBA" else None)
+
+    font = _og_font(34)
+    tagline_bbox = draw.textbbox((0, 0), OG_TAGLINE, font=font)
+    tagline_w = tagline_bbox[2] - tagline_bbox[0]
+    tagline_x = (og_w - tagline_w) // 2
+    tagline_y = int(og_h * 0.82)
+    draw.text((tagline_x, tagline_y), OG_TAGLINE, fill=NAVY, font=font)
+
     out = SRC / "og-image.png"
     canvas.save(out, format="PNG", optimize=True)
     print(f"wrote {out.name} ({out.stat().st_size} bytes, {og_w}x{og_h})")

@@ -3,11 +3,13 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { writeLangsJs } from './lib/write-langs-js.mjs';
+import { writeSeoFiles } from './lib/write-seo-files.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
 
 writeLangsJs(root);
+writeSeoFiles(root);
 
 const scripts = [
   'build-origin-plain.mjs',

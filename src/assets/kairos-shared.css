@@ -162,6 +162,23 @@ button:focus-visible,
   border-radius: 2px;
 }
 
+.uni-card {
+  display: block;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 18px 16px;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.35s var(--ease);
+}
+
+.uni-card:hover {
+  border-color: var(--gold-bright);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px -28px rgba(24, 52, 92, 0.35);
+}
+
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;

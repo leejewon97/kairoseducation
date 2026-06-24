@@ -7,24 +7,27 @@ import { buildSeoLinks, buildOgTwitterTags } from './lib/seo-head.mjs';
 import { buildPage } from './lib/build-page.mjs';
 import { renderOriginContactForm } from './lib/netlify-forms.mjs';
 import { renderContactChatHtml } from './lib/contact-chat.mjs';
+import { loadTemplate } from './lib/expand-includes.mjs';
+import { withContacts } from './lib/contacts.mjs';
+import { renderPageTemplate } from './lib/render-built.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, '..');
 const PAGE_PATH = PATHS.origin.contact;
 
-const tpl = fs.readFileSync(path.join(root, 'src', 'templates', 'origin-contact-page.njk'), 'utf8');
-const contactBodyTpl = fs.readFileSync(
-  path.join(root, 'src', 'templates', 'includes', 'contact-body.njk'),
-  'utf8'
-);
+const contactBodyTpl = loadTemplate(root, 'includes/contact-body.njk');
 
 const en = JSON.parse(fs.readFileSync(path.join(root, 'locales', 'origin', 'en.json'), 'utf8'));
 const formsHtml = renderOriginContactForm(en);
 const contactChatHtml = renderContactChatHtml(en.cta);
-const contactBodyHtml = render(contactBodyTpl, { ...en, netlifyFormsHtml: formsHtml, contactChatHtml });
+const contactBodyHtml = render(
+  contactBodyTpl,
+  withContacts({ ...en, netlifyFormsHtml: formsHtml, contactChatHtml })
+);
 
-const html = render(tpl, {
+const html = renderPageTemplate(root, 'origin-contact-page.njk', {
   ...en,
+  pageStylesheet: 'origin-site.css',
   contactBodyHtml,
   seoLinks: buildSeoLinks(PAGE_PATH),
   ogTwitterTags: buildOgTwitterTags({

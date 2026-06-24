@@ -3,7 +3,7 @@ import path from 'path';
 import { LANGS } from '../../config/langs.mjs';
 import { copyFavicons } from './copy-favicons.mjs';
 
-const SHARED_ASSETS = ['hash-scroll.js', 'seo-i18n.js', 'langs.js', 'mobile-nav.js', 'contact-shell.js'];
+const SHARED_ASSETS = ['hash-scroll.js', 'seo-i18n.js', 'langs.js', 'mobile-nav.js', 'contact-shell.js', 'kairos-i18n-utils.js'];
 
 export function copyAssets(root, assetFiles, copyFavicon = true) {
   const publicAssets = path.join(root, 'public', 'assets');

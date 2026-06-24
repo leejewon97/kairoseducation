@@ -26,6 +26,7 @@ const ASSET_PAIRS = [
   'mobile-nav.js',
   'index-locale.js',
   'contact-shell.js',
+  'kairos-i18n-utils.js',
 ];
 
 function hashFile(filePath) {
