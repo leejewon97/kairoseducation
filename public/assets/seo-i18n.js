@@ -49,6 +49,9 @@ export function updateSeoMeta(data, pagePath) {
   setMetaProperty('og:title', title);
   if (desc) setMetaProperty('og:description', desc);
   setMetaProperty('og:image', OG_IMAGE);
+  setMetaProperty('og:image:width', '1200');
+  setMetaProperty('og:image:height', '630');
+  setMetaProperty('og:image:type', 'image/png');
   setMetaProperty('og:url', url);
   setMetaProperty('og:type', 'website');
   setMetaProperty('og:locale', OG_LOCALE[lang] || OG_LOCALE.en);
