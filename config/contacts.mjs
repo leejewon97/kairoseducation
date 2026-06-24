@@ -2,5 +2,5 @@
 export const CONTACTS = {
   email: 'ronkim@kairos-education.org',
   kakao: 'http://pf.kakao.com/_uWJKX',
-  whatsapp: 'https://wa.me/0000000000',
+  whatsapp: 'https://wa.me/qr/H3LZ5YENH4GWO1',
 };

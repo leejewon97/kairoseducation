@@ -168,7 +168,7 @@ function initMobileMenu() {
       return;
     }
 
-    if (e.target.closest('[data-mm-book]') || e.target.closest('[data-mm-kakao]') || e.target.closest('.mm-route')) {
+    if (e.target.closest('[data-mm-book]') || e.target.closest('[data-mm-kakao]') || e.target.closest('[data-mm-whatsapp]') || e.target.closest('.mm-route')) {
       closeMobileMenu();
     }
   });

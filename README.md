@@ -92,7 +92,7 @@ cd public && npx --yes serve .
 | 번역     | `locales/`       | `public/locales/`                                        |
 | HTML   | `src/templates/` | `public/*.html`, `public/origin/`, `public/study-korea/` |
 | CSS/JS | `src/assets/`    | `public/assets/`                                         |
-| 상수     | `config/`        | `public/assets/langs.js` 등 (빌드 시 생성·복사)               |
+| 상수     | `config/`        | `public/assets/langs.js` 등 (빌드 시 생성·복사). 연락처·WhatsApp은 [`config/contacts.mjs`](config/contacts.mjs) |
 
 
 `public/`을 직접 고친 뒤 빌드하지 않으면 `verify-sync`가 실패합니다.

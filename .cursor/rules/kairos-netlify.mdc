@@ -75,7 +75,7 @@ alwaysApply: true
 
 ### 공통 연락처
 
-[`config/contacts.mjs`](../config/contacts.mjs) — email·kakao·whatsapp. 변경 시 이 파일만 수정 후 `build-all`.
+[`config/contacts.mjs`](../config/contacts.mjs) — email·kakao·**whatsapp** (`https://wa.me/qr/…` 또는 `https://wa.me/국가번호`). 변경 시 이 파일만 수정 후 `build-all` → `langs.js`·랜딩 sticky·상담 채팅·햄버거 CTA·`chat-fab`에 반영.
 
 ### 요청 범위
 
@@ -140,11 +140,13 @@ public/          빌드 산출물 (배포 대상)
 
 **`footer`:** `col1` = 현재 페이지 nav 순서, `col2` = 반대 페이지. href `/origin/#…`, `/study-korea/#…`. nav 변경 시 footer·`*-i18n.js` 동기화.
 
+**`mobileMenu`** (origin·study-korea): `studyUs`, `studyKorea`, `bookCta`, `kakaoCta`, `whatsappCta` → `mobile-nav.js` `buildMobileMenuHtml`.
+
 ### 네비·JS
 
 - **랜딩:** `interactions.js` (header·sticky·reveal). `kairos:langchange`는 `window` 수신.
 - **상담:** `contact-shell.js` + `applyContactLocale` (`body.contact-page`) — 슬림 헤더·폼·footer.
-- **햄버거:** `mobile-nav.js` — US/KR 탭, 섹션, 하단 CTA.
+- **햄버거:** `mobile-nav.js` — US/KR 탭, 섹션 링크, 하단 CTA(상담 예약 → KakaoTalk → WhatsApp). 라벨은 locale `mobileMenu`; URL은 `CONTACTS` (`langs.js`).
 - **교차 `#` 앵커:** `hash-scroll.js` (nav 높이 보정).
 - **`/`:** `interactions.js` — `.reveal` 애니메이션.
 
@@ -170,7 +172,7 @@ HTML 폼은 `data-netlify="true"`로 제출.
 ## E. 구현 메모
 
 - study-korea: origin 셸 + `origin-site.css`; `study-korea-site.css`는 KR 오버라이드. Universities: `uni-card` 그리드.
-- 공유 버튼: `btn-light` / `btn-kakao` / `btn-whatsapp` → [`kairos-shared.css`](../src/assets/kairos-shared.css)만.
+- 공유 버튼: `btn-light` / `btn-kakao` / `btn-whatsapp` → [`kairos-shared.css`](../src/assets/kairos-shared.css)만. WhatsApp 아이콘: `kairos-i18n-utils.js` `whatsappIconSvg`.
 - [`mini-template.mjs`](../scripts/lib/mini-template.mjs): Nunjucks 아님. `{% else %}` 미지원 → `{% if %}` 또는 `btnClass`/`btnHtml`. include는 `{{{ @include … }}}`.
 - 로컬 미리보기: `cd public && npx --yes serve .`
 

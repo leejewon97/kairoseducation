@@ -1,4 +1,5 @@
 import { PATHS, CONTACTS } from './langs.js';
+import { whatsappIconSvg } from './kairos-i18n-utils.js';
 
 function esc(s) {
   if (s == null) return '';
@@ -66,6 +67,7 @@ export function buildMobileMenuHtml({ page, mobileMenu, sectionLinks, hideBookCt
   }
   html +=
     `<a class="btn btn-kakao" href="${CONTACTS.kakao}" target="_blank" rel="noopener" data-mm-kakao>💬 ${esc(mobileMenu.kakaoCta)}</a>` +
+    `<a class="btn btn-whatsapp" href="${CONTACTS.whatsapp}" target="_blank" rel="noopener" data-mm-whatsapp aria-label="${esc(mobileMenu.whatsappCta)}">${whatsappIconSvg(17)} <span>${esc(mobileMenu.whatsappCta)}</span></a>` +
     `</div>`;
 
   return html;
